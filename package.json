@@ -1,11 +1,12 @@
 {
   "name": "serping",
   "version": "1.0.0",
-  "description": "",
+  "description": "Serp.ing SDK",
   "main": "index.ts",
   "scripts": {
     "build": "tsc",
     "ts.check": "tsc --project tsconfig.json",
+    "release": "npx standard-version --prerelease beta",
     "test": "npx jest"
   },
   "keywords": [
@@ -24,6 +25,7 @@
     "@types/node": "^20.14.9",
     "axios-mock-adapter": "^1.22.0",
     "jest": "^29.7.0",
+    "standard-version": "^9.5.0",
     "ts-jest": "^29.1.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.2"
