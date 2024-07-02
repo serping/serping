@@ -180,17 +180,28 @@ export type SerpTwitter = z.infer<typeof SerpTwitterSchema>;
 // SerpStories
 /////////////////////////////////////////
 
-export const SerpStoriesSchema = z.object({
+export const SerpTopStoriesSchema = z.object({
   type: z.literal("top_stories"),
-  top_stories: z.array(z.object({
-    position: z.number(),
-    source: z.string(),
-    title: z.string().optional(),
-    thumbnail: z.string(),
-    date: z.string(),
-  }))
+  top_stories: z.object({
+    heading: z.string(),
+    stories: z.array(
+      z.object({
+        heading: z.string().optional(),
+        posts: z.array(z.object({
+          position: z.number(),
+          title: z.string().optional(),
+          thumbnail: z.string(),
+          date: z.string(),
+          source: z.object({
+            name: z.string(),
+            link: z.string()
+          }),
+        }))
+      })
+    )
+  }) 
 })
-export type SerpStories = z.infer<typeof SerpStoriesSchema>;
+export type SerpTopStories = z.infer<typeof SerpTopStoriesSchema>;
  
 /////////////////////////////////////////
 // SerpPerspectives
@@ -420,10 +431,10 @@ export type SerpLocalResults = z.infer<typeof SerpLocalResultsSchema>;
 
 
 /////////////////////////////////////////
-// RelatedVideos
+// SerpRelatedVideos
 /////////////////////////////////////////
 
-export const RelatedVideosSchema = z.object({
+export const SerpRelatedVideosSchema = z.object({
   type: z.literal("videos"),
   videos: z.object({
     title: z.string(),
@@ -438,48 +449,48 @@ export const RelatedVideosSchema = z.object({
     })),
   })
 })
-export type RelatedVideos = z.infer<typeof RelatedVideosSchema>;
+export type SerpRelatedVideos = z.infer<typeof SerpRelatedVideosSchema>;
 
 /////////////////////////////////////////
-// RelatedNormal
+// SerpRelatedNormal
 /////////////////////////////////////////
 
-export const RelatedNormalSchema = z.object({
+export const SerpRelatedNormalSchema = z.object({
   type: z.literal("normal"),
   searches: z.array(z.string()),
 })
-export type RelatedNormal = z.infer<typeof RelatedNormalSchema>;
+export type SerpRelatedNormal = z.infer<typeof SerpRelatedNormalSchema>;
 
 
 /////////////////////////////////////////
-// RelatedNear
+// SerpRelatedNear
 /////////////////////////////////////////
 
-export const RelatedNearSchema = z.object({
+export const SerpRelatedNearSchema = z.object({
   type: z.literal("near"),
   near: z.array(z.object({
     query: z.string(),
     thumbnail: z.string()
   })),
 })
-export type RelatedNear = z.infer<typeof RelatedNearSchema>;
+export type SerpRelatedNear = z.infer<typeof SerpRelatedNearSchema>;
 
 
 /////////////////////////////////////////
-// RelatedSearchesSchema
+// SerpRelatedSearchesSchema
 // 
-// RelatedNormalSchema
-// RelatedNearSchema
-// RelatedVideosSchema
+// SerpRelatedNormalSchema
+// SerpRelatedNearSchema
+// SerpRelatedVideosSchema
 // SerpPeopleAlsoSearchForSchema
 // 
 /////////////////////////////////////////
-export const RelatedSearchesSchema = z.array(
+export const SerpRelatedSearchesSchema = z.array(
   z.object({
     type: SerpRelatedTypeSchema
   }).catchall(z.any())
 );
-export type RelatedSearches = z.infer<typeof RelatedNearSchema>;
+export type SerpRelatedSearches = z.infer<typeof SerpRelatedNearSchema>;
 
 
 
@@ -495,7 +506,7 @@ export type RelatedSearches = z.infer<typeof RelatedNearSchema>;
 //  SerpTwitterSchema
 //  SerpVideoSchema
 //  SerpInlineVideosSchema
-//  SerpStoriesSchema
+//  SerpTopStoriesSchema
 //  SerpPerspectivesSchema
 //  SerpThingsToKnowSchema
 //  SerpFeaturedSnippetsSchema
