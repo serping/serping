@@ -285,7 +285,7 @@ export const SerpStoriesSchema = z.object({
   top_stories: z.array(z.object({
     position: z.number(),
     source: z.string(),
-    title: z.string(),
+    title: z.string().optional(),
     thumbnail: z.string(),
     date: z.string(),
   }))
