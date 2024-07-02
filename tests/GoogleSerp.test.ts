@@ -3,7 +3,7 @@ import MockAdapter from 'axios-mock-adapter';
 import Serping from '../index'; 
 import { SerpingConfig } from '../types'; 
 import { SerpJsonSchema } from '../zod/google/desktop-serp'; 
-import { desktopOpenai } from './data/google/serp/desktop'; 
+import { desktopOpenai, desktopCoffee } from './data/google/serp/desktop'; 
 
 jest.spyOn(axios, "get");
 
@@ -21,16 +21,22 @@ describe('GoogleSerp', () => {
     mockAxios.reset();
   });
 
-  it('should fetch Google SERP data successfully', async () => {
+  it('should fetch Google SERP data successfully: openai', async () => {
     const mockResponse = desktopOpenai;
     mockAxios.onGet('google/serp').reply(200, mockResponse);
 
-    const result = await serping.googleSerp({ q: 'test query' });
-    try {
-      SerpJsonSchema.parse(result)
-    }catch(error: any){
-      console.log("error", error)
-    }
+    const result = await serping.googleSerp({ q: 'openai' });
+    SerpJsonSchema.parse(result)
+
+    expect(result).toEqual(mockResponse);
+  });
+
+  it('should fetch Google SERP data successfully: coffee', async () => {
+    const mockResponse = desktopCoffee;
+    mockAxios.onGet('google/serp').reply(200, mockResponse);
+
+    const result = await serping.googleSerp({ q: 'coffee' }); 
+    SerpJsonSchema.parse(result);
 
     expect(result).toEqual(mockResponse);
   });

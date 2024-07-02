@@ -1,8 +1,15 @@
 import { z } from 'zod';
 
-const serpTypes = ['normal', 'recipes', 'local_results', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums', 'related_searches'] as const;
+const serpTypes = ['normal', 'recipes', 'local_results', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums', 'related_searches', 'knowledge'] as const;
+const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
+const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
+
 export type SerpType = typeof serpTypes[number];
-export const SerpOriginSearchTypeSchema = z.enum(serpTypes);
+export type SerpRelatedType = typeof serpRelatedTypes[number];
+export type SerpKnowledgePanelType = typeof serpKnowledgePanelTypes[number];
+export const SerpTypeSchema = z.enum(serpTypes);
+export const SerpRelatedTypeSchema = z.enum(serpRelatedTypes);
+export const SerpKnowledgePanelTypeSchema = z.enum(serpKnowledgePanelTypes);
 
 export const onOffStatusSchema = z.enum(["on", "off"]);
 export type OnOffStatus = z.infer<typeof onOffStatusSchema>;
@@ -29,7 +36,7 @@ export type GoogleSerpSearchParam = z.infer<typeof GoogleSerpSearchParamSchema>;
 /////////////////////////////////////////
 
 export const SerpMetaSchema = z.object({
-  url: z.string(),
+  url: z.string().optional(),
   snapshot: z.string().optional(),
   serpjson: z.string().optional(),
   parse_duration: z.string().optional(),

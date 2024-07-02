@@ -2,130 +2,26 @@ import { z } from 'zod';
 import {
   SerpMetaSchema,
   SerpItemSourceSchema,
-  SerpAdsSchema
+  SerpAdsSchema,
+  SerpTypeSchema,
+  SerpRelatedTypeSchema,
+  SerpKnowledgePanelTypeSchema
 } from './base';
-export { SerpItemSourceSchema, SerpAdsSchema };
-export { SerpItemSource, SerpAds } from "./base"; 
+export { 
+  SerpItemSourceSchema, 
+  SerpAdsSchema, 
+  SerpTypeSchema, 
+  SerpRelatedTypeSchema, 
+  SerpKnowledgePanelTypeSchema, 
+};
+export { 
+  SerpItemSource, 
+  SerpAds, 
+  SerpType, 
+  SerpRelatedType,
+  SerpKnowledgePanelType
+} from "./base"; 
 
-
-/////////////////////////////////////////
-// SerpKnowledgeInfo
-/////////////////////////////////////////
-
-const SerpKnowledgeInfoSchema = z.object({
-  heading: z.string(),
-  subheading: z.string(),
-  posts: z.array(z.object({
-    link: z.string(),
-    display_link: z.string().optional(),
-    title: z.string(),
-    snippet: z.string(),
-    thumbnail: z.string().optional(),
-    source: z.string().optional(),
-  }))
-});
-export type SerpKnowledgeInfo = z.infer<typeof SerpKnowledgeInfoSchema>;
-
-
-/////////////////////////////////////////
-// SerpKnowledgeAds
-/////////////////////////////////////////
-
-const SerpKnowledgeAdsSchema = z.object({
-  type: z.literal("ads"),
-  ads: z.array(z.object({
-    position: z.number(),
-    name: z.string(),
-    link: z.string(),
-    source: z.string(),
-    thumbnail: z.string(),
-  }))
-})
-export type SerpKnowledgeAds = z.infer<typeof SerpKnowledgeAdsSchema>;
-
-/////////////////////////////////////////
-// SerpKnowledgeNormal
-/////////////////////////////////////////
-
-const SerpKnowledgeNormalSchema = z.object({
-  type: z.literal("normal"),
-  infos: z.array(SerpKnowledgeInfoSchema)
-});
-export type SerpKnowledgeNormal = z.infer<typeof SerpKnowledgeNormalSchema>;
-
-
-/////////////////////////////////////////
-// SerpFoods
-/////////////////////////////////////////
-
-const SerpFoodsSchema = z.object({
-  type: z.literal("foods"),
-  foods: z.object({
-    heading: z.string(),
-    description: z.string(),
-    source: z.object({
-      name: z.string(),
-      link: z.string(),
-    })
-  }),
-  images: z.array(z.object({
-    lpage: z.string(),
-    thumbnail: z.string()
-  })),
-  people_also_search_for: z.array(z.object({
-    name: z.string(),
-    thumbnail: z.string(),
-  })).optional()
-});
-export type SerpFoods = z.infer<typeof SerpFoodsSchema>;
-
-
-/////////////////////////////////////////
-// SerpKnowledge
-/////////////////////////////////////////
-
-const SerpProfileSchema = z.object({
-  title: z.string(),
-  thumbnail: z.string().optional(),
-  link: z.string(),
-})
-export type SerpProfile = z.infer<typeof SerpProfileSchema>;
-
-const SerpKnowledgeSchema = z.object({
-  type: z.literal("knowledge"),
-  knowledge: z.object({
-    site: z.string(),
-    organization_type: z.string(),
-    description: z.string(),
-    title: z.string(),
-    thumbnail: z.string().optional(),
-    thumbnail_lpage: z.string().optional(),
-    source: z.object({
-      name: z.string(),
-      link: z.string(),
-    }),
-    attributes: z.array(z.object({
-      name: z.string(),
-      value: z.string(),
-    })).optional(),
-    profiles: z.array(SerpProfileSchema),
-    infos: z.array(SerpKnowledgeInfoSchema)
-  }),
-})
-export type SerpKnowledge = z.infer<typeof SerpKnowledgeSchema>;
-
-/////////////////////////////////////////
-// SerpKnowledgePanel
-/////////////////////////////////////////
-
-const SerpKnowledgePanelSchema = z.union([
-  SerpKnowledgeAdsSchema,
-  SerpFoodsSchema,
-  SerpKnowledgeSchema,
-  SerpKnowledgeNormalSchema,
-]);
-
-export type SerpKnowledgePanel = z.infer<typeof SerpKnowledgePanelSchema>;
 
 
 /////////////////////////////////////////
@@ -133,7 +29,7 @@ export type SerpKnowledgePanel = z.infer<typeof SerpKnowledgePanelSchema>;
 /////////////////////////////////////////
 
 export const SerpFromSourcesAcrossTheWebSchema = z.object({
-  type: z.literal("from_sources_across_the_web"),
+  type: SerpTypeSchema,
   from_sources_across_the_web: z.array(z.object({
     title: z.string(),
     items: z.array(z.object({
@@ -142,7 +38,7 @@ export const SerpFromSourcesAcrossTheWebSchema = z.object({
       thumbnail: z.string(),
       data_attrid: z.string(),
     })),
-  }))
+  })).optional()
 });
 export type SerpFromSourcesAcrossTheWeb = z.infer<typeof SerpFromSourcesAcrossTheWebSchema>;
 
@@ -152,7 +48,7 @@ export type SerpFromSourcesAcrossTheWeb = z.infer<typeof SerpFromSourcesAcrossTh
 /////////////////////////////////////////
 
 export const SerpDiscussionsAndForumsSchema = z.object({
-  type: z.literal('discussions_and_forums'),
+  type: SerpTypeSchema,
   discussions_and_forums: z.array(z.object({
     position: z.number(),
     title: z.string(),
@@ -169,7 +65,7 @@ export type SerpDiscussionsAndForums = z.infer<typeof SerpDiscussionsAndForumsSc
 /////////////////////////////////////////
 
 export const SerpImagesSchema = z.object({
-  type: z.literal('images'),
+  type: SerpTypeSchema,
   related_keywords: z.array(
     z.object({
       short: z.string(),
@@ -200,7 +96,7 @@ export type SerpImages = z.infer<typeof SerpImagesSchema>;
 /////////////////////////////////////////
 
 export const SerpRecipesSchema = z.object({
-  type: z.literal("recipes"),
+  type: SerpTypeSchema,
   recipes: z.array(
     z.object({
       position: z.number(),
@@ -224,7 +120,7 @@ export type SerpRecipes = z.infer<typeof SerpRecipesSchema>;
 /////////////////////////////////////////
 
 export const SerpPeopleAlsoAskSchema = z.object({
-  type: z.literal("people_also_ask"),
+  type: SerpTypeSchema,
   people_also_ask: z.array(z.object({
     position: z.number(),
     question: z.string(),
@@ -235,7 +131,7 @@ export const SerpPeopleAlsoAskSchema = z.object({
       display_link: z.string(),
       link: z.string(),
     })
-  }))
+  })).optional()
 })
 
 export type SerpPeopleAlsoAsk = z.infer<typeof SerpPeopleAlsoAskSchema>;
@@ -245,7 +141,7 @@ export type SerpPeopleAlsoAsk = z.infer<typeof SerpPeopleAlsoAskSchema>;
 /////////////////////////////////////////
 
 export const SerpSiteLinksSchema = z.object({
-  type: z.literal("site_links"),
+  type: SerpTypeSchema,
   title: z.string(),
   snippet: z.string(),
   source: SerpItemSourceSchema,
@@ -262,7 +158,7 @@ export type SerpSiteLinks = z.infer<typeof SerpSiteLinksSchema>;
 /////////////////////////////////////////
 
 export const SerpTwitterSchema = z.object({
-  type: z.literal("twitter"),
+  type: SerpTypeSchema,
   posts: z.array(z.object({
     link: z.string(),
     snippet: z.string(),
@@ -281,7 +177,7 @@ export type SerpTwitter = z.infer<typeof SerpTwitterSchema>;
 /////////////////////////////////////////
 
 export const SerpStoriesSchema = z.object({
-  type: z.literal("top_stories"),
+  type: SerpTypeSchema,
   top_stories: z.array(z.object({
     position: z.number(),
     source: z.string(),
@@ -297,7 +193,7 @@ export type SerpStories = z.infer<typeof SerpStoriesSchema>;
 /////////////////////////////////////////
 
 export const SerpPerspectivesSchema = z.object({
-  type: z.literal("perspectives"),
+  type: SerpTypeSchema,
   perspectives: z.array(z.object({
     type: z.enum(["reddit", "normal"]), // reddit untest
     position: z.number(),
@@ -327,19 +223,19 @@ export const SerpKeyMomentSchema = z.object({
 export type SerpKeyMoment = z.infer<typeof SerpKeyMomentSchema>;
 
 export const SerpInlineVideosSchema = z.object({
-  type: z.literal("inline_videos"),
+  type: SerpTypeSchema,
   inline_videos: z.array(z.object({
     position: z.number(),
     title: z.string(),
     duration: z.string(),
-    date: z.string(),
+    date: z.string().optional(),
     thumbnail: z.string(),
     source: z.object({
       name: z.string(),
       creator: z.string(),
       link: z.string(),
     }),
-    key_moments: z.array(SerpKeyMomentSchema)
+    key_moments: z.array(SerpKeyMomentSchema).optional()
   }))
 })
 export type SerpInlineVideos = z.infer<typeof SerpInlineVideosSchema>;
@@ -349,7 +245,7 @@ export type SerpInlineVideos = z.infer<typeof SerpInlineVideosSchema>;
 /////////////////////////////////////////
 
 export const SerpVideoSchema = z.object({
-  type: z.literal("video"),
+  type: SerpTypeSchema,
   position: z.number(),
   title: z.string(),
   snippet: z.string(),
@@ -369,7 +265,7 @@ export type SerpVideo = z.infer<typeof SerpVideoSchema>;
 /////////////////////////////////////////
 
 export const SerpNormalSchema = z.object({
-  type: z.literal("normal"),
+  type: SerpTypeSchema,
   position: z.number(),
   title: z.string(),
   snippet: z.string(),
@@ -381,7 +277,7 @@ export const SerpNormalSchema = z.object({
     display_link: z.string(),
     link: z.string(),
   }),
-  snippet_highlighted_words: z.array(z.string()),
+  snippet_highlighted_words: z.array(z.string()).optional(),
   rich_snippet: z.object({
     rated: z.object({
       label: z.string(),
@@ -415,7 +311,7 @@ export type SerpNormal = z.infer<typeof SerpNormalSchema>;
 /////////////////////////////////////////
 
 export const SerpThingsToKnowSchema = z.object({
-  type: z.literal("things_to_know"),
+  type: SerpTypeSchema,
   things_to_know: z.array(z.object({
     position: z.number(),
     heading: z.object({
@@ -442,7 +338,7 @@ export type SerpThingsToKnow = z.infer<typeof SerpThingsToKnowSchema>;
 /////////////////////////////////////////
 
 export const SerpFeaturedListSchema = z.object({
-  type: z.literal("featured_list"),
+  type: SerpTypeSchema,
   snippet_title: z.string().optional(),
   snippet_list: z.array(z.object({
     position: z.number(),
@@ -452,7 +348,7 @@ export const SerpFeaturedListSchema = z.object({
     thumbnail: z.string()
   })),
   source: SerpItemSourceSchema,
-  snippet_highlighted_words: z.array(z.string())
+  snippet_highlighted_words: z.array(z.string()).optional()
 })
 export type SerpFeaturedList = z.infer<typeof SerpFeaturedListSchema>;
 
@@ -461,14 +357,14 @@ export type SerpFeaturedList = z.infer<typeof SerpFeaturedListSchema>;
 /////////////////////////////////////////
 
 export const SerpFeaturedNormalSchema = z.object({
-  type: z.literal("normal"),
+  type: SerpTypeSchema,
   snippet: z.string(),
   date: z.string(),
   images: z.array(z.object({
     thumbnail: z.string()
-  })),
+  })).optional(),
   source: SerpItemSourceSchema,
-  snippet_highlighted_words: z.array(z.string())
+  snippet_highlighted_words: z.array(z.string()).optional()
 })
 
 export type SerpFeaturedNormal = z.infer<typeof SerpFeaturedNormalSchema>;
@@ -479,7 +375,7 @@ export type SerpFeaturedNormal = z.infer<typeof SerpFeaturedNormalSchema>;
 /////////////////////////////////////////
 
 export const SerpFeaturedSnippetsSchema = z.object({
-  type: z.literal("featured_snippets"),
+  type: SerpTypeSchema,
   featured_snippets: z.union([SerpFeaturedNormalSchema, SerpFeaturedListSchema])
 })
 export type SerpFeaturedSnippets = z.infer<typeof SerpFeaturedSnippetsSchema>;
@@ -501,7 +397,7 @@ const SerpLocalResultsSchema = z.object({
         lsig: z.string(),
         place_id: z.string(),
         address: z.string(),
-        hours: z.string(),
+        hours: z.string().optional(),
         description: z.string(),
         rating: z.number().optional(),
         reviews: z.number().optional(),
@@ -524,7 +420,7 @@ export const SerpQueryWithThumSchema = z.object({
 export type SerpQueryWithThum = z.infer<typeof SerpQueryWithThumSchema>;
 
 const SerpPeopleAlsoSearchForSchema = z.object({
-  type: z.literal("people_also_search_for"),
+  type: SerpRelatedTypeSchema,
   people_also_search_for: z.array(SerpQueryWithThumSchema)
 })
 export type SerpPeopleAlsoSearchFor = z.infer<typeof SerpPeopleAlsoSearchForSchema>;
@@ -534,7 +430,7 @@ export type SerpPeopleAlsoSearchFor = z.infer<typeof SerpPeopleAlsoSearchForSche
 /////////////////////////////////////////
 
 export const RelatedVideosSchema = z.object({
-  type: z.literal("videos"),
+  type: SerpRelatedTypeSchema,
   videos: z.object({
     title: z.string(),
     thumbnail: z.string(),
@@ -555,7 +451,7 @@ export type RelatedVideos = z.infer<typeof RelatedVideosSchema>;
 /////////////////////////////////////////
 
 export const RelatedNormalSchema = z.object({
-  type: z.literal("normal"),
+  type: SerpRelatedTypeSchema,
   searches: z.array(z.string()),
 })
 export type RelatedNormal = z.infer<typeof RelatedNormalSchema>;
@@ -566,7 +462,7 @@ export type RelatedNormal = z.infer<typeof RelatedNormalSchema>;
 /////////////////////////////////////////
 
 export const RelatedNearSchema = z.object({
-  type: z.literal("near"),
+  type: SerpRelatedTypeSchema,
   near: z.array(z.object({
     query: z.string(),
     thumbnail: z.string()
@@ -582,7 +478,8 @@ export const RelatedSearchesSchema = z.array(z.union([
 ]));
 export type RelatedSearches = z.infer<typeof RelatedNearSchema>;
 
- 
+
+
 
 /////////////////////////////////////////
 // SerpOriginSearch
@@ -607,6 +504,125 @@ const SerpOriginSearchSchema = z.union(
   ]
 );
 export type SerpOriginSearch = z.infer<typeof SerpOriginSearchSchema>;
+
+
+/////////////////////////////////////////
+// SerpKnowledgeInfo
+/////////////////////////////////////////
+
+const SerpKnowledgeInfoSchema = z.object({
+  heading: z.string(),
+  subheading: z.string(),
+  posts: z.array(z.object({
+    link: z.string(),
+    display_link: z.string().optional(),
+    title: z.string(),
+    snippet: z.string(),
+    thumbnail: z.string().optional(),
+    source: z.string().optional(),
+  }))
+});
+export type SerpKnowledgeInfo = z.infer<typeof SerpKnowledgeInfoSchema>;
+
+
+/////////////////////////////////////////
+// SerpKnowledgeAds
+/////////////////////////////////////////
+
+const SerpKnowledgeAdsSchema = z.object({
+  type: SerpKnowledgePanelTypeSchema,
+  ads: z.array(z.object({
+    position: z.number(),
+    name: z.string(),
+    link: z.string(),
+    source: z.string(),
+    thumbnail: z.string(),
+  }))
+})
+export type SerpKnowledgeAds = z.infer<typeof SerpKnowledgeAdsSchema>;
+
+/////////////////////////////////////////
+// SerpKnowledgeNormal
+/////////////////////////////////////////
+
+const SerpKnowledgeNormalSchema = z.object({
+  type: SerpKnowledgePanelTypeSchema,
+  infos: z.array(SerpKnowledgeInfoSchema)
+});
+export type SerpKnowledgeNormal = z.infer<typeof SerpKnowledgeNormalSchema>;
+
+
+/////////////////////////////////////////
+// SerpFoods
+/////////////////////////////////////////
+
+const SerpFoodsSchema = z.object({
+  type: SerpKnowledgePanelTypeSchema,
+  foods: z.object({
+    heading: z.string(),
+    description: z.string(),
+    source: z.object({
+      name: z.string(),
+      link: z.string(),
+    })
+  }),
+  images: z.array(z.object({
+    lpage: z.string(),
+    thumbnail: z.string()
+  })).optional(),
+  people_also_search_for: z.array(z.object({
+    name: z.string(),
+    thumbnail: z.string(),
+  })).optional()
+});
+export type SerpFoods = z.infer<typeof SerpFoodsSchema>;
+
+
+/////////////////////////////////////////
+// SerpKnowledgePanel
+/////////////////////////////////////////
+
+const SerpProfileSchema = z.object({
+  title: z.string(),
+  thumbnail: z.string().optional(),
+  link: z.string(),
+})
+export type SerpProfile = z.infer<typeof SerpProfileSchema>;
+
+const SerpKnowledgeSchema = z.object({
+  type: SerpKnowledgePanelTypeSchema, 
+  site: z.string(),
+  organization_type: z.string(),
+  description: z.string(),
+  title: z.string(),
+  thumbnail: z.string().optional(),
+  thumbnail_lpage: z.string().optional(),
+  source: z.object({
+    name: z.string(),
+    link: z.string(),
+  }),
+  attributes: z.array(z.object({
+    name: z.string(),
+    value: z.string(),
+  })).optional(),
+  profiles: z.array(SerpProfileSchema).optional(),
+  infos: z.array(SerpKnowledgeInfoSchema).optional() 
+})
+export type SerpKnowledge = z.infer<typeof SerpKnowledgeSchema>;
+
+/////////////////////////////////////////
+// SerpKnowledgePanel
+/////////////////////////////////////////
+
+const SerpKnowledgePanelSchema = z.union([
+  SerpKnowledgeAdsSchema,
+  SerpFoodsSchema,
+  SerpKnowledgeSchema,
+  SerpKnowledgeNormalSchema,
+]);
+
+export type SerpKnowledgePanel = z.infer<typeof SerpKnowledgePanelSchema>;
+
 
 /////////////////////////////////////////
 // SerpJSON
