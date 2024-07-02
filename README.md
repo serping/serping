@@ -1,6 +1,6 @@
 # SERPING SDK
 
-serp.ing api SDK, easy to use.
+[serp.ing][1] api SDK, easy to use.
 
 ## Install
 
@@ -18,3 +18,6 @@ const data = await serping.googleSerp({q: "serping"});
 
 console.log(data);
 ```
+
+
+[1]:https://www.serp.ing
