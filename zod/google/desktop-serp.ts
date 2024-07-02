@@ -5,7 +5,8 @@ import {
   SerpAdsSchema,
   SerpTypeSchema,
   SerpRelatedTypeSchema,
-  SerpKnowledgePanelTypeSchema
+  SerpKnowledgePanelTypeSchema,
+  SerpPeopleAlsoSearchForSchema
 } from './base';
 export { 
   SerpItemSourceSchema, 
@@ -13,13 +14,15 @@ export {
   SerpTypeSchema, 
   SerpRelatedTypeSchema, 
   SerpKnowledgePanelTypeSchema, 
+  SerpPeopleAlsoSearchForSchema
 };
 export { 
   SerpItemSource, 
   SerpAds, 
   SerpType, 
   SerpRelatedType,
-  SerpKnowledgePanelType
+  SerpKnowledgePanelType,
+  SerpPeopleAlsoSearchFor
 } from "./base"; 
 
 
@@ -29,7 +32,7 @@ export {
 /////////////////////////////////////////
 
 export const SerpFromSourcesAcrossTheWebSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("from_sources_across_the_web"),
   from_sources_across_the_web: z.array(z.object({
     title: z.string(),
     items: z.array(z.object({
@@ -48,7 +51,7 @@ export type SerpFromSourcesAcrossTheWeb = z.infer<typeof SerpFromSourcesAcrossTh
 /////////////////////////////////////////
 
 export const SerpDiscussionsAndForumsSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("discussions_and_forums"),
   discussions_and_forums: z.array(z.object({
     position: z.number(),
     title: z.string(),
@@ -65,7 +68,7 @@ export type SerpDiscussionsAndForums = z.infer<typeof SerpDiscussionsAndForumsSc
 /////////////////////////////////////////
 
 export const SerpImagesSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("images"),
   related_keywords: z.array(
     z.object({
       short: z.string(),
@@ -96,7 +99,7 @@ export type SerpImages = z.infer<typeof SerpImagesSchema>;
 /////////////////////////////////////////
 
 export const SerpRecipesSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("recipes"),
   recipes: z.array(
     z.object({
       position: z.number(),
@@ -120,7 +123,7 @@ export type SerpRecipes = z.infer<typeof SerpRecipesSchema>;
 /////////////////////////////////////////
 
 export const SerpPeopleAlsoAskSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("people_also_ask"),
   people_also_ask: z.array(z.object({
     position: z.number(),
     question: z.string(),
@@ -131,7 +134,7 @@ export const SerpPeopleAlsoAskSchema = z.object({
       display_link: z.string(),
       link: z.string(),
     })
-  })).optional()
+  }))
 })
 
 export type SerpPeopleAlsoAsk = z.infer<typeof SerpPeopleAlsoAskSchema>;
@@ -141,7 +144,7 @@ export type SerpPeopleAlsoAsk = z.infer<typeof SerpPeopleAlsoAskSchema>;
 /////////////////////////////////////////
 
 export const SerpSiteLinksSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("site_links"),
   title: z.string(),
   snippet: z.string(),
   source: SerpItemSourceSchema,
@@ -158,7 +161,7 @@ export type SerpSiteLinks = z.infer<typeof SerpSiteLinksSchema>;
 /////////////////////////////////////////
 
 export const SerpTwitterSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("twitter"),
   posts: z.array(z.object({
     link: z.string(),
     snippet: z.string(),
@@ -177,7 +180,7 @@ export type SerpTwitter = z.infer<typeof SerpTwitterSchema>;
 /////////////////////////////////////////
 
 export const SerpStoriesSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("top_stories"),
   top_stories: z.array(z.object({
     position: z.number(),
     source: z.string(),
@@ -193,7 +196,7 @@ export type SerpStories = z.infer<typeof SerpStoriesSchema>;
 /////////////////////////////////////////
 
 export const SerpPerspectivesSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("perspectives"),
   perspectives: z.array(z.object({
     type: z.enum(["reddit", "normal"]), // reddit untest
     position: z.number(),
@@ -223,7 +226,7 @@ export const SerpKeyMomentSchema = z.object({
 export type SerpKeyMoment = z.infer<typeof SerpKeyMomentSchema>;
 
 export const SerpInlineVideosSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("inline_videos"),
   inline_videos: z.array(z.object({
     position: z.number(),
     title: z.string(),
@@ -245,7 +248,7 @@ export type SerpInlineVideos = z.infer<typeof SerpInlineVideosSchema>;
 /////////////////////////////////////////
 
 export const SerpVideoSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("video"),
   position: z.number(),
   title: z.string(),
   snippet: z.string(),
@@ -265,7 +268,7 @@ export type SerpVideo = z.infer<typeof SerpVideoSchema>;
 /////////////////////////////////////////
 
 export const SerpNormalSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("normal"),
   position: z.number(),
   title: z.string(),
   snippet: z.string(),
@@ -311,7 +314,7 @@ export type SerpNormal = z.infer<typeof SerpNormalSchema>;
 /////////////////////////////////////////
 
 export const SerpThingsToKnowSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("things_to_know"),
   things_to_know: z.array(z.object({
     position: z.number(),
     heading: z.object({
@@ -338,7 +341,7 @@ export type SerpThingsToKnow = z.infer<typeof SerpThingsToKnowSchema>;
 /////////////////////////////////////////
 
 export const SerpFeaturedListSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("featured_list"),
   snippet_title: z.string().optional(),
   snippet_list: z.array(z.object({
     position: z.number(),
@@ -357,7 +360,7 @@ export type SerpFeaturedList = z.infer<typeof SerpFeaturedListSchema>;
 /////////////////////////////////////////
 
 export const SerpFeaturedNormalSchema = z.object({
-  type: SerpTypeSchema,
+  type: z.literal("normal"),
   snippet: z.string(),
   date: z.string(),
   images: z.array(z.object({
@@ -375,8 +378,10 @@ export type SerpFeaturedNormal = z.infer<typeof SerpFeaturedNormalSchema>;
 /////////////////////////////////////////
 
 export const SerpFeaturedSnippetsSchema = z.object({
-  type: SerpTypeSchema,
-  featured_snippets: z.union([SerpFeaturedNormalSchema, SerpFeaturedListSchema])
+  type: z.literal("featured_snippets"),
+  featured_snippets: z.object({
+    type: z.enum(["featured_list", "normal"])
+  }).catchall(z.any())
 })
 export type SerpFeaturedSnippets = z.infer<typeof SerpFeaturedSnippetsSchema>;
 
@@ -413,24 +418,12 @@ const SerpLocalResultsSchema = z.object({
 export type SerpLocalResults = z.infer<typeof SerpLocalResultsSchema>;
 
 
-export const SerpQueryWithThumSchema = z.object({
-  query: z.string(),
-  thumbnail: z.string()
-})
-export type SerpQueryWithThum = z.infer<typeof SerpQueryWithThumSchema>;
-
-const SerpPeopleAlsoSearchForSchema = z.object({
-  type: SerpRelatedTypeSchema,
-  people_also_search_for: z.array(SerpQueryWithThumSchema)
-})
-export type SerpPeopleAlsoSearchFor = z.infer<typeof SerpPeopleAlsoSearchForSchema>;
-
 /////////////////////////////////////////
 // RelatedVideos
 /////////////////////////////////////////
 
 export const RelatedVideosSchema = z.object({
-  type: SerpRelatedTypeSchema,
+  type: z.literal("videos"),
   videos: z.object({
     title: z.string(),
     thumbnail: z.string(),
@@ -451,7 +444,7 @@ export type RelatedVideos = z.infer<typeof RelatedVideosSchema>;
 /////////////////////////////////////////
 
 export const RelatedNormalSchema = z.object({
-  type: SerpRelatedTypeSchema,
+  type: z.literal("normal"),
   searches: z.array(z.string()),
 })
 export type RelatedNormal = z.infer<typeof RelatedNormalSchema>;
@@ -462,7 +455,7 @@ export type RelatedNormal = z.infer<typeof RelatedNormalSchema>;
 /////////////////////////////////////////
 
 export const RelatedNearSchema = z.object({
-  type: SerpRelatedTypeSchema,
+  type: z.literal("near"),
   near: z.array(z.object({
     query: z.string(),
     thumbnail: z.string()
@@ -470,39 +463,50 @@ export const RelatedNearSchema = z.object({
 })
 export type RelatedNear = z.infer<typeof RelatedNearSchema>;
 
-export const RelatedSearchesSchema = z.array(z.union([
-  RelatedNormalSchema,
-  RelatedNearSchema,
-  RelatedVideosSchema,
-  SerpPeopleAlsoSearchForSchema,
-]));
+
+/////////////////////////////////////////
+// RelatedSearchesSchema
+// 
+// RelatedNormalSchema
+// RelatedNearSchema
+// RelatedVideosSchema
+// SerpPeopleAlsoSearchForSchema
+// 
+/////////////////////////////////////////
+export const RelatedSearchesSchema = z.array(
+  z.object({
+    type: SerpRelatedTypeSchema
+  }).catchall(z.any())
+);
 export type RelatedSearches = z.infer<typeof RelatedNearSchema>;
 
 
 
 
 /////////////////////////////////////////
-// SerpOriginSearch
+//  SerpOriginSearch
+//  
+//  SerpNormalSchema
+//  SerpRecipesSchema
+//  SerpImagesSchema
+//  SerpPeopleAlsoAskSchema
+//  SerpSiteLinksSchema
+//  SerpTwitterSchema
+//  SerpVideoSchema
+//  SerpInlineVideosSchema
+//  SerpStoriesSchema
+//  SerpPerspectivesSchema
+//  SerpThingsToKnowSchema
+//  SerpFeaturedSnippetsSchema
+//  SerpDiscussionsAndForumsSchema
+//  SerpFromSourcesAcrossTheWebSchema
+//  
 /////////////////////////////////////////
 
-const SerpOriginSearchSchema = z.union(
-  [
-    SerpNormalSchema,
-    SerpRecipesSchema,
-    SerpImagesSchema,
-    SerpPeopleAlsoAskSchema,
-    SerpSiteLinksSchema,
-    SerpTwitterSchema,
-    SerpVideoSchema,
-    SerpInlineVideosSchema,
-    SerpStoriesSchema,
-    SerpPerspectivesSchema,
-    SerpThingsToKnowSchema,
-    SerpFeaturedSnippetsSchema,
-    SerpDiscussionsAndForumsSchema,
-    SerpFromSourcesAcrossTheWebSchema,
-  ]
-);
+const SerpOriginSearchSchema = z.object({
+  type: SerpTypeSchema
+}).catchall(z.any())
+
 export type SerpOriginSearch = z.infer<typeof SerpOriginSearchSchema>;
 
 
@@ -530,7 +534,7 @@ export type SerpKnowledgeInfo = z.infer<typeof SerpKnowledgeInfoSchema>;
 /////////////////////////////////////////
 
 const SerpKnowledgeAdsSchema = z.object({
-  type: SerpKnowledgePanelTypeSchema,
+  type: z.literal("ads"),
   ads: z.array(z.object({
     position: z.number(),
     name: z.string(),
@@ -557,7 +561,7 @@ export type SerpKnowledgeNormal = z.infer<typeof SerpKnowledgeNormalSchema>;
 /////////////////////////////////////////
 
 const SerpFoodsSchema = z.object({
-  type: SerpKnowledgePanelTypeSchema,
+  type: z.literal("foods"),
   foods: z.object({
     heading: z.string(),
     description: z.string(),
@@ -590,7 +594,7 @@ const SerpProfileSchema = z.object({
 export type SerpProfile = z.infer<typeof SerpProfileSchema>;
 
 const SerpKnowledgeSchema = z.object({
-  type: SerpKnowledgePanelTypeSchema, 
+  type: z.literal("knowledge"), 
   site: z.string(),
   organization_type: z.string(),
   description: z.string(),
@@ -632,10 +636,10 @@ export const SerpJsonSchema = z.object({
   meta: SerpMetaSchema,
   topads: z.array(SerpAdsSchema),
   local_results: SerpLocalResultsSchema.nullable(),
-  origin_search: z.array(SerpOriginSearchSchema),
-  knowledge_panel: z.array(SerpKnowledgePanelSchema),
+  origin_search: z.array(z.any()),
+  knowledge_panel: z.array(z.any()),
   bottomads: z.array(SerpAdsSchema),
-  related_searches: RelatedSearchesSchema
+  related_searches: z.array(z.any()),
 })
 
 export type SerpJSON = z.infer<typeof SerpJsonSchema>;

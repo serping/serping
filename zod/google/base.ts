@@ -78,3 +78,17 @@ export const SerpAdsSchema = z.object({
   })
 })
 export type SerpAds = z.infer<typeof SerpAdsSchema>;
+
+
+/////////////////////////////////////////
+// SerpPeopleAlsoSearchFor
+/////////////////////////////////////////
+
+export const SerpPeopleAlsoSearchForSchema = z.object({
+  type: z.literal("people_also_search_for"),
+  people_also_search_for: z.array(z.object({
+    query: z.string(),
+    thumbnail: z.string()
+  }))
+})
+export type SerpPeopleAlsoSearchFor = z.infer<typeof SerpPeopleAlsoSearchForSchema>;
