@@ -23,27 +23,27 @@ export const desktopOpenai = {
 			},
 			"links": [
 				{
-					"titile": "ChatGPT",
+					"title": "ChatGPT",
 					"snippet": "Explore more features in ChatGPT · Type, talk, and use it your way ...",
 					"link": "https://openai.com/chatgpt/"
 				},
 				{
-					"titile": "Login",
+					"title": "Login",
 					"snippet": "OpenAI Logo. Welcome back. Email address*. Email is not ...",
 					"link": "https://platform.openai.com/login?launch"
 				},
 				{
-					"titile": "Careers",
+					"title": "Careers",
 					"snippet": "Featured roles · GPU Kernels Engineer · HW/SW Co-design ...",
 					"link": "https://openai.com/careers/"
 				},
 				{
-					"titile": "OpenAI API",
+					"title": "OpenAI API",
 					"snippet": "Explore resources, tutorials, API docs, and dynamic examples to ...",
 					"link": "https://platform.openai.com/"
 				},
 				{
-					"titile": "About",
+					"title": "About",
 					"snippet": "OpenAI is an AI research and deployment company. Our ...",
 					"link": "https://openai.com/about/"
 				}

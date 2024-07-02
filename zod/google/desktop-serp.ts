@@ -145,6 +145,7 @@ export type SerpPeopleAlsoAsk = z.infer<typeof SerpPeopleAlsoAskSchema>;
 
 export const SerpSiteLinksSchema = z.object({
   type: z.literal("site_links"),
+  position: z.number(),
   title: z.string(),
   snippet: z.string(),
   source: SerpItemSourceSchema,
@@ -616,14 +617,16 @@ export type SerpKnowledge = z.infer<typeof SerpKnowledgeSchema>;
 
 /////////////////////////////////////////
 // SerpKnowledgePanel
+//
+// SerpKnowledgeAdsSchema
+// SerpFoodsSchema
+// SerpKnowledgeSchema
+// SerpKnowledgeNormalSchema
 /////////////////////////////////////////
 
-const SerpKnowledgePanelSchema = z.union([
-  SerpKnowledgeAdsSchema,
-  SerpFoodsSchema,
-  SerpKnowledgeSchema,
-  SerpKnowledgeNormalSchema,
-]);
+const SerpKnowledgePanelSchema = z.object({
+  type: SerpKnowledgePanelTypeSchema
+}).catchall(z.any());
 
 export type SerpKnowledgePanel = z.infer<typeof SerpKnowledgePanelSchema>;
 
@@ -636,7 +639,7 @@ export const SerpJsonSchema = z.object({
   meta: SerpMetaSchema,
   topads: z.array(SerpAdsSchema),
   local_results: SerpLocalResultsSchema.nullable(),
-  origin_search: z.array(z.any()),
+  origin_search: z.array(SerpOriginSearchSchema),
   knowledge_panel: z.array(z.any()),
   bottomads: z.array(SerpAdsSchema),
   related_searches: z.array(z.any()),
