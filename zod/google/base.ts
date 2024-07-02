@@ -1,6 +1,6 @@
 import { z } from 'zod';
 
-const serpTypes = ['normal', 'recipes', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums', 'related_searches'] as const;
+const serpTypes = ['normal', 'recipes', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
 const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
 const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
 

@@ -41,7 +41,7 @@ export const SerpFromSourcesAcrossTheWebSchema = z.object({
       thumbnail: z.string(),
       data_attrid: z.string(),
     })),
-  })).optional()
+  }))
 });
 export type SerpFromSourcesAcrossTheWeb = z.infer<typeof SerpFromSourcesAcrossTheWebSchema>;
 
@@ -177,7 +177,7 @@ export const SerpTwitterSchema = z.object({
 export type SerpTwitter = z.infer<typeof SerpTwitterSchema>;
 
 /////////////////////////////////////////
-// SerpStories
+// SerpTopStorie
 /////////////////////////////////////////
 
 export const SerpTopStoriesSchema = z.object({
@@ -485,11 +485,10 @@ export type SerpRelatedNear = z.infer<typeof SerpRelatedNearSchema>;
 // SerpPeopleAlsoSearchForSchema
 // 
 /////////////////////////////////////////
-export const SerpRelatedSearchesSchema = z.array(
-  z.object({
+export const SerpRelatedSearchesSchema = z.object({
     type: SerpRelatedTypeSchema
   }).catchall(z.any())
-);
+;
 export type SerpRelatedSearches = z.infer<typeof SerpRelatedNearSchema>;
 
 
@@ -651,9 +650,9 @@ export const SerpJsonSchema = z.object({
   topads: z.array(SerpAdsSchema),
   local_results: SerpLocalResultsSchema.nullable(),
   origin_search: z.array(SerpOriginSearchSchema),
-  knowledge_panel: z.array(z.any()),
+  knowledge_panel: z.array(SerpKnowledgePanelSchema),
   bottomads: z.array(SerpAdsSchema),
-  related_searches: z.array(z.any()),
+  related_searches: z.array(SerpRelatedSearchesSchema),
 })
 
 export type SerpJSON = z.infer<typeof SerpJsonSchema>;

@@ -12,7 +12,6 @@ import {
   SerpNormalSchema,
   SerpPeopleAlsoAskSchema,
   SerpRecipesSchema,
-  SerpRelatedSearchesSchema,
   SerpSiteLinksSchema,
   SerpTopStoriesSchema,
   SerpVideoSchema
@@ -35,7 +34,7 @@ describe('GoogleDesktopSerp.test', () => {
     mockAxios.reset();
   });
 
-  it('should fetch Google SERP data successfully: openai', async () => {
+  it('should parse origin_search successfully: openai', async () => {
     const mockResponse = desktopOpenai;
     mockAxios.onGet('google/serp').reply(200, mockResponse);
 
@@ -76,9 +75,6 @@ describe('GoogleDesktopSerp.test', () => {
           break;
         case "recipes":
           itemData = SerpRecipesSchema.parse(item);
-          break;
-        case "related_searches":
-          itemData = SerpRelatedSearchesSchema.parse(item);
           break;
         case "top_stories":
           itemData = SerpTopStoriesSchema.parse(item);
