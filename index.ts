@@ -31,8 +31,8 @@ class Serping {
     }
   }
 
-  async googleSerp(params: { query: string, [key: string]: any}): AxiosPromise<any> {
-    if(!params.query) throw new Error("query is empty");
+  async googleSerp(params: { q: string, [key: string]: any}): AxiosPromise<any> {
+    if(!params.q) throw new Error("query is empty");
     const response = await this.get("google/serp", params);
     const data = response.data;
     return data;

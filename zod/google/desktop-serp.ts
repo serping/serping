@@ -319,7 +319,7 @@ export type SerpPerspectives = z.infer<typeof SerpPerspectivesSchema>;
 // SerpKeyMoment
 /////////////////////////////////////////
 export const SerpKeyMomentSchema = z.object({
-  titile: z.string(),
+  title: z.string(),
   time: z.string(),
   link: z.string(),
   thumbnail: z.string(),

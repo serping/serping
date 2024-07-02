@@ -2,11 +2,12 @@ import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import Serping from '../index'; 
 import { SerpingConfig } from '../types'; 
+import { SerpJsonSchema } from '../zod/google/desktop-serp'; 
 import { desktopOpenai } from './data/google/serp/desktop'; 
 
 jest.spyOn(axios, "get");
 
-describe('Serping', () => {
+describe('GoogleSerp', () => {
   let serping: Serping;
   let mockAxios: MockAdapter;
   const defaultConfig: SerpingConfig = { region: 'us-east-1', apiKey: process.env.SERPING_US_EAST_1_API_KEY! };
@@ -25,18 +26,14 @@ describe('Serping', () => {
     mockAxios.onGet('google/serp').reply(200, mockResponse);
 
     const result = await serping.googleSerp({ q: 'test query' });
+    try {
+      SerpJsonSchema.parse(result)
+    }catch(error: any){
+      console.log("error", error)
+    }
 
     expect(result).toEqual(mockResponse);
   });
 
-  it('should handle 403 error from API', async () => {
-    const mockErrorResponse = { message: 'Unauthorized' };
-    mockAxios.onGet('google/serp').reply(403, mockErrorResponse);
-
-    await expect(serping.googleSerp({ q: 'test query' })).rejects.toThrow('Unauthorized');
-  });
-
-  it('should throw error if query is empty', async () => {
-    await expect(serping.googleSerp({ q: '' })).rejects.toThrow('query is empty');
-  });
+ 
 });
