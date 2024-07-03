@@ -5,13 +5,25 @@
 ## Install
 
 ```bash
-npm i serping
+npm install serping
+```
+
+### Install for typescript
+
+tsconfig.json
+
+```json
+{
+  "paths":{
+    "@serping/*": ["./node_modules/serping/src/*"]
+  }
+}
 ```
 
 ## Usage
 
 ```typescript
-import Serping from 'serping';
+import Serping from '@serping';
 
 serping = new Serping(apiKey: 'your_api_key');
 const data = await serping.googleSerp({q: "serping"});
