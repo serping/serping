@@ -11,7 +11,7 @@ describe('GoogleDesktopSerp.test', () => {
     serping = new Serping(defaultConfig);
   });
 
-  it('should parse data successfully: openai', async () => {
+  it('should fetch Google SERP data successfully: openai', async () => {
     const result = await serping.googleSerp({ q: 'openai' });
     const data = dataParse(result);
     expect(data?.origin_search.length ).toBeGreaterThan(0);
