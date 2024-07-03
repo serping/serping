@@ -1,16 +1,25 @@
+// scripts/update-tsconfig.js
+
 const fs = require('fs');
 const path = require('path');
 
-const tsconfigPath = path.resolve(__dirname, 'tsconfig.json');
+const updateTsconfig = () => {
+  const tsconfigPath = path.resolve(process.cwd(), 'tsconfig.json');
+  if (!fs.existsSync(tsconfigPath)) {
+    console.error(`tsconfig.json not found at ${tsconfigPath}`);
+    process.exit(1);
+  }
 
-if (fs.existsSync(tsconfigPath)) {
   const tsconfig = require(tsconfigPath);
-  
+
   const pathsToAdd = {
     "@serping/*": ["./node_modules/serping/src/*"]
   };
 
-  if (tsconfig.compilerOptions && tsconfig.compilerOptions.paths && !tsconfig.compilerOptions.paths["@serping/*"]) {
+  tsconfig.compilerOptions = tsconfig.compilerOptions || {};
+  tsconfig.compilerOptions.paths = tsconfig.compilerOptions.paths || {};
+
+  if (!tsconfig.compilerOptions.paths["@serping/*"]) {
     tsconfig.compilerOptions.paths = {
       ...tsconfig.compilerOptions.paths,
       ...pathsToAdd
@@ -19,8 +28,8 @@ if (fs.existsSync(tsconfigPath)) {
     fs.writeFileSync(tsconfigPath, JSON.stringify(tsconfig, null, 2));
     console.log('Updated tsconfig.json with paths for @serping/*');
   } else {
-    console.log('tsconfig.json already contains paths for @serping/* or is not a TypeScript project');
+    console.log('tsconfig.json already contains paths for @serping/*');
   }
-} else {
-  console.log('tsconfig.json not found. Skipping update.');
-}
+};
+
+updateTsconfig();
