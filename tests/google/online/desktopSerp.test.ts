@@ -1,6 +1,6 @@
 
 import Serping from '@serping'; 
-import { SerpingConfig } from '@/types'; 
+import { SerpingConfig } from '@/typescript/types'; 
 import { dataParse } from "../parse";
 
 describe('GoogleDesktopSerp.test', () => {
