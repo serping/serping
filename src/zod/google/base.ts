@@ -1,7 +1,7 @@
 import { z } from 'zod';
 
-export const onOffStatusSchema = z.enum(["on", "off"]);
-export type OnOffStatus = z.infer<typeof onOffStatusSchema>;
+export const OnOffStatusSchema = z.enum(["on", "off"]);
+export type OnOffStatus = z.infer<typeof OnOffStatusSchema>;
 
 export const GoogleSerpSearchParamSchema =  z.object({
   q: z.string(),
@@ -11,8 +11,8 @@ export const GoogleSerpSearchParamSchema =  z.object({
   ludocid: z.string().optional(),
   uule: z.string().optional(),
   location: z.string().optional(),
-  snapshot: onOffStatusSchema.optional().default("off"),
-  thumbnail: onOffStatusSchema.optional().default("on"),
+  snapshot: OnOffStatusSchema.optional().default("off"),
+  thumbnail: OnOffStatusSchema.optional().default("on"),
   num: z.number().min(10).max(100),
   page: z.number().min(1).max(100)
 });
