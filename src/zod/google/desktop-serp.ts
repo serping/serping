@@ -1,27 +1,29 @@
 import { z } from 'zod';
+const serpTypes = ['normal', 'recipes', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
+const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
+const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
+
+export type SerpType = typeof serpTypes[number];
+export type SerpRelatedType = typeof serpRelatedTypes[number];
+export type SerpKnowledgePanelType = typeof serpKnowledgePanelTypes[number];
+export const SerpTypeSchema = z.enum(serpTypes);
+export const SerpRelatedTypeSchema = z.enum(serpRelatedTypes);
+export const SerpKnowledgePanelTypeSchema = z.enum(serpKnowledgePanelTypes);
+
 import {
   SerpMetaSchema,
   SerpItemSourceSchema,
-  SerpAdsSchema,
-  SerpTypeSchema,
-  SerpRelatedTypeSchema,
-  SerpKnowledgePanelTypeSchema,
+  SerpAdsSchema, 
   SerpPeopleAlsoSearchForSchema
 } from './base';
 export { 
   SerpItemSourceSchema, 
-  SerpAdsSchema, 
-  SerpTypeSchema, 
-  SerpRelatedTypeSchema, 
-  SerpKnowledgePanelTypeSchema, 
+  SerpAdsSchema,  
   SerpPeopleAlsoSearchForSchema
 };
 export { 
   SerpItemSource, 
-  SerpAds, 
-  SerpType, 
-  SerpRelatedType,
-  SerpKnowledgePanelType,
+  SerpAds,  
   SerpPeopleAlsoSearchFor
 } from "./base"; 
 
