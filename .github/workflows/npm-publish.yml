@@ -17,6 +17,8 @@ jobs:
           node-version: 20
       - run: npm ci
       - run: npm test
+        env:
+          SERPING_US_EAST_1_API_KEY: ${{secrets.SERPING_US_EAST_1_API_KEY}}
 
   publish-npm:
     needs: build
