@@ -1,4 +1,4 @@
-import axios, { AxiosInstance, AxiosPromise } from 'axios';
+import axios, { AxiosInstance } from 'axios';
 import config from "./config";
 import {SerpingConfig} from "./types";
 
@@ -23,15 +23,18 @@ class Serping {
     try {
       return await this.axiosInstance.get(endpoint, { params });
     } catch (error: any) {
+      // console.error(error);
+      console.error("error.response",error.response);
+      console.error("error.response.url",error.response.url);
       if (error.response) {
-        throw new Error(error.response.data.message || 'Request failed');
+        throw new Error(error.response.data?.error || 'Request failed');
       } else {
         throw new Error(error.message || 'Request failed');
       }
     }
   }
 
-  async googleSerp(params: { q: string, [key: string]: any}): AxiosPromise<any> {
+  async googleSerp(params: { q: string, [key: string]: any}): Promise<any> {
     if(!params.q) throw new Error("query is empty");
     const response = await this.get("google/serp", params);
     const data = response.data;

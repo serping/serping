@@ -1,9 +1,9 @@
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
-import Serping from '../../index'; 
-import { SerpingConfig } from '../../types'; 
-import { SerpJsonSchema } from '../../zod/google/desktop-serp'; 
-import { desktopOpenai, desktopCoffee } from '../data/google/serp/desktop'; 
+import Serping from '@serping'; 
+import { SerpingConfig } from '@/types'; 
+import { SerpJsonSchema } from '@/zod/google/desktop-serp'; 
+import { desktopOpenai, desktopCoffee } from '@tests/data/google/serp/desktop'; 
 
 jest.spyOn(axios, "get");
 

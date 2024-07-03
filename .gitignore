@@ -1,5 +1,6 @@
 
 node_modules
+tmp
 # misc
 .DS_Store
 *.pem

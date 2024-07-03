@@ -1,8 +1,8 @@
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
-import Serping from '../index'; 
-import { SerpingConfig } from '../types'; 
-import { desktopOpenai } from './data/google/serp/desktop'; 
+import { SerpingConfig } from '@/types'; 
+import Serping from '@serping'; 
+import { desktopOpenai } from '@tests/data/google/serp/desktop'; 
 
 jest.spyOn(axios, "get");
 
@@ -30,7 +30,7 @@ describe('Serping', () => {
   });
 
   it('should handle 403 error from API', async () => {
-    const mockErrorResponse = { message: 'Unauthorized' };
+    const mockErrorResponse = { error: 'Unauthorized', message: 'x-api-key not match' };
     mockAxios.onGet('google/serp').reply(403, mockErrorResponse);
 
     await expect(serping.googleSerp({ q: 'test query' })).rejects.toThrow('Unauthorized');
