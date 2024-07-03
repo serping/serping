@@ -1,6 +1,6 @@
 {
   "name": "serping",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Serp.ing SDK",
   "main": "dist/index.js",
   "scripts": {
@@ -13,7 +13,12 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.js"
-    }
+    },
+    "./*": {
+      "require": "./dist/*.js",
+      "import": "./dist/*.js"
+    },
+    "./src/*": "./src/*"
   },
   "keywords": [
     "serp checker",
