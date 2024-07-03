@@ -1,6 +1,7 @@
 {
   "name": "serping",
   "version": "1.0.4",
+
   "description": "Serp.ing SDK",
   "main": "dist/index.js",
   "type": "module",
