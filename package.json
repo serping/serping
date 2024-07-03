@@ -1,24 +1,28 @@
 {
   "name": "serping",
-  "version": "1.0.8",
+  "version": "1.1.0",
+
   "description": "Serp.ing SDK",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "build": "npx esbuild index.ts --bundle --platform=node --target=node20 --outdir=dist",
+    "build": "npm run clean && tsc && npm run build:types && npm run copy && npm run clean-tests",
+    "build:types": "tsc --declaration --emitDeclarationOnly",
+    "clean-tests": "rm -rf dist/tests",
+    "clean": "rm -rf dist/*",
+    "copy": "cp package.json README.md dist",
     "release": "npx standard-version --prerelease beta",
     "add-build": "npm run build",
     "test": "npx jest"
   },
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "import": "./index.js",
+      "require": "./index.js"
     },
     "./*": {
-      "require": "./dist/*.js",
-      "import": "./dist/*.js"
-    },
-    "./src/*": "./src/*"
+      "require": "./*.js",
+      "import": "./*.js"
+    }
   },
   "keywords": [
     "serp checker",
