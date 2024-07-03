@@ -7,7 +7,7 @@ if (fs.existsSync(tsconfigPath)) {
   const tsconfig = require(tsconfigPath);
   
   const pathsToAdd = {
-    "@serping/*": ["node_modules/serping/src/*"]
+    "@serping/*": ["./node_modules/serping/src/*"]
   };
 
   if (tsconfig.compilerOptions && tsconfig.compilerOptions.paths && !tsconfig.compilerOptions.paths["@serping/*"]) {
