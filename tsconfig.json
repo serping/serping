@@ -24,10 +24,5 @@
   "exclude": [
     "node_modules",
     "dist"
-  ], 
-  "scripts": {
-    "prepare": "node ./scripts/update-tsconfig.js",
-    "postinstall": "node ./scripts/update-tsconfig.js"
-  } 
-  
+  ]
 }
