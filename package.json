@@ -1,13 +1,12 @@
 {
   "name": "serping",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Serp.ing SDK",
   "main": "dist/index.js",
   "scripts": {
     "build": "npx esbuild index.ts --bundle --platform=node --target=node20 --outdir=dist",
     "release": "npx standard-version --prerelease beta",
     "add-build": "npm run build",
-    "postinstall": "node ./scripts/update-tsconfig.js",
     "test": "npx jest"
   },
   "exports": {
