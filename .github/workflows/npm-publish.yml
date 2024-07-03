@@ -10,6 +10,9 @@ on:
 jobs:
   build-and-publish:
     runs-on: ubuntu-latest
+    env:
+      SERPING_US_EAST_1_API_KEY: ${{secrets.SERPING_US_EAST_1_API_KEY}}
+      NODE_AUTH_TOKEN: ${{secrets.npm_token}}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
@@ -19,8 +22,7 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - run: ls -la
-      - run: npm publish
-        env:
-          SERPING_US_EAST_1_API_KEY: ${{secrets.SERPING_US_EAST_1_API_KEY}}
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      - run: |
+          ls -la
+          cd dist && npm publish
+        
