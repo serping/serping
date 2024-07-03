@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx esbuild index.ts --bundle --platform=node --target=node20 --outdir=dist",
     "release": "npx standard-version --prerelease beta",
-    "add-build": "git add dist",
+    "add-build": "npm run build",
     "test": "npx jest"
   },
   "exports": {
