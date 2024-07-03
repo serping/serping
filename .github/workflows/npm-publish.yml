@@ -25,5 +25,6 @@ jobs:
       - name: npm publish
         run: |
           ls -la dist
+          cd dist
           npm publish
         
