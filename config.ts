@@ -1,4 +1,4 @@
-import { regions, type SerpingApi } from './types';
+import { regions, type SerpingApi } from '@/typescript/types';
 
 const config = {
   regions,
