@@ -8,20 +8,7 @@ on:
     types: [created]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 20
-      - run: npm ci
-      - run: npm test
-        env:
-          SERPING_US_EAST_1_API_KEY: ${{secrets.SERPING_US_EAST_1_API_KEY}}
-
-  publish-npm:
-    needs: build
+  build-and-publish:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -30,6 +17,10 @@ jobs:
           node-version: 20
           registry-url: https://registry.npmjs.org/
       - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - run: ls -la
       - run: npm publish
         env:
+          SERPING_US_EAST_1_API_KEY: ${{secrets.SERPING_US_EAST_1_API_KEY}}
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

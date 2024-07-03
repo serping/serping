@@ -2,28 +2,21 @@
   "name": "serping",
   "version": "1.0.0",
   "description": "Serp.ing SDK",
-  "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "build": "tsc && npm run build:types",
-    "build:types": "npm run clean && tsc --declaration --emitDeclarationOnly --declarationDir dist/types",
-    "clean": "rm -rf dist/types/* || del dist\\types\\* /S /Q",
+    "build": "npm run clean && tsc && npm run build:types && npm run copy",
+    "build:types": "tsc --declaration --emitDeclarationOnly",
+    "clean": "rm -rf dist/*",
+    "copy": "cp package.json README.md dist",
     "ts.check": "tsc --project tsconfig.json",
     "release": "npx standard-version --prerelease beta",
     "test": "npx jest"
   },
   "exports": {
     ".": {
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
-    },
-    "./dist/*": {
-      "import": "./dist/*.js",
-      "require": "./dist/*.js"
-    },
-    "./dist/**/*": {
-      "import": "./dist/**/*.js",
-      "require": "./dist/**/*.js"
+      "import": "./index.js",
+      "require": "./index.js"
     }
   },
   "keywords": [

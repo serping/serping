@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 import config from "./config";
-import {SerpingConfig} from "@/typescript/types";
+import {SerpingConfig} from "@//types";
 
 class Serping {
   private axiosInstance: AxiosInstance;
