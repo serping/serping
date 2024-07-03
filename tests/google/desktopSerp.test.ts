@@ -1,7 +1,7 @@
 import axios from 'axios';
 import MockAdapter from 'axios-mock-adapter';
 import Serping from '@serping'; 
-import { SerpingConfig } from '@//types'; 
+import { SerpingConfig } from '@/types'; 
 import { dataParse } from "./parse";
 import { desktopOpenai, desktopCoffee } from '@tests/data/google/serp/desktop'; 
 
