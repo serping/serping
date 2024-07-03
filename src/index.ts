@@ -1,6 +1,6 @@
 import axios, { AxiosInstance } from 'axios';
 import config from "./config";
-import {SerpingConfig} from "@/types";
+import {SerpingConfig} from "./types";
 
 class Serping {
   private axiosInstance: AxiosInstance;
@@ -23,9 +23,6 @@ class Serping {
     try {
       return await this.axiosInstance.get(endpoint, { params });
     } catch (error: any) {
-      // console.error(error);
-      console.error("error.response",error.response);
-      console.error("error.response.url",error.response.url);
       if (error.response) {
         throw new Error(error.response.data?.error || 'Request failed');
       } else {

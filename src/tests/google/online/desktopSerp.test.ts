@@ -1,5 +1,5 @@
 
-import Serping from '@serping'; 
+import Serping from '@/index'; 
 import { SerpingConfig } from '@/types'; 
 import { dataParse } from "../parse";
 

@@ -6,17 +6,15 @@
     "esModuleInterop": true,                              
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-    "outDir": "dist",
+    "outDir": "./dist",
+    "baseUrl": "./src",
     "paths": {
       "@tests/*": [
         "./tests/*"
       ],
       "@/*": [
         "./*"
-      ],
-      "@serping": [
-        "./index.ts"
-      ],
+      ]
     },
   },
   "typeRoots": ["./node_modules/@types"],
