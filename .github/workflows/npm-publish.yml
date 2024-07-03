@@ -22,7 +22,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
-      - run: |
+      - name: npm publish
+        run: |
           ls -la
           cd dist && npm publish
         
