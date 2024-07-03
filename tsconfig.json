@@ -21,9 +21,12 @@
   "include": [
     "src/**/*.ts"
   ],
-  
   "exclude": [
     "node_modules",
     "dist"
-  ]
+  ], 
+  "scripts": {
+    "postinstall": "node ./scripts/update-tsconfig.js"
+  } 
+  
 }
