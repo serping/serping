@@ -1,0 +1,19 @@
+name: e2e
+
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  jest-test:
+    name: Jest Tests
+    runs-on: ubuntu-latest
+    env:
+      SERPING_US_EAST_1_API_KEY: ${{secrets.SERPING_US_EAST_1_API_KEY}}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm test
