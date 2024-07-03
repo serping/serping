@@ -5,12 +5,24 @@
     "module": "commonjs",                                 
     "esModuleInterop": true,                              
     "forceConsistentCasingInFileNames": true,
-    "strict": true, 
+    "strict": true,
+    "paths": {
+      "@tests/*": [
+        "./tests/*"
+      ],
+      "@/*": [
+        "./*"
+      ],
+      "@serping": [
+        "./index.ts"
+      ],
+    },
   },
   "typeRoots": ["./node_modules/@types"],
   "include": [
     "**/*.ts"
   ],
+  
   "exclude": [
     "node_modules"
   ]
