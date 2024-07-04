@@ -8,18 +8,6 @@
 npm install serping
 ```
 
-### Install for typescript
-
-tsconfig.json
-
-```json
-{
-  "paths":{
-    "@serping/*": ["./node_modules/serping/src/*"]
-  }
-}
-```
-
 ## Usage
 
 ```typescript

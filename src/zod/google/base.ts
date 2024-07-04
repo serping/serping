@@ -5,16 +5,16 @@ export type OnOffStatus = z.infer<typeof OnOffStatusSchema>;
 
 export const GoogleSerpSearchParamSchema =  z.object({
   q: z.string(),
-  gl: z.string(),
-  hl: z.string(),
+  gl: z.string().optional(),
+  hl: z.string().optional(),
   lsig: z.string().optional(),
   ludocid: z.string().optional(),
   uule: z.string().optional(),
   location: z.string().optional(),
-  snapshot: OnOffStatusSchema.optional().default("off"),
-  thumbnail: OnOffStatusSchema.optional().default("on"),
-  num: z.number().min(10).max(100),
-  page: z.number().min(1).max(100)
+  snapshot: OnOffStatusSchema.optional(),
+  thumbnail: OnOffStatusSchema.optional(),
+  num: z.number().min(10).max(100).optional(),
+  page: z.number().min(1).max(100).optional()
 });
 
 export type GoogleSerpSearchParam = z.infer<typeof GoogleSerpSearchParamSchema>;
