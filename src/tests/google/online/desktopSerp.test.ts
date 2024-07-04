@@ -15,13 +15,13 @@ describe('GoogleDesktopSerp.test', () => {
     const result = await serping.googleSerp({ q: 'openai', snapshot: "on" });
     const data = dataParse(result);
     expect(data?.origin_search.length ).toBeGreaterThan(0);
-  });
+  }, 15_000);
 
   it('should fetch Google SERP data successfully: coffee', async () => {
     const result = await serping.googleSerp({ q: 'coffee', snapshot: "on" });
     const data = dataParse(result);
     expect(data?.origin_search.length ).toBeGreaterThan(0)
-  });
+  }, 15_000);
 
  
 });
