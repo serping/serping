@@ -22,7 +22,7 @@ import path from 'path';
 export const dataParse =(data: any)=>{
   try{
     const newData = SerpJsonSchema.parse(data);
-    for(const item of newData.origin_search){
+    for(const item of newData.origin_search.results){
       let itemData;
       switch (item.type){
         case "normal":

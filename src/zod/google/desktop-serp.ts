@@ -651,11 +651,17 @@ export type SerpKnowledgePanel = z.infer<typeof SerpKnowledgePanelSchema>;
 // SerpJSON
 /////////////////////////////////////////
 
+export const SerpOriginSearchTypeSchema = z.enum(["normal", "tablist"]);
+export type SerpOriginSearchType = z.infer<typeof SerpOriginSearchTypeSchema>;
+
 export const SerpJsonSchema = z.object({
   meta: SerpMetaSchema,
   topads: z.array(SerpAdsSchema),
   local_results: SerpLocalResultsSchema.nullable(),
-  origin_search: z.array(SerpOriginSearchSchema),
+  origin_search: z.object({
+    type: SerpOriginSearchTypeSchema,
+    results: z.array(SerpOriginSearchSchema)
+  }),
   knowledge_panel: z.array(SerpKnowledgePanelSchema),
   bottomads: z.array(SerpAdsSchema),
   related_searches: z.array(SerpRelatedSearchesSchema),
@@ -663,7 +669,7 @@ export const SerpJsonSchema = z.object({
 
 export type SerpJSON = z.infer<typeof SerpJsonSchema>;
 
-export type SerpColumn = SerpJSON["origin_search"][number] | {
+export type SerpColumn = SerpJSON["origin_search"] | {
   type: "local_results",
   local_results: SerpJSON["local_results"]
 } | {
