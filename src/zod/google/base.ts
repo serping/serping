@@ -1,31 +1,20 @@
 import { z } from 'zod';
 
-const serpTypes = ['normal', 'recipes', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
-const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
-const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
-
-export type SerpType = typeof serpTypes[number];
-export type SerpRelatedType = typeof serpRelatedTypes[number];
-export type SerpKnowledgePanelType = typeof serpKnowledgePanelTypes[number];
-export const SerpTypeSchema = z.enum(serpTypes);
-export const SerpRelatedTypeSchema = z.enum(serpRelatedTypes);
-export const SerpKnowledgePanelTypeSchema = z.enum(serpKnowledgePanelTypes);
-
-export const onOffStatusSchema = z.enum(["on", "off"]);
-export type OnOffStatus = z.infer<typeof onOffStatusSchema>;
+export const OnOffStatusSchema = z.enum(["on", "off"]);
+export type OnOffStatus = z.infer<typeof OnOffStatusSchema>;
 
 export const GoogleSerpSearchParamSchema =  z.object({
   q: z.string(),
-  gl: z.string(),
-  hl: z.string(),
+  gl: z.string().optional(),
+  hl: z.string().optional(),
   lsig: z.string().optional(),
   ludocid: z.string().optional(),
   uule: z.string().optional(),
   location: z.string().optional(),
-  snapshot: onOffStatusSchema.optional().default("off"),
-  thumbnail: onOffStatusSchema.optional().default("on"),
-  num: z.number().min(10).max(100),
-  page: z.number().min(1).max(100)
+  snapshot: OnOffStatusSchema.optional(),
+  thumbnail: OnOffStatusSchema.optional(),
+  num: z.number().min(10).max(100).optional(),
+  page: z.number().min(1).max(100).optional()
 });
 
 export type GoogleSerpSearchParam = z.infer<typeof GoogleSerpSearchParamSchema>;

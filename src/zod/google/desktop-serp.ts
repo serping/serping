@@ -1,27 +1,33 @@
 import { z } from 'zod';
+export const serpTypes = ['normal', 'recipes', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
+export const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
+export const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
+export const SerpColumnTypeTypes = [...serpTypes, "related_searches", "local_results", "topads", "bottomads"] as const;
+ 
+export type SerpType = typeof serpTypes[number];
+export type SerpColumnType = typeof SerpColumnTypeTypes[number];
+export type SerpRelatedType = typeof serpRelatedTypes[number];
+export type SerpKnowledgePanelType = typeof serpKnowledgePanelTypes[number];
+
+export const SerpTypeSchema = z.enum(serpTypes);
+export const SerpColumnTypeSchema = z.enum(SerpColumnTypeTypes);
+export const SerpRelatedTypeSchema = z.enum(serpRelatedTypes);
+export const SerpKnowledgePanelTypeSchema = z.enum(serpKnowledgePanelTypes);
+
 import {
   SerpMetaSchema,
   SerpItemSourceSchema,
-  SerpAdsSchema,
-  SerpTypeSchema,
-  SerpRelatedTypeSchema,
-  SerpKnowledgePanelTypeSchema,
+  SerpAdsSchema, 
   SerpPeopleAlsoSearchForSchema
 } from './base';
 export { 
   SerpItemSourceSchema, 
-  SerpAdsSchema, 
-  SerpTypeSchema, 
-  SerpRelatedTypeSchema, 
-  SerpKnowledgePanelTypeSchema, 
+  SerpAdsSchema,  
   SerpPeopleAlsoSearchForSchema
 };
 export { 
   SerpItemSource, 
-  SerpAds, 
-  SerpType, 
-  SerpRelatedType,
-  SerpKnowledgePanelType,
+  SerpAds,  
   SerpPeopleAlsoSearchFor
 } from "./base"; 
 
@@ -403,7 +409,7 @@ export type SerpFeaturedSnippets = z.infer<typeof SerpFeaturedSnippetsSchema>;
 // SerpLocalResults
 ///////////////////////////////////////// 
 
-const SerpLocalResultsSchema = z.object({
+export const SerpLocalResultsSchema = z.object({
   more_locations_link: z.string(),
   places: z.array(
     z.object(
@@ -514,7 +520,7 @@ export type SerpRelatedSearches = z.infer<typeof SerpRelatedNearSchema>;
 //  
 /////////////////////////////////////////
 
-const SerpOriginSearchSchema = z.object({
+export const SerpOriginSearchSchema = z.object({
   type: SerpTypeSchema
 }).catchall(z.any())
 
@@ -525,7 +531,7 @@ export type SerpOriginSearch = z.infer<typeof SerpOriginSearchSchema>;
 // SerpKnowledgeInfo
 /////////////////////////////////////////
 
-const SerpKnowledgeInfoSchema = z.object({
+export const SerpKnowledgeInfoSchema = z.object({
   heading: z.string(),
   subheading: z.string(),
   posts: z.array(z.object({
@@ -544,7 +550,7 @@ export type SerpKnowledgeInfo = z.infer<typeof SerpKnowledgeInfoSchema>;
 // SerpKnowledgeAds
 /////////////////////////////////////////
 
-const SerpKnowledgeAdsSchema = z.object({
+export const SerpKnowledgeAdsSchema = z.object({
   type: z.literal("ads"),
   ads: z.array(z.object({
     position: z.number(),
@@ -560,7 +566,7 @@ export type SerpKnowledgeAds = z.infer<typeof SerpKnowledgeAdsSchema>;
 // SerpKnowledgeNormal
 /////////////////////////////////////////
 
-const SerpKnowledgeNormalSchema = z.object({
+export const SerpKnowledgeNormalSchema = z.object({
   type: SerpKnowledgePanelTypeSchema,
   infos: z.array(SerpKnowledgeInfoSchema)
 });
@@ -571,7 +577,7 @@ export type SerpKnowledgeNormal = z.infer<typeof SerpKnowledgeNormalSchema>;
 // SerpFoods
 /////////////////////////////////////////
 
-const SerpFoodsSchema = z.object({
+export const SerpFoodsSchema = z.object({
   type: z.literal("foods"),
   foods: z.object({
     heading: z.string(),
@@ -597,14 +603,14 @@ export type SerpFoods = z.infer<typeof SerpFoodsSchema>;
 // SerpKnowledgePanel
 /////////////////////////////////////////
 
-const SerpProfileSchema = z.object({
+export const SerpProfileSchema = z.object({
   title: z.string(),
   thumbnail: z.string().optional(),
   link: z.string(),
 })
 export type SerpProfile = z.infer<typeof SerpProfileSchema>;
 
-const SerpKnowledgeSchema = z.object({
+export const SerpKnowledgeSchema = z.object({
   type: z.literal("knowledge"), 
   site: z.string(),
   organization_type: z.string(),
@@ -634,7 +640,7 @@ export type SerpKnowledge = z.infer<typeof SerpKnowledgeSchema>;
 // SerpKnowledgeNormalSchema
 /////////////////////////////////////////
 
-const SerpKnowledgePanelSchema = z.object({
+export const SerpKnowledgePanelSchema = z.object({
   type: SerpKnowledgePanelTypeSchema
 }).catchall(z.any());
 

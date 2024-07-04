@@ -1,6 +1,8 @@
 import axios, { AxiosInstance } from 'axios';
 import config from "./config";
 import {SerpingConfig} from "./types";
+import { GoogleSerpSearchParam } from "./zod/google/base";
+import { TIMEOUT } from 'dns';
 
 class Serping {
   private axiosInstance: AxiosInstance;
@@ -31,11 +33,34 @@ class Serping {
     }
   }
 
-  async googleSerp(params: { q: string, [key: string]: any}): Promise<any> {
-    if(!params.q) throw new Error("query is empty");
-    const response = await this.get("google/serp", params);
-    const data = response.data;
-    return data;
+  async googleSerp( {
+    q,
+    snapshot = "on",
+    thumbnail = "on",
+    num = 10,
+    page = 1,
+    gl = "us",
+    hl = "en",
+    lsig,
+    ludocid,
+    uule,
+    location
+  }: GoogleSerpSearchParam): Promise<any> {
+    if(!q) throw new Error("query is empty");
+    const response = await this.get("google/serp", {
+      q,
+      snapshot,
+      thumbnail,
+      num,
+      page,
+      gl,
+      hl,
+      lsig,
+      ludocid,
+      uule,
+      location,
+    });
+    return response.data;
   }
 }
 

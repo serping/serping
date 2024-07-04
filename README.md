@@ -8,18 +8,6 @@
 npm install serping
 ```
 
-### Install for typescript
-
-tsconfig.json
-
-```json
-{
-  "paths":{
-    "@serping/*": ["./node_modules/serping/src/*"]
-  }
-}
-```
-
 ## Usage
 
 ```typescript
@@ -29,6 +17,12 @@ serping = new Serping(apiKey: 'your_api_key');
 const data = await serping.googleSerp({q: "serping"});
 
 console.log(data);
+```
+
+## serping test
+
+```bash
+SERPING_US_EAST_1_API_KEY=your_api_key npm test
 ```
 
 

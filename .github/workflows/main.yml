@@ -1,4 +1,4 @@
-name: e2e
+name: jest
 
 on:
   push:
