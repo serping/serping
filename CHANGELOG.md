@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### [1.1.1-beta.1](https://github-serping/serping/serping/compare/v1.1.1-beta.0...v1.1.1-beta.1) (2024-07-04)
 
+### [1.1.1-beta.0](https://github-serping/serping/serping/compare/v1.0.7...v1.1.1-beta.0) (2024-07-04)
+
 ## [1.1.0](https://github-serping/serping/serping/compare/v1.0.7...v1.1.0) (2024-07-03)
 
-### [1.1.1-beta.0](https://github-serping/serping/serping/compare/v1.0.7...v1.1.1-beta.0) (2024-07-04)
