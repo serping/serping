@@ -2,7 +2,6 @@ import axios, { AxiosInstance } from 'axios';
 import config from "./config";
 import {SerpingConfig} from "./types";
 import { GoogleSerpSearchParam } from "./zod/google/base";
-import { TIMEOUT } from 'dns';
 
 class Serping {
   private axiosInstance: AxiosInstance;
