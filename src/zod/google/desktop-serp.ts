@@ -82,17 +82,17 @@ export const SerpInlineImagesSchema = z.object({
       thumbnail: z.string(),
     })
   ).optional(),
-  posts: z.array(
+  collection: z.array(
     z.object(
       {
         position: z.number(),
+        query: z.string(),
         title: z.string(),
         thumbnail: z.string(),
         source: z.object({
           name: z.string(),
-          link: z.string(),
-        }),
-        query: z.string()
+          lpage: z.string(),
+        })
       }
     )
   )
