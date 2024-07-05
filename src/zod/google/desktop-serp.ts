@@ -1,5 +1,5 @@
 import { z } from 'zod';
-export const serpTypes = ['normal', 'recipes', 'images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
+export const serpTypes = ['normal', 'recipes', 'inline_images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
 export const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
 export const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
 export const SerpColumnTypeTypes = [...serpTypes, "related_searches", "local_results", "topads", "bottomads"] as const;
@@ -70,11 +70,11 @@ export const SerpDiscussionsAndForumsSchema = z.object({
 export type SerpDiscussionsAndForums = z.infer<typeof SerpDiscussionsAndForumsSchema>;
  
 /////////////////////////////////////////
-// SerpImages
+// SerpInlineImages
 /////////////////////////////////////////
 
-export const SerpImagesSchema = z.object({
-  type: z.literal("images"),
+export const SerpInlineImagesSchema = z.object({
+  type: z.literal("inline_mages"),
   related_keywords: z.array(
     z.object({
       short: z.string(),
@@ -97,7 +97,7 @@ export const SerpImagesSchema = z.object({
     )
   )
 })
-export type SerpImages = z.infer<typeof SerpImagesSchema>;
+export type SerpInlineImages = z.infer<typeof SerpInlineImagesSchema>;
 
 
 /////////////////////////////////////////
@@ -505,7 +505,7 @@ export type SerpRelatedSearches = z.infer<typeof SerpRelatedNearSchema>;
 //  
 //  SerpNormalSchema
 //  SerpRecipesSchema
-//  SerpImagesSchema
+//  SerpInlineImagesSchema
 //  SerpPeopleAlsoAskSchema
 //  SerpSiteLinksSchema
 //  SerpTwitterSchema

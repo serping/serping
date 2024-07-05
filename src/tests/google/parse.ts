@@ -2,7 +2,7 @@ import {
   SerpDiscussionsAndForumsSchema,
   SerpFeaturedSnippetsSchema,
   SerpFromSourcesAcrossTheWebSchema,
-  SerpImagesSchema,
+  SerpInlineImagesSchema,
   SerpInlineVideosSchema,
   SerpJsonSchema,
   SerpNormalSchema,
@@ -46,8 +46,8 @@ export const dataParse =(data: any)=>{
         case "discussions_and_forums":
           itemData = SerpDiscussionsAndForumsSchema.parse(item);
           break;
-        case "images":
-          itemData = SerpImagesSchema.parse(item);
+        case "inline_images":
+          itemData = SerpInlineImagesSchema.parse(item);
           break;
         case "perspectives":
           itemData = SerpDiscussionsAndForumsSchema.parse(item);

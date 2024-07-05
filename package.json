@@ -1,6 +1,6 @@
 {
   "name": "serping",
-  "version": "1.1.1-beta.4",
+  "version": "1.1.1-beta.5",
   "description": "Serp.ing SDK",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "clean": "rm -rf dist/*",
     "copy": "cp package.json README.md dist",
     "release": "npx standard-version --prerelease beta",
-    "publish:beta": "npm run release && git push --follow-tags origin main && cd dist && npm publish --tag beta",
+    "publish:beta": "npm run release && git push --follow-tags origin main && cd dist && npm publish --tag beta && cd ../",
     "add-build": "npm run build",
     "test": "npx jest"
   },

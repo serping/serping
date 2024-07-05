@@ -14,7 +14,7 @@ export const GoogleSerpSearchParamSchema =  z.object({
   snapshot: OnOffStatusSchema.optional(),
   thumbnail: OnOffStatusSchema.optional(),
   num: z.number().min(10).max(100).optional(),
-  page: z.number().min(1).max(100).optional()
+  start: z.number().min(1).max(100).optional()
 });
 
 export type GoogleSerpSearchParam = z.infer<typeof GoogleSerpSearchParamSchema>;
