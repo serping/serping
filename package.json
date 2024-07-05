@@ -20,8 +20,8 @@
       "default": "./index.js"
     },
     "./*": {
-      "default": "./*.js",
-      "import": "./*.js"
+      "import": "./*.js",
+      "default": "./*.js"
     }
   },
   "keywords": [
