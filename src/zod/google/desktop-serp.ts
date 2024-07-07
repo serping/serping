@@ -1,5 +1,5 @@
 import { z } from 'zod';
-export const serpTypes = ['normal', 'recipes', 'inline_images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
+export const serpTypes = ['normal', 'book', 'recipes', 'inline_images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
 export const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
 export const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
 export const SerpColumnTypeTypes = [...serpTypes, "related_searches", "local_results", "topads", "bottomads"] as const;
@@ -282,6 +282,19 @@ export const SerpVideoSchema = z.object({
 export type SerpVideo = z.infer<typeof SerpVideoSchema>;
 
 /////////////////////////////////////////
+// SerpVideo
+/////////////////////////////////////////
+
+export const SerpBookSchema = z.object({
+  type: z.literal("book"),
+  position: z.number(),
+  title: z.string(),
+  snippet: z.string(),
+  source: SerpItemSourceSchema
+})
+export type SerpBook = z.infer<typeof SerpVideoSchema>;
+
+/////////////////////////////////////////
 // SerpNormal 
 /////////////////////////////////////////
 
@@ -504,6 +517,7 @@ export type SerpRelatedSearches = z.infer<typeof SerpRelatedNearSchema>;
 //  SerpOriginSearch
 //  
 //  SerpNormalSchema
+//  SerpBookSchema
 //  SerpRecipesSchema
 //  SerpInlineImagesSchema
 //  SerpPeopleAlsoAskSchema
