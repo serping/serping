@@ -34,12 +34,12 @@ class Serping {
 
   async googleSerp( {
     q,
-    snapshot = "on",
+    snapshot = "off",
     thumbnail = "on",
     num = 10,
-    start = 1,
     gl = "us",
     hl = "en",
+    start,
     lsig,
     ludocid,
     uule,
