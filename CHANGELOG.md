@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1-beta.10](https://github-serping/serping/serping/compare/v1.1.1-beta.9...v1.1.1-beta.10) (2024-07-07)
+
 ### [1.1.1-beta.9](https://github-serping/serping/serping/compare/v1.1.1-beta.8...v1.1.1-beta.9) (2024-07-05)
 
 ### [1.1.1-beta.8](https://github-serping/serping/serping/compare/v1.1.1-beta.7...v1.1.1-beta.8) (2024-07-05)
