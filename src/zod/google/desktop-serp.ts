@@ -272,11 +272,7 @@ export const SerpVideoSchema = z.object({
   snippet: z.string(),
   duration: z.string(),
   thumbnail: z.string(),
-  source: z.object({
-    name: z.string(),
-    creator: z.string(),
-    link: z.string(),
-  }),
+  source: SerpItemSourceSchema,
   key_moments: z.array(SerpKeyMomentSchema)
 })
 export type SerpVideo = z.infer<typeof SerpVideoSchema>;
