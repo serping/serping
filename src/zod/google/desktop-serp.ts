@@ -384,7 +384,7 @@ export type SerpFeaturedList = z.infer<typeof SerpFeaturedListSchema>;
 export const SerpFeaturedNormalSchema = z.object({
   type: z.literal("normal"),
   snippet: z.string(),
-  date: z.string(),
+  date: z.string().optional(),
   images: z.array(z.object({
     thumbnail: z.string()
   })).optional(),
