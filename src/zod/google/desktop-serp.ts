@@ -480,8 +480,6 @@ export type SerpLocalDirectionType = z.infer<typeof SerpLocalDirectionTypeSchema
 
 /////////////////////////////////////////
 // SerpLocalDirections
-// 
-// places 多类型
 //
 /////////////////////////////////////////
 
@@ -489,8 +487,9 @@ export const SerpLocalDirectionsSchema = z.object({
   type: z.literal("directions"),
   local_map: SerpLocalMapSchema, 
   more_locations_link: z.string(),
-  // places: ... 多类型, catchall 补全
+  // places: ...  
 }).catchall(z.any());
+export type SerpLocalDirections = z.infer<typeof SerpLocalDirectionsSchema>;
 
 /////////////////////////////////////////
 // SerpLocalServicePlace
@@ -525,7 +524,7 @@ export type SerpLocalServicePlace = z.infer<typeof SerpLocalServicePlaceSchema>;
 /////////////////////////////////////////
 // SerpLocalServices
 // 
-// places 只有默认类型
+// places: only one type
 //
 /////////////////////////////////////////
 
@@ -540,7 +539,7 @@ export type SerpLocalServices = z.infer<typeof SerpLocalServicesSchema>;
 /////////////////////////////////////////
 // SerpLocalNormalPlace
 // 
-// places 只有默认类型
+// places only one type
 //
 /////////////////////////////////////////
 
@@ -577,9 +576,8 @@ export const SerpLocalNormalSchema = z.object({
 export type SerpLocalNormal = z.infer<typeof SerpLocalNormalSchema>;
 
 /////////////////////////////////////////
-// SerpLocalResults - 汇总
+// SerpLocalResults
 // 
-// 包含类型
 // SerpLocalNormalSchema
 // SerpLocalServicesSchema
 // SerpLocalDirectionsSchema
@@ -589,7 +587,7 @@ export const SerpLocalResultsSchema = z.object({
   type: SerpLocalResultTypeSchema,
   local_map: SerpLocalMapSchema,
   more_locations_link: z.string(),
-  // places: ... 多类型, catchall 补全
+  // places: ... 
 }).catchall(z.any());
 
 export type SerpLocalResults = z.infer<typeof SerpLocalResultsSchema>;
