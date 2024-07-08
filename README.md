@@ -19,11 +19,4 @@ const data = await serping.googleSerp({q: "serping"});
 console.log(data);
 ```
 
-## serping test
-
-```bash
-SERPING_US_EAST_1_API_KEY=your_api_key npm test
-```
-
-
 [1]:https://www.serp.ing

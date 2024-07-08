@@ -397,6 +397,9 @@ export type SerpFeaturedNormal = z.infer<typeof SerpFeaturedNormalSchema>;
 
 /////////////////////////////////////////
 // SerpFeaturedSnippets
+//
+// SerpFeaturedNormal
+// SerpFeaturedListSchema
 /////////////////////////////////////////
 
 export const SerpFeaturedSnippetsSchema = z.object({
