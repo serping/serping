@@ -305,12 +305,7 @@ export const SerpNormalSchema = z.object({
   snippet: z.string(),
   date: z.string().optional(),
   thumbnail: z.string().optional(),
-  source: z.object({
-    title: z.string(),
-    name: z.string(),
-    display_link: z.string(),
-    link: z.string(),
-  }),
+  source: SerpItemSourceSchema,
   snippet_highlighted_words: z.array(z.string()).optional(),
   rich_snippet: z.object({
     rated: z.object({
@@ -320,8 +315,8 @@ export const SerpNormalSchema = z.object({
       rating: z.number(),
       reviews: z.number(),
       reviews_origin: z.string()
-    }),
-    extensions: z.string()
+    }).optional(),
+    extensions: z.string().optional()
   }).optional(),
   links: z.array(z.object({
     title: z.string(),
@@ -353,7 +348,7 @@ export const SerpThingsToKnowSchema = z.object({
       secondary: z.string(),
     }),
     answer: z.string().optional(), // same as title; when heading.secondary is a question, the answer field will appear
-    title: z.string(),
+    title: z.string().optional(),
     snippet: z.string(),
     date: z.string().optional(),
     source: z.object({
@@ -421,30 +416,185 @@ export type SerpFeaturedSnippets = z.infer<typeof SerpFeaturedSnippetsSchema>;
 /////////////////////////////////////////
 // SerpLocalResults
 ///////////////////////////////////////// 
+export const SerpLocalResultTypeSchema = z.enum(["normal", "services", "directions"]);
+export type SerpLocalResultType = z.infer<typeof SerpLocalResultTypeSchema>;
+
+export const SerpLocalPlaceGpsSchema = z.object({
+  latitude: z.number(),
+  longitude: z.number(),
+});
+export type SerpLocalPlaceGps = z.infer<typeof SerpLocalPlaceGpsSchema>;
+
+export const SerpLocalMapGpsSchema = SerpLocalPlaceGpsSchema.extend({
+  altitude: z.number()
+})
+export type SerpLocalMapGps = z.infer<typeof SerpLocalMapGpsSchema>;
+
+export const SerpLocalMapSchema = z.object({
+  link: z.string(),
+  // thumbnail:  z.string().optional(),
+  gps_coordinates: SerpLocalMapGpsSchema,
+});
+export type SerpLocalMap = z.infer<typeof SerpLocalMapSchema>;
+
+export const SerpLocalDirectionPlaceNormalSchema = z.object(
+  {
+    type: z.literal("normal"),
+    position: z.number(),
+    title: z.string(),
+    topic: z.string(),
+    lsig: z.string(),
+    place_id: z.string(),
+    address: z.string(),
+    phone: z.string(), 
+    description: z.string(),  
+    search_link: z.string(),
+    gps_coordinates: SerpLocalPlaceGpsSchema,
+    links: z.object({
+      website: z.string().optional(),
+      directions: z.string()
+    }).optional()
+  }
+)
+export type SerpLocalDirectionPlaceNormal = z.infer<typeof SerpLocalDirectionPlaceNormalSchema>;
+
+export const SerpLocalDirectionPlaceStoreSchema = z.object(
+  {
+    type: z.literal("store"),
+    position: z.number(),
+    title: z.string(),
+    lsig: z.string(),
+    place_id: z.string(),
+    address: z.string(),
+    phone: z.string(), 
+    description: z.string(),  
+    search_link: z.string(),
+    gps_coordinates: SerpLocalPlaceGpsSchema,
+    links: z.object({
+      website: z.string().optional(),
+      directions: z.string()
+    }).optional()
+  }
+)
+export type SerpLocalDirectionPlaceStore = z.infer<typeof SerpLocalDirectionPlaceStoreSchema>;
+
+export const SerpLocalDirectionTypeSchema = z.enum(["normal", "store"]);
+export type SerpLocalDirectionType = z.infer<typeof SerpLocalDirectionTypeSchema>;
+
+
+/////////////////////////////////////////
+// SerpLocalDirections
+// 
+// places 多类型
+//
+/////////////////////////////////////////
+
+export const SerpLocalDirectionsSchema = z.object({
+  type: z.literal("directions"),
+  local_map: SerpLocalMapSchema, 
+  more_locations_link: z.string(),
+  // places: ... 多类型, catchall 补全
+}).catchall(z.any());
+
+/////////////////////////////////////////
+// SerpLocalServicePlace
+/////////////////////////////////////////
+
+export const SerpLocalServicePlaceSchema = z.object(
+  {
+    position: z.number(),
+    title: z.string(),
+    topic: z.string(),
+    lsig: z.string(),
+    place_id: z.string(),
+    address: z.string(),
+    hours: z.string().optional(),
+    description: z.string(),
+    rating: z.number().optional(),
+    business: z.string(),
+    phone: z.string(),
+    search_link: z.string(),
+    gps_coordinates: z.object({
+      latitude: z.number(),
+      longitude: z.number(),
+    }),
+    links: z.object({
+      website: z.string().optional(),
+      directions: z.string()
+    }).optional()
+  }
+)
+export type SerpLocalServicePlace = z.infer<typeof SerpLocalServicePlaceSchema>;
+
+/////////////////////////////////////////
+// SerpLocalServices
+// 
+// places 只有默认类型
+//
+/////////////////////////////////////////
+
+export const SerpLocalServicesSchema = z.object({
+  type: z.literal("services"),
+  local_map: SerpLocalMapSchema,
+  places: z.array(SerpLocalServicePlaceSchema),
+  more_locations_link: z.string()
+}) 
+export type SerpLocalServices = z.infer<typeof SerpLocalServicesSchema>;
+
+/////////////////////////////////////////
+// SerpLocalNormalPlace
+// 
+// places 只有默认类型
+//
+/////////////////////////////////////////
+
+const SerpLocalNormalPlaceSchema = z.object({ 
+  position: z.number(),
+  title: z.string(),
+  topic: z.string(),
+  lsig: z.string(),
+  place_id: z.string(),
+  address: z.string(),
+  hours: z.string().optional(),
+  description: z.string(),
+  rating: z.number().optional(),
+  business: z.string(),
+  phone: z.string(),
+  search_link: z.string(),
+  gps_coordinates: z.object({
+    latitude: z.number(),
+    longitude: z.number(),
+  }),
+  links: z.object({
+    website: z.string().optional(),
+    directions: z.string()
+  }).optional() 
+})
+export type SerpLocalNormalPlace = z.infer<typeof SerpLocalNormalPlaceSchema>;
+
+export const SerpLocalNormalSchema = z.object({
+  type: z.literal("normal"),
+  local_map: SerpLocalMapSchema,
+  places: z.array(SerpLocalNormalPlaceSchema),
+  more_locations_link: z.string()
+}) 
+export type SerpLocalNormal = z.infer<typeof SerpLocalNormalSchema>;
+
+/////////////////////////////////////////
+// SerpLocalResults - 汇总
+// 
+// 包含类型
+// SerpLocalNormalSchema
+// SerpLocalServicesSchema
+// SerpLocalDirectionsSchema
+/////////////////////////////////////////
 
 export const SerpLocalResultsSchema = z.object({
+  type: SerpLocalResultTypeSchema,
+  local_map: SerpLocalMapSchema,
   more_locations_link: z.string(),
-  places: z.array(
-    z.object(
-      {
-        title: z.string(),
-        type: z.string(),
-        position: z.number(),
-        lsig: z.string(),
-        place_id: z.string(),
-        address: z.string(),
-        hours: z.string().optional(),
-        description: z.string(),
-        rating: z.number().optional(),
-        reviews: z.number().optional(),
-        reviews_origin: z.string().optional(),
-        thumbnail: z.string().optional(),
-        website: z.string().optional(),
-        directions: z.string().optional(),
-      }
-    )
-  )
-});
+  // places: ... 多类型, catchall 补全
+}).catchall(z.any());
 
 export type SerpLocalResults = z.infer<typeof SerpLocalResultsSchema>;
 

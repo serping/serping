@@ -1,4 +1,5 @@
 import { 
+  SerpBookSchema,
   SerpDiscussionsAndForumsSchema,
   SerpFeaturedSnippetsSchema,
   SerpFromSourcesAcrossTheWebSchema,
@@ -9,11 +10,82 @@ import {
   SerpPeopleAlsoAskSchema,
   SerpRecipesSchema,
   SerpSiteLinksSchema,
+  SerpThingsToKnowSchema,
   SerpTopStoriesSchema,
-  SerpVideoSchema
+  SerpTwitterSchema,
+  SerpVideoSchema,
+  SerpLocalResultsSchema, 
+  type SerpOriginSearch,
+  type SerpLocalResults
  } from '@/zod/google/desktop-serp';
 import fs from 'fs';
 import path from 'path';
+
+const localParse =(results: SerpLocalResults | null )=>{
+  if(!results) return;
+  const data = SerpLocalResultsSchema.parse(results);
+  switch (data.type){
+    case "normal":
+    break;
+    case "services":
+      break;
+    case "directions":
+  }
+}
+
+const originSearchParse =(results: SerpOriginSearch[])=>{
+  for(const item of results){
+    let itemData;
+    switch (item.type){
+      case "normal":
+        itemData = SerpNormalSchema.parse(item);
+        break; 
+      case "site_links":
+        itemData = SerpSiteLinksSchema.parse(item);
+        break;
+      case "featured_snippets":
+        itemData = SerpFeaturedSnippetsSchema.parse(item);
+        break;
+      case "inline_videos":
+        itemData = SerpInlineVideosSchema.parse(item);
+        break;
+      case "video":
+        itemData = SerpVideoSchema.parse(item);
+        break;
+      case "from_sources_across_the_web":
+        itemData = SerpFromSourcesAcrossTheWebSchema.parse(item);
+        break;
+      case "discussions_and_forums":
+        itemData = SerpDiscussionsAndForumsSchema.parse(item);
+        break;
+      case "inline_images":
+        itemData = SerpInlineImagesSchema.parse(item);
+        break;
+      case "perspectives":
+        itemData = SerpDiscussionsAndForumsSchema.parse(item);
+        break;
+      case "people_also_ask":
+        itemData = SerpPeopleAlsoAskSchema.parse(item);
+        break;
+      case "recipes":
+        itemData = SerpRecipesSchema.parse(item);
+        break;
+      case "top_stories":
+        itemData = SerpTopStoriesSchema.parse(item);
+        break;
+      case "book":
+        itemData = SerpBookSchema.parse(item);
+        break;
+      case "things_to_know":
+        itemData = SerpThingsToKnowSchema.parse(item);
+        break;
+      case "twitter":
+        itemData = SerpTwitterSchema.parse(item);
+        break;
+    } 
+  }
+}
+
 /**
  * Check serp json
  * 
@@ -21,49 +93,10 @@ import path from 'path';
  */
 export const dataParse =(data: any)=>{
   try{
-    const newData = SerpJsonSchema.parse(data);
-    for(const item of newData.origin_search.results){
-      let itemData;
-      switch (item.type){
-        case "normal":
-          itemData = SerpNormalSchema.parse(item);
-          break; 
-        case "site_links":
-          itemData = SerpSiteLinksSchema.parse(item);
-          break;
-        case "featured_snippets":
-          itemData = SerpFeaturedSnippetsSchema.parse(item);
-          break;
-        case "inline_videos":
-          itemData = SerpInlineVideosSchema.parse(item);
-          break;
-        case "video":
-          itemData = SerpVideoSchema.parse(item);
-          break;
-        case "from_sources_across_the_web":
-          itemData = SerpFromSourcesAcrossTheWebSchema.parse(item);
-          break;
-        case "discussions_and_forums":
-          itemData = SerpDiscussionsAndForumsSchema.parse(item);
-          break;
-        case "inline_images":
-          itemData = SerpInlineImagesSchema.parse(item);
-          break;
-        case "perspectives":
-          itemData = SerpDiscussionsAndForumsSchema.parse(item);
-          break;
-        case "people_also_ask":
-          itemData = SerpPeopleAlsoAskSchema.parse(item);
-          break;
-        case "recipes":
-          itemData = SerpRecipesSchema.parse(item);
-          break;
-        case "top_stories":
-          itemData = SerpTopStoriesSchema.parse(item);
-          break;
-      }
-      return newData;
-    }
+    const newData = SerpJsonSchema.parse(data); 
+    originSearchParse(newData.origin_search.results);
+    localParse(newData.local_results); 
+    return newData;
   }catch(error: any){
     const filePath = path.join(process.cwd() + "/tmp", `error_data_${Date.now()}_${data.meta.search_params.q}.json`);
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf-8');
