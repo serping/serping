@@ -490,8 +490,12 @@ export const SerpLocalDirectionsSchema = z.object({
   type: z.literal("directions"),
   local_map: SerpLocalMapSchema, 
   more_locations_link: z.string(),
-  // places: ...  
-}).catchall(z.any());
+  places: z.array(
+    z.object({
+      type: SerpLocalDirectionTypeSchema
+    }).catchall(z.any())
+  )
+})
 export type SerpLocalDirections = z.infer<typeof SerpLocalDirectionsSchema>;
 
 /////////////////////////////////////////
