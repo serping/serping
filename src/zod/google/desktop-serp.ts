@@ -449,10 +449,10 @@ export const SerpLocalDirectionPlaceNormalSchema = z.object(
     description: z.string(),  
     search_link: z.string(),
     gps_coordinates: SerpLocalPlaceGpsSchema,
-    links: z.object({
-      website: z.string().optional(),
-      directions: z.string()
-    }).optional()
+    links: z.array(z.object({
+      name: z.string(),
+      link: z.string()
+    }))
   }
 )
 export type SerpLocalDirectionPlaceNormal = z.infer<typeof SerpLocalDirectionPlaceNormalSchema>;
@@ -469,10 +469,10 @@ export const SerpLocalDirectionPlaceStoreSchema = z.object(
     description: z.string(),  
     search_link: z.string(),
     gps_coordinates: SerpLocalPlaceGpsSchema,
-    links: z.object({
-      website: z.string().optional(),
-      directions: z.string()
-    }).optional()
+    links: z.array(z.object({
+      name: z.string(),
+      link: z.string()
+    }))
   }
 )
 export type SerpLocalDirectionPlaceStore = z.infer<typeof SerpLocalDirectionPlaceStoreSchema>;
@@ -520,10 +520,10 @@ export const SerpLocalServicePlaceSchema = z.object(
       latitude: z.number(),
       longitude: z.number(),
     }),
-    links: z.object({
-      website: z.string().optional(),
-      directions: z.string()
-    }).optional()
+    links: z.array(z.object({
+      name: z.string(),
+      link: z.string()
+    }))
   }
 )
 export type SerpLocalServicePlace = z.infer<typeof SerpLocalServicePlaceSchema>;
