@@ -508,8 +508,6 @@ export const SerpLocalServicePlaceSchema = z.object(
     position: z.number(),
     title: z.string(),
     topic: z.string(),
-    lsig: z.string(),
-    place_id: z.string(),
     address: z.string(),
     hours: z.string().optional(),
     description: z.string(),
