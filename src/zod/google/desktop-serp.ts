@@ -556,8 +556,6 @@ const SerpLocalNormalPlaceSchema = z.object({
   hours: z.string().optional(),
   description: z.string(),
   rating: z.number().optional(),
-  business: z.string(),
-  phone: z.string(),
   search_link: z.string(),
   thumbnail: z.string().optional(),
   gps_coordinates: z.object({
