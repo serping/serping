@@ -16,7 +16,8 @@ import {
   SerpVideoSchema,
   SerpLocalResultsSchema, 
   type SerpOriginSearch,
-  type SerpLocalResults
+  type SerpLocalResults,
+  SerpPerspectivesSchema
  } from '@/zod/google/desktop-serp';
 import fs from 'fs';
 import path from 'path';
@@ -62,7 +63,7 @@ const originSearchParse =(results: SerpOriginSearch[])=>{
         itemData = SerpInlineImagesSchema.parse(item);
         break;
       case "perspectives":
-        itemData = SerpDiscussionsAndForumsSchema.parse(item);
+        itemData = SerpPerspectivesSchema.parse(item);
         break;
       case "people_also_ask":
         itemData = SerpPeopleAlsoAskSchema.parse(item);
