@@ -1,8 +1,8 @@
 import { z } from 'zod';
-export const serpTypes = ['normal', 'book', 'recipes', 'inline_images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
+export const serpTypes = ['normal', 'local_results', 'book', 'recipes', 'inline_images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
 export const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
 export const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
-export const SerpColumnTypeTypes = [...serpTypes, "related_searches", "local_results", "topads", "bottomads"] as const;
+export const SerpColumnTypeTypes = [...serpTypes, "related_searches", "topads", "bottomads"] as const;
  
 export type SerpType = typeof serpTypes[number];
 export type SerpColumnType = typeof SerpColumnTypeTypes[number];
@@ -510,12 +510,12 @@ export const SerpLocalServicePlaceSchema = z.object(
     topic: z.string(),
     address: z.string(),
     hours: z.string().optional(),
-    description: z.string(),
-    rating: z.number().optional(),
-    reviews: z.number().optional(),
-    reviews_origin: z.string().optional(),
+    description: z.string().optional(),
+    rating: z.number(),
+    reviews: z.number(),
+    reviews_origin: z.string(),
     business: z.string(),
-    phone: z.string(),
+    phone: z.string().optional(),
     search_link: z.string(),
     gps_coordinates: z.object({
       latitude: z.number(),
@@ -684,7 +684,7 @@ export type SerpRelatedSearches = z.infer<typeof SerpRelatedNearSchema>;
 //  SerpFeaturedSnippetsSchema
 //  SerpDiscussionsAndForumsSchema
 //  SerpFromSourcesAcrossTheWebSchema
-//  
+//  SerpLocalResultsSchema
 /////////////////////////////////////////
 
 export const SerpOriginSearchSchema = z.object({
@@ -824,7 +824,6 @@ export type SerpOriginSearchType = z.infer<typeof SerpOriginSearchTypeSchema>;
 export const SerpJsonSchema = z.object({
   meta: SerpMetaSchema,
   topads: z.array(SerpAdsSchema),
-  local_results: SerpLocalResultsSchema.nullable(),
   origin_search: z.object({
     type: SerpOriginSearchTypeSchema,
     results: z.array(SerpOriginSearchSchema)
@@ -837,9 +836,6 @@ export const SerpJsonSchema = z.object({
 export type SerpJSON = z.infer<typeof SerpJsonSchema>;
 
 export type SerpColumn = SerpJSON["origin_search"] | {
-  type: "local_results",
-  local_results: SerpJSON["local_results"]
-} | {
   type: "related_searches",
   related_searches: SerpJSON["related_searches"]
 }

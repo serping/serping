@@ -83,6 +83,9 @@ const originSearchParse =(results: SerpOriginSearch[])=>{
       case "twitter":
         itemData = SerpTwitterSchema.parse(item);
         break;
+      case "local_results":
+        itemData = localParse(item as SerpLocalResults);
+        break;
     } 
   }
 }
@@ -96,7 +99,6 @@ export const dataParse =(data: any)=>{
   try{
     const newData = SerpJsonSchema.parse(data); 
     originSearchParse(newData.origin_search.results);
-    localParse(newData.local_results); 
     return newData;
   }catch(error: any){
     const filePath = path.join(process.cwd() + "/tmp", `error_data_${Date.now()}_${data.meta.search_params.q}.json`);
