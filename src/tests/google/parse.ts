@@ -22,10 +22,11 @@ import {
 import fs from 'fs';
 import path from 'path';
 
+// TODO: parse
 const localParse =(results: SerpLocalResults | null )=>{
   if(!results) return;
-  const data = SerpLocalResultsSchema.parse(results);
-  switch (data.type){
+  const {local_results} = SerpLocalResultsSchema.parse(results);
+  switch (local_results.type){
     case "normal":
     break;
     case "services":

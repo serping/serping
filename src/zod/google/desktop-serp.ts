@@ -593,11 +593,14 @@ export type SerpLocalNormal = z.infer<typeof SerpLocalNormalSchema>;
 /////////////////////////////////////////
 
 export const SerpLocalResultsSchema = z.object({
-  type: SerpLocalResultTypeSchema,
-  local_map: SerpLocalMapSchema,
-  more_locations_link: z.string(),
-  // places: ... 
-}).catchall(z.any());
+  type: z.literal("local_results"),
+  local_results: z.object({
+    type: SerpLocalResultTypeSchema,
+    local_map: SerpLocalMapSchema,
+    more_locations_link: z.string(),
+    // places: ... 
+  }).catchall(z.any())
+});
 
 export type SerpLocalResults = z.infer<typeof SerpLocalResultsSchema>;
 
