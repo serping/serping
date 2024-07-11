@@ -489,7 +489,7 @@ export type SerpLocalDirectionType = z.infer<typeof SerpLocalDirectionTypeSchema
 
 export const SerpLocalDirectionsSchema = z.object({
   type: z.literal("directions"),
-  local_map: SerpLocalMapSchema, 
+  local_map: SerpLocalMapSchema.optional(), 
   more_locations_link: z.string(),
   places: z.array(
     z.object({
@@ -538,7 +538,7 @@ export type SerpLocalServicePlace = z.infer<typeof SerpLocalServicePlaceSchema>;
 
 export const SerpLocalServicesSchema = z.object({
   type: z.literal("services"),
-  local_map: SerpLocalMapSchema,
+  local_map: SerpLocalMapSchema.optional(),
   places: z.array(SerpLocalServicePlaceSchema),
   more_locations_link: z.string()
 }) 
@@ -578,7 +578,7 @@ export type SerpLocalNormalPlace = z.infer<typeof SerpLocalNormalPlaceSchema>;
 
 export const SerpLocalNormalSchema = z.object({
   type: z.literal("normal"),
-  local_map: SerpLocalMapSchema,
+  local_map: SerpLocalMapSchema.optional(),
   places: z.array(SerpLocalNormalPlaceSchema),
   more_locations_link: z.string()
 }) 
@@ -596,7 +596,7 @@ export const SerpLocalResultsSchema = z.object({
   type: z.literal("local_results"),
   local_results: z.object({
     type: SerpLocalResultTypeSchema,
-    local_map: SerpLocalMapSchema,
+    local_map: SerpLocalMapSchema.optional(),
     more_locations_link: z.string(),
     // places: ... 
   }).catchall(z.any())
