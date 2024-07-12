@@ -173,6 +173,7 @@ export const SerpTwitterSchema = z.object({
     link: z.string(),
     snippet: z.string(),
     posted_on: z.string(),
+    thumbnail: z.string().optional()
   })),
   source: z.object({
     name: z.string(),
