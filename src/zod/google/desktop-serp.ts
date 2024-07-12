@@ -192,11 +192,12 @@ export const SerpTopStoriesSchema = z.object({
     heading: z.string(),
     stories: z.array(
       z.object({
+        type: z.enum(["normal","with_header"]),
         heading: z.string().optional(),
         posts: z.array(z.object({
           position: z.number(),
           title: z.string().optional(),
-          thumbnail: z.string(),
+          thumbnail: z.string().optional(),
           date: z.string(),
           source: z.object({
             name: z.string(),
@@ -222,7 +223,7 @@ export const SerpPerspectivesSchema = z.object({
     title: z.string(),
     thumbnail: z.string(),
     date: z.string(),
-    snippet: z.string(),
+    snippet: z.string().optional(),
     source: z.object({
       name: z.string(),
       creator: z.string(),
@@ -273,7 +274,7 @@ export const SerpVideoSchema = z.object({
   duration: z.string(),
   thumbnail: z.string(),
   source: SerpItemSourceSchema,
-  key_moments: z.array(SerpKeyMomentSchema)
+  key_moments: z.array(SerpKeyMomentSchema).optional()
 })
 export type SerpVideo = z.infer<typeof SerpVideoSchema>;
 
@@ -298,7 +299,7 @@ export const SerpNormalSchema = z.object({
   type: z.literal("normal"),
   position: z.number(),
   title: z.string(),
-  snippet: z.string(),
+  snippet: z.string().optional(),
   date: z.string().optional(),
   thumbnail: z.string().optional(),
   source: SerpItemSourceSchema,
