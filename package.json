@@ -1,6 +1,6 @@
 {
   "name": "serping",
-  "version": "1.2.0-beta.7",
+  "version": "1.2.0-beta.8",
   "description": "Serp.ing SDK",
   "main": "index.js",
   "scripts": {
