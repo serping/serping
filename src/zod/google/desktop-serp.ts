@@ -447,7 +447,7 @@ export const SerpLocalDirectionPlaceNormalSchema = z.object(
     phone: z.string(), 
     description: z.string(),  
     search_link: z.string(),
-    gps_coordinates: SerpLocalPlaceGpsSchema,
+    gps_coordinates: SerpLocalPlaceGpsSchema.optional(),
     links: z.array(z.object({
       name: z.string(),
       link: z.string()
@@ -468,7 +468,7 @@ export const SerpLocalDirectionPlaceStoreSchema = z.object(
     rating: z.string().optional(),
     description: z.string(),  
     search_link: z.string(),
-    gps_coordinates: SerpLocalPlaceGpsSchema,
+    gps_coordinates: SerpLocalPlaceGpsSchema.optional(),
     links: z.array(z.object({
       name: z.string(),
       link: z.string()
@@ -522,7 +522,7 @@ export const SerpLocalServicePlaceSchema = z.object(
     gps_coordinates: z.object({
       latitude: z.number(),
       longitude: z.number(),
-    }),
+    }).optional(),
     links: z.array(z.object({
       name: z.string(),
       link: z.string()
@@ -570,7 +570,7 @@ const SerpLocalNormalPlaceSchema = z.object({
   gps_coordinates: z.object({
     latitude: z.number(),
     longitude: z.number(),
-  }),
+  }).optional(),
   links: z.object({
     website: z.string().optional(),
     directions: z.string()
