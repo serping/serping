@@ -223,7 +223,7 @@ export const SerpPerspectivesSchema = z.object({
     date: z.string(),
     snippet: z.string().optional(),
     source: z.object({
-      name: z.string(),
+      name: z.string().optional(),
       creator: z.string(),
       link: z.string(),
     })
