@@ -175,11 +175,7 @@ export const SerpTwitterSchema = z.object({
     posted_on: z.string(),
     thumbnail: z.string().optional()
   })),
-  source: z.object({
-    name: z.string(),
-    display_link: z.string(),
-    link: z.string(),
-  })
+  source: SerpItemSourceSchema
 })
 export type SerpTwitter = z.infer<typeof SerpTwitterSchema>;
 
