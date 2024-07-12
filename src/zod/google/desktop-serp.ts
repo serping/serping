@@ -169,6 +169,7 @@ export type SerpSiteLinks = z.infer<typeof SerpSiteLinksSchema>;
 
 export const SerpTwitterSchema = z.object({
   type: z.literal("twitter"),
+  position: z.number(),
   posts: z.array(z.object({
     link: z.string(),
     snippet: z.string(),
