@@ -510,9 +510,12 @@ export const SerpLocalServicePlaceSchema = z.object(
     address: z.string(),
     hours: z.string().optional(),
     description: z.string().optional(),
-    rating: z.number(),
-    reviews: z.number(),
-    reviews_origin: z.string(),
+
+    // Cant be: No hay opiniones.
+    rating: z.number().optional(),
+    reviews: z.number().optional(),
+    reviews_origin: z.string().optional(),
+
     business: z.string(),
     phone: z.string().optional(),
     search_link: z.string(),

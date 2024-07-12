@@ -1,4 +1,5 @@
-export const desktopSeo = {
+export const desktopSeo =
+{
 	"meta": {
 			"url": "https://www.google.com/search?q=seo&oq=seo&num=100&gl=us&hl=es&ie=UTF-8",
 			"search_params": {
