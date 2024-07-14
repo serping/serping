@@ -253,7 +253,7 @@ export const desktopHowTo = {
                   "SEO"
               ],
               "answers": {
-                  "count": "75",
+                  "count": 75,
                   "top_answer": "To actually get out there and start learning. Create a site, find some keywords, start ..."
               }
           },
@@ -745,7 +745,7 @@ export const desktopHowTo = {
                   "extensions": "14-day returns"
               },
               "answers": {
-                  "count": "2",
+                  "count": 2,
                   "top_answer": "6 Steps to an Efficient SEO Technique\n\nKeyword Research\n\nCreating material is at the heart ..."
               }
           },
@@ -1743,9 +1743,6 @@ export const desktopHowTo = {
               ]
           },
           {
-              "type": "inline_images"
-          },
-          {
               "type": "normal",
               "position": 82,
               "title": "Moz-The-Beginners-Guide-To-SEO.pdf - cloudfront.net",
@@ -1998,7 +1995,7 @@ export const desktopHowTo = {
                   "How to do SEO for beginners"
               ],
               "answers": {
-                  "count": "1",
+                  "count": 1,
                   "top_answer": "Let us look at each one of these points in the SEO Guide for Starters (Beginners) in detailChapter 1. What is SEO and Why it Is ImportantChapter 2. ..."
               }
           }

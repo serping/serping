@@ -238,7 +238,7 @@ export const SerpKeyMomentSchema = z.object({
   title: z.string(),
   time: z.string(),
   link: z.string(),
-  thumbnail: z.string(),
+  thumbnail: z.string().optional(),
 });
 export type SerpKeyMoment = z.infer<typeof SerpKeyMomentSchema>;
 
