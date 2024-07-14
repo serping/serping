@@ -317,10 +317,10 @@ export const SerpNormalSchema = z.object({
     title: z.string(),
     link: z.string(),
   })).optional(),
-  answers: z.array(z.object({
+  answers:z.object({
     count: z.number(),
     top_answer: z.string()
-  })).optional(),
+  }).optional(),
   more_results: z.array(z.object({
     title: z.string(),
     link: z.string(),
