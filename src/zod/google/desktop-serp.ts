@@ -364,13 +364,10 @@ export type SerpThingsToKnow = z.infer<typeof SerpThingsToKnowSchema>;
 export const SerpFeaturedListSchema = z.object({
   type: z.literal("featured_list"),
   snippet_title: z.string().optional(),
-  snippet_list: z.array(z.object({
-    position: z.number(),
-    item: z.string(),
-  })).optional(),
+  snippet_list: z.array( z.string() ),
   images: z.array(z.object({
     thumbnail: z.string()
-  })),
+  })).optional(),
   source: SerpItemSourceSchema,
   snippet_highlighted_words: z.array(z.string()).optional()
 })
