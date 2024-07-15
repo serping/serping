@@ -13,7 +13,8 @@ npm install serping
 ```typescript
 import Serping from 'serping';
 
-serping = new Serping(apiKey: 'your_api_key');
+// Get your free API key at https://www.serp.ing
+serping = new Serping( { region: 'us-east-1', apiKey: 'your api key' } );
 const data = await serping.googleSerp({q: "serping"});
 
 console.log(data);
