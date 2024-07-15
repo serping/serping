@@ -61,6 +61,14 @@ class Serping {
     });
     return response.data;
   }
+
+  async googleSerpSnapshot({ id }:{
+    id: string;
+  }){
+    const response = await this.get(`google/${id}/serp.html`);
+    if(response.status !== 200) throw new Error(`Get Snapshot Error: status ${response.status}`);
+    return response.data;
+  }
 }
 
 export default Serping;

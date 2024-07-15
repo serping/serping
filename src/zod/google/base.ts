@@ -26,6 +26,7 @@ export type GoogleSerpSearchParam = z.infer<typeof GoogleSerpSearchParamSchema>;
 
 export const SerpMetaSchema = z.object({
   url: z.string().optional(),
+  snapshot_id: z.string().optional(),
   snapshot: z.string().optional(),
   serpjson: z.string().optional(),
   parse_duration: z.string().optional(),
