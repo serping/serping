@@ -663,7 +663,7 @@ export const SerpRelatedSearchesSchema = z.object({
     type: SerpRelatedTypeSchema
   }).catchall(z.any())
 ;
-export type SerpRelatedSearches = z.infer<typeof SerpRelatedNearSchema>;
+export type SerpRelatedSearches = z.infer<typeof SerpRelatedSearchesSchema>;
 
 
 
