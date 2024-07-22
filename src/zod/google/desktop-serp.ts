@@ -139,7 +139,7 @@ export const SerpPeopleAlsoAskSchema = z.object({
       name: z.string(),
       display_link: z.string(),
       link: z.string(),
-    })
+    }).optional()
   }))
 })
 

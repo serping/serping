@@ -3,7 +3,7 @@ import MockAdapter from 'axios-mock-adapter';
 import Serping from '@/index'; 
 import { SerpingConfig } from '@/types'; 
 import { dataParse } from "./parse";
-import { desktopOpenai, desktopCoffee, desktopSeo, desktopHowTo } from '@tests/data/google/serp/desktop'; 
+import { desktopOpenai, desktopCoffee, desktopSeo, desktopVpn, desktopHowTo } from '@tests/data/google/serp/desktop'; 
 
 jest.spyOn(axios, "get");
 
@@ -59,6 +59,17 @@ describe('GoogleDesktopSerp.test', () => {
     dataParse(result);
 
     expect(result).toEqual(mockResponse);
-  }); 
+  });
+
+
+  it('should fetch Google SERP data successfully: VPN', async () => {
+    const mockResponse = desktopVpn;
+    mockAxios.onGet('google/serp').reply(200, mockResponse);
+ 
+    const result = await serping.googleSerp({ q: 'VPN' }); 
+    dataParse(result);
+
+    expect(result).toEqual(mockResponse);
+  });
  
 });
