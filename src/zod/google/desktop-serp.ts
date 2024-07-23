@@ -400,6 +400,7 @@ export type SerpFeaturedNormal = z.infer<typeof SerpFeaturedNormalSchema>;
 
 export const SerpFeaturedSnippetsSchema = z.object({
   type: z.literal("featured_snippets"),
+  position: z.number(),
   featured_snippets: z.object({
     type: z.enum(["featured_list", "normal"])
   }).catchall(z.any())
