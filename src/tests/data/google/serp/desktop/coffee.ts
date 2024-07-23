@@ -1,17 +1,20 @@
 export const desktopCoffee = 
 {
 	"meta": {
-		"url": "https://www.google.com/search?q=coffee&oq=coffee&num=20&gl=us&hl=en&ie=UTF-8",
+		"query_displayed": "coffee",
+		"result_stats": {
+			"total_results": "2870000000",
+			"time_taken_displayed": "0.41"
+		},
 		"search_params": {
 			"q": "coffee",
 			"oq": "coffee",
-			"num": "20",
+			"num": "10",
+			"ie": "UTF-8",
 			"gl": "us",
-			"hl": "en",
-			"ie": "UTF-8"
+			"hl": "en"
 		},
-		"snapshot": "https://us-east-1.serp.ing/api/v1/google/c8c06aa6-1eea-459c-8aaf-79a52f7f4a14/serp.html",
-		"serpjson": "https://us-east-1.serp.ing/api/v1/google/c8c06aa6-1eea-459c-8aaf-79a52f7f4a14/serp.json"
+		"parse_duration": "124 ms"
 	},
 	"topads": [],
 	"origin_search": {
@@ -22,14 +25,14 @@ export const desktopCoffee =
 				"local_results": {
 					"type": "normal",
 					"local_map": {
-						"link": "https://www.google.com/search?num=20&sca_esv=88d037c54ddcbe29&gl=us&hl=en&q=coffee&npsic=0&rflfq=1&rldoc=1&rllag=39022888,-77457527,4645&tbm=lcl&sa=X&ved=2ahUKEwiX5KWH_KGHAxXRMVkFHbV1BAcQtgN6BAgzEAE",
+						"link": "https://www.google.com/search?sca_esv=6dff3b47ea39d1e5&gl=us&hl=en&q=coffee&npsic=0&rflfq=1&rldoc=1&rllag=39022888,-77457527,4645&tbm=lcl&sa=X&ved=2ahUKEwjSwMq4ur2HAxVqMVkFHXgrC24QtgN6BAgyEAE",
 						"gps_coordinates": {
 							"latitude": 39.022888,
 							"longitude": -77.457527,
 							"altitude": 4645
 						}
 					},
-					"more_locations_link": "https://www.google.com/search?sca_esv=88d037c54ddcbe29&gl=us&hl=en&tbs=lf:1,lf_ui:9&tbm=lcl&q=coffee&rflfq=1&num=10&sa=X&ved=2ahUKEwiX5KWH_KGHAxXRMVkFHbV1BAcQjGp6BAg2EAE",
+					"more_locations_link": "https://www.google.com/search?sca_esv=6dff3b47ea39d1e5&gl=us&hl=en&tbs=lf:1,lf_ui:9&tbm=lcl&q=coffee&rflfq=1&num=10&sa=X&ved=2ahUKEwjSwMq4ur2HAxVqMVkFHXgrC24QjGp6BAg5EAE",
 					"places": [
 						{
 							"position": 1,
@@ -37,12 +40,12 @@ export const desktopCoffee =
 							"place_id": "3918515223285168261",
 							"title": "SR Coffee Co.",
 							"rating": 4.8,
-							"reviews": 231,
-							"reviews_origin": "(231)",
+							"reviews": 234,
+							"reviews_origin": "(234)",
 							"price": "$1–10",
 							"address": "Ashburn, VA",
 							"description": "Dine-in·Takeout·No-contact delivery",
-							"search_link": "https://www.google.com/search?num=20&sca_esv=88d037c54ddcbe29&gl=us&hl=en&q=SR+Coffee+Co.+Ashburn,+VA&ludocid=3918515223285168261&lsig=AB86z5XMDG35Tn0tPlOb-Yz25WHp&lqi=CgZjb2ZmZWVIr5ra7Om3gIAIWgwQABgAIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSS2RHRXRWVWhCRUFFqgFGCgkvbS8wMnZxZm0QASoKIgZjb2ZmZWUoADIfEAEiGwVO9-x5uH7eoaHahMbiDU9O3rvFcbccEF95HDIKEAIiBmNvZmZlZeABAA&phdesc=CEDp0iRyoFc",
+							"search_link": "https://www.google.com/search?sca_esv=6dff3b47ea39d1e5&gl=us&hl=en&q=SR+Coffee+Co.+Ashburn,+VA&ludocid=3918515223285168261&lsig=AB86z5XMDG35Tn0tPlOb-Yz25WHp&lqi=CgZjb2ZmZWVIr5ra7Om3gIAIWgwQABgAIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSS2RHRXRWVWhCRUFFqgFGCgkvbS8wMnZxZm0QASoKIgZjb2ZmZWUoADIfEAEiGwVO9-x5uH7eoaHahMbiDU9O3rvFcbccEF95HDIKEAIiBmNvZmZlZeABAA&phdesc=CEDp0iRyoFc",
 							"topic": "· Coffee shop",
 							"gps_coordinates": {
 								"latitude": 39.03708,
@@ -52,41 +55,41 @@ export const desktopCoffee =
 						},
 						{
 							"position": 2,
-							"lsig": "AB86z5Vwd6MUBxI2S6NK-LXY3yzn",
-							"place_id": "6874196848885108225",
-							"title": "Ridgetop Coffee and Tea",
-							"rating": 4.6,
-							"reviews": 975,
-							"reviews_origin": "(975)",
-							"price": "$1–10",
-							"address": "Sterling, VA",
-							"description": "Dine-in·Takeout·No delivery",
-							"search_link": "https://www.google.com/search?num=20&sca_esv=88d037c54ddcbe29&gl=us&hl=en&q=Ridgetop+Coffee+and+Tea+Sterling,+VA&ludocid=6874196848885108225&lsig=AB86z5Vwd6MUBxI2S6NK-LXY3yzn&lqi=CgZjb2ZmZWVIicvWzJuugIAIWgwQABgAIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOb2VVcGljVGxCUlJBQqoBRgoJL20vMDJ2cWZtEAEqCiIGY29mZmVlKAAyHxABIhsFTvfsebh-3qGh2oTG4g1PTt67xXG3HBBfeRwyChACIgZjb2ZmZWXgAQA&phdesc=BEV1U9rjUYI",
-							"topic": "· Coffee shop",
-							"gps_coordinates": {
-								"latitude": 39.02649,
-								"longitude": -77.40695
-							},
-							"thumbnail": "data:image/jpeg;base64,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"
-						},
-						{
-							"position": 3,
 							"lsig": "AB86z5V5_poYV3SvszI9XiZr1m9v",
 							"place_id": "4134325412637951981",
 							"title": "Blend Coffee Bar",
 							"rating": 4.5,
-							"reviews": 547,
-							"reviews_origin": "(547)",
+							"reviews": 549,
+							"reviews_origin": "(549)",
 							"price": "$1–10",
 							"address": "Ashburn, VA",
 							"description": "Cool hangout with light bites & a patio",
-							"search_link": "https://www.google.com/search?num=20&sca_esv=88d037c54ddcbe29&gl=us&hl=en&q=Blend+Coffee+Bar+Ashburn,+VA&ludocid=4134325412637951981&lsig=AB86z5V5_poYV3SvszI9XiZr1m9v&lqi=CgZjb2ZmZWVI3crR2e2qgIAIWgwQABgAIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSeE5FdHVPVlZuRUFFqgFGCgkvbS8wMnZxZm0QASoKIgZjb2ZmZWUoADIfEAEiGwVO9-x5uH7eoaHahMbiDU9O3rvFcbccEF95HDIKEAIiBmNvZmZlZeABAA&phdesc=MxH9R0juHSU",
+							"search_link": "https://www.google.com/search?sca_esv=6dff3b47ea39d1e5&gl=us&hl=en&q=Blend+Coffee+Bar+Ashburn,+VA&ludocid=4134325412637951981&lsig=AB86z5V5_poYV3SvszI9XiZr1m9v&lqi=CgZjb2ZmZWVI3crR2e2qgIAIWgwQABgAIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VSeE5FdHVPVlZuRUFFqgFGCgkvbS8wMnZxZm0QASoKIgZjb2ZmZWUoADIfEAEiGwVO9-x5uH7eoaHahMbiDU9O3rvFcbccEF95HDIKEAIiBmNvZmZlZeABAA&phdesc=MxH9R0juHSU",
 							"topic": "· Coffee shop",
 							"gps_coordinates": {
 								"latitude": 39.008698,
 								"longitude": -77.5081
 							},
 							"thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QAqRXhpZgAASUkqAAgAAAABADEBAgAHAAAAGgAAAAAAAABHb29nbGUAAP/bAIQAAwICDgsNCgsKDQ0NCggKCgoKCg0LCgoLCg8KCAoLCggKCgoKDgoKCg4ICg0KCgoLCggOCg0KCA0NCggPCg4KCAEDBAQGBQYKBgYKEA4LDg8PDw8QEBAPDxAQDw8NDQ8NDw8PEA8NDw8NDw8NDQ0PDQ8ODg0NDQ0NDw0NDw0NDQ0N/8AAEQgAXABcAwERAAIRAQMRAf/EABwAAAEFAQEBAAAAAAAAAAAAAAcDBAUGCAIJAf/EAEAQAAEDAQUFBAcGBQMFAAAAAAECAxEhAAQSMUEFBgdRYQgTInEygZGhscHwCRRCcoLRIzNSYuFTkrIVF6LS8f/EABwBAAEFAQEBAAAAAAAAAAAAAAQBAgMFBgAHCP/EADwRAAEDAgMFBQQHCAMAAAAAAAEAAhEDBBIhMQVBUWFxE4GRodEiscHwFBUyM1JTcgY0QkOS0uHxI2Kj/9oADAMBAAIRAxEAPwDGfELag7spUkEKgFWqBIlSeoFdLUmyajaZc1zZnyV5tai6pge15GHdx5FGXdrs+3FaG1ffFAlKVD+KnVM5TStt6y3oxM+axtStVmAEN+LfEx/Zrybvs2+u90pIOILSrCaeGoIsBdhrHAMMhE2wLhLhBVS3i4ibSeCVP3l1wE+Eqw/JIsA6u4CCiBSZOQTe/wC8l9UpKlOKOGBEQDA1tA28BKcaQCk7z2jb9d1trZcLSmoKYANRqQQQfnYtlfFomdkEYdhfaZbXS2oLeQpw+istIAHmBnZ0jglw81LX/wC002ylmMV2KwoEvBBJgn0e6Bj9WP8ATZs55Bc6mIzKjLp9qDtluVLN2WVkAHu1ACegcqfWLcHHSFE6gDvK2Pu/xEcvrbV4vhBdcbSSAmEpkTAEk68zbkrRhCeNBonxQBBrE+VmJ0pFKWv7bOSZLy73w2eoMqxkyUzWwJtewcJEK4dXNVpzlBRDsf8A206BC6L1R525KtSXTedld2uzaEnv24Kics/2sJUx7wmsaZOeStm3t/m8MYEZDlnFnsc38KBfQf8AiWbeMG8AcU3hEQDMedLTN0yEKem0t1KvnDa/sqZaDrcqAqojOD+1m03kPJcctyLcyQMIVr3weu3djuGhJUMVNNbMp1XycRy3Iy5YwsZgGe9CnboQ6/d2WU4UuPNgzT8Qk/E2Na7EQAqqCAZXptunfEttISY8KQB6hafCoJT9/bQ0j2WbCWU3u+8STnAIMEWSF0oO3HsErvKYLxEiJWtJzHJKD8bVpp3L83lo6mUedoWzcqbXHoI96Qu/2PeKv39M8sI9kx8rL2Vf8xn9J/uQ/wBKp/kv/qb/AGqtb0fZSusSoOKdCa+BaAr1JW0AfIKNhawvWCWNY7oTPgfVGULmwc4CqXsP/YCPED4Kr3fge23Ql0FvwKmAQRQhXhoelLUJ2hd0wXOp5cwclp2bPs6hDW1JJ0zGaTXwTYXCZeJUYABEk8vRsjNs3Djha0ElPqbHoMaXOcQBzVwuv2ed3fAU9eVXfpiDq/WkNkDyxWtjd1GfvD2NPCC494By8Vn+zp1P3ak94/FIaO4nXwVtuf2fNwQkJTtF4wNWoH/IfCzfp9H8zP8AQfVO+i3I/kf+g9FXN5/s+EwTd74XI/D3hbPsUkj3izTdk/d1GHkQW++U4Nw/fUagHEEO92fkhI/2dPuTyHXO87xkykLUkpURqCEwr1KsLU2ncUHe00Du+MwrCjYWty2abie/4RKIP/dF0QKUyEH97d9eVuASnYlIbyuH+M7ycwn2H/2s4barHcPnvTfqWjxKYtcYHDWU1M/VbcdsVuA80v1NRG8ozX7i8/hJSFgpArJwzFaDFzqPFEZ2a+5qHNGU7GiMjCR3J4+XiiXgrECBihYphxFSlYCgUgCiQR1IsxtzU3qWpYUjmEYbrxqcaQHFrUEESpKsj/YlJNfVJ1ppYUe2eQWjv0VFdutaTSKhB5anwWL+09xRVeHS40VNqdeTgQlREgIglQHpSMMyDWLPD6j7tzS44A3MbpOuXTyVf2dGnYtqMaMbnnCf4gBpn196sPDTemHmMeqgg8wVpwyOoUZFsvZwLlvAkiesgLZ7TBNm4kZgAkcYgkLR6NmOT4B3g0wnx+RbPiP6cY6mxFzsi5pkloxDiNe8ekoCy29ZVmgOOA8Dp3HTxhTNw347gAONrE18QUn/AMTE+/1WGpVX27YdTd3yPJWz2U7gyyo3uIKUvnElpwGErWYICW0KW5Okd2kke02mfcisCOycctwJM9wQ/wBH7Egmo0dSAPMoUb57Nd7l1y9ILaCIaS4IeUpVG4bPjSAfEpSwjwggBRpZ1C3uaVu99w0inHsh2uI6QNQN5mOiCrXVrWu6bLVwNSfaLdMIGcnQ8BE9UErxs0GOY1H7WrjGoVzB3lRm0dkzZ4cEyCq7eN2DNLEB4jNRGV6Onc66geC7MJgQIbj3THut6GLCg3SmPBePfXV2darvFQW1LuhsHu0Nt9UNNoP+4JCvfaRtCmz7LQO5RPva9X7b3HqSs/cXd4gkKKlSeZMn69tkdA1XMYXID7xtNgocWpJcdSlaZUmGkkeEGv8AMUPFGaUlM1MJzG0rkMaaNHNzs3EbhuHUjy6r0HYWzKld4r1QcDMmDid56AnLieiY3LboSQpC0ylSVUUkxBka9LZhoLHBxGhB8DK3Veg5zCwtOYI04iFpncztAoVhDkaVB+hb1Om5jwHNOq+fK1F9NxaRoUd92uIaFgYVqHQKPysSKZQZfCtv/V8QjGog6YlR7MrShsKEunes0dpjb+JbTCcmx3q4/qVKUA+SMRP5hbDftFcYnsoDd7R6nIeWLxC9O/ZK0wU33J3+yOgzPnHghAWKVzOlLZKFuyZURtNqKg+dlicwmh24rppINZs/BKYXLUF138kUPwt7caYK+cpLSml+26V0kJBpiJgZScqkxWADmMptS3txRtvvHQToN+Xw5/HJXuz7Ovdn/jbkNTuHLry+Gaj2dnbMBm9oXfVgyWvF3XkptJAUnn3inB0FsPdbcbPsNkL0ez2AQPaOfP09ZRN3e7RF1uoCLnsu6MIEBPhaFNKNpB9VfO1Sdt1JOBjR4n0V+3YpcBje4/PerC120Ffiu11UD+EBY/5Aj42Vu2rj+JrT3H1K47BZuc4d4TTam/8Asi+yb7sxDa1U79pDeMdQ60G3ANaKVHKxtLb4H22kfpOXhkq6v+zznbw7qM/HMpjeODLKU9/s13vrvq2TK26ZTRVP6VpCo1VbW2W1qVYZGRx3jqFhtobDqUycAg8Dv/SfgfHcpHZreFJUqgSCT5AST7LaMuETu1WPawl2GM5iOaybvTtPvnXXlULqyROgyQPUgAeq3klxU7es6qd5nu0HlC96s6ItqDKA/hAHfv8AOVXXHRYQ8kUonbN4A9GCc86+uzdE7XVItXORMkToDFpACVFMaqY4cb0F55LEwfEpaoJwIbQXFuU5NpOEGMSihMjFb0e22pit+1duGfULyu82MRd9g3ecjy4+HmpbfLegvud0gltpuBQzhE0QDqoiq10KiVKisDzu/v3V3lz8z8+Q0C9W2ZsxlCmGsEAaf55nUqb2Ju3ITgUAhRjFBE5Z4gCoiPjakc0vznI9VfhwZlGYV8uu5yUgqcONKRJIUoKjVUSUmBpQ5+RMFq1jS95kATlllx36cEKbguIawQeaUXuEjvEoUVYHElSFeEKBEUoB+HWzfowbVDJMESCnC6caZcAJBgqr73btquxJSoqbzJrKZoCegOfSTpFoa9M03R5ou3qiq3mueH3E9y6uY0KgEwpJJwqBUaK5jWTUGoM5sp1nUX9pT19/VJcWjLhhY/8A0ivxU39AYUGxAvgTBpCAsHvEHr4SB+ZXIT6BT2ialm5g36cgdR7468l5ZcbJFO+ZXO4583D7J909OZQFvV0BFNR+82ow1aPHKhntlxPLPS0LmkZqdrgclB7R2WR4hFdKGfZ9edhnBTtO5MGkn16jP3+VkAyXFT/Z13bxbSvaE/zLxsi+JZGqltuXZ3AnmostOQBNArkbXdk81LV7BruVXdsFO6a86b1G3i7kFcZ95r+X/Fsa855rd0smiETN09/EJEOJUCIBKCRJAzKAoQeZ1+BtC5awQ4HuPw4oGtQc4y0jv9Vd9l74IcOFtKydStagkTzlRJ8gK9MwULlj3YWAzzMD57kMbdzBicRHIKy3d7DBKhKZigAAOYGseaj6rEinhILjmEOXyIA1VY4ib6tobUFqSorBCUCSpdPRSAZ/bWLCXNZhaRqUXbUX4gdEEN1r3jUQMilIiZgjFIn+04QYxDqc7UzmkQOqvS4RK1VuXw5Vemkggfw1JSMQmPCsqUORlWGenW282bZk24xLzjaV41teAJ9clP7F4UXNbncKeuqnsi13rZcH6Uq7xJ6gCLWLLW3xYSQTwnNVz72thxBpA6ZIC8duFqtnXgs1LbiEusqoZSpRTgJjxKSpJHVJQT6Vqe7texfg3HMend7iFZW1wKzMe8aoVOZxy5g+sg/IdK86osjJWYfIlJr2PyOdnhh3JhqDeq/u1vabhfrjegpJFwvKFqXlhbUotvpV5XVxdKjQ9bDZhIzAiYQW0oOROkrbPHjsnG8FV82bGJzxuXfmTUls5EGZA091u2jsftT2tDXePiPTQqXZu2RSHZXGm4+qxzvTst67rIfbcbWDkUnSAIJEkecjKsZZR1J1N2B4g88v99y29OpTqtxUyCOSibvvwoT6VMjrTnGR0iB6wCbKaByIPzyTsI0Sq99Hl/6hTSJUEjqZifKMxEG3Oa1ohzx5lOawbgpDZO6D14VCQTizUJVNcitYM0zAxZmkiyUmOf8AdNJPl5JlWtToiajgEbOH3CruiArMcp901FdTXoM7aG02WQcdbXgslf7YDgWUdOPoiBxQuN8WhFzugDbDrTbjzuMpU4VSn7v4QVpbASFOQn+LjSmcIUhy+r9pHZsyGUnjy6e/pIOZohhdjdmfnPqueDnZyKVpNXHU5EJwtt1zHUAxiJyyCZMj29rBlE17gYYVU7WXE9u9XltthYca2cwLuXUnEHXCvE8pBEhSEkJQkjMpdIJSUqMN/WFWqADk0RPOc/CAOsp1jSNOmSRm4zHLd89EE3jy1rIr9ezXS1Y6FatJTFLudYqdY15RYeCVJ3Kg7Vu+P0pIyNZzGsnlaypGBAVfWEnNeoPZH4iG9bPuqlKJdZQLu8TElbHgKzFAVpAd8ljLK2jo1cTQVRVmQ5GnbOx23xD7aHByWkK9+fvtM4B+ThPVDtc5hlpIPJDbbPZ32eolX3RkHomnsP8Amwp2fan+W3whHN2pdt0qu96rjnA+5tGW7s0CNcMn1E5W4WNs0yKbfBIdpXT/ALVV3imO1Ni/0gDSgA94qfXafAAIAgckMXlxlxJPPNIbK3bCamytYFxcoDebtiXRhCW7pdF3t9KEJW8shhgECCEEhTzkEaoZSvMOQRIb7xoyaJ8h6+UIllqSZcY+e753IBcQ+0Zfb6lTS3EtMLoq63dHcNKFZDhJU84kpMKS48tBj+Xzpa11VqAgnLgBA79T5xG5W1K2pszAz4n5jynmhphJgER0yyy6RWwpO5GAbwlkO0MjLWgj5ZU+U2dCbmvmHoDNZ+hZkSnyqld7njoM/r55mRYjEAh8JhaH7KvEobPeU26Yu17IDh/0liiX/wApHgc6BCvwQZ7a47N2ZyPkePr3ISvRxDLVeg1zekAgyCAQRUEEUIIzEZG2kY4FUjmwuL3aSVFCr20mbJKWFAvbLmyJUGuOnEtLKVXVpUvOjC4Qf5KVCoJ0WpOQzSmVU8OKuurgNGAHP3f5RtCiXHGdFmC83AAyCSRoDTKOdfrKbUpfAgK3DZOajmmoHinKf8D6Fg8wEcIJTZ9WKIIjKZz6yRp1tGSSpQAF083FadevXPlztJnCi9mUgl8f1AdM/lZQJC49FGbu3QfD5191lJTAIV02eiD+k/XvtxMQEkAytE8AOKj7TrF1Cgph04cCxi7uEz/CIIUn8pKk8kgkkzWtzUbUbTnIz5cELcUWOYXxmFsKJtqmuKzzgoy+Mi0pTFnftHcUHrsW2mClAeSoqcAlwQRRJJwpkGpwyNCm1XeV3shrd6PtqTXSXbllO9uklRJJKjJJJJJgGSSakkySZn40oaJVtOUKF70gp/uxT/tmnKthnuLSIRLWggkpC93iUpnXDOdZPOZ99u1hPaM0zfXFBlPWknSDZwaDPJLiOSaJOddRZoSE5pdxcam3QpF//9k="
+						},
+						{
+							"position": 3,
+							"lsig": "AB86z5Vwd6MUBxI2S6NK-LXY3yzn",
+							"place_id": "6874196848885108225",
+							"title": "Ridgetop Coffee and Tea",
+							"rating": 4.6,
+							"reviews": 981,
+							"reviews_origin": "(981)",
+							"price": "$1–10",
+							"address": "Sterling, VA",
+							"description": "Dine-in·Takeout·No delivery",
+							"search_link": "https://www.google.com/search?sca_esv=6dff3b47ea39d1e5&gl=us&hl=en&q=Ridgetop+Coffee+and+Tea+Sterling,+VA&ludocid=6874196848885108225&lsig=AB86z5Vwd6MUBxI2S6NK-LXY3yzn&lqi=CgZjb2ZmZWVIicvWzJuugIAIWgwQABgAIgZjb2ZmZWWSAQtjb2ZmZWVfc2hvcJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VOb2VVcGljVGxCUlJBQqoBRgoJL20vMDJ2cWZtEAEqCiIGY29mZmVlKAAyHxABIhsFTvfsebh-3qGh2oTG4g1PTt67xXG3HBBfeRwyChACIgZjb2ZmZWXgAQA&phdesc=BEV1U9rjUYI",
+							"topic": "· Coffee shop",
+							"gps_coordinates": {
+								"latitude": 39.02649,
+								"longitude": -77.40695
+							},
+							"thumbnail": "data:image/jpeg;base64,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"
 						}
 					]
 				}
@@ -138,40 +141,40 @@ export const desktopCoffee =
 							"title": "Is coffee good or bad for your health? | News - HSPH.Harvard.edu",
 							"name": "HSPH.Harvard.edu - Harvard University",
 							"display_link": "https://www.hsph.harvard.edu › news › hsph-in-the-news",
-							"link": "https://www.hsph.harvard.edu/news/hsph-in-the-news/is-coffee-good-or-bad-for-your-health/"
+							"link": "https://www.hsph.harvard.edu/news/hsph-in-the-news/is-coffee-good-or-bad-for-your-health/#:~:text=Hu%20said%20that%20moderate%20coffee,their%20risk%20of%20early%20death."
 						}
 					},
 					{
 						"position": 2,
-						"question": "What are 10 benefits of coffee?",
-						"snippet": "**What are the health benefits of coffee?**\n\n*   Coffee helps you lose weight. ...\n*   Coffee helps with depression. ...\n*   Coffee is nutritious. ...\n*   Coffee can act as pain relief. ...\n*   Coffee is a great way to get more fibre. ...\n*   Coffee decreases the risk of Type 2 Diabetes. ...\n*   Coffee decreases the risk of Alzheimer's and heart disease.\n\n[More items...](https://www.yorktest.com/us/blog/10-health-benefits-of-coffee/)",
+						"question": "What are the benefits of coffee?",
+						"snippet": "**Let's dig into the research and look at the potential health benefits of coffee.**\n\n*   Improves microbiome diversity. ...\n*   Improves cognitive function. ...\n*   Reduces the risk of gallstone diseases. ...\n*   Decreases cancer risk. ...\n*   Heals damaged cells. ...\n*   Lowers the risk of Parkinson's disease. ...\n*   Protects against diabetes. ...\n*   Improves bowel regularity.\n\n[More items...](https://zoe.com/learn/health-benefits-of-coffee)\n\n•\n\nApr 18, 2024",
 						"source": {
-							"title": "10 Health Benefits of Coffee - YorkTest",
-							"name": "YorkTest",
-							"display_link": "https://www.yorktest.com › blog › 10-health-benefits-of-...",
-							"link": "https://www.yorktest.com/us/blog/10-health-benefits-of-coffee/"
+							"title": "What are the health benefits of coffee? - ZOE",
+							"name": "ZOE",
+							"display_link": "https://zoe.com › learn › health-benefits-of-coffee",
+							"link": "https://zoe.com/learn/health-benefits-of-coffee"
 						}
 					},
 					{
 						"position": 3,
-						"question": "Is it coffee or coffe?",
-						"snippet": "**Coffee** is a beverage brewed from roasted coffee beans. Darkly colored, bitter, and slightly acidic, coffee has a stimulating effect on humans, primarily due to its caffeine content.",
+						"question": "How long after taking vitamins can I drink coffee?",
+						"snippet": "**Try to avoid taking your vitamins with coffee or tea**  \n  \nCaffeine also increases urination, which can decrease the concentration of water-soluble vitamins (B-complex and C). So, wait an hour after your morning brew to take supplements.Aug 3, 2021",
 						"source": {
-							"title": "Coffee - Wikipedia",
-							"name": "Wikipedia",
-							"display_link": "https://en.wikipedia.org › wiki › Coffee",
-							"link": "https://en.wikipedia.org/wiki/Coffee"
+							"title": "When Is The Best Time To Take My Vitamins? - Clean Eating Magazine",
+							"name": "Clean Eating Magazine",
+							"display_link": "https://www.cleaneatingmag.com › ask-the-dietitians › w...",
+							"link": "https://www.cleaneatingmag.com/clean-experts/ask-the-dietitians/when-is-the-best-time-to-take-my-vitamins/#:~:text=Try%20to%20avoid%20taking%20your%20vitamins%20with%20coffee%20or%20tea&text=Caffeine%20also%20increases%20urination%2C%20which,morning%20brew%20to%20take%20supplements."
 						}
 					},
 					{
 						"position": 4,
-						"question": "What does coffee do to your body?",
-						"snippet": "Caffeine is well absorbed by the body, and the short-term effects are usually experienced between 5 and 30 minutes after having it. These effects can include **increased breathing and heart rate, and increased mental alertness and physical energy**. Depending on the individual, these effects can last up to 12 hours.",
+						"question": "What is the history of coffee?",
+						"snippet": "**Wild coffee plants, probably from Kefa (Kaffa), Ethiopia, were taken to southern Arabia and placed under cultivation in the 15th century**. The popularity of coffee in the Arab world led to the creation of the coffeehouse, first in Mecca and then in Constantinople in the 15th and 16th centuries, respectively.Jun 28, 2024",
 						"source": {
-							"title": "Caffeine - Better Health Channel",
-							"name": "Better Health Channel",
-							"display_link": "https://www.betterhealth.vic.gov.au › healthyliving › caf...",
-							"link": "https://www.betterhealth.vic.gov.au/health/healthyliving/caffeine"
+							"title": "Coffee | Origin, Types, Uses, History, & Facts | Britannica",
+							"name": "Britannica",
+							"display_link": "https://www.britannica.com › topic › coffee",
+							"link": "https://www.britannica.com/topic/coffee#:~:text=Wild%20coffee%20plants%2C%20probably%20from,15th%20and%2016th%20centuries%2C%20respectively."
 						}
 					}
 				]
@@ -180,25 +183,14 @@ export const desktopCoffee =
 				"type": "things_to_know",
 				"things_to_know": [
 					{
+						"type": "normal",
 						"position": 1,
-						"heading": {
-							"primary": "Benefits",
-							"secondary": "Benefits of coffee"
-						},
-						"snippet": "Health benefits of drinking coffee. Some potential health benefits associated with drinking coffee include **protection against type 2 diabetes, Parkinson's disease, liver disease, and liver cancer**. Coffee consumption may also support cardiovascular health.",
-						"source": {
-							"title": "Coffee health benefits: Diabetes, heart health, liver cancer, and more",
-							"name": "medicalnewstoday.com",
-							"link": "https://www.medicalnewstoday.com/articles/270202#:~:text=of%20drinking%20coffee.-,Health%20benefits%20of%20drinking%20coffee,may%20also%20support%20cardiovascular%20health.",
-							"display_link": "https://www.medicalnewstoday.com › articles"
-						}
-					},
-					{
-						"position": 2,
 						"heading": {
 							"primary": "Caffeine Amount",
 							"secondary": "How much caffeine in coffee?"
 						},
+						"answer": "80 to 100 milligrams",
+						"title": "80 to 100 milligrams",
 						"snippet": "According to the U.S. Food and Drug Administration, an eight-ounce cup of coffee contains between **80 to 100 milligrams** of caffeine. By comparison, a 12-ounce can of soda typically contains 30 to 40 mg of caffeine. And most major energy drinks contain between 70 and 100 mg of caffeine.",
 						"date": "Jul 11, 2023",
 						"source": {
@@ -209,34 +201,46 @@ export const desktopCoffee =
 						}
 					},
 					{
+						"type": "listing",
+						"position": 2,
+						"heading": {
+							"primary": "Types",
+							"secondary": "Types of coffee"
+						},
+						"items": [
+							{
+								"title": "Home",
+								"snippet": "Types of Coffee Drinks · Black · Latte · Cappuccino · Americano · Espresso ·...",
+								"source": {
+									"name": "Taste of HomeYour Ultimate Guide to Different Types of Coffee - Taste of Home",
+									"title": "Taste of Home",
+									"link": "Taste of HomeYour Ultimate Guide to Different Types of Coffee - Taste of Home"
+								}
+							},
+							{
+								"title": "Types of Coffee Drinks",
+								"snippet": "Espresso & Coffee. Americano A coffee drink typically made from equal parts espresso and hot water and is enjoyed...",
+								"source": {
+									"name": "Folgers CoffeeTypes of Coffee Drinks",
+									"title": "Folgers Coffee",
+									"link": "Folgers CoffeeTypes of Coffee Drinks"
+								}
+							}
+						]
+					},
+					{
+						"type": "normal",
 						"position": 3,
 						"heading": {
 							"primary": "Brands",
 							"secondary": "Coffee brands"
 						},
-						"title": "Coffee Brands",
-						"snippet": "*   Caffè Borbone.\n*   Caffe New York.\n*   Nannini.\n*   Pezzullo.\n*   Saturno Caffè\n*   Trucillo.",
+						"snippet": "*   Cafeclub Supercreme 20items.\n*   Lavazza 42items.\n*   Segafredo 9items.\n*   Carraro 2items.\n*   Caffe De Roccis 1item.\n*   Illy 8items.\n*   Jacobs 16items.\n*   Minges 6items.",
 						"source": {
-							"title": "Coffee Brands - Espresso International",
-							"name": "espresso-international.com",
-							"link": "https://www.espresso-international.com/coffee-brands",
-							"display_link": "https://www.espresso-international.com › coffee-brands"
-						}
-					},
-					{
-						"position": 4,
-						"heading": {
-							"primary": "Types",
-							"secondary": "Types of coffee"
-						},
-						"title": "15 Most Popular Types Of Coffee Drinks",
-						"snippet": "*   Espresso. Espresso is made by forcing nearly boiling water through finely-ground coffee beans, which results in a concentrated, syrup-like coffee drink. ...\n*   Latte/Iced Latte. ...\n*   Black Coffee. ...\n*   Mocha. ...\n*   Americano. ...\n*   Cappuccino. ...\n*   Flat White. ...\n*   8\\. Cafe au Lait.",
-						"date": "Dec 2, 2022",
-						"source": {
-							"title": "15 Most Popular Types Of Coffee Drinks",
-							"name": "thirdwavecoffeeroasters.com",
-							"link": "https://www.thirdwavecoffeeroasters.com/blogs/blog/15-most-popular-types-of-coffee-drinks",
-							"display_link": "https://www.thirdwavecoffeeroasters.com › blogs › blog"
+							"title": "Coffee brands - from Senseo to Lavazza",
+							"name": "coffeerista.com",
+							"link": "https://www.coffeerista.com/en/coffee-brands",
+							"display_link": "https://www.coffeerista.com › coffee-brands"
 						}
 					}
 				]
@@ -252,6 +256,7 @@ export const desktopCoffee =
 					"display_link": "https://www.starbucks.com",
 					"link": "https://www.starbucks.com/"
 				},
+				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScJeAqFpJN_3RR_eHnQrt33x2Qfc41OCPwopHDWxE8fzh_p9XzPXPK&usqp=CAE&s",
 				"snippet_highlighted_words": [
 					"coffee"
 				]
@@ -259,52 +264,43 @@ export const desktopCoffee =
 			{
 				"type": "normal",
 				"position": 3,
-				"title": "Peet's Coffee | The Original Craft Coffee, Est. 1966",
-				"snippet": "Since 1966, Peet's _Coffee_ has sourced and offered superior _coffees_ and teas and adhering to strict high-quality and taste standards. Shop today.",
+				"title": "Messenger Coffee Company - Fresh roasted ... - Kansas City",
+				"snippet": "Kansas City _coffee_ roasting company serving high quality, fresh roasted, carefully sourced _coffee_ to cafes, restaurants, churches, and corporate customers.",
 				"source": {
-					"title": "Peet's Coffee | The Original Craft Coffee, Est. 1966",
-					"name": "Peet's Coffee",
-					"display_link": "https://www.peets.com",
-					"link": "https://www.peets.com/"
+					"title": "Messenger Coffee Company - Fresh roasted ... - Kansas City",
+					"name": "Messenger Coffee",
+					"display_link": "https://messengercoffee.co",
+					"link": "https://messengercoffee.co/"
 				},
 				"snippet_highlighted_words": [
-					"Coffee",
-					"coffees"
+					"coffee",
+					"coffee"
+				],
+				"rich_snippet": {
+					"extensions": "5–9 day delivery · ‎30-day returns"
+				},
+				"links": [
+					{
+						"title": "Cafes",
+						"link": "https://messengercoffee.co/pages/cafes"
+					},
+					{
+						"title": "Our Story",
+						"link": "https://messengercoffee.co/pages/our-story"
+					},
+					{
+						"title": "Our Partners",
+						"link": "https://messengercoffee.co/pages/our-partners"
+					},
+					{
+						"title": "Contact Us",
+						"link": "https://messengercoffee.co/pages/contact-us"
+					}
 				]
 			},
 			{
 				"type": "normal",
 				"position": 4,
-				"title": "The Coffee Bean & Tea Leaf | CBTL",
-				"snippet": "Born and brewed in Southern California since 1963, The _Coffee_ Bean & Tea Leaf® is passionate about connecting loyal customers with carefully handcrafted ...",
-				"source": {
-					"title": "The Coffee Bean & Tea Leaf | CBTL",
-					"name": "The Coffee Bean & Tea Leaf",
-					"display_link": "https://coffeebean.com",
-					"link": "https://coffeebean.com/"
-				},
-				"snippet_highlighted_words": [
-					"Coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 5,
-				"title": "Coffee health benefits: Diabetes, heart health, liver cancer, ...",
-				"snippet": "In some cases, _coffee_ may be good for health, as it may offer benefits such as lowering the risk of type 2 diabetes and helping people lose weight.",
-				"source": {
-					"title": "Coffee health benefits: Diabetes, heart health, liver cancer, ...",
-					"name": "MedicalNewsToday",
-					"display_link": "https://www.medicalnewstoday.com › articles",
-					"link": "https://www.medicalnewstoday.com/articles/270202"
-				},
-				"snippet_highlighted_words": [
-					"coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 6,
 				"title": "Blue Bottle Coffee | Fresh Roasted Specialty Coffee",
 				"snippet": "Blue Bottle _Coffee_ is a specialty _coffee_ roaster with cafes in LA, SF, NYC, & Japan. Shop our freshly roasted specialty _coffee_ online & in-store.",
 				"source": {
@@ -313,6 +309,7 @@ export const desktopCoffee =
 					"display_link": "https://bluebottlecoffee.com",
 					"link": "https://bluebottlecoffee.com/"
 				},
+				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQodHyhXc5N9uzaQq2IqHe4JxjrwwOoA8zmjMZZfxw4-GPCmJRt9zuS&usqp=CAE&s",
 				"snippet_highlighted_words": [
 					"Coffee",
 					"coffee",
@@ -339,7 +336,7 @@ export const desktopCoffee =
 			},
 			{
 				"type": "normal",
-				"position": 7,
+				"position": 5,
 				"title": "What is Coffee?",
 				"snippet": "_Coffee_ traces its origin to a genus of plants known as Coffea. Within the genus there are over 500 genera and 6,000 species of tropical trees and shrubs.",
 				"source": {
@@ -348,263 +345,98 @@ export const desktopCoffee =
 					"display_link": "https://www.ncausa.org › About Coffee",
 					"link": "https://www.ncausa.org/About-Coffee/What-is-Coffee"
 				},
+				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9mGEiLrFPJTDgxbtySMTOc3UNvBpZhZ7IzhkzBRVYS-CBxbj9EVa&usqp=CAE&s",
 				"snippet_highlighted_words": [
 					"Coffee"
 				]
 			},
 			{
 				"type": "normal",
-				"position": 8,
-				"title": "9 Reasons Why (the Right Amount of) Coffee Is Good for You",
-				"snippet": "Drinking one to two cups of _coffee_ a day may help ward off heart failure, when a weakened heart has difficulty pumping enough blood to the body.",
+				"position": 6,
+				"title": "Larry's Coffee - Raleigh",
+				"snippet": "We're out to make the world's most delicious, sustainable _coffee_. Larry's combines _coffee_ excellence with a belief that business can be a force for good.",
 				"source": {
-					"title": "9 Reasons Why (the Right Amount of) Coffee Is Good for You",
-					"name": "Johns Hopkins Medicine",
-					"display_link": "https://www.hopkinsmedicine.org › health › 9-reasons-w...",
-					"link": "https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-reasons-why-the-right-amount-of-coffee-is-good-for-you"
+					"title": "Larry's Coffee - Raleigh",
+					"name": "Larry's Coffee",
+					"display_link": "https://larryscoffee.com",
+					"link": "https://larryscoffee.com/"
 				},
-				"snippet_highlighted_words": [
-					"coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 9,
-				"title": "Caribou Coffee® | Life Is Short. Stay Awake For It®",
-				"snippet": "Caribou _Coffee_® is more than a premium coffeehouse featuring high-quality, handcrafted beverages and food. Explore our menu, sign up for Caribou _Coffee_® ...",
-				"source": {
-					"title": "Caribou Coffee® | Life Is Short. Stay Awake For It®",
-					"name": "Caribou Coffee",
-					"display_link": "https://www.cariboucoffee.com",
-					"link": "https://www.cariboucoffee.com/"
-				},
-				"snippet_highlighted_words": [
-					"Coffee",
-					"Coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 10,
-				"title": "Messenger Coffee Company - Fresh roasted ... - Kansas City",
-				"snippet": "Kansas City _coffee_ roasting company serving high quality, fresh roasted, carefully sourced _coffee_ to cafes, restaurants, churches, and corporate customers.",
-				"source": {
-					"title": "Messenger Coffee Company - Fresh roasted ... - Kansas City",
-					"name": "Messenger Coffee",
-					"display_link": "https://messengercoffee.co",
-					"link": "https://messengercoffee.co/"
-				},
-				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQCxrL9OKp74gfbnRRLZetZPWWSU1R3R9rToxiSPfGY59KkP3sXNHV&usqp=CAE&s",
+				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLO-2yRl2Acd0ioXnQaO-1uISGS6c5nzV9w0Lgz_k7BLdw_0eyw_CO&usqp=CAE&s",
 				"snippet_highlighted_words": [
 					"coffee",
 					"coffee"
 				],
 				"rich_snippet": {
-					"extensions": "5–9 day delivery · ‎30-day returns"
+					"extensions": "$7.99 3-day delivery"
 				}
 			},
 			{
-				"type": "recipes",
-				"recipes": [
+				"type": "normal",
+				"position": 7,
+				"title": "r/Coffee",
+				"snippet": "thread where you can share what you are brewing or ask for bean recommendations. This is a place to share and talk about your favorite _coffee_ roasters or beans.",
+				"source": {
+					"title": "r/Coffee",
+					"name": "Reddit · r/Coffee",
+					"display_link": "1.9M+ followers",
+					"link": "https://www.reddit.com/r/Coffee/"
+				},
+				"snippet_highlighted_words": [
+					"coffee",
+					"coffee",
+					"coffee",
+					"coffee"
+				],
+				"links": [
 					{
-						"position": 1,
-						"title": "Magical Coffee",
-						"source": "Food52",
-						"ingredients": [
-							"Dark brown sugar",
-							"ice",
-							"cinnamon",
-							"milk",
-							"ground coffee"
-						],
-						"total_time": "8h",
-						"rating": 4.3,
-						"reviews": 46,
-						"reviews_origin": "(46)",
-						"link": "https://food52.com/recipes/2018-best-magical-coffee",
-						"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTopf6HTiIrfvTOK4BupGVtQO2juAtc9B4EJAeXN7SP5gS0bbc0rkiUW7YEyQ&s"
+						"title": "Coffee Gear Guides",
+						"link": "https://www.reddit.com/r/Coffee/wiki/gear/"
 					},
 					{
-						"position": 2,
-						"title": "Perfect Iced Coffee",
-						"source": "The Pioneer Woman",
-						"ingredients": [
-							"Sweetened condensed milk",
-							"ground coffee",
-							"healthy",
-							"skim milk"
-						],
-						"total_time": "8h",
-						"rating": 5,
-						"reviews": 4,
-						"reviews_origin": "(4)",
-						"link": "https://www.thepioneerwoman.com/food-cooking/recipes/a11061/perfect-iced-coffee/",
-						"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-3vvr2Rl66vY9X5BQuBSfwp2hdHqIQssp86ZRFiZOeS6AeTuoSf7oxkFWQ&s=10"
+						"title": "Request failed",
+						"link": "https://www.reddit.com/r/Coffee/wiki/guides/"
 					},
 					{
-						"position": 3,
-						"title": "Cinnamon Coffee",
-						"source": "Starbucks®️ Coffee",
-						"ingredients": [
-							"Ground coffee",
-							"cinnamon sticks",
-							"hot water"
-						],
-						"total_time": "5m",
-						"link": "https://athome.starbucks.com/recipe/cinnamon-coffee",
-						"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uKVvgTpY3Rzt3T6ZbnZEZa2PnhJu4nlA8FJEH3OCbGSZM28GnDgf68xe-A&s"
+						"title": "Wiki Page!",
+						"link": "https://www.reddit.com/r/Coffee/wiki/index/"
 					},
 					{
-						"position": 4,
-						"title": "Cold Brew Coffee",
-						"source": "The Kitchn",
-						"ingredients": [
-							"Whole coffee beans"
-						],
-						"rating": 4,
-						"reviews": 25,
-						"reviews_origin": "(25)",
-						"link": "https://www.thekitchn.com/big-batch-cold-brew-coffee-257177",
-						"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ad0ZCq9XCEbEtOi2F1tDEh-zRjZNjYPlIWBN3KaZqevB2ksiyPZUYAJsxg&s=10"
+						"title": "Coffee forums?",
+						"link": "https://www.reddit.com/r/Coffee/comments/502wmb/coffee_forums/"
+					}
+				],
+				"more_results": [
+					{
+						"title": "The joy of drinking interesting coffee : r/pourover",
+						"link": "https://www.reddit.com/r/pourover/comments/1e9beba/the_joy_of_drinking_interesting_coffee/",
+						"date": "Jul 22, 2024"
+					},
+					{
+						"title": "How do you make your coffee? : r/AskAnAmerican",
+						"link": "https://www.reddit.com/r/AskAnAmerican/comments/1e8ru2w/how_do_you_make_your_coffee/",
+						"date": "Jul 21, 2024"
+					},
+					{
+						"title": "Turkish sand coffee : r/oddlysatisfying",
+						"link": "https://www.reddit.com/r/oddlysatisfying/comments/1ea2qy0/turkish_sand_coffee/",
+						"date": "Jul 23, 2024"
 					}
 				]
 			},
 			{
 				"type": "normal",
-				"position": 11,
-				"title": "Coffee | Origin, Types, Uses, History, & Facts",
-				"snippet": "_Coffee_, beverage brewed from the roasted and ground seeds of the tropical evergreen _coffee_ plant of African origin. _Coffee_ is one of the ...",
+				"position": 8,
+				"title": "Peet's Coffee | The Original Craft Coffee, Est. 1966",
+				"snippet": "Since 1966, Peet's _Coffee_ has sourced and offered superior _coffees_ and teas and adhering to strict high-quality and taste standards. Shop today.",
 				"source": {
-					"title": "Coffee | Origin, Types, Uses, History, & Facts",
-					"name": "Britannica",
-					"display_link": "https://www.britannica.com › ... › Food",
-					"link": "https://www.britannica.com/topic/coffee"
-				},
-				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTteEQWon838YfFccHP0VOLqz6jUG81vb0VOkP2nyuJhprTsgx0wq96&usqp=CAE&s",
-				"snippet_highlighted_words": [
-					"Coffee",
-					"coffee",
-					"Coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 12,
-				"title": "9 Health Benefits of Coffee, Based on Science",
-				"snippet": "9 Unique Benefits of _Coffee_ · 1. Boosts energy levels · 2. May be linked to a lower risk of type 2 diabetes · 3. Could support brain health · 4.",
-				"source": {
-					"title": "9 Health Benefits of Coffee, Based on Science",
-					"name": "Healthline",
-					"display_link": "https://www.healthline.com › nutrition › top-evidence-b...",
-					"link": "https://www.healthline.com/nutrition/top-evidence-based-health-benefits-of-coffee"
-				},
-				"snippet_highlighted_words": [
-					"Coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 13,
-				"title": "The History of Coffee",
-				"snippet": "An Ethiopian Legend. Goats _Coffee_ grown worldwide can trace its heritage back centuries to the ancient _coffee_ forests on the Ethiopian plateau. There, legend ...",
-				"source": {
-					"title": "The History of Coffee",
-					"name": "National Coffee Association",
-					"display_link": "https://www.ncausa.org › About Coffee",
-					"link": "https://www.ncausa.org/About-Coffee/History-of-Coffee"
+					"title": "Peet's Coffee | The Original Craft Coffee, Est. 1966",
+					"name": "Peet's Coffee",
+					"display_link": "https://www.peets.com",
+					"link": "https://www.peets.com/"
 				},
 				"snippet_highlighted_words": [
 					"Coffee",
-					"coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 14,
-				"title": "Blanchard's Coffee Roasting Company",
-				"snippet": "Craft _Coffee_ Roasting in Richmond, Virginia.",
-				"source": {
-					"title": "Blanchard's Coffee Roasting Company",
-					"name": "Blanchard's Coffee",
-					"display_link": "https://blanchardscoffee.com",
-					"link": "https://blanchardscoffee.com/"
-				},
-				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjyImGaHUGzsq5WAI5yTC9_Hv5Ei-QjT9OvuPeJikTJpXNRAZHNZju&usqp=CAE&s",
-				"snippet_highlighted_words": [
-					"Coffee"
-				],
-				"rich_snippet": {
-					"extensions": "$14 to $15 · ‎5-day delivery"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 15,
-				"title": "Counter Culture Coffee",
-				"snippet": "Counter Culture _Coffee_ is a specialty _coffee_ roaster sourcing exceptional single-origin and specialty _coffee_. Fresh-roasted _coffee_ to your doorstep.",
-				"source": {
-					"title": "Counter Culture Coffee",
-					"name": "Counter Culture Coffee",
-					"display_link": "https://counterculturecoffee.com",
-					"link": "https://counterculturecoffee.com/"
-				},
-				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSezfVX9ckhpP0Tm-ESOT4Wc926HE4JSahFIcS5LU_HcqBkIvNCuaga&usqp=CAE&s",
-				"snippet_highlighted_words": [
-					"Coffee",
-					"coffee",
-					"coffee",
-					"coffee"
-				],
-				"rich_snippet": {
-					"extensions": "Free 1–4 day delivery"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 16,
-				"title": "Scooter's Coffee | Be Amazing",
-				"snippet": "Shop our 100% Arabica _coffee_ products. Find your nearest location. Browse the menu and featured products. Learn more about us and catch up with us on our ...",
-				"source": {
-					"title": "Scooter's Coffee | Be Amazing",
-					"name": "Scooter's Coffee",
-					"display_link": "https://www.scooterscoffee.com",
-					"link": "https://www.scooterscoffee.com/"
-				},
-				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwTisOPXw9v7X9CVLZschGn6ZCRI_HALTViJ4D7eZltYG_t0hYn7mT&usqp=CAE&s",
-				"snippet_highlighted_words": [
-					"coffee"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 17,
-				"title": "Gimme! Coffee",
-				"snippet": "Most Popular Products · Leftist Espresso (Fairtrade Organic) · Guatemala Guaya'b (Fairtrade Organic Bird Friendly) · Stargazer (Fairtrade Organic) · Deep Disco ...",
-				"source": {
-					"title": "Gimme! Coffee",
-					"name": "Gimme! Coffee",
-					"display_link": "https://gimmecoffee.com",
-					"link": "https://gimmecoffee.com/"
-				},
-				"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQABzSGf5LDjXL274AsXhdjDjesfucc_tD0pi6V9Viv-yKRV-Eun-QM&usqp=CAE&s",
-				"snippet_highlighted_words": [],
-				"rich_snippet": {
-					"extensions": "$14 to $25 · ‎Free delivery over $45"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 18,
-				"title": "COFFEE - Uses, Side Effects, and More",
-				"snippet": "By speeding up the nervous system, stimulant medications can increase blood pressure and speed up the heartbeat. _Coffee_ contains caffeine. Caffeine can also ...",
-				"source": {
-					"title": "COFFEE - Uses, Side Effects, and More",
-					"name": "WebMD",
-					"display_link": "https://www.webmd.com › vitamins › ingredientmono-980",
-					"link": "https://www.webmd.com/vitamins/ai/ingredientmono-980/coffee"
-				},
-				"snippet_highlighted_words": [
-					"Coffee"
+					"coffees"
 				]
 			}
 		]
@@ -617,27 +449,27 @@ export const desktopCoffee =
 			"people_also_search_for": [
 				{
 					"query": "Tea",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwljM_ehCiMzV23GPXF08zUk26pTb89rWSOE3l&s=0"
-				},
-				{
-					"query": "Coffee bean",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCbQoTJUSvZy9nLNPsgxg9Zp08ItNPU3nBTjJe0BYP5-GNGx5XL-gH&s=0"
+					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfjvPaTeOKUBQJau-LkYSpFAi3xe7UewHA8wWZ&s=0"
 				},
 				{
 					"query": "Milk",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTkzi8e0dkDa35t4mzkLg4xTic4ODu4biyyAlrjCsRLQ5IYUndUY9P2fVP091-KLJ9rUJauzoBc&s=19"
-				},
-				{
-					"query": "Flat white",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTE_R5F1WG05FVEW2LbR5HS8x1PokYml7P2XJePPY8dtT5QrEDmaeKQSU2SRUqHHv6P6NxYD-va&s=19"
-				},
-				{
-					"query": "Cappuccino",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQzFAGn5F6yMSn_LXcX0OnYWkpp1XgghPv9JeePysVlJMC-Rul3yX9q7bA&s=19"
+					"thumbnail": "//encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQS2kZNe0TXY-wSBFYwCmscjLKkQM6Dz6JMHy5p8N932kkalQ-lDzELdiQeIaGu259CoG-Hczw&s=19"
 				},
 				{
 					"query": "Water",
 					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRONJWz2_oEk3r0Ir4pOCq7FBHMd5fu5at3All99FdrICmjo9fzIMJk&s=0"
+				},
+				{
+					"query": "Chocolate",
+					"thumbnail": "//encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRKmzD7WuSBcq7iSUZ3-la_G8OPNspjuPsdFbDdMgIw4u5_Sfh5gD3maJwlNOdqyTZO4Frx_BNp&s=19"
+				},
+				{
+					"query": "Espresso",
+					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiIuxqnYg_thFSVQ6PQSIKDND3x6sMR4R30Shd&s=0"
+				},
+				{
+					"query": "Egg",
+					"thumbnail": "//encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQBHV-gZU1FQHb2nk8ArxuT0PRqUCwDbPs3PcH4S5OLF7WzUd5hyQuU5Z5iHdqc20oUhfqB5sna&s=19"
 				}
 			]
 		},
@@ -646,12 +478,12 @@ export const desktopCoffee =
 			"searches": [
 				"Coffee near me",
 				"Coffee benefits",
+				"Coffee shop",
 				"Coffee types",
 				"Coffee beans",
-				"Coffee shop",
-				"Coffee recipe",
 				"Coffee Machine",
-				"Coffee brands"
+				"Coffee brands",
+				"Coffee menu"
 			]
 		}
 	]
