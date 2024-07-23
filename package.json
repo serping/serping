@@ -10,7 +10,7 @@
     "clean": "rm -rf dist/*",
     "copy": "cp package.json README.md dist",
     "release": "npx standard-version --prerelease beta",
-    "publish:beta": "npm run release && git push --follow-tags origin main && cd dist && npm publish --tag beta && cd ../",
+    "publish:beta": "git push --follow-tags origin main && cd dist && npm publish --tag beta && cd ../",
     "add-build": "npm run build",
     "test": "npx jest"
   },
