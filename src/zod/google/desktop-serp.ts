@@ -352,6 +352,7 @@ export const SerpThingsToKnowNormalSchema = z.object({
     display_link: z.string(),
   })
 })
+export type SerpThingsToKnowNormal = z.infer<typeof SerpThingsToKnowNormalSchema>; 
 
 export const SerpThingsToKnowListingSchema = z.object({
   position: z.number(),
@@ -369,6 +370,7 @@ export const SerpThingsToKnowListingSchema = z.object({
     })
   }))
 })
+export type SerpThingsToKnowListing = z.infer<typeof SerpThingsToKnowListingSchema>; 
 
 export const SerpThingsToKnowSchema = z.object({
   type: z.literal("things_to_know"),
