@@ -334,25 +334,48 @@ export type SerpNormal = z.infer<typeof SerpNormalSchema>;
 // SerpThingsToKnow 
 /////////////////////////////////////////
 
+export const SerpThingsToKnowNormalSchema = z.object({
+  position: z.number(),
+  type: z.literal('normal'),
+  heading: z.object({
+    primary: z.string(),
+    secondary: z.string(),
+  }),
+  answer: z.string().optional(), // same as title; when heading.secondary is a question, the answer field will appear
+  title: z.string().optional(),
+  snippet: z.string(),
+  date: z.string().optional(),
+  source: z.object({
+    title: z.string(),
+    name: z.string(),
+    link: z.string(),
+    display_link: z.string(),
+  })
+})
+
+export const SerpThingsToKnowListingSchema = z.object({
+  position: z.number(),
+  type: z.literal('listing'),
+  heading: z.object({
+    primary: z.string(),
+    secondary: z.string(),
+  }),  
+  items: z.array(z.object({
+    snippet: z.string(),  
+    source: z.object({
+      title: z.string(),
+      name: z.string(),
+      link: z.string()
+    })
+  }))
+})
+
 export const SerpThingsToKnowSchema = z.object({
   type: z.literal("things_to_know"),
   things_to_know: z.array(z.object({
     position: z.number(),
-    heading: z.object({
-      primary: z.string(),
-      secondary: z.string(),
-    }),
-    answer: z.string().optional(), // same as title; when heading.secondary is a question, the answer field will appear
-    title: z.string().optional(),
-    snippet: z.string(),
-    date: z.string().optional(),
-    source: z.object({
-      title: z.string(),
-      name: z.string(),
-      link: z.string(),
-      display_link: z.string(),
-    })
-  }))
+    type: z.enum(['normal', 'listing']), 
+  }).catchall(z.any()))
 })
 
 export type SerpThingsToKnow = z.infer<typeof SerpThingsToKnowSchema>; 
