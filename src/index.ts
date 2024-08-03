@@ -39,6 +39,7 @@ class Serping {
     num = 10,
     gl = "us",
     hl = "en",
+    tbm,
     start,
     lsig,
     ludocid,
@@ -46,7 +47,7 @@ class Serping {
     location
   }: GoogleSerpSearchParam): Promise<any> {
     if(!q) throw new Error("query is empty");
-    const response = await this.get("google/serp", {
+    const opts = {
       q,
       snapshot,
       thumbnail,
@@ -58,7 +59,11 @@ class Serping {
       ludocid,
       uule,
       location,
-    });
+    } as GoogleSerpSearchParam
+    if(tbm && config.google.tbmMaps[tbm] ){
+      opts["tbm"] = tbm
+    }
+    const response = await this.get("google/serp", opts);
     return response.data;
   }
 
