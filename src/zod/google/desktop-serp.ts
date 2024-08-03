@@ -74,7 +74,7 @@ export type SerpDiscussionsAndForums = z.infer<typeof SerpDiscussionsAndForumsSc
 /////////////////////////////////////////
 
 export const SerpInlineImagesSchema = z.object({
-  type: z.literal("inline_mages"),
+  type: z.literal("inline_images"),
   related_keywords: z.array(
     z.object({
       short: z.string(),
@@ -85,9 +85,10 @@ export const SerpInlineImagesSchema = z.object({
   collection: z.array(
     z.object(
       {
+        type: z.literal("normal"),
         position: z.number(),
-        query: z.string(),
-        title: z.string(),
+        query: z.string().optional(),
+        title : z.string().optional(),
         thumbnail: z.string(),
         source: z.object({
           name: z.string(),
