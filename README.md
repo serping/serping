@@ -18,6 +18,15 @@ serping = new Serping( { region: 'us-east-1', apiKey: 'your api key' } );
 const data = await serping.googleSerp({q: "serping"});
 
 console.log(data);
+
+// Google search videos
+const videos = await serping.googleSerp({q: "SEO", tbm: "vid"});
+
+console.log(videos);
 ```
+
+## TODO
+
+- Google Search Videos **Zod Schema**
 
 [1]:https://www.serp.ing
