@@ -62,6 +62,8 @@ class Serping {
     } as GoogleSerpSearchParam
     if(tbm && config.google.tbmMaps[tbm] ){
       opts["tbm"] = tbm
+    }else if(tbm){
+      throw new Error(`tbm support only: ${  Object.keys(config.google.tbmMaps).join(', ')}`)
     }
     const response = await this.get("google/serp", opts);
     return response.data;
