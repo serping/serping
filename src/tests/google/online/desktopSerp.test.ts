@@ -35,7 +35,7 @@ describe('GoogleDesktopSerp.test', () => {
   it('Google Video data successfully: coffee', async () => {
     const result = await serping.googleSerp({ q: 'coffee', snapshot: "on", tbm: 'vid' });
     const data = result;
-    console.log('data', JSON.stringify(data, null, 2))
+    // console.log('data', JSON.stringify(data, null, 2))
     const id = data.meta.snapshot_id; 
     expect(!!id).toBe(true);
     expect(data?.origin_search.results.length).toBeGreaterThan(0)

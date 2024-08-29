@@ -17,22 +17,45 @@ import {
   SerpLocalResultsSchema, 
   type SerpOriginSearch,
   type SerpLocalResults,
-  SerpPerspectivesSchema
+  SerpPerspectivesSchema,
+  SerpLocalNormalSchema,
+  SerpLocalServicesSchema,
+  SerpLocalDirectionsSchema,
+  SerpLocalServicePlaceSchema,
+  SerpLocalNormalPlaceSchema,
+  SerpLocalDirectionPlaceNormalSchema,
+  SerpLocalMapSchema,
+  SerpLocalMapGpsSchema
  } from '@/zod/google/desktop-serp';
 import fs from 'fs';
 import path from 'path';
 
-// TODO: parse
 const localParse =(results: SerpLocalResults | null )=>{
   if(!results) return;
   const {local_results} = SerpLocalResultsSchema.parse(results);
   switch (local_results.type){
     case "normal":
+      const normal =  SerpLocalNormalSchema.parse(local_results);
+      normal.places.map(place => SerpLocalNormalPlaceSchema.parse(place)); 
     break;
     case "services":
+      const services =  SerpLocalServicesSchema.parse(local_results);
+      services.places.forEach(place => { 
+        SerpLocalServicePlaceSchema.parse(place)
+      });
       break;
     case "directions":
+      const directions =  SerpLocalDirectionsSchema.parse(local_results);
+      directions.places.map(place => SerpLocalDirectionPlaceNormalSchema.parse(place));
+      break;
+    default:
+      // 
   }
+  if(local_results.local_map) {
+    const local_map =  SerpLocalMapSchema.parse(local_results.local_map);
+    SerpLocalMapGpsSchema.parse(local_map.gps_coordinates);
+  }
+  return local_results;
 }
 
 const originSearchParse =(results: SerpOriginSearch[])=>{

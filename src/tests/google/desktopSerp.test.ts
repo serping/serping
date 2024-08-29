@@ -4,6 +4,8 @@ import Serping from '@/index';
 import { SerpingConfig } from '@/types'; 
 import { dataParse } from "./parse";
 import { desktopOpenai, desktopCoffee, desktopSeo, desktopVpn, desktopHowTo } from '@tests/data/google/serp/desktop'; 
+import { desktopDeKw } from '@tests/data/google/serp/desktop/de-kw';
+import { SerpJsonSchema } from '@/zod/google/desktop-serp';
 
 jest.spyOn(axios, "get");
 
@@ -71,5 +73,16 @@ describe('GoogleDesktopSerp.test', () => {
 
     expect(result).toEqual(mockResponse);
   });
+
+  it('Küchenplaner Hannover', async () => {
+    const mockResponse = desktopDeKw;
+    mockAxios.onGet('google/serp').reply(200, mockResponse);
+
+    const result = await serping.googleSerp({ q: 'Küchenplaner Hannover' }); 
+    dataParse(result);
+
+    expect(result).toEqual(mockResponse);
+  });
+
  
 });

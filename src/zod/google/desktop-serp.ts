@@ -550,7 +550,7 @@ export const SerpLocalServicePlaceSchema = z.object(
     links: z.array(z.object({
       name: z.string(),
       link: z.string()
-    }))
+    })).optional()
   }
 )
 export type SerpLocalServicePlace = z.infer<typeof SerpLocalServicePlaceSchema>;
@@ -577,7 +577,7 @@ export type SerpLocalServices = z.infer<typeof SerpLocalServicesSchema>;
 //
 /////////////////////////////////////////
 
-const SerpLocalNormalPlaceSchema = z.object({ 
+export const SerpLocalNormalPlaceSchema = z.object({ 
   position: z.number(),
   title: z.string(),
   topic: z.string(),
