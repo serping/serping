@@ -455,7 +455,7 @@ export type SerpLocalMapGps = z.infer<typeof SerpLocalMapGpsSchema>;
 export const SerpLocalMapSchema = z.object({
   link: z.string(),
   // thumbnail:  z.string().optional(),
-  gps_coordinates: SerpLocalMapGpsSchema,
+  gps_coordinates: SerpLocalMapGpsSchema.optional(),
 });
 export type SerpLocalMap = z.infer<typeof SerpLocalMapSchema>;
 
