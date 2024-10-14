@@ -53,7 +53,7 @@ const localParse =(results: SerpLocalResults | null )=>{
   }
   if(local_results.local_map) {
     const local_map =  SerpLocalMapSchema.parse(local_results.local_map);
-    SerpLocalMapGpsSchema.parse(local_map.gps_coordinates);
+    if(local_map.gps_coordinates) SerpLocalMapGpsSchema.parse(local_map.gps_coordinates);
   }
   return local_results;
 }
