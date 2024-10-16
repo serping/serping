@@ -25,7 +25,11 @@ import {
   SerpLocalNormalPlaceSchema,
   SerpLocalDirectionPlaceNormalSchema,
   SerpLocalMapSchema,
-  SerpLocalMapGpsSchema
+  SerpLocalMapGpsSchema,
+  SerpThingsToKnow,
+  SerpThingsToKnowNormalSchema,
+  SerpThingsToKnowListingSchema,
+  SerpThingsToKnowTableSchema
  } from '@/zod/google/desktop-serp';
 import fs from 'fs';
 import path from 'path';
@@ -57,6 +61,26 @@ const localParse =(results: SerpLocalResults | null )=>{
   }
   return local_results;
 }
+const thingsToKnowParse =(results: SerpThingsToKnow)=>{ 
+  const {things_to_know} = SerpThingsToKnowSchema.parse(results);
+  things_to_know.forEach((item)=>{
+    switch (item.type){
+      case "normal":
+        SerpThingsToKnowNormalSchema.parse(item);
+        break;
+      case "listing":
+        SerpThingsToKnowListingSchema.parse(item);
+        break;
+      case "table":
+        SerpThingsToKnowTableSchema.parse(item);
+        break;
+      default:
+        // 
+    }
+  })
+  return things_to_know;
+}
+
 
 const originSearchParse =(results: SerpOriginSearch[])=>{
     for(const item of results){
@@ -103,7 +127,7 @@ const originSearchParse =(results: SerpOriginSearch[])=>{
               itemData = SerpBookSchema.parse(item);
               break;
             case "things_to_know":
-              itemData = SerpThingsToKnowSchema.parse(item);
+              itemData = thingsToKnowParse(item as SerpThingsToKnow);
               break;
             case "twitter":
               itemData = SerpTwitterSchema.parse(item);

@@ -369,15 +369,33 @@ export const SerpThingsToKnowListingSchema = z.object({
       name: z.string(),
       link: z.string()
     })
-  }))
+  })) 
 })
 export type SerpThingsToKnowListing = z.infer<typeof SerpThingsToKnowListingSchema>; 
+
+export const SerpThingsToKnowTableSchema = z.object({
+  position: z.number(),
+  type: z.literal('table'),
+  heading: z.object({
+    primary: z.string(),
+    secondary: z.string(),
+  }),  
+  snippet: z.string(),
+  date: z.string().optional(),
+  source: z.object({
+    title: z.string(),
+    name: z.string(),
+    link: z.string(),
+    display_link: z.string(),
+  })
+})
+export type SerpThingsToKnowTable = z.infer<typeof SerpThingsToKnowTableSchema>;
 
 export const SerpThingsToKnowSchema = z.object({
   type: z.literal("things_to_know"),
   things_to_know: z.array(z.object({
     position: z.number(),
-    type: z.enum(['normal', 'listing']), 
+    type: z.enum(['normal', 'listing', 'table']), 
   }).catchall(z.any()))
 })
 
