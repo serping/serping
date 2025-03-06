@@ -865,7 +865,7 @@ export type SerpKnowledgePanel = z.infer<typeof SerpKnowledgePanelSchema>;
 // SerpJSON
 /////////////////////////////////////////
 
-export const SerpOriginSearchTypeSchema = z.enum(["normal", "tablist"]);
+export const SerpOriginSearchTypeSchema = z.enum(["normal", "tablist", "tv_episodes"]);
 export type SerpOriginSearchType = z.infer<typeof SerpOriginSearchTypeSchema>;
 
 export const SerpJsonSchema = z.object({
