@@ -132,6 +132,7 @@ export type SerpRecipes = z.infer<typeof SerpRecipesSchema>;
 export const SerpPeopleAlsoAskSchema = z.object({
   type: z.literal("people_also_ask"),
   people_also_ask: z.array(z.object({
+    type: z.enum(['normal', "ai_overview"]),
     position: z.number(),
     question: z.string(),
     snippet: z.string(),
