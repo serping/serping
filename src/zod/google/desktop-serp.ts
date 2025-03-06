@@ -431,7 +431,7 @@ export const SerpThingsToKnowSchema = z.object({
   type: z.literal("things_to_know"),
   things_to_know: z.array(z.object({
     position: z.number(),
-    type: z.enum(['normal', 'listing', 'table']), 
+    type: z.enum(['normal', 'listing', 'table', 'ai_overview']), 
   }).catchall(z.any()))
 })
 
