@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.1-beta.3](https://github-serping/serping/serping/compare/v1.2.1-beta.2...v1.2.1-beta.3) (2025-03-06)
+
+
+### Bug Fixes
+
+* people_also_ask test data ([621b86e](https://github-serping/serping/serping/commit/621b86ed8d27e91a4091671d7610bba055f14d72))
+
 ### [1.2.1-beta.2](https://github-serping/serping/serping/compare/v1.2.1-beta.1...v1.2.1-beta.2) (2025-03-06)
 
 ### [1.2.1-beta.1](https://github-serping/serping/serping/compare/v1.2.0-beta.27...v1.2.1-beta.1) (2025-03-06)
