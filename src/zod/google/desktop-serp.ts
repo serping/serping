@@ -1,5 +1,22 @@
 import { z } from 'zod';
-export const serpTypes = ['normal', 'local_results', 'book', 'recipes', 'inline_images', 'people_also_ask', 'things_to_know', 'perspectives', 'top_stories', 'twitter', 'site_links', 'inline_videos', 'video', 'featured_snippets', 'from_sources_across_the_web', 'discussions_and_forums'] as const;
+export const serpTypes = [
+  'normal', 
+  'local_results', 
+  'latest_from', 
+  'book', 
+  'recipes', 
+  'inline_images', 
+  'people_also_ask', 
+  'things_to_know', 
+  'perspectives', 
+  'top_stories', 
+  'twitter', 
+  'site_links', 
+  'inline_videos',
+  'video', 
+  'featured_snippets', 
+  'from_sources_across_the_web', 
+  'discussions_and_forums'] as const;
 export const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
 export const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
 export const SerpColumnTypeTypes = [...serpTypes, "related_searches", "topads", "bottomads"] as const;
@@ -144,8 +161,26 @@ export const SerpPeopleAlsoAskSchema = z.object({
     }).optional()
   }))
 })
-
 export type SerpPeopleAlsoAsk = z.infer<typeof SerpPeopleAlsoAskSchema>;
+
+/////////////////////////////////////////
+// SerpLatestFrom
+/////////////////////////////////////////
+
+export const SerpLatestFromSchema = z.object({
+  type: z.literal("latest_from"),
+  latest_from: z.array(z.object({ 
+    position: z.number(),
+    date: z.string(),
+    thumbnail: z.string(),
+    source: z.object({
+      title: z.string(),
+      name: z.string(),
+      link: z.string(),
+    }).optional()
+  }))
+})
+export type SerpLatestFrom = z.infer<typeof SerpLatestFromSchema>;
 
 /////////////////////////////////////////
 // SerpSiteLinks
