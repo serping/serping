@@ -45,6 +45,7 @@ export const desktopHowTo =
 				"people_also_ask": [
 					{
 						"position": 1,
+						"type": "normal",
 						"question": "How do I start basic SEO?",
 						"snippet": "**Help Google find your content**\n\n1.  Check if Google can see your page the same way a user does.\n2.  Don't want a page in Google's search results?\n3.  Use descriptive URLs.\n4.  Group topically similar pages in directories.\n5.  Reduce duplicate content.\n6.  Expect your readers' search terms.\n7.  Avoid distracting advertisements.\n8.  Link to relevant resources.\n\n[More items...](https://developers.google.com/search/docs/fundamentals/seo-starter-guide)",
 						"source": {
@@ -56,6 +57,7 @@ export const desktopHowTo =
 					},
 					{
 						"position": 2,
+						"type": "normal",
 						"question": "Can I learn SEO on my own?",
 						"snippet": "And **with some time, a few free SEO tools, and this guide on how to do SEO yourself, you too can become an SEO expert**. So, if you're asking yourself, “Can I do SEO on my own,” you're in the right place. Keep reading to learn how to do SEO on your own!Mar 15, 2023",
 						"source": {
@@ -67,6 +69,7 @@ export const desktopHowTo =
 					},
 					{
 						"position": 3,
+						"type": "normal",
 						"question": "How to start learning SEO?",
 						"snippet": "**Make sure you know the SEO basics before you dive into tools and resources.**\n\n1.  Learn What SEO Is. ...\n2.  Discover How Search Engines Work. ...\n3.  Understand SEO Ranking Factors. ...\n4.  Know the Types of SEO. ...\n5.  Build Essential SEO Skills. ...\n6.  Set Up and Learn Google Search Console. ...\n7.  Get Acquainted with an SEO Tool Set. ...\n8.  Master SEO Tools within Your CMS.\n\n[More items...](https://www.semrush.com/blog/learn-seo/)\n\n•\n\nFeb 19, 2024",
 						"source": {
@@ -78,6 +81,7 @@ export const desktopHowTo =
 					},
 					{
 						"position": 4,
+						"type": "normal",
 						"question": "Can a beginner do SEO?",
 						"snippet": "If you want to learn SEO, you've come to the right place. **This beginner's guide, consisting of seven chapters, has everything you need to understand the basics of SEO and start ranking higher.**",
 						"source": {

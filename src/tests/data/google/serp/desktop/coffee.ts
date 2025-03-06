@@ -102,6 +102,7 @@ export const desktopCoffee =
 							"people_also_ask": [
 									{
 											"position": 1,
+											"type": "normal",
 											"question": "Is coffee good or bad for health?",
 											"snippet": "Hu said that **moderate coffee intake—about 2–5 cups a day—is linked to a lower likelihood of type 2 diabetes, heart disease, liver and endometrial cancers, Parkinson's disease, and depression**. It's even possible that people who drink coffee can reduce their risk of early death.",
 											"source": {
@@ -113,6 +114,7 @@ export const desktopCoffee =
 									},
 									{
 											"position": 2,
+											"type": "normal",
 											"question": "What are the main benefits of coffee?",
 											"snippet": "**Here are the top ways coffee can positively impact your health:**\n\n*   You could live longer. ...\n*   Your body may process glucose (or sugar) better. ...\n*   You're less likely to develop heart failure. ...\n*   You are less likely to develop Parkinson's disease. ...\n*   Your liver will thank you. ...\n*   Your DNA will be stronger.\n\n[More items...](https://www.hopkinsmedicine.org/health/wellness-and-prevention/9-reasons-why-the-right-amount-of-coffee-is-good-for-you)",
 											"source": {
@@ -124,6 +126,7 @@ export const desktopCoffee =
 									},
 									{
 											"position": 3,
+											"type": "normal",
 											"question": "What is the original name for coffee?",
 											"snippet": "It originated from the Arabic word \"qahwa,\" which initially referred to a type of wine. The term traveled to the Ottoman Empire, where it became **\"kahve\" in Turkish**.",
 											"source": {
@@ -135,6 +138,7 @@ export const desktopCoffee =
 									},
 									{
 											"position": 4,
+											"type": "normal",
 											"question": "What does coffee do to the body?",
 											"snippet": "The caffeine in coffee works by **stimulating the central nervous system (CNS), heart, and muscles**. Chlorogenic acid might affect blood vessels and how the body handles blood sugar and metabolism. People most commonly drink coffee to increase mental alertness.",
 											"source": {

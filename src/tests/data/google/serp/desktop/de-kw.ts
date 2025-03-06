@@ -86,6 +86,7 @@ export const desktopDeKw = {
               "people_also_ask": [
                   {
                       "position": 1,
+                      "type": "normal",
                       "question": "Wie viel kostet es eine Küche planen zu lassen?",
                       "snippet": "Je nach Material, Größe und Küchenform setzt sich zusammen, wie viel deine neue Küche kosten wird. Günstige Küchen starten schon ab 1.000€, **eine individuelle Küchenplanung beginnt ab ca.** **4.000€**. Um all deine Küchenwünsche erfüllen zu können, wirst du vermutlich mit mehr als 10.000€ an Küchenkosten rechnen müssen.",
                       "source": {
@@ -97,6 +98,7 @@ export const desktopDeKw = {
                   },
                   {
                       "position": 2,
+                      "type": "normal",
                       "question": "Wie lange dauert eine Planungsküche?",
                       "snippet": "Experten rechnen für eine Küchenplanung **grundsätzlich mit drei Stunden**. Da die derzeit aufgrund der Corona-Pandemie durchgeführten Online-Termine umfangreich vorbereitet werden, können diese teilweise sogar etwas weniger Zeit in Anspruch nehmen. Unser Tipp: Je mehr Zeit Sie für Ihre Küche einplanen, umso besser.",
                       "source": {
@@ -108,6 +110,7 @@ export const desktopDeKw = {
                   },
                   {
                       "position": 3,
+                      "type": "normal",
                       "question": "Welche Küchenplaner gibt es?",
                       "snippet": "**Liste aller Anbieter**\n\n*   Onlineplaner von KüchenAtlas (Online)\n*   3D-**Küchenplaner** von PLANA (Online)\n*   Nolte **Küchenplaner** (Online)\n*   IKEA **Küchenplaner** (Online)\n*   Höffner 3D **Küchenplaner** (Online)\n*   KüchenTreff 3D **Küchenplaner** (Download)\n*   3D-Raumplaner von Palette CAD (Online)\n\n[Weitere Einträge...](https://systemhaus.com/software-fuer-kuechenplaner)",
                       "source": {
@@ -119,6 +122,7 @@ export const desktopDeKw = {
                   },
                   {
                       "position": 4,
+                      "type": "normal",
                       "question": "Wie viel verdient man als Küchenplaner?",
                       "snippet": "Als Küchenplaner/in kannst du ein **durchschnittliches Jahresgehalt von 35.900 €** und ein Monatsgehalt von ca.",
                       "source": {

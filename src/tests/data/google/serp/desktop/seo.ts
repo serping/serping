@@ -170,6 +170,7 @@ export const desktopSeo =
 				"people_also_ask": [
 					{
 						"position": 1,
+						"type": "normal",
 						"question": "What is an SEO service?",
 						"snippet": "SEO services are **search engine optimization services offered by an agency, freelancer, or consultant that optimize your site for SEO so you can capture more traffic and revenue from search**. Most SEO plans will include on-page, off-page, and technical SEO, though some focus on specific areas, like off-page SEO.May 15, 2024",
 						"source": {
@@ -181,6 +182,7 @@ export const desktopSeo =
 					},
 					{
 						"position": 2,
+						"type": "normal",
 						"question": "How much do SEO services typically cost?",
 						"snippet": "Facts About SEO Pricing & Service Costs Include the Following: Average SEO costs are **$100-$250 an hour** for US SEO agencies. SEO costs often range from $2,500 – $10,000 per month for US agencies. The average SEO plan costs $2819 per month (per Ahrefs)",
 						"source": {
@@ -192,6 +194,7 @@ export const desktopSeo =
 					},
 					{
 						"position": 3,
+						"type": "normal",
 						"question": "Is it worth paying for SEO services?",
 						"snippet": "**SEO is worth the investment for so many marketers** typically because of these five benefits: Targeted and compounding traffic. SEO can attract the right visitors who are likely to become customers. SEO content continues to draw traffic over time, leading to steady growth.Jul 9, 2024",
 						"source": {
@@ -203,6 +206,7 @@ export const desktopSeo =
 					},
 					{
 						"position": 4,
+						"type": "normal",
 						"question": "What is SEO and how does it work?",
 						"snippet": "SEO stands for 'Search Engine Optimization', which is **the process of getting traffic from free, organic, editorial, or natural search results in search engines**. It aims to improve your website's position in search results pages (SERPs). Remember, the higher the website is listed, the more people will see it.Feb 27, 2024",
 						"source": {

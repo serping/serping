@@ -126,6 +126,7 @@ export const desktopVpn =
 				"people_also_ask": [
 					{
 						"position": 1,
+						"type": "normal",
 						"question": "What a VPN really does?",
 						"snippet": "A VPN **creates a secure tunnel between a user's computer and the VPN server, which hides their online activity and location**. VPN security enables users to protect their online privacy and prevent their internet service provider (ISP) from tracking their browsing activity.",
 						"source": {
@@ -137,6 +138,7 @@ export const desktopVpn =
 					},
 					{
 						"position": 2,
+						"type": "normal",
 						"question": "Can you VPN for free?",
 						"snippet": "**Hide.Me VPN is also a strong choice for free** because it has five server locations and lets you use a generous 10GB of data per month. Importantly, all three of these services have released the results of third-party audits.",
 						"source": {
@@ -148,11 +150,13 @@ export const desktopVpn =
 					},
 					{
 						"position": 3,
+						"type": "normal",
 						"question": "What is the meaning of VPN?",
 						"snippet": "Virtual private network\n\nVirtual private network / Full name"
 					},
 					{
 						"position": 4,
+						"type": "normal",
 						"question": "Why is VPN legal?",
 						"snippet": "Why are VPNs legal? **VPNs protect your online privacy and prevent criminals and cyberterrorists from accessing your online data**. If you use a VPN service, you can browse privately and securely, even on public Wi-Fi. VPNs also protect your freedom of speech and help you evade censorship in oppressive countries.Jan 8, 2024",
 						"source": {
