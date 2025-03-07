@@ -149,8 +149,7 @@ export type SerpRecipes = z.infer<typeof SerpRecipesSchema>;
 /////////////////////////////////////////
 
 export const  WhatPeopleAreSayingBaseSchema = z.object({
-  type: z.enum(['normal', 'video']),
-  position: z.number(),
+  type: z.enum(['normal', 'video']).optional(), 
   title: z.string(),
   link: z.string(), 
   date: z.string(),
@@ -159,9 +158,9 @@ export const  WhatPeopleAreSayingBaseSchema = z.object({
   thumbnail: z.string().optional(), 
   rich_snippet: z.string().optional(),
 })
-export const SerpWhatPeopleAreSayingSchema = z.object({
+export const SerpWhatPeopleAreSayingSchema =z.object({
   type: z.literal("what_people_are_saying"),
-  what_people_are_saying:  z.object({
+  what_people_are_saying: z.array(z.object({
     type: z.enum(['normal', 'reddit', 'twitter', 'youtube', 'instagram']),
     position: z.number(),
     instagram: WhatPeopleAreSayingBaseSchema.optional(),
@@ -171,8 +170,8 @@ export const SerpWhatPeopleAreSayingSchema = z.object({
     normal: WhatPeopleAreSayingBaseSchema.extend({
       organization: z.string().optional()
     }).optional(), 
-  }) 
-});
+  }))
+}) ;
 
 export type SerpWhatPeopleAreSaying = z.infer<typeof SerpWhatPeopleAreSayingSchema>;
 
@@ -465,7 +464,7 @@ export const SerpThingsToKnowSchema = z.object({
   type: z.literal("things_to_know"),
   things_to_know: z.array(z.object({
     position: z.number(),
-    type: z.enum(['normal', 'listing', 'table', 'ai_overview']), 
+    type: z.enum(['normal', 'listing', 'table', 'ai_overview', 'ingredients']), 
   }).catchall(z.any()))
 })
 
