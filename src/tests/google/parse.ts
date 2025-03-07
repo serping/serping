@@ -30,7 +30,8 @@ import {
   SerpThingsToKnowNormalSchema,
   SerpThingsToKnowListingSchema,
   SerpThingsToKnowTableSchema,
-  SerpLatestFromSchema
+  SerpLatestFromSchema,
+  SerpWhatPeopleAreSayingSchema
  } from '@/zod/google/desktop-serp';
 import fs from 'fs';
 import path from 'path';
@@ -117,6 +118,9 @@ const originSearchParse =(results: SerpOriginSearch[])=>{
               break;
             case "people_also_ask":
               itemData = SerpPeopleAlsoAskSchema.parse(item);
+              break;
+            case "what_people_are_saying":
+              itemData = SerpWhatPeopleAreSayingSchema.parse(item);
               break;
             case "latest_from":
               itemData = SerpLatestFromSchema.parse(item);

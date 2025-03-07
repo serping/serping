@@ -16,6 +16,7 @@ export const serpTypes = [
   'video', 
   'featured_snippets', 
   'from_sources_across_the_web', 
+  'what_people_are_saying',
   'discussions_and_forums'] as const;
 export const serpRelatedTypes = ['normal', 'videos', 'people_also_search_for', 'near'] as const;
 export const serpKnowledgePanelTypes = ['normal', 'knowledge', 'foods', 'ads'] as const;
@@ -37,6 +38,7 @@ import {
   SerpAdsSchema, 
   SerpPeopleAlsoSearchForSchema
 } from './base';
+import { link } from 'fs';
 export { 
   SerpItemSourceSchema, 
   SerpAdsSchema,  
@@ -141,6 +143,27 @@ export const SerpRecipesSchema = z.object({
 });
 
 export type SerpRecipes = z.infer<typeof SerpRecipesSchema>;
+
+/////////////////////////////////////////
+// SerpWhatPeopleAreSayingSchema
+/////////////////////////////////////////
+
+export const SerpWhatPeopleAreSayingSchema = z.object({
+  type: z.literal("what_people_are_saying"),
+  what_people_are_saying:  z.object({
+    type: z.enum(['normal', 'reddit', 'twitter', 'youtube', 'instagram']),
+    position: z.number(),
+    title: z.string(),
+    thumbnail: z.string().optional(),
+    snippet: z.string().optional(), 
+    rich_snippet: z.string().optional(), 
+    link: z.string(),
+    date: z.string(),
+    author: z.string(),
+  }) 
+});
+
+export type SerpWhatPeopleAreSaying = z.infer<typeof SerpWhatPeopleAreSayingSchema>;
 
 /////////////////////////////////////////
 // SerpPeopleAlsoAsk
