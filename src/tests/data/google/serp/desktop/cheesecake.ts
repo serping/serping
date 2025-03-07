@@ -12,10 +12,10 @@ export const desktopCheesecake = {
         "query_displayed": "cheesecake",
         "result_stats": {
             "total_results": "153000000",
-            "time_taken_displayed": "0.82"
+            "time_taken_displayed": "0.64"
         },
-        "parse_duration": "998 ms",
-        "render_duration": "2627 ms"
+        "parse_duration": "694 ms",
+        "render_duration": "2310 ms"
     },
     "topads": [],
     "origin_search": {
@@ -32,7 +32,7 @@ export const desktopCheesecake = {
                     "display_link": "https://www.thecheesecakefactory.com",
                     "link": "https://www.thecheesecakefactory.com/"
                 },
-                "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAC4ALgMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAAEBQYDAQcC/8QALhAAAgIBBAEBBgUFAAAAAAAAAQIDEQQABRIhMWEGE0FRcZEUFSIyoSNigZLR/8QAGAEAAwEBAAAAAAAAAAAAAAAAAgMEAAH/xAAfEQACAgICAwEAAAAAAAAAAAAAAQIRAzEhoRIiUQT/2gAMAwEAAhEDEQA/APXpCLYdWPhrJ3dK4RlyfkQK1K7th5+BJjNHuM7yZDJEfd2ZHZRI3VsL83RNDj66wxZYcdc2LK3mSOH8O0Ax5oyojLBewPjXL6/qN9AanotWG1aZZCaUMR+Hbz55DXHnkoVAx9LHWobAgixE/DYftLFF/UcFIEIXmUCg9GiAUb0892L0aMpWyYHxd7lmgEnvJ/1u3GEAUK77Loe+rBbRGf5+eH0yrJJ4sQR1ffw0LL01X18NRckO3S7jn5v5tDGpmDtcJ7DGOVTYPYoUL/u+R00yNk3NogIt5kCEqU4FloAVQo+PQaXKITwpVb6H+XFBmRGPKiSWO7pxdEfHQp2zbWjCnExwlUBxqvHj5ftX7a0wchMlSOILL5o6k/abct72+Stp21sl0f8AXxumHpR1nGUWkLjO16sqvynb3UuMXHdfee8I42OXm6+veufkmAAqnFx/dleKkDqrsD7+PlqbT2riikigzzLizSR8yJ4jwXqyvOqJ0dtXtAm54xkwHV4A1BgpAY+l645JK2byyfRido21WESYeNZIUgLVUOvtQGjy4IH00JgMs8gmlkN9qUJBHkGz1rjTX4PXw9RoXK1Ya8pbBNvkKO3If79fYaV5YxDuGW02XGXS2MJNcQfHn4/90RvS5W34LS47w8gf3caIv07v+NQWS+Q+S02RMZGlAsk2SfXTc03HRHHI4aLMZo9wjwRmaFgSbpilAkUD9Nfa7Ti78LlhdYwe5oZWjbkAPgD9O9C+zbZB21TDNwAJXjxsX5v+dNcfLzMWGrjkQdDl0dDbcbaKY5FXrsO2xMXElaJZWdkUK5I5M3ddn/OmTJGemUGvHXjSL2dZpMrJeSihdua15PR+3enuRPGgDup7NWvnR4VwKyvk/9k=",
+                "thumbnail": "data:image/jpeg;base64,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",
                 "snippet_highlighted_words": [
                     "cheesecakes"
                 ],
@@ -66,7 +66,7 @@ export const desktopCheesecake = {
                     "display_link": "https://sugarspunrun.com › Desserts › Cheesecake",
                     "link": "https://sugarspunrun.com/best-cheesecake-recipe/"
                 },
-                "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAC4ALgMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAFBgIDBAcBAP/EADIQAAEDAgUBBgUDBQAAAAAAAAECAwQFEQAGEiExQRMUUXGBkQciI2GxMjPRFUJSU2L/xAAZAQACAwEAAAAAAAAAAAAAAAADBAECBQD/xAAhEQABBAICAgMAAAAAAAAAAAABAAIDESExEhMEcSJBYf/aAAwDAQACEQMRAD8AGszmsttlSXEvIkspMhlxI+mem3W18BpsiFUH47VNjLRKdvqBP7yyeieE+WGCoZEmzpDpTNQrVck9mSQPK+PqJkCPGq8V9+a9IeQ4CkWCUgjr44CIgRRWj5E8II6ha3034eaoyHqlKUhenUttsDb7Xx0Oloa/p7CEAFsIskc7YzSXUuh6CHkJkpQCQhQJSDexI5F7H2OKKbAnxWkpanoWkf2ON8eoxPSAfiEn2FwyVKRlWgPrWtylxgty+pSUaSfbFVLytRaSt4U6OWC4fn0rJvhSzTWq/Sq+2R2iklwaG0ftrT4YqpfxGkzKo8w7BIbQglIaBKgbjY4jgD9I00RiDTyuwmp5ySiQlXd1EXFi0oC/ljJV5ZpkVMp9k97WDo+of1XO/tbBduQlye/HFrMpAI5+Y7nbxAtz44w5ly81W44CXiy+k3S4bq9DgZkdeNLoGRB4MulyTMFbXIqneS+5r17O3uQQNrHkDbp99umCuW881WRWGYEqQtbUhaW2l3AUgnZN/wDK+3N/PE5/w0rCgUtusLAN0qST+MX5QyLUqXXGptSQhQYOppKFH9XQn+MXbKxoyreWGvlJj0nbtKw2u/bax4LQDiL6qqhtHZyfqnckMgJt4cX5xumprLpPcnILQsbl1Kgr8EeOFKtVvMdGdSmTHlOoUfldYYC0K46hP24NuuGo2dgsOCypZjG6uBPpGoVWZj1yVFlPJ1uFCgpRt82kC3nxhlSQd/HC5Jy9BqTpdcQpt7/Y2bH1HB9RipvLdQgoSKfWXglJ2Q8NQ58/TjCvU9v6ni5rs6TXj0KPTCm/WqvSSO/oiSEX5bUpJ526YIUrMsWpPrYQy8haDZVwLe98VJF0V3E7CPazbexxW48RZOvQOdsSBBGB89YS8B/zgkeDYVHZC//Z",
+                "thumbnail": "data:image/jpeg;base64,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",
                 "snippet_highlighted_words": [
                     "Simple, classic, and no water bath required"
                 ],
@@ -92,7 +92,7 @@ export const desktopCheesecake = {
                     "display_link": "https://sallysbakingaddiction.com › Recipes › Cheesecake",
                     "link": "https://sallysbakingaddiction.com/classic-cheesecake/"
                 },
-                "thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAC4ALgMBIgACEQEDEQH/xAAaAAACAwEBAAAAAAAAAAAAAAAGBwMEBQIB/8QAMhAAAgEDAwIEBQEJAQAAAAAAAQIDBAURABIxBiETQVFhFCJCcYEHMpGhscHC0vDxFf/EABcBAQEBAQAAAAAAAAAAAAAAAAUEAwL/xAAlEQACAgECBAcAAAAAAAAAAAABAgARAyExEhNR8AQFIjJBgZH/2gAMAwEAAhEDEQA/AByl6mqbFdZI6ipdwzNHITJkoeNC1XVUzSSt4wYlics2SdMW41ljpHbNthzn6YRqm9ztf/nvVR25VDAqjGJQFPqfXv2wNGjCmPWOA5HagNTA7p27JSVa/PIsO9XYRoWLYPGnpYuoKS6weLuMSY4kG0/u0JdF2ie7Wz4650ppI3k205RQPHHqo57YPt27aKqW02mEgpudgeWOrEAG0PzUGIb4mt4qlsocr5H114ZO+o/DRv2XwB76x6/qaz2+s+Dlqw84XcUjBYge+NbAE7SF8ipqxqD9R0dV3CvSI7Yo2JLSMc7R6489FFm/T2xQtC1V4lXHAjjw53yjFvqIHGO+Pv7aiuVZVWSkkrJ5YjsXJRRliue5A/r/AD1uRFZdro2VK5yOO/po7mEmKtkyAWpq+kkuUkVLTxxxosdNAoWJVVY1RcYwGPAx27DjQDfK+vrJI16dgSoniYmYUzBUOSSFG7kDsNHbRLIV+UMScZPcjVgFk7RnC+W3XfNbisSVkDKQYoafqK+pWNHfLdJRwICAZY2QyN7DzHvrAtFTbLdfLhPf6gp8QoaHCtnbk+g/3GnxOTLEyyhZI/qRxuBH2Okz1T+m14r7xPXGrpUhnctTxndiOPOVUc4wDwNVp4oEaiqhj+WlshN2CPuMrqayrd6OqSiqY46yaNF2TMQuBjzAPOPTVaz03VlsoYqd6W2VohQKnhVhDYBHOV79vP8A7qKG4JPiCpjJIZgu1jgMOSO+R+DqOnU3OOR7fXVcXhyGLZMFcZAB5OWx3HnqBXVtxHGRgKvSXXuvUwnlgTp3LqAV3VK4b1wSADyOPfXUF7v0KA13StYDj5jHUQsPxl9ZFVZuowjFLxRhR5Glf/PWJVdMdRVpKveaQD2p2H9x116BOaPTv9hinWFG0ohnt9VFJg5VpISR+A+dL/qr9SLkas09ItPFTRkBFcFm7DnI+/8ADVC72ao6Tp/jZ69qyacGJRs2qnBJ50BVtUZpNzDvrTGvFttN8mLEmAOfcdp//9k=",
+                "thumbnail": "data:image/jpeg;base64,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",
                 "snippet_highlighted_words": [
                     "A creamy and ultra smooth classic cheesecake recipe"
                 ],
@@ -171,58 +171,8 @@ export const desktopCheesecake = {
                         ]
                     },
                     {
-                        "type": "ai_overview",
-                        "position": 3,
-                        "heading": {
-                            "primary": "You bake",
-                            "secondary": "Can you bake a cheesecake?"
-                        },
-                        "snippet": "Yes, you can bake a cheesecake; it's a classic dessert that is typically baked in the oven using a water bath to achieve a smooth, creamy texture; the key is to not overbake it so the center remains slightly jiggly when done. \n\nKey points about baking cheesecake:\n\n*   **Water bath:**\n    \n    Most cheesecake recipes recommend baking in a water bath (bain-marie) to prevent cracking and ensure even cooking. \n    \n*   **Springform pan:**\n    \n    A springform pan is usually used for baking cheesecake as it allows for easy removal from the pan. \n    \n*   **Temperature and time:**\n    \n    Cheesecakes are typically baked at a low temperature (around 325°F) for a longer time to cook gently. \n    \n*   **Check for doneness:**\n    \n    A cheesecake is done when the edges are set but the center still has a slight jiggle when gently shaken. \n    \n*   **Cooling process:**\n    \n    After baking, let the cheesecake cool completely in the pan on a wire rack before chilling in the refrigerator for several hours before serving. \n    \n\n*   [](https://www.onceuponachef.com/recipes/new-york-style-cheesecake.html#:~:text=Place%20the%20unbaked%20cheesecake%20in,least%208%20hours%20to%20cool)\n    \n    Classic New York Cheesecake Recipe (Video) - Once Upon a Chef\n    \n    Dec 18, 2024 — Place the unbaked cheesecake in a large roasting pan and add boiling water to the pan, about an inch up the sides of t...\n    \n    ![](data:image/png;base64,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)\n    \n    Once Upon a Chef\n    \n\n*   [](https://www.howtocook.recipes/classic-homemade-cheesecake-recipe/#:~:text=Is%20cheesecake%20better%20baked%20or,Yes%2C%20you%20can!)\n    \n    Classic Homemade Cheesecake Recipe (Video!)\n    \n    Is cheesecake better baked or not? It all depends on your preferences. When you bake a cheesecake, the texture is velvety, rich, a...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAaVBMVEVHcEzbVE35qDn5qDn5qDn6qDn5qDn5qDn5qDn5qDn5qDn6qDn5qDn5qDn9rTBEs7ZFs7ZEs7ZFs7ZFs7ZFs7ZDtLdEtLdFs7ZFs7bNJFjLLFvKLVzLK1vKLVzKLVzKLVzKLVzKLVzKLVzvpDsgAAAAI3RSTlMADk0+YpQgr3bdLMv/9DVeF+Yv/3OQz0esQbp0i+0k/9ehXxFPCQQAAAGKSURBVHgBdMrFgQQxEATBktS4qh0m/x09ZohvJn4pteF/oqrWHP+J12SBv4nhVd7wp6KiLg5AC/5UqwHVBVbxlbfoMJXn5nor3RTfUDTByJB7ZfEoA76j9my0mnJXBoFxwldO7xmEMdjvncA8YcSnxuqphFFI5R3Luu3H+bnY2zCwksI7MGM9D3y4sXkGS6SxGxOYx/0o3wZxo1NABztwHfiqcABgMQDV0PWRDLI4tAAGgeCmDCQMpP8evzyXOeGy+sY8JJldym1JuaXwR77obdrQUgCmpobzKEhiTgAcAWxtGtODxkrdM4zRsxG85gUlkZnuQZykAOnBAknkjHcSmRgwelAgrXvBOYOBsz4Lehk9uMDAmM8VHGeSXbCg5mXEZqU7FZjhorWxIh8Fh6YWlSONi5KTytADy/Wpvb26v23JwRHAQAgCQDvwUCT2X2m8cfLLvgCoQXWhxC9IbtdBKoforPZ23FB+RyXMIpein6bgiPJGYOdj9vBMEdiquT0rVelz6jBsxZ89X9aiKafJYjtfAAAAAElFTkSuQmCC)\n    \n    How To Cook.Recipes\n    \n\n*   [](https://www.thekitchn.com/how-to-make-perfect-cheesecake-recipe-cooking-lessons-from-the-kitchen-110760)\n    \n    Our Best Cheesecake Recipe Ever (So Perfect!) - The Kitchn\n    \n    Sep 19, 2024 — \\* 3 Tips for Perfect Cheesecake. Use a water bath. Baking the cheesecake in a water bath makes it extra creamy. If it...\n    \n    ![](data:image/png;base64,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)\n    \n    The Kitchn\n    \n\n*   [](https://www.masterclass.com/articles/cheesecake-recipe#:~:text=To%20bake%20cheesecake%2C%20bakers%20use,achieve%20its%20signature%20creamy%20consistency.)\n    \n    Classic Cheesecake Recipe: 5 Tips for Baking a ... - MasterClass\n    \n    Dec 24, 2024 — To bake cheesecake, bakers use a bain-marie, or water bath, to gently cook the dessert in the oven. Once the cheesecak...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgBAMAAACBVGfHAAAALVBMVEUeHh7//vIsLCycnJWAgHtWVlPHxr1ISEbj4te4uLDx8OVycm46OjirqqOOjohkXXEcAAAAcUlEQVR4AdXONwHCABBA0U/v5dN7WbPhIEiIg+AAC3GABCxgBQVIYUmzkLddP6pFvXAzLCdCImMyncQXgTNyH9+0XZALXNJ0Ra7tnKFeyAzcQFI6U9cvt9IZHh6IymfuxgTO87e4+qOt5om2T5oqFfIHzQgNEPGaNSQAAAAASUVORK5CYII=)\n    \n    MasterClass\n    \n\n*   [](https://www.yahoo.com/lifestyle/no-bake-vs-baked-cheesecake-154532148.html#:~:text=When%20deciding%20between%20making%20a,lighter%20with%20a%20whipped%20texture.)\n    \n    No Bake Vs Baked Cheesecake: What Makes Them Different, Besides ...\n    \n    Nov 30, 2024 — When deciding between making a baked or no-bake cheesecake, there are a few factors to keep in mind, such as taste and...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAaVBMVEVgAdJ8Ltrk1PeufujGpO7///+DOdxwG9b8+/7gzva0iOqZXOJmC9P07vzu5frbxvTAmu2jbOWqeOeUVOD49f1pENSWWOHo2/jr3/mlcOWRUOC7kuvWvvPYwvR2JNiIQd23jOrKq/DSuPJgXEy7AAAAsUlEQVR4Ad3SxRHDQBAEwDGImRnzD9Ijxiv/1Z9j3MWTvd70gdhXIhlCispxDWK6RAaETIvjtomNww4X9GHFgSeRj52AHWHEis1KjGRq7qXsyqaJNnKJChxk7HoD5bh1JVF9c62mHrc2E3Jx0nKsK6a7mqbga9SQE15RL6kFrjpp1E+/HONClkY53hLdxGm6ewIUojgFEnmA6aZajBs5xy0TYsMntRB7cVyt/+RQh6f6AanbCL/9Rz1bAAAAAElFTkSuQmCC)\n    \n    Yahoo\n    \n\nGenerative AI is experimental. [Learn more](https://support.google.com/websearch?p=ai_overviews&hl=en)",
-                        "sources": [
-                            {
-                                "position": 1,
-                                "title": "Classic New York Cheesecake Recipe (Video) - Once Upon a Chef",
-                                "link": "https://www.onceuponachef.com/recipes/new-york-style-cheesecake.html#:~:text=Place%20the%20unbaked%20cheesecake%20in,least%208%20hours%20to%20cool",
-                                "source_name": "Once Upon a Chef",
-                                "date": "Dec 18, 2024",
-                                "snippet": "Place the unbaked cheesecake in a large roasting pan and add boiling water to the pan, about an inch up the sides of t..."
-                            },
-                            {
-                                "position": 2,
-                                "title": "Classic Homemade Cheesecake Recipe (Video!)",
-                                "link": "https://www.howtocook.recipes/classic-homemade-cheesecake-recipe/#:~:text=Is%20cheesecake%20better%20baked%20or,Yes%2C%20you%20can!",
-                                "source_name": "How To Cook.Recipes",
-                                "snippet": "Is cheesecake better baked or not? It all depends on your preferences. When you bake a cheesecake, the texture is velvety, rich, a..."
-                            },
-                            {
-                                "position": 3,
-                                "title": "Our Best Cheesecake Recipe Ever (So Perfect!) - The Kitchn",
-                                "link": "https://www.thekitchn.com/how-to-make-perfect-cheesecake-recipe-cooking-lessons-from-the-kitchen-110760",
-                                "source_name": "The Kitchn",
-                                "date": "Sep 19, 2024",
-                                "snippet": "* 3 Tips for Perfect Cheesecake. Use a water bath. Baking the cheesecake in a water bath makes it extra creamy. If it..."
-                            },
-                            {
-                                "position": 4,
-                                "title": "Classic Cheesecake Recipe: 5 Tips for Baking a ... - MasterClass",
-                                "link": "https://www.masterclass.com/articles/cheesecake-recipe#:~:text=To%20bake%20cheesecake%2C%20bakers%20use,achieve%20its%20signature%20creamy%20consistency.",
-                                "source_name": "MasterClass",
-                                "date": "Dec 24, 2024",
-                                "snippet": "To bake cheesecake, bakers use a bain-marie, or water bath, to gently cook the dessert in the oven. Once the cheesecak..."
-                            },
-                            {
-                                "position": 5,
-                                "title": "No Bake Vs Baked Cheesecake: What Makes Them Different, Besides ...",
-                                "link": "https://www.yahoo.com/lifestyle/no-bake-vs-baked-cheesecake-154532148.html#:~:text=When%20deciding%20between%20making%20a,lighter%20with%20a%20whipped%20texture.",
-                                "source_name": "Yahoo",
-                                "date": "Nov 30, 2024",
-                                "snippet": "When deciding between making a baked or no-bake cheesecake, there are a few factors to keep in mind, such as taste and..."
-                            }
-                        ]
-                    },
-                    {
                         "type": "normal",
-                        "position": 4,
+                        "position": 3,
                         "heading": {
                             "primary": "Taste",
                             "secondary": "cheesecake taste"
@@ -237,62 +187,19 @@ export const desktopCheesecake = {
                         }
                     },
                     {
-                        "type": "ai_overview",
-                        "position": 5,
+                        "type": "normal",
+                        "position": 4,
                         "heading": {
                             "primary": "Defining Traits",
                             "secondary": "What makes a cheesecake a cheesecake?"
                         },
-                        "snippet": "A cheesecake is defined by its primary ingredient, which is typically cream cheese, combined with eggs and sugar to create a rich, creamy filling, often with a base or crust made from crushed cookies like graham crackers, giving it its distinct texture and taste; essentially, the defining element of a cheesecake is the presence of soft fresh cheese as a key component of the batter. \n\nKey points about cheesecake:\n\n*   **Main ingredient:** Cream cheese (though other soft cheeses like ricotta or quark can be used) \n*   **Other common ingredients:** Eggs, sugar, vanilla extract \n*   **Crust:** Usually made from crushed cookies like graham crackers, sometimes a pastry crust \n*   **Distinctive features:** Smooth, creamy texture, tangy flavor \n\n*   [](https://en.wikipedia.org/wiki/Cheesecake#:~:text=Cheesecake%20is%20a%20dessert%20made,pastry%2C%20or%20sometimes%20sponge%20cake.)\n    \n    Cheesecake - Wikipedia\n    \n    Cheesecake is a dessert made with a soft fresh cheese (typically cottage cheese, cream cheese, quark or ricotta), eggs, and sugar.\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAD+/v41NTUBAQEAAABZWVknJycWFhaZmZmIiIjp6ellZWXMzMzX19eurq54eHhHR0dExXFyAAAAAXRSTlMAQObYZgAAAPtJREFUeAG8kAWOBDAMA9d1Sin+/7XXbpZZdBaURlMrhx28ycGCD/n0bvkBwJf8C+AoIvRAWGtMyHGtCWkfxW+DRopuuIjUtTQJDStevNoXWaRjRSllLd1O8FFhgEZx2BmkAmHC8HwpOUyxSA50VqOjXgAl50URvNWPBRcAnmwnhbcduthqQCO9KYTFBG7eDWoK1T47AZX9DuiUYT/TuhX3MGpnD51kPprSA9Dl+BCKl7jWHHEHmHsLWhNZZMxPQCLTEuy+cYF6D9i8Q5e2Lcyz4AGwKdJbX0p7AegC2qnvxAsAxQRAYH8J6Dg1a/lvpKRJinMW4cxLMPsDAJjSCaG8cPmnAAAAAElFTkSuQmCC)\n    \n    Wikipedia\n    \n\n*   [](https://www.cheesecake.com/Blog/post/cheese-in-cheesecake.aspx#:~:text=Most%20cheesecakes%20made%20in%20the%20United%20States,American%20cheesecake%20its%20rich%20and%20creamy%20texture.)\n    \n    What Cheese Goes In Your Favorite Cheesecake?\n    \n    Sep 24, 2014 — Most cheesecakes made in the United States and Canada are made with a cream cheese base, giving traditional American c...\n    \n    Cheesecake.com\n    \n\n*   [](https://www.allrecipes.com/article/why-use-sour-cream-in-baking/#:~:text=Cheesecake%20is%20clearly%20a%20different%20animal%20from,tangy%20flavor%20and%20moisture%20to%20a%20cheesecake.)\n    \n    What Does Sour Cream Actually Do for My Baking? - Allrecipes\n    \n    Feb 12, 2021 — Cheesecake is clearly a different animal from bundts or cupcakes, but sour cream has a place here too! Combined with e...\n    \n    ![](data:image/png;base64,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)\n    \n    Allrecipes\n    \n\n*   [](https://www.cakebuzz.co.in/what-does-cheesecake-taste-like/#:~:text=The%20filling%20is%20usually%20made,used%20instead%20of%20cream%20cheese.)\n    \n    What Does Cheesecake Taste Like? - Cakebuzz\n    \n    Jul 24, 2023 — The filling is usually made with cream cheese, sugar and eggs. A classic cheesecake is topped with raspberries and a s...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADSElEQVR4AWIYBaMAQDw9AElyQAEAnVnfrW3Gtm2VYtu27dnejW3btm3b1tqczou7JvavesOv1u9Ff+LsOFnkUkQZFVRFVFJOCQVMJZP4XxkYI4NCapmRpViHHdiPI2nnmO8FHMKebMlqLMoM1FFMFvHfG5xFHQuyLWdyH6/xPp/wOV/RGdHBl3zGR7zLK9zL2ezMUrSQR9ovneZcFuRknuYjehglSfgnJRmll094hStYk3LSogvksBQ30MEE4T8syQBPsCZ50QXKOYTPSBL+izpppyq6QCWtdBD+y7o4nprUBY7mK8J/WSfHUv0/noFfXuDov7DACB/xHp/Tz8RfuQT5rMeLjBH+QR+yE2uwDxfzFO/xFf2MkCQkyWe0pt6EadSxJ4/z5R98/t9kSQoopYl5WYdDuZA7eZWPeZvLBhLnLD+YOGdqLBoDibPTqZCwOIdyD2/zBd30M8wYk4Ty39RoidHEuZkx4fO3ffyXSwUNzMBSbMEGzGSB3OHEufEfh98ftMWIf9R6WtyfWX3fFc/CGuzHKVzCTdzP8wa9MZQ45wE1q6itvjcIch8I2tLu0yvlwOLy9fz2LOWTHksNDbKo06CSjMhlmUoZtTTSwgyazm34YoavY+CpdwXBkd7X1mNOGqmiiCx+PFI5ab7nm1FKRnSBCnb140He5yCftHuCIJYaBsec8rQxp/2BoH22u4PgcY2/lP8uj3EJAduzDNNTRQENbGDODlRGF6imnZe5jI2Zg0YqyCfLoDSidTPwBBOEjNNPB5/wKrfRxpYcypNcSlO0USWtfEk/7/MYV3A4m7AMczItTdSxKI8xwDhhiiTDdPIRX9DFBTREF6gioCNSOM4AX/Ehb/A0d3I153Iyx3EVj/Mmn9LLGEnCFL2cQ310gQI25mn6mCQk1QQjDNLLMyxNC7OxHDtyJg/yNp/TwxC9PMeWFEUXSKOKNTmfV/iKEZKE/JK3WIos0simmDpmZTX25Qyu4xzWo5r01EcxjTyaWZHDuJO3+JQv6aCTru89y9Jka/FL/aZSRh3N1JNPWjQ3tTBODpXMwWrsxIEcyTF8vQlQXA3NZswMVAWI0pEZ5AtosIqCHAUNPikoFoMXNmSCUTAKAKW3hXylVvUaAAAAAElFTkSuQmCC)\n    \n    Cakebuzz\n    \n\n*   [](https://blog.goldbelly.com/is-cheesecake-a-pie-cake-or-tart/#:~:text=Why%20is%20cheesecake%20not%20a,up%20the%20side%20as%20well.)\n    \n    Is Cheesecake a Pie, Cake or Tart? | Goldbelly\n    \n    Sep 23, 2024 — Why is cheesecake not a pie? Well, for one, a cheesecake crust is pressed and most often made out of graham crackers o...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFP0lEQVR4Ad1WBXDrRhBVmbmWTiozDZWZ0SQ5WGZmZuaBMjMzY0iSKfm2dZLhM4XLHEYr2z05dT854KS4Mzsa8r637+3umfurQgjFtxZUehYJpx4nOg0SzVjk0ugPvGr8RFTawjfMCfOhRGD6gTXrcBJJvyUErQ4pNhckcxGI8bkgNswGsX4miFHM+lkgzWoDXjPD0wbs0hu2I6r1FglZIxJdOAqWASQDJGgB0c2lkhHidTpvWsA3rY27hUimTTIXA0qe6zI2B3jV7Od1o1ecMRswlyaAKrh0o23qktfGTxDqM/1MZvQaO5sFqALz+ipBT+8mqcaOgmaejSosEtGSpQioRuuUwIke9/D16X5xxhwgGoJHMkyBDrE2duDyRBPbkGCyiUnPCOQUoTOLBpeqG3Zinea6ok5R5j12/jhXINCOcxlZNhNiYj7wqvVlUeDbV1WtIdQa9QiYl5QVZcVdOj21oF26sRuSGGCDyeYFN+bB4qSvo9cgOANdmoAxH1xBelHBYdWsPfA2DLPtYFa4dKtiXLCtXg6tuVUotCZ3++0rcxhb1CUl3PGfscDyqxWfDzhwWkHiqnGrFJ/nDCBfl/iJRFOuwl3WGoeQhpnvEs2cTVRzDu5sFEFe5rVEGCd9OfC8CuzgBOldy9XTqFuIZn5jg8qOk6DT5wuCi1psDxJKd0rJJjatuWRXjS6A/CoVSrwDOYKWymv0CmzgAvy+Imh0iHVOwmnM1LAYTO5ZkADKU4VDwgoWl0wJJrWxwPlK+EXQ3KZYi8FVF3+hsPRqam8SNG1kmi9GQin2LYrIn7+jbPWYMk1CbYbnCq8KvQc9yq8VdpEroprDrFCx6VgXyXSKWuJgrmAArIRTrEpWY45tyJoj6NYNomYezdcZSRyw4sDRBhKd2SHUzPBxY8Xmsdhagmp+R+pn2tj1bRtXJdbP2UL3FiOpHjGcnrQFTE18nFpIXexQbrzYSLU2wFP6JdHi7mVsqZaSjezeTxic2ceGT9DNaldNbHtuQhEKrSpa1torOCBXOR5GMxMDxzXkI+lWErYu4qYrNtLM67ArRmJcv/mgVbVJXYM0JUAIBPaHY+Wr4ADvdbD9UY5/G4RS1+RJ5J5fBrjUijr3Q6OPFQ/sCexiK0q1fZychcoKgLtPgeH7ThyxT5Rfc5TQ6bXOVUw1gaDSblcdfYFoRoc4emjY2uKL935R4APHybvastIKAQQuL4H+90+F7nlnw8Di8wA+OQfA47vdedXUxJX4qLzBXjdXyCBEN3rESDpPgOj0vcl3fvQp62S9igmlCH6MDIOPnghdC86B7uRZ0J0+C0aS58LwCSUtwG2+1lJnuzZxv8RuRtDMn1p8sJ6cPAEf+s3APTKMVASgJ3ImdM8+2wHvWngO2O+fDrbH1wWH+jbN/xMOxg4UoynsfnQw2UwY85GAVTI5cFlez/bKzVBS5nSfvawcuq2zoIeeCT2xM6Hvg1MBzqwA+1h5MVRUrOWAh5Lb87rVzgCRANv53P8BNfE8W+dJdu8rg0ApgF9xFLBPLYHs5eVgn1kKIyeWAPgUAAUJyPLjjuwq3RYnfZGUaQESSoKgGb+RSOozVzhZyhUTtt//DJRVMAKjJDBRCTgO040ZKAPbr3wHirL1HwTEID0PD9TpPL4TG2vpzbhiAyVdJetRKJSWAygl+XQUYZaUV0JWDnw97FUOKw5h/IOzSdbrH2SAtk/px047kdBPWZ/cZPsDIbwJ9/QfF9hu6kiF/d8UZb8OfAE3+P27gde7WYfXu9EPh1asCxy3Evd/j98BZe0K8D9IhzAAAAAASUVORK5CYII=)\n    \n    Goldbelly\n    \n\n*   [](https://blog.goldbelly.com/cheesecake-vs-cake/#:~:text=The%20main%20differences%20between%20cake,has%20a%20smooth%2C%20creamy%20mouthfeel.)\n    \n    Cheesecake vs. Traditional Cake | Goldbelly\n    \n    Jul 3, 2024 — The main differences between cake and cheesecake are: The ingredients: Cheesecake is made with cream, cream cheese, egg...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFP0lEQVR4Ad1WBXDrRhBVmbmWTiozDZWZ0SQ5WGZmZuaBMjMzY0iSKfm2dZLhM4XLHEYr2z05dT854KS4Mzsa8r637+3umfurQgjFtxZUehYJpx4nOg0SzVjk0ugPvGr8RFTawjfMCfOhRGD6gTXrcBJJvyUErQ4pNhckcxGI8bkgNswGsX4miFHM+lkgzWoDXjPD0wbs0hu2I6r1FglZIxJdOAqWASQDJGgB0c2lkhHidTpvWsA3rY27hUimTTIXA0qe6zI2B3jV7Od1o1ecMRswlyaAKrh0o23qktfGTxDqM/1MZvQaO5sFqALz+ipBT+8mqcaOgmaejSosEtGSpQioRuuUwIke9/D16X5xxhwgGoJHMkyBDrE2duDyRBPbkGCyiUnPCOQUoTOLBpeqG3Zinea6ok5R5j12/jhXINCOcxlZNhNiYj7wqvVlUeDbV1WtIdQa9QiYl5QVZcVdOj21oF26sRuSGGCDyeYFN+bB4qSvo9cgOANdmoAxH1xBelHBYdWsPfA2DLPtYFa4dKtiXLCtXg6tuVUotCZ3++0rcxhb1CUl3PGfscDyqxWfDzhwWkHiqnGrFJ/nDCBfl/iJRFOuwl3WGoeQhpnvEs2cTVRzDu5sFEFe5rVEGCd9OfC8CuzgBOldy9XTqFuIZn5jg8qOk6DT5wuCi1psDxJKd0rJJjatuWRXjS6A/CoVSrwDOYKWymv0CmzgAvy+Imh0iHVOwmnM1LAYTO5ZkADKU4VDwgoWl0wJJrWxwPlK+EXQ3KZYi8FVF3+hsPRqam8SNG1kmi9GQin2LYrIn7+jbPWYMk1CbYbnCq8KvQc9yq8VdpEroprDrFCx6VgXyXSKWuJgrmAArIRTrEpWY45tyJoj6NYNomYezdcZSRyw4sDRBhKd2SHUzPBxY8Xmsdhagmp+R+pn2tj1bRtXJdbP2UL3FiOpHjGcnrQFTE18nFpIXexQbrzYSLU2wFP6JdHi7mVsqZaSjezeTxic2ceGT9DNaldNbHtuQhEKrSpa1torOCBXOR5GMxMDxzXkI+lWErYu4qYrNtLM67ArRmJcv/mgVbVJXYM0JUAIBPaHY+Wr4ADvdbD9UY5/G4RS1+RJ5J5fBrjUijr3Q6OPFQ/sCexiK0q1fZychcoKgLtPgeH7ThyxT5Rfc5TQ6bXOVUw1gaDSblcdfYFoRoc4emjY2uKL935R4APHybvastIKAQQuL4H+90+F7nlnw8Di8wA+OQfA47vdedXUxJX4qLzBXjdXyCBEN3rESDpPgOj0vcl3fvQp62S9igmlCH6MDIOPnghdC86B7uRZ0J0+C0aS58LwCSUtwG2+1lJnuzZxv8RuRtDMn1p8sJ6cPAEf+s3APTKMVASgJ3ImdM8+2wHvWngO2O+fDrbH1wWH+jbN/xMOxg4UoynsfnQw2UwY85GAVTI5cFlez/bKzVBS5nSfvawcuq2zoIeeCT2xM6Hvg1MBzqwA+1h5MVRUrOWAh5Lb87rVzgCRANv53P8BNfE8W+dJdu8rg0ApgF9xFLBPLYHs5eVgn1kKIyeWAPgUAAUJyPLjjuwq3RYnfZGUaQESSoKgGb+RSOozVzhZyhUTtt//DJRVMAKjJDBRCTgO040ZKAPbr3wHirL1HwTEID0PD9TpPL4TG2vpzbhiAyVdJetRKJSWAygl+XQUYZaUV0JWDnw97FUOKw5h/IOzSdbrH2SAtk/px047kdBPWZ/cZPsDIbwJ9/QfF9hu6kiF/d8UZb8OfAE3+P27gde7WYfXu9EPh1asCxy3Evd/j98BZe0K8D9IhzAAAAAASUVORK5CYII=)\n    \n    Goldbelly\n    \n\nGenerative AI is experimental. [Learn more](https://support.google.com/websearch?p=ai_overviews&hl=en)",
-                        "sources": [
-                            {
-                                "position": 1,
-                                "title": "Cheesecake - Wikipedia",
-                                "link": "https://en.wikipedia.org/wiki/Cheesecake#:~:text=Cheesecake%20is%20a%20dessert%20made,pastry%2C%20or%20sometimes%20sponge%20cake.",
-                                "source_name": "Wikipedia",
-                                "snippet": "Cheesecake is a dessert made with a soft fresh cheese (typically cottage cheese, cream cheese, quark or ricotta), eggs, and sugar."
-                            },
-                            {
-                                "position": 2,
-                                "title": "What Cheese Goes In Your Favorite Cheesecake?",
-                                "link": "https://www.cheesecake.com/Blog/post/cheese-in-cheesecake.aspx#:~:text=Most%20cheesecakes%20made%20in%20the%20United%20States,American%20cheesecake%20its%20rich%20and%20creamy%20texture.",
-                                "source_name": "Cheesecake.com",
-                                "date": "Sep 24, 2014",
-                                "snippet": "Most cheesecakes made in the United States and Canada are made with a cream cheese base, giving traditional American c..."
-                            },
-                            {
-                                "position": 3,
-                                "title": "What Does Sour Cream Actually Do for My Baking? - Allrecipes",
-                                "link": "https://www.allrecipes.com/article/why-use-sour-cream-in-baking/#:~:text=Cheesecake%20is%20clearly%20a%20different%20animal%20from,tangy%20flavor%20and%20moisture%20to%20a%20cheesecake.",
-                                "source_name": "Allrecipes",
-                                "date": "Feb 12, 2021",
-                                "snippet": "Cheesecake is clearly a different animal from bundts or cupcakes, but sour cream has a place here too! Combined with e..."
-                            },
-                            {
-                                "position": 4,
-                                "title": "What Does Cheesecake Taste Like? - Cakebuzz",
-                                "link": "https://www.cakebuzz.co.in/what-does-cheesecake-taste-like/#:~:text=The%20filling%20is%20usually%20made,used%20instead%20of%20cream%20cheese.",
-                                "source_name": "Cakebuzz",
-                                "date": "Jul 24, 2023",
-                                "snippet": "The filling is usually made with cream cheese, sugar and eggs. A classic cheesecake is topped with raspberries and a s..."
-                            },
-                            {
-                                "position": 5,
-                                "title": "Is Cheesecake a Pie, Cake or Tart? | Goldbelly",
-                                "link": "https://blog.goldbelly.com/is-cheesecake-a-pie-cake-or-tart/#:~:text=Why%20is%20cheesecake%20not%20a,up%20the%20side%20as%20well.",
-                                "source_name": "Goldbelly",
-                                "date": "Sep 23, 2024",
-                                "snippet": "Why is cheesecake not a pie? Well, for one, a cheesecake crust is pressed and most often made out of graham crackers o..."
-                            },
-                            {
-                                "position": 6,
-                                "title": "Cheesecake vs. Traditional Cake | Goldbelly",
-                                "link": "https://blog.goldbelly.com/cheesecake-vs-cake/#:~:text=The%20main%20differences%20between%20cake,has%20a%20smooth%2C%20creamy%20mouthfeel.",
-                                "source_name": "Goldbelly",
-                                "date": "Jul 3, 2024",
-                                "snippet": "The main differences between cake and cheesecake are: The ingredients: Cheesecake is made with cream, cream cheese, egg..."
-                            }
-                        ]
+                        "snippet": "Cheesecake is a dessert made with **a soft fresh cheese (typically cottage cheese, cream cheese, quark or ricotta), eggs, and sugar**. It may have a crust or base made from crushed cookies (or digestive biscuits), graham crackers, pastry, or sometimes sponge cake.",
+                        "source": {
+                            "title": "Cheesecake - Wikipedia",
+                            "name": "wikipedia.org",
+                            "link": "https://en.wikipedia.org/wiki/Cheesecake#:~:text=Cheesecake%20is%20a%20dessert%20made,pastry%2C%20or%20sometimes%20sponge%20cake.",
+                            "display_link": "https://en.wikipedia.org › wiki › Cheesecake"
+                        }
                     }
                 ]
             },
@@ -363,7 +270,7 @@ export const desktopCheesecake = {
                     "display_link": "https://en.wikipedia.org › wiki › Cheesecake",
                     "link": "https://en.wikipedia.org/wiki/Cheesecake"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCJBsdWW9OcPg0XmIklt1yYeYE2DoUqY5QiNh3_EBKV0ytYwNA2onGmAw&usqp=CAE&s",
+                "thumbnail": "data:image/jpeg;base64,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",
                 "snippet_highlighted_words": [
                     "made with a soft fresh cheese eggs, and sugar"
                 ],
@@ -383,13 +290,83 @@ export const desktopCheesecake = {
                 ]
             },
             {
+                "type": "normal",
+                "position": 5,
+                "title": "Classic New York Cheesecake Recipe (Video)",
+                "snippet": "With this foolproof recipe, a _creamy, beautiful, crack-free New York-style cheesecake_ is totally doable—even for beginners!",
+                "source": {
+                    "title": "Classic New York Cheesecake Recipe (Video)",
+                    "name": "Once Upon a Chef",
+                    "display_link": "https://www.onceuponachef.com › Recipes › Dessert",
+                    "link": "https://www.onceuponachef.com/recipes/new-york-style-cheesecake.html"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBKLi6RiuhOwnbdWY_OrF6jXUveFAHXOsp4EXplAa8nEPpaguPRK25&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "creamy, beautiful, crack-free New York-style cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.8,
+                        "label": "Rated 4.8 out of 5,",
+                        "reviews": 1012,
+                        "reviews_origin": "(1,012)"
+                    },
+                    "extensions": "4.8(1,012) · 2 hr 25 min"
+                },
+                "links": [
+                    {
+                        "title": "Cheesecake Bars",
+                        "link": "https://www.onceuponachef.com/recipes/cheesecake-bars.html"
+                    },
+                    {
+                        "title": "Ricotta Cheesecake",
+                        "link": "https://www.onceuponachef.com/recipes/ricotta-cheesecake.html"
+                    },
+                    {
+                        "title": "Pumpkin Cheesecake",
+                        "link": "https://www.onceuponachef.com/recipes/pumpkin-cheesecake-with-gingersnap-crust-and-caramel-sauce.html"
+                    },
+                    {
+                        "title": "Berry Sauce",
+                        "link": "https://www.onceuponachef.com/recipes/berry-sauce.html"
+                    }
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 6,
+                "title": "Chantal's New York Cheesecake Recipe",
+                "snippet": "_Ingredients_ · 15 graham crackers, crushed · 2 tablespoons butter, melted · 4 (8 ounce) packages cream cheese · 1 ½ cups white sugar · ¾ cup milk.",
+                "source": {
+                    "title": "Chantal's New York Cheesecake Recipe",
+                    "name": "Allrecipes",
+                    "display_link": "https://www.allrecipes.com › recipe › chantals-new-yor...",
+                    "link": "https://www.allrecipes.com/recipe/8350/chantals-new-york-cheesecake/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyvgtuoaFG6Uev5dD1sAFq3s09ICgyHppXhHbjjrA02Xm7bZMaCGBt&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "Ingredients"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.7,
+                        "label": "Rated 4.7 out of 5,",
+                        "reviews": 7377,
+                        "reviews_origin": "(7,377)"
+                    },
+                    "extensions": "4.7(7,377) · 7 hr 30 min"
+                }
+            },
+            {
                 "type": "local_results",
                 "local_results": {
                     "type": "normal",
                     "local_map": {
-                        "link": "https://www.google.com/search?sca_esv=d492661d9463033a&gl=us&hl=en&tbm=lcl&q=cheesecake&rflfq=1&num=10&sa=X&ved=2ahUKEwjC_quOiPiLAxV0SDABHeC9KHUQtgN6BAh-EAM"
+                        "link": "https://www.google.com/search?sca_esv=d492661d9463033a&gl=us&hl=en&tbm=lcl&q=cheesecake&rflfq=1&num=10&sa=X&ved=2ahUKEwjllr3NjPiLAxWnSjABHd_nNYoQtgN6BQiXARAD"
                     },
-                    "more_locations_link": "https://www.google.com/search?sca_esv=d492661d9463033a&gl=us&hl=en&tbm=lcl&q=cheesecake&rflfq=1&num=10&sa=X&ved=2ahUKEwjC_quOiPiLAxV0SDABHeC9KHUQjGp6BQiCARAB",
+                    "more_locations_link": "https://www.google.com/search?sca_esv=d492661d9463033a&gl=us&hl=en&tbm=lcl&q=cheesecake&rflfq=1&num=10&sa=X&ved=2ahUKEwjllr3NjPiLAxWnSjABHd_nNYoQjGp6BQimARAB",
                     "places": [
                         {
                             "position": 1,
@@ -497,79 +474,9 @@ export const desktopCheesecake = {
                         "type": "ai_overview",
                         "position": 4,
                         "question": "What are the ingredients for cheesecake?",
-                        "snippet": "![Cheesecake Recipe - Shugary Sweets](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdzNjTffyQSRbxs_VwD4ERQCuBdt4ZZcbsP6m0qpTLd94aXoKN5t-DijN_pA&s)\n\nCheesecake typically contains cream cheese, eggs, sugar, and a crust. Other common ingredients include vanilla, sour cream, and lemon juice. \n\nIngredients \n\n*   **Cream cheese**: The main cheese used in cheesecake\n*   **Eggs**: Thicken the batter and give the cheesecake a custard-like texture\n*   **Sugar**: Sweetens the cheesecake\n*   **Vanilla extract**: Gives the cheesecake flavor\n*   **Sour cream**: Lightens the filling and adds tangy flavor\n*   **Lemon juice**: Brightens and balances out the sweetness\n*   **Graham crackers**: Add flavor and help bind the crust together\n*   **Melted butter**: Holds the crust together\n*   **Cornstarch**: Thickens the filling and prevents cracking\n\nBase\n\nCheesecake can also include a base made from crushed cookies, pastry, or sponge cake. \n\nTips\n\n*   Use real vanilla extract instead of imitation \n*   Granulated sugar helps keep the filling light in color and texture \n*   To prevent cracking, you can add one to two tablespoons of cornstarch to the batter when you add the sugar \n\nYou can also watch this video to learn how to make cheesecake:\n\n[\n\n![](https://i.ytimg.com/vi/tpsywnPNDsw/mqdefault.jpg?sqp=-oaymwEGCPgEEOQC&rs=AMzJL3n5D_W46EuVn0PzbioM4gVPQfR_7Q)\n\n1m\n\n![](data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Kys3Nzc3Nzc3Nzc3Nzc3Nyw3Nzc3NzcrNzcrMP/AABEIACAAIAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAGBQQB/8QAKhAAAgEDAwQBAgcAAAAAAAAAAQIDBAURABIhBhMxQWFxsRQVIiNRUqH/xAAXAQADAQAAAAAAAAAAAAAAAAACAwQB/8QAHBEAAgIDAQEAAAAAAAAAAAAAAQIAERIhMSID/9oADAMBAAIRAxEAPwB/J+0I99Sy72CjIXkn140c6ouNzFZDbbdXrbu47762eJSAFVDhcgDnf558HUQXSrnSk7dY8iJJG2SRxxn0OMZxrTeLpVyyUVE/Jy7tKxOSMgYJHIBH2+NSqxYmhyVYqpGR7E/TRuAWamr7kleInQR1ccaDeCuSDjIyCP8ARqy8pipu60jnEmzhV/tt/jQm4firhWU6Ud0emEEglyoJVwT6ycnGOM+c6sXH80rUhFHFIsSySdyNZChbLZRgwI496M5KLIg0rNQMNW2ySWqhEc5ikbugxugZSCSSc5OPGB40errtNDf5EDqGpm7RVxwVIDDg/UfXTmvpq1BAxpnnjQncqNyOPPzo3Z+kbZcb7XyXi51EBmPcjBCptHgBtwOcAAevGnfNlQVFsjP6nbXeO9co0mePfMAqgAAYU5+2dLJOpaO0T9isq6WMdoELMSrZJODnwRwdR7f0HRx3mkuVPWVM1OkZAiIGdx97hgY+Me9bLx0jPcK1ZTS2yWIQ7Far7ryKQWOP0kDHOtdw41BwKHc//9k=)\n\n![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR4AWP4//8/RZh6BgCZAkDsAMUNWDFCXgDFACCV8J/B+D8pGKwHRAKRAUyQDEMMQAYEUGBAAsiABpwKHjz4/9/BAZ8BDXgNgIMNGyg04MABkg1AeCEgAK8XKA5EiqORooSELykXEJuUBz43AgAIA1ZhBoG9vwAAAABJRU5ErkJggg==)\n\nPreppy Kitchen\n\nYouTube · May 16, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n](https://www.youtube.com/watch?v=tpsywnPNDsw&t=0)\n\n*   [](https://www.marthastewart.com/313705/classic-cheesecake)\n    \n    Classic Cheesecake Recipe (With Video and Step by Step)\n    \n    Sugar: Sugar adds a touch of sweetness to the cheesecake. We like to use granulated sugar to keep the filling light in color and t...\n    \n    ![](data:image/png;base64,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)\n    \n    Martha Stewart\n    \n\n*   [](https://www.recipetineats.com/no-bake-cheesecake/#:~:text=Vanilla%20%E2%80%93%20Please%20use%20vanilla%20extract%20which,a%20touch%2C%20to%20bring%20a%20smidge%20of)\n    \n    No bake cheesecake\n    \n    Sep 20, 2024 — Vanilla – Please use vanilla extract which is real flavour extracted from vanilla beans (hence the name!) rather than ...\n    \n    ![](data:image/png;base64,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)\n    \n    RecipeTin Eats\n    \n\n*   [](https://en.wikipedia.org/wiki/Cheesecake#:~:text=Cheesecake%20is%20a%20dessert%20made,pastry%2C%20or%20sometimes%20sponge%20cake.)\n    \n    Cheesecake - Wikipedia\n    \n    Cheesecake is a dessert made with a soft fresh cheese (typically cottage cheese, cream cheese, quark or ricotta), eggs, and sugar.\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAD+/v41NTUBAQEAAABZWVknJycWFhaZmZmIiIjp6ellZWXMzMzX19eurq54eHhHR0dExXFyAAAAAXRSTlMAQObYZgAAAPtJREFUeAG8kAWOBDAMA9d1Sin+/7XXbpZZdBaURlMrhx28ycGCD/n0bvkBwJf8C+AoIvRAWGtMyHGtCWkfxW+DRopuuIjUtTQJDStevNoXWaRjRSllLd1O8FFhgEZx2BmkAmHC8HwpOUyxSA50VqOjXgAl50URvNWPBRcAnmwnhbcduthqQCO9KYTFBG7eDWoK1T47AZX9DuiUYT/TuhX3MGpnD51kPprSA9Dl+BCKl7jWHHEHmHsLWhNZZMxPQCLTEuy+cYF6D9i8Q5e2Lcyz4AGwKdJbX0p7AegC2qnvxAsAxQRAYH8J6Dg1a/lvpKRJinMW4cxLMPsDAJjSCaG8cPmnAAAAAElFTkSuQmCC)\n    \n    Wikipedia\n    \n\n*   [](https://preppykitchen.com/strawberry-cheesecake/#:~:text=Lemon%20juice%20%E2%80%94%20while%20optional%2C%20I%20recommend,the%20cheesecake.%20How%20to%20Make%20Strawberry%20Cheesecake.)\n    \n    Strawberry Cheesecake Recipe\n    \n    Jun 11, 2022 — Lemon juice — while optional, I recommend using lemon juice to add brightness and tartness that balances out the sweet...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAtFBMVEVHcEzr6+u/ubrIx8XIy9Dj4eHi4ODp6ejs7Ozq5+fs7e2qoaHr7Ou9vcHy8vHw8fGgmZjv7++qpKLy8vLs7Ovu7u7JxcVZUVLy8/Lw8O/19fT4+Pft7eyrsrylrLViZG+3v8ebo66xt8BVVmJNTFZ+gYs+O0L+/v1ydYAmJCvErqeKjZbx3dO3npWXnKTg4eKNlqKLeHSjjYa+xMrT1NZwX1z98OdvbXLYxLzn0MeCfoHPvLWjW6xOAAAAGHRSTlMAuv0O/VYt/o9d4P5xzr3Ruct0rMe7mcfBLTXvAAACfklEQVQ4jW1Th5abMBDkbGyMy/VLhLpE7/0A+///Kys7Tu7lMjx4wI5mR7sry/qLrXt8e3l6O7pb63/YfOyp4xFCkLN/2HwP7zEiNB6681kT5HlP/1B2CFG4VmkaRemBUMDua/wDlCnByL9k0ThGFCEQefgTXj8i6sEfREdCPoslcDzqUI8+ru/6GKIYI1yPn4BirD3P8QC/s2ywB5Ig4n1mXQuYFmTCoHpzuocPhDFoesUy22XWQQoAPPcm7mJsUoAt5M1ZWbbZKjbkq4YLhHd89QxfmNjtsHTjTYAa1jvUF0PtYIcEO7WSZdeNokbXNRRs063lIuMfXgdp531RTm0b9gPxbqAu1JAY1APjLGTlZ1b6Iuc2JQhh2PzOesRGv5ZSaS14WGaHIGm41jVU3jPlfCKGMHC7kTrUquvySmgpKxlT4wQIoEC8XoN+lfCGnZs84SznnJi9AQFSkNjRmlV9kmveNyoMQYCpO2EHdSK2lKziCddKSRYKzZVS5NqAneUW0IpBgqoQiQpz4QtfJYyrm0nX2jrg0WHMFv4kpiAVQgSJ0orH1/rCeL7DbmvWMxFMQkSB8P3IZ+A2NoV6gV4cSRzXTMokusYAaaiZ6mMzwEfTzvM0VoNswjQIgijwgyidpJLazxzn2m7rNTxr3TQJEKLI3GmoeFjlSe24t5F6q21V8TAtW1+IKU3TRK+aZuir5/vQPlfSKeYgq6FBl7lNs2K5NGPw8z601vq0MsO6XAocn8v5ssxzmfP7+pvGvBTFshRx3F2ybHVoz8NubX3FZpXNWTceqrYry1yv7OO303k8HfIkCfPDga9Or9/CJs928+Nhfzr9eP16/H8BV/djlIzZo/QAAAAASUVORK5CYII=)\n    \n    Preppy Kitchen\n    \n\n*   [](https://bromabakery.com/perfect-cheesecake/#:~:text=Butter:%20Melted%20butter%20will%20hold%20together%20the,to%20really%20understand%20how%20to%20get%20that)\n    \n    Perfect Cheesecake\n    \n    3 days ago — Butter: Melted butter will hold together the graham cracker crust for the perfect buttery base to this lemon curd cheese...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABt0lEQVR4Ae3UA4xdURRG4T7Wtm3bdqPath3WNoPathvVtm2bY+9ZSfbYOtGs5MuJ81+mSC6KrLDBGksWJFoWdMMabMEe7EJoe7EvlE2Yg24oBhsSVCHUQTscQgBE+eM+9mMnjuM1/OCLt1iMgkiUyuADRL1CGdiUEwUwEV8h6hxKIMHlwmOIeohciKzecIWobUhtckAaHIKo36htbIA2FqICMMT0gM7wgajJpgf0gB9EjTM9YBZEuaO1yQG5cB2iziKrqQFpsAB+ELxH86T4DzxFaaRHBuRAQ2yDF7xxAc1gSYoB3niMq7iCJ3CHCw5hIHJAS/wBf7AO89RKnMRbfMENrERd2E39ilOhHJbBBYKfmIb0Jr8CO0bADQJfzITd5H8gNXZB1A/UNzZA6wofiJpnekB1/IWoA7CbHFAZvyHqCBwmB7SBJ0StgcXUAAsWQJQPepl8BxrgA0SdRnbEu4J4CVFPkA/hy4jOeAJRd1ETcS41MqMApsIbojyxFSMxCGOxDFfhiQB8xWqURJyzoC+24QQe4gWeh/JKz2d6PsZlbMFoVIQD8S4rCqEA8sVCTqSHFcnFqUBcb950O7xTLwAAAABJRU5ErkJggg==)\n    \n    Broma Bakery\n    \n\n*   [](https://www.allrecipes.com/article/why-use-sour-cream-in-baking/#:~:text=Cheesecake%20is%20clearly%20a%20different%20animal%20from,tangy%20flavor%20and%20moisture%20to%20a%20cheesecake.)\n    \n    What Does Sour Cream Actually Do for My Baking? - Allrecipes\n    \n    Feb 12, 2021 — Cheesecake is clearly a different animal from bundts or cupcakes, but sour cream has a place here too! Combined with e...\n    \n    ![](data:image/png;base64,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)\n    \n    Allrecipes\n    \n\n*   [](https://www.cheesecake.com/How-To-Make-A-Cheesecake.asp#:~:text=Flour%20or%20cornstarch%20is%20sometimes%20included%20in,the%20batter%20when%20you%20add%20the%20sugar.)\n    \n    How to Make a Cheesecake – Baking Tips\n    \n    Flour or cornstarch is sometimes included in cheesecake recipes to preventing cracks. If you find that you always have problems wi...\n    \n    Cheesecake.com\n    \n\n*   [](https://chefibpa.com/how-can-i-substitute-eggs-in-cheesecake/#:~:text=Eggs%20are%20used%20in%20cheesecake%20because%20they,state.%20When%20eggs%20cook%2C%20this%20process%20completes.)\n    \n    How can I substitute eggs in cheesecake? - Chef IBPA\n    \n    Eggs are used in cheesecake because they have thickening properties and hold the entire cheesy mixture together. Egg proteins thic...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAZlBMVEX////9/f37+/r4+Pf29vX28e3u49ve3dvz8/Ll4+Hs7Ozw7+/p5+bs3NHZ19bLz8vIxsW+wL3S1NKfoqCoqqmkfnxtbW1bW1s5OTlERER+fn6cnJyLi4tOTk4hISEICAgUFBSzs7P1qizxAAABXElEQVR4AZVSh7alMAgMAZVA7L3lPv//Jze+7SXXs2N3ho75b8ADb+0Djw/+6SFC9uQgt/GGNu2gQMNOlFOBcgfWE6FPCUpnlD1bSgusc05BOSXIpaisR9FUkiXXDXjnKCGA0vq2LipJtivPsWv7ht50KhNXD/ymlxk2Yy3vug3VKH/12sKvEoTEEiAC0c0CEhgg+iHMIMLgNLl5WTfBfV0PW5xr+43HHEQYaFmrsMyvYfiYtx36jzDB9yGTENmvgjPUUygM2HmdFvkmyL1T5k9BWEM7B2dMcTu7vocoKu/xU3AeryOebTO8Qnh9j5Fr3Tqgcy6WEM7KzSFs29IU86nfysz81Rnw/t4GNoartqsq7+r2e0tBL423H8BuH656GIbqJllFVJTuPFUYSZE4qkQ4EmDo2q8bTd/sQ983Tdt3zXXVfX81keHoQZg4QlFU1SIJsiqqEikxmCd8ASgIFZfpGsOhAAAAAElFTkSuQmCC)\n    \n    Chef IBCA\n    \n\n*   [](https://www.tasteofhome.com/recipes/traditional-cheesecake/)\n    \n    Easy Cheesecake Recipe\n    \n    Oct 14, 2024 — Graham cracker crumbs: Crushed graham crackers add more than just the flavors (honey, vanilla extract and cinnamon) to...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAkFBMVEXuOCPuOiXuOSTtLBbtKRLtMBvtNB71iHX3npD0eGb0dGH2koT0f2r2lojwSjT+7+v5tKnvRC/xXkn///71hHTyZVPuPCftLhj4q535vK7/+fXsJAzzb1/6wbfwUz3wTzrxWkb7z8b819D1gm/95N70emr7zMH6x77rEwD94dr2kH7yZ1XyaE/za1j4pZn+8Oz2MMx8AAAB6klEQVR4AdVPB3qrMAyWh0Rxwg7DOGBWSuMWev/bPYfOI7z+2vsT/BdgX+Dwg9++kIiehaSfLINfCJ5CdTqrKIp/OpD/NPMkzfIi4JeixIoDZ8CqOmjQW35sijWJuFXSPF0FEvPDNZq0M8CQQHCAqgeyRYjUByrqsfL3gmGcwqsoz/NMAEDs0SBoSs1pqaPQ3J6xW7NKdbxeIwnA+dEAzfwytNnagBmkP0F3x3m0gMdHAzP21bXZrWg7a3Qnh9a9bWdXfTXUsDdx2fbCnpKlTlfZF6UElMcGzFpl8iJ+eW1jh4amzJ+okt0Q5seGLCz2yibpq3tX96gqdxklpbomp+GiCDzy8+28VXk0s9Dlm1IVVc7Foo9OOcLxhQSlVyvf7o4QCYExIaAiIZD5OhBm0ay1qKqkFEQENQkCgRUgPsrZ1s/7S6MNUlKSCuPh3Ls8dqWwj2uAex6kyuzTpsL3Mt3sek3mSxIG96GLna4hbupGW9OsVWyXfSSTppPFu6VRr/38XAG7qPkpk7uWxKZ0JNl0o60mm42rpow4AL65C4pmFZAl89jjervbyvMULEOlKuAUb4yGvRlApRcVnLchHfo079MyTF34+JNqAEbIOKuBoEKG/GBWIyAH38Ee6uExT569e1jGffZP4B+OhCnpQuTxzgAAAABJRU5ErkJggg==)\n    \n    Taste of Home\n    \n\n*   [](https://patents.google.com/patent/WO2005067722A1/en#:~:text=Firstly%2C%20the%20raw%20materials%20essentially,in%20the%20production%20of%20cheesecake.)\n    \n    WO2005067722A1 - A method for mass-producing cheese cake\n    \n    Firstly, the raw materials essentially used in the cheesecake include cream cheese, wheat flour, sugar, salt, eggs, fresh cream, l...\n    \n    Google Patents\n    \n\nGenerative AI is experimental. [Learn more](https://support.google.com/websearch?p=ai_overviews&hl=en)"
+                        "snippet": "![Cheesecake Recipe - Shugary Sweets](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdzNjTffyQSRbxs_VwD4ERQCuBdt4ZZcbsP6m0qpTLd94aXoKN5t-DijN_pA&s)\n\nCheesecake typically contains cream cheese, eggs, sugar, and a crust. Other common ingredients include vanilla, sour cream, and lemon juice. \n\nIngredients \n\n*   **Cream cheese**: The main cheese used in cheesecake\n*   **Eggs**: Thicken the batter and give the cheesecake a custard-like texture\n*   **Sugar**: Sweetens the cheesecake\n*   **Vanilla extract**: Gives the cheesecake flavor\n*   **Sour cream**: Lightens the filling and adds tangy flavor\n*   **Lemon juice**: Brightens and balances out the sweetness\n*   **Graham crackers**: Add flavor and help bind the crust together\n*   **Melted butter**: Holds the crust together\n*   **Cornstarch**: Thickens the filling and prevents cracking\n\n*   [](https://www.marthastewart.com/313705/classic-cheesecake)\n    \n    Classic Cheesecake Recipe (With Video and Step by Step)\n    \n    Sugar: Sugar adds a touch of sweetness to the cheesecake. We like to use granulated sugar to keep the filling light in color and t...\n    \n    ![](data:image/png;base64,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)\n    \n    Martha Stewart\n    \n\n*   [](https://www.recipetineats.com/no-bake-cheesecake/#:~:text=Vanilla%20%E2%80%93%20Please%20use%20vanilla%20extract%20which,a%20touch%2C%20to%20bring%20a%20smidge%20of)\n    \n    No bake cheesecake\n    \n    Sep 20, 2024 — Vanilla – Please use vanilla extract which is real flavour extracted from vanilla beans (hence the name!) rather than ...\n    \n    ![](data:image/png;base64,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)\n    \n    RecipeTin Eats\n    \n\n*   [](https://en.wikipedia.org/wiki/Cheesecake#:~:text=Cheesecake%20is%20a%20dessert%20made,pastry%2C%20or%20sometimes%20sponge%20cake.)\n    \n    Cheesecake - Wikipedia\n    \n    Cheesecake is a dessert made with a soft fresh cheese (typically cottage cheese, cream cheese, quark or ricotta), eggs, and sugar.\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAM1BMVEUAAAD+/v41NTUBAQEAAABZWVknJycWFhaZmZmIiIjp6ellZWXMzMzX19eurq54eHhHR0dExXFyAAAAAXRSTlMAQObYZgAAAPtJREFUeAG8kAWOBDAMA9d1Sin+/7XXbpZZdBaURlMrhx28ycGCD/n0bvkBwJf8C+AoIvRAWGtMyHGtCWkfxW+DRopuuIjUtTQJDStevNoXWaRjRSllLd1O8FFhgEZx2BmkAmHC8HwpOUyxSA50VqOjXgAl50URvNWPBRcAnmwnhbcduthqQCO9KYTFBG7eDWoK1T47AZX9DuiUYT/TuhX3MGpnD51kPprSA9Dl+BCKl7jWHHEHmHsLWhNZZMxPQCLTEuy+cYF6D9i8Q5e2Lcyz4AGwKdJbX0p7AegC2qnvxAsAxQRAYH8J6Dg1a/lvpKRJinMW4cxLMPsDAJjSCaG8cPmnAAAAAElFTkSuQmCC)\n    \n    Wikipedia\n    \n\n*   [](https://preppykitchen.com/strawberry-cheesecake/#:~:text=Lemon%20juice%20%E2%80%94%20while%20optional%2C%20I%20recommend,the%20cheesecake.%20How%20to%20Make%20Strawberry%20Cheesecake.)\n    \n    Strawberry Cheesecake Recipe\n    \n    Jun 11, 2022 — Lemon juice — while optional, I recommend using lemon juice to add brightness and tartness that balances out the sweet...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAtFBMVEVHcEzr6+u/ubrIx8XIy9Dj4eHi4ODp6ejs7Ozq5+fs7e2qoaHr7Ou9vcHy8vHw8fGgmZjv7++qpKLy8vLs7Ovu7u7JxcVZUVLy8/Lw8O/19fT4+Pft7eyrsrylrLViZG+3v8ebo66xt8BVVmJNTFZ+gYs+O0L+/v1ydYAmJCvErqeKjZbx3dO3npWXnKTg4eKNlqKLeHSjjYa+xMrT1NZwX1z98OdvbXLYxLzn0MeCfoHPvLWjW6xOAAAAGHRSTlMAuv0O/VYt/o9d4P5xzr3Ruct0rMe7mcfBLTXvAAACfklEQVQ4jW1Th5abMBDkbGyMy/VLhLpE7/0A+///Kys7Tu7lMjx4wI5mR7sry/qLrXt8e3l6O7pb63/YfOyp4xFCkLN/2HwP7zEiNB6681kT5HlP/1B2CFG4VmkaRemBUMDua/wDlCnByL9k0ThGFCEQefgTXj8i6sEfREdCPoslcDzqUI8+ru/6GKIYI1yPn4BirD3P8QC/s2ywB5Ig4n1mXQuYFmTCoHpzuocPhDFoesUy22XWQQoAPPcm7mJsUoAt5M1ZWbbZKjbkq4YLhHd89QxfmNjtsHTjTYAa1jvUF0PtYIcEO7WSZdeNokbXNRRs063lIuMfXgdp531RTm0b9gPxbqAu1JAY1APjLGTlZ1b6Iuc2JQhh2PzOesRGv5ZSaS14WGaHIGm41jVU3jPlfCKGMHC7kTrUquvySmgpKxlT4wQIoEC8XoN+lfCGnZs84SznnJi9AQFSkNjRmlV9kmveNyoMQYCpO2EHdSK2lKziCddKSRYKzZVS5NqAneUW0IpBgqoQiQpz4QtfJYyrm0nX2jrg0WHMFv4kpiAVQgSJ0orH1/rCeL7DbmvWMxFMQkSB8P3IZ+A2NoV6gV4cSRzXTMokusYAaaiZ6mMzwEfTzvM0VoNswjQIgijwgyidpJLazxzn2m7rNTxr3TQJEKLI3GmoeFjlSe24t5F6q21V8TAtW1+IKU3TRK+aZuir5/vQPlfSKeYgq6FBl7lNs2K5NGPw8z601vq0MsO6XAocn8v5ssxzmfP7+pvGvBTFshRx3F2ybHVoz8NubX3FZpXNWTceqrYry1yv7OO303k8HfIkCfPDga9Or9/CJs928+Nhfzr9eP16/H8BV/djlIzZo/QAAAAASUVORK5CYII=)\n    \n    Preppy Kitchen\n    \n\n*   [](https://bromabakery.com/perfect-cheesecake/#:~:text=Butter:%20Melted%20butter%20will%20hold%20together%20the,to%20really%20understand%20how%20to%20get%20that)\n    \n    Perfect Cheesecake\n    \n    3 days ago — Butter: Melted butter will hold together the graham cracker crust for the perfect buttery base to this lemon curd cheese...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABt0lEQVR4Ae3UA4xdURRG4T7Wtm3bdqPath3WNoPathvVtm2bY+9ZSfbYOtGs5MuJ81+mSC6KrLDBGksWJFoWdMMabMEe7EJoe7EvlE2Yg24oBhsSVCHUQTscQgBE+eM+9mMnjuM1/OCLt1iMgkiUyuADRL1CGdiUEwUwEV8h6hxKIMHlwmOIeohciKzecIWobUhtckAaHIKo36htbIA2FqICMMT0gM7wgajJpgf0gB9EjTM9YBZEuaO1yQG5cB2iziKrqQFpsAB+ELxH86T4DzxFaaRHBuRAQ2yDF7xxAc1gSYoB3niMq7iCJ3CHCw5hIHJAS/wBf7AO89RKnMRbfMENrERd2E39ilOhHJbBBYKfmIb0Jr8CO0bADQJfzITd5H8gNXZB1A/UNzZA6wofiJpnekB1/IWoA7CbHFAZvyHqCBwmB7SBJ0StgcXUAAsWQJQPepl8BxrgA0SdRnbEu4J4CVFPkA/hy4jOeAJRd1ETcS41MqMApsIbojyxFSMxCGOxDFfhiQB8xWqURJyzoC+24QQe4gWeh/JKz2d6PsZlbMFoVIQD8S4rCqEA8sVCTqSHFcnFqUBcb950O7xTLwAAAABJRU5ErkJggg==)\n    \n    Broma Bakery\n    \n\n*   [](https://www.allrecipes.com/article/why-use-sour-cream-in-baking/#:~:text=Cheesecake%20is%20clearly%20a%20different%20animal%20from,tangy%20flavor%20and%20moisture%20to%20a%20cheesecake.)\n    \n    What Does Sour Cream Actually Do for My Baking? - Allrecipes\n    \n    Feb 12, 2021 — Cheesecake is clearly a different animal from bundts or cupcakes, but sour cream has a place here too! Combined with e...\n    \n    ![](data:image/png;base64,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)\n    \n    Allrecipes\n    \n\n*   [](https://www.cheesecake.com/How-To-Make-A-Cheesecake.asp#:~:text=Flour%20or%20cornstarch%20is%20sometimes%20included%20in,the%20batter%20when%20you%20add%20the%20sugar.)\n    \n    How to Make a Cheesecake – Baking Tips\n    \n    Flour or cornstarch is sometimes included in cheesecake recipes to preventing cracks. If you find that you always have problems wi...\n    \n    Cheesecake.com\n    \n\n*   [](https://chefibpa.com/how-can-i-substitute-eggs-in-cheesecake/#:~:text=Eggs%20are%20used%20in%20cheesecake%20because%20they,state.%20When%20eggs%20cook%2C%20this%20process%20completes.)\n    \n    How can I substitute eggs in cheesecake? - Chef IBPA\n    \n    Eggs are used in cheesecake because they have thickening properties and hold the entire cheesy mixture together. Egg proteins thic...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAZlBMVEX////9/f37+/r4+Pf29vX28e3u49ve3dvz8/Ll4+Hs7Ozw7+/p5+bs3NHZ19bLz8vIxsW+wL3S1NKfoqCoqqmkfnxtbW1bW1s5OTlERER+fn6cnJyLi4tOTk4hISEICAgUFBSzs7P1qizxAAABXElEQVR4AZVSh7alMAgMAZVA7L3lPv//Jze+7SXXs2N3ho75b8ADb+0Djw/+6SFC9uQgt/GGNu2gQMNOlFOBcgfWE6FPCUpnlD1bSgusc05BOSXIpaisR9FUkiXXDXjnKCGA0vq2LipJtivPsWv7ht50KhNXD/ymlxk2Yy3vug3VKH/12sKvEoTEEiAC0c0CEhgg+iHMIMLgNLl5WTfBfV0PW5xr+43HHEQYaFmrsMyvYfiYtx36jzDB9yGTENmvgjPUUygM2HmdFvkmyL1T5k9BWEM7B2dMcTu7vocoKu/xU3AeryOebTO8Qnh9j5Fr3Tqgcy6WEM7KzSFs29IU86nfysz81Rnw/t4GNoartqsq7+r2e0tBL423H8BuH656GIbqJllFVJTuPFUYSZE4qkQ4EmDo2q8bTd/sQ983Tdt3zXXVfX81keHoQZg4QlFU1SIJsiqqEikxmCd8ASgIFZfpGsOhAAAAAElFTkSuQmCC)\n    \n    Chef IBCA\n    \n\n*   [](https://www.tasteofhome.com/recipes/traditional-cheesecake/)\n    \n    Easy Cheesecake Recipe\n    \n    Oct 14, 2024 — Graham cracker crumbs: Crushed graham crackers add more than just the flavors (honey, vanilla extract and cinnamon) to...\n    \n    ![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAkFBMVEXuOCPuOiXuOSTtLBbtKRLtMBvtNB71iHX3npD0eGb0dGH2koT0f2r2lojwSjT+7+v5tKnvRC/xXkn///71hHTyZVPuPCftLhj4q535vK7/+fXsJAzzb1/6wbfwUz3wTzrxWkb7z8b819D1gm/95N70emr7zMH6x77rEwD94dr2kH7yZ1XyaE/za1j4pZn+8Oz2MMx8AAAB6klEQVR4AdVPB3qrMAyWh0Rxwg7DOGBWSuMWev/bPYfOI7z+2vsT/BdgX+Dwg9++kIiehaSfLINfCJ5CdTqrKIp/OpD/NPMkzfIi4JeixIoDZ8CqOmjQW35sijWJuFXSPF0FEvPDNZq0M8CQQHCAqgeyRYjUByrqsfL3gmGcwqsoz/NMAEDs0SBoSs1pqaPQ3J6xW7NKdbxeIwnA+dEAzfwytNnagBmkP0F3x3m0gMdHAzP21bXZrWg7a3Qnh9a9bWdXfTXUsDdx2fbCnpKlTlfZF6UElMcGzFpl8iJ+eW1jh4amzJ+okt0Q5seGLCz2yibpq3tX96gqdxklpbomp+GiCDzy8+28VXk0s9Dlm1IVVc7Foo9OOcLxhQSlVyvf7o4QCYExIaAiIZD5OhBm0ay1qKqkFEQENQkCgRUgPsrZ1s/7S6MNUlKSCuPh3Ls8dqWwj2uAex6kyuzTpsL3Mt3sek3mSxIG96GLna4hbupGW9OsVWyXfSSTppPFu6VRr/38XAG7qPkpk7uWxKZ0JNl0o60mm42rpow4AL65C4pmFZAl89jjervbyvMULEOlKuAUb4yGvRlApRcVnLchHfo079MyTF34+JNqAEbIOKuBoEKG/GBWIyAH38Ee6uExT569e1jGffZP4B+OhCnpQuTxzgAAAABJRU5ErkJggg==)\n    \n    Taste of Home\n    \n\n*   [](https://patents.google.com/patent/WO2005067722A1/en#:~:text=Firstly%2C%20the%20raw%20materials%20essentially,in%20the%20production%20of%20cheesecake.)\n    \n    WO2005067722A1 - A method for mass-producing cheese cake\n    \n    Firstly, the raw materials essentially used in the cheesecake include cream cheese, wheat flour, sugar, salt, eggs, fresh cream, l...\n    \n    Google Patents\n    \n\nGenerative AI is experimental. [Learn more](https://support.google.com/websearch?p=ai_overviews&hl=en)"
                     }
                 ]
-            },
-            {
-                "type": "normal",
-                "position": 5,
-                "title": "Classic New York Cheesecake Recipe (Video)",
-                "snippet": "With this foolproof recipe, a _creamy, beautiful, crack-free New York-style cheesecake_ is totally doable—even for beginners!",
-                "source": {
-                    "title": "Classic New York Cheesecake Recipe (Video)",
-                    "name": "Once Upon a Chef",
-                    "display_link": "https://www.onceuponachef.com › Recipes › Dessert",
-                    "link": "https://www.onceuponachef.com/recipes/new-york-style-cheesecake.html"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgMkEsaNccxn88RTbLhbkU45z-LKg9t7eJbCbN6aIc6Z_XaXXCiorM3P8&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "creamy, beautiful, crack-free New York-style cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4.8,
-                        "label": "Rated 4.8 out of 5,",
-                        "reviews": 1012,
-                        "reviews_origin": "(1,012)"
-                    },
-                    "extensions": "4.8(1,012) · 2 hr 25 min"
-                },
-                "links": [
-                    {
-                        "title": "Cheesecake Bars",
-                        "link": "https://www.onceuponachef.com/recipes/cheesecake-bars.html"
-                    },
-                    {
-                        "title": "Ricotta Cheesecake",
-                        "link": "https://www.onceuponachef.com/recipes/ricotta-cheesecake.html"
-                    },
-                    {
-                        "title": "Pumpkin Cheesecake",
-                        "link": "https://www.onceuponachef.com/recipes/pumpkin-cheesecake-with-gingersnap-crust-and-caramel-sauce.html"
-                    },
-                    {
-                        "title": "Berry Sauce",
-                        "link": "https://www.onceuponachef.com/recipes/berry-sauce.html"
-                    }
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 6,
-                "title": "Chantal's New York Cheesecake Recipe",
-                "snippet": "_Ingredients_ · 15 graham crackers, crushed · 2 tablespoons butter, melted · 4 (8 ounce) packages cream cheese · 1 ½ cups white sugar · ¾ cup milk.",
-                "source": {
-                    "title": "Chantal's New York Cheesecake Recipe",
-                    "name": "Allrecipes",
-                    "display_link": "https://www.allrecipes.com › recipe › chantals-new-yor...",
-                    "link": "https://www.allrecipes.com/recipe/8350/chantals-new-york-cheesecake/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSILFaWzZCiktxL_bqIzneuuK-Jcu-vn524CT8Zf-vav2Gj2xkNujRqRYM&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "Ingredients"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4.7,
-                        "label": "Rated 4.7 out of 5,",
-                        "reviews": 7377,
-                        "reviews_origin": "(7,377)"
-                    },
-                    "extensions": "4.7(7,377) · 7 hr 30 min"
-                }
             },
             {
                 "type": "normal",
@@ -599,6 +506,24 @@ export const desktopCheesecake = {
                 },
                 "snippet_highlighted_words": [
                     "New York Style Cheesecake"
+                ],
+                "links": [
+                    {
+                        "title": "Contact",
+                        "link": "https://www.sscheesecake.com/contact"
+                    },
+                    {
+                        "title": "Cherry Cheesecake",
+                        "link": "https://www.sscheesecake.com/product-page/cherry-cheesecake"
+                    },
+                    {
+                        "title": "Strawberry Cheesecake",
+                        "link": "https://www.sscheesecake.com/product-page/strawberry-cheesecake"
+                    },
+                    {
+                        "title": "Pineapple Cheesecake",
+                        "link": "https://www.sscheesecake.com/product-page/pineapple-cheesecake"
+                    }
                 ]
             },
             {
@@ -622,34 +547,16 @@ export const desktopCheesecake = {
             {
                 "type": "normal",
                 "position": 10,
-                "title": "Junior's Cheesecake - The World's Most Fabulous Cheesecake",
-                "snippet": "Featured Products · _Original NY Plain Cheesecake_ · Red Velvet Cheesecake · Devils Food Cheesecake · Favorites Little Fellas Sampler. Our Locations. Brooklyn ...",
+                "title": "For anyone following the cucumber cheesecake saga...",
+                "snippet": "I made my husband a birthday cake shaped like a cucumber. (He hates cucumbers) It was a _NY cheesecake_, flavored with lemon, lime, and orange ...",
                 "source": {
-                    "title": "Junior's Cheesecake - The World's Most Fabulous Cheesecake",
-                    "name": "Junior's Cheesecake",
-                    "display_link": "https://www.juniorscheesecake.com",
-                    "link": "https://www.juniorscheesecake.com/?srsltid=AfmBOooa9bltE7lzr1M0uBzkR-O5H04_jIHaME27mN-CFNiAKGkNQ6Gb"
+                    "title": "For anyone following the cucumber cheesecake saga...",
+                    "name": "Reddit · r/Baking",
+                    "display_link": "30+ comments  ·  10 hours ago",
+                    "link": "https://www.reddit.com/r/Baking/comments/1j5eb0w/for_anyone_following_the_cucumber_cheesecake_saga/"
                 },
                 "snippet_highlighted_words": [
-                    "Original NY Plain Cheesecake"
-                ],
-                "links": [
-                    {
-                        "title": "All Items",
-                        "link": "https://www.juniorscheesecake.com/all-items"
-                    },
-                    {
-                        "title": "45th Street NYC",
-                        "link": "https://www.juniorscheesecake.com/blog/restaurants/times-square/"
-                    },
-                    {
-                        "title": "Our Cheesecake",
-                        "link": "https://www.juniorscheesecake.com/our-cheesecake/"
-                    },
-                    {
-                        "title": "Traditional Cheesecake",
-                        "link": "https://www.juniorscheesecake.com/traditional-cheesecakes"
-                    }
+                    "NY cheesecake"
                 ]
             },
             {
@@ -696,13 +603,46 @@ export const desktopCheesecake = {
             {
                 "type": "normal",
                 "position": 12,
+                "title": "Junior's Cheesecake - The World's Most Fabulous Cheesecake",
+                "snippet": "Featured Products · _Original NY Plain Cheesecake_ · Red Velvet Cheesecake · Devils Food Cheesecake · Favorites Little Fellas Sampler. Our Locations. Brooklyn ...",
+                "source": {
+                    "title": "Junior's Cheesecake - The World's Most Fabulous Cheesecake",
+                    "name": "Junior's Cheesecake",
+                    "display_link": "https://www.juniorscheesecake.com",
+                    "link": "https://www.juniorscheesecake.com/?srsltid=AfmBOooRzu2lbk_qoXkJWF0NmEwaPXu5-7AJd671_ZoQnGPA-q1DIltp"
+                },
+                "snippet_highlighted_words": [
+                    "Original NY Plain Cheesecake"
+                ],
+                "links": [
+                    {
+                        "title": "All Items",
+                        "link": "https://www.juniorscheesecake.com/all-items"
+                    },
+                    {
+                        "title": "45th Street NYC",
+                        "link": "https://www.juniorscheesecake.com/blog/restaurants/times-square/"
+                    },
+                    {
+                        "title": "Our Cheesecake",
+                        "link": "https://www.juniorscheesecake.com/our-cheesecake/"
+                    },
+                    {
+                        "title": "Traditional Cheesecake",
+                        "link": "https://www.juniorscheesecake.com/traditional-cheesecakes"
+                    }
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 13,
                 "title": "Zingerman's Classic Cheesecake",
                 "snippet": "Classic _cheesecake_ made with fresh, handmade farm cheese, real vanilla, and a homemade graham cracker crust. From the master bakers at Zingerman's Bakery.",
                 "source": {
                     "title": "Zingerman's Classic Cheesecake",
                     "name": "Zingerman's",
                     "display_link": "https://www.zingermans.com › Gifts › Deli Gifts",
-                    "link": "https://www.zingermans.com/Product/zingermans-classic-cheesecake/A-ZCH?srsltid=AfmBOoooC69oOUn0NYjL19qvOwmDBENPmj0TuY5-_AjYhcmef5tox57R"
+                    "link": "https://www.zingermans.com/Product/zingermans-classic-cheesecake/A-ZCH?srsltid=AfmBOopsUkcwJowLsgfVKSvEGo_e7ymBxeXQmXx2I7wD6Z4PBuuNMYZZ"
                 },
                 "snippet_highlighted_words": [
                     "cheesecake"
@@ -713,7 +653,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 13,
+                "position": 14,
                 "title": "Perfect Cheesecake Recipe (New York Style)",
                 "snippet": "This is a _classic New York-style cheesecake_ with a graham cracker crust and high sides. It is rich, dense, and light at the same time, and serves a small army.",
                 "source": {
@@ -722,6 +662,7 @@ export const desktopCheesecake = {
                     "display_link": "https://www.simplyrecipes.com › ... › Cheesecakes",
                     "link": "https://www.simplyrecipes.com/recipes/perfect_cheesecake/"
                 },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWv1wIuB5oYeOiljaBDHIYyLADYBg7gwe9rb9BrEu1a1PKahKS_F2c&usqp=CAE&s",
                 "snippet_highlighted_words": [
                     "classic New York-style cheesecake"
                 ],
@@ -738,7 +679,65 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 14,
+                "position": 15,
+                "title": "The Rich History of a Favorite Dessert",
+                "snippet": "_Cheesecake is a beloved dessert around the world_. While many assume that it has its origins in New York, it actually dates back much further.",
+                "source": {
+                    "title": "The Rich History of a Favorite Dessert",
+                    "name": "Cheesecake.com",
+                    "display_link": "https://www.cheesecake.com › History-Of-Cheesecake",
+                    "link": "https://www.cheesecake.com/History-Of-Cheesecake.asp"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQr2GM8wtgP6_aumY_wozTIV1XO0VZNEgd54eCtvC94qwiKfNKyVTr&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "Cheesecake is a beloved dessert around the world"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 16,
+                "title": "The Cheesecake Girl",
+                "snippet": "So many ways to cheesecake! _Pre-order online or visit one of our Columbus locations_. Not a Columbus local? We now offer nationwide shipping with Goldbelly!",
+                "source": {
+                    "title": "The Cheesecake Girl",
+                    "name": "The Cheesecake Girl",
+                    "display_link": "https://www.thecheesecakegirl.com",
+                    "link": "https://www.thecheesecakegirl.com/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMlX9-duF_xbHjOmgPYM4Q41DI7gk3rgE998NG64awjACIoiuvAJOu&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "Pre-order online or visit one of our Columbus locations"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 17,
+                "title": "The BEST Cheesecake Recipe (New York style)",
+                "snippet": "A simple, no-fuss recipe for the best, most life-changing cheesecake you will ever eat: _rich, creamy, and insanely delicious_.",
+                "source": {
+                    "title": "The BEST Cheesecake Recipe (New York style)",
+                    "name": "Bake With Zoha",
+                    "display_link": "https://bakewithzoha.com › Cheesecakes",
+                    "link": "https://bakewithzoha.com/best-cheesecake/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUGy2TzrtSPbAEM7CK_o0WyKMUxXFXEKjc2il2IJZjFL42nKVhtjHb&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "rich, creamy, and insanely delicious"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 81,
+                        "reviews_origin": "(81)"
+                    },
+                    "extensions": "5.0(81) · 1 hr 45 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 18,
                 "title": "Cheesecakes in Cakes(32)",
                 "snippet": "_Shop for Cheesecakes in Cakes_. Buy products such as Freshness Guaranteed New York Style Cheesecake, 6\", 16 oz at Walmart and save.",
                 "source": {
@@ -764,252 +763,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 15,
-                "title": "The Cheesecake Shop: Cake Delivery and 1 Hour Click ...",
-                "snippet": "Visit your local The Cheesecake Shop to enjoy delicious _Cheesecakes, Mudcakes, Tortes, Celebration Cakes, Gluten Free Cakes, Desserts, Custom Cakes_ and ...",
-                "source": {
-                    "title": "The Cheesecake Shop: Cake Delivery and 1 Hour Click ...",
-                    "name": "The Cheesecake Shop NZ",
-                    "display_link": "https://www.thecheesecakeshop.co.nz",
-                    "link": "https://www.thecheesecakeshop.co.nz/"
-                },
-                "snippet_highlighted_words": [
-                    "Cheesecakes, Mudcakes, Tortes, Celebration Cakes, Gluten Free Cakes, Desserts, Custom Cakes"
-                ],
-                "rich_snippet": {
-                    "extensions": "$6 to $80"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 16,
-                "title": "The BEST Cheesecake Recipe (New York style)",
-                "snippet": "A simple, no-fuss recipe for the best, most life-changing cheesecake you will ever eat: _rich, creamy, and insanely delicious_.",
-                "source": {
-                    "title": "The BEST Cheesecake Recipe (New York style)",
-                    "name": "Bake With Zoha",
-                    "display_link": "https://bakewithzoha.com › Cheesecakes",
-                    "link": "https://bakewithzoha.com/best-cheesecake/"
-                },
-                "snippet_highlighted_words": [
-                    "rich, creamy, and insanely delicious"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 81,
-                        "reviews_origin": "(81)"
-                    },
-                    "extensions": "5.0(81) · 1 hr 45 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 17,
-                "title": "Baklava Ricotta Cheesecake",
-                "snippet": "This recipe combines my two favorite desserts of all time: _baklava and Italian cheesecake_. Baklava vibes are evident in the show-stopping ...",
-                "source": {
-                    "title": "Baklava Ricotta Cheesecake",
-                    "name": "TODAY.com",
-                    "display_link": "https://www.today.com › recipes › baklava-cheesecake-...",
-                    "link": "https://www.today.com/recipes/baklava-cheesecake-t299100"
-                },
-                "snippet_highlighted_words": [
-                    "baklava and Italian cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 3.8,
-                        "label": "Rated 3.8 out of 5,",
-                        "reviews": 246,
-                        "reviews_origin": "(246)"
-                    },
-                    "extensions": "3.8(246) · 2 hr 10 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 18,
-                "title": "The Cheesecake Girl",
-                "snippet": "So many ways to cheesecake! _Pre-order online or visit one of our Columbus locations_. Not a Columbus local? We now offer nationwide shipping with Goldbelly!",
-                "source": {
-                    "title": "The Cheesecake Girl",
-                    "name": "The Cheesecake Girl",
-                    "display_link": "https://www.thecheesecakegirl.com",
-                    "link": "https://www.thecheesecakegirl.com/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPpBhMCf7FDmPWP94VQpgSgsfSSXAQ1AeGgXisOsAivGYLcNHSoVGbVew&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "Pre-order online or visit one of our Columbus locations"
-                ]
-            },
-            {
-                "type": "what_people_are_saying",
                 "position": 19,
-                "what_people_are_saying": [
-                    {
-                        "type": "reddit",
-                        "reddit": {
-                            "link": "https://www.reddit.com/r/unpopularopinion/comments/1j5juz4/cheesecake_is_disgusting/",
-                            "title": "cheesecake is disgusting.",
-                            "snippet": "Top comment · Cheesecake is a top tier dessert. Cheese makes every foodstuff better, aside from breakfast cereal. Carrot cake is also top tier.",
-                            "rich_snippet": "30+ comments",
-                            "date": "4 hours ago",
-                            "author": "r/unpopularopinion"
-                        }
-                    },
-                    {
-                        "type": "instagram",
-                        "instagram": {
-                            "type": "video",
-                            "link": "https://www.instagram.com/fitfoodieliving/reel/DG4HzM3RjQl/",
-                            "title": "Turtley (cheesecake) obsessed with this one 🐢🧁 [~274 cals 21g protein]\n\n-\n\nFind my cookbooks in my bio 👀💖\n\nSometimes recipes are in the works for a WHILE cause I don’t like posting mid recipes. I hope you love this one as much as I do 🤗\n\n-\n\n(Chocolate crust)\n✰ 1 cup (30g) chocolate rice kripsy cereal \n✰ 2-3 tbsp (30-45g) sf maple syrup \n(Cheesecake)\n✰ 1/2 cup (124g) low fat cream cheese \n✰ 2/3 cup (160g) 0% Greek yogurt\n✰ 1/4 cup (50g) monkfruit\n✰ 1 egg\n✰ dash vanilla and lemon juice\n✰ 1 scoop (37g) protein powder (I like @1upnutrition Protein in Birthday Cake - code fitfoodie)\n(Chocolate Ganache)\n✰ 2 tbsp (20g) cocoa powder \n✰ 2 tbsp (18g) protein powder\n✰ 2 tbsp powdered monkfruit/sweetener\n✰  2-3 tbsp milk (slowly add it in until you get the right consistency)\n(Crushed pecans (10g) and sf caramel for topping)\n1  Preheat oven to 350 F\n2. Crush cereal and combine with syrup.\n3. Spray 3, 4 inch spring pans (I got mine on Amazon) and pack cereal",
-                            "rich_snippet": "14.5K+ likes",
-                            "date": "14 hours ago",
-                            "author": "fitfoodieliving",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOzPX6aS5Zc4rqg40RdNzekG9xZlOhVJPb4BUVJv-BOK_wV8RiWysjloq8A&usqp=CAI&s",
-                            "duration": "0:24"
-                        }
-                    },
-                    {
-                        "type": "normal",
-                        "normal": {
-                            "link": "https://www.tiktok.com/@livcarbonero/video/7478848124266777902",
-                            "title": "Turtley (cheesecake) obsessed with this one 🐢🧁 [~274 cals 21g protei... | cake",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT38v2JyBd_8ei9hQiv1TNiMU-gd4M8AU8S6HjWf-9sZMEcLdO5NDAyiQBcg&usqp=CAI&s",
-                            "author": "livcarbonero",
-                            "date": "14 hours ago",
-                            "organization": "TikTok"
-                        }
-                    },
-                    {
-                        "type": "twitter",
-                        "twitter": {
-                            "type": "normal",
-                            "link": "https://twitter.com/FoodPornPhotos/status/1897355716706673113?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-                            "title": "Cinnamon Roll Cheesecake",
-                            "rich_snippet": "27.3K+ likes",
-                            "date": "1 day ago",
-                            "author": "FoodPornPhotos",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReVBgyRlVSmJ6YrpN1sWfHytCh3QHvYgjg_odR8l7yiJBgw2WGyNGmHgCHOac1lLW0x6R8pA&s=10"
-                        }
-                    },
-                    {
-                        "type": "twitter",
-                        "twitter": {
-                            "type": "normal",
-                            "link": "https://twitter.com/DessertPassion/status/1897376606663909494?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-                            "title": "Chocolate Peanut Butter Cheesecake 🥜",
-                            "rich_snippet": "2.4K+ likes",
-                            "date": "1 day ago",
-                            "author": "DessertPassion",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjM7XqUDvhQlFvNWIGZ5V2VPibhCoUEonI_KdpeOEJ3kHafswbmHPw6pnrZWkY4P9We60ptw&s=10"
-                        }
-                    },
-                    {
-                        "type": "youtube",
-                        "youtube": {
-                            "link": "https://www.youtube.com/watch?v=zJUJh1BScls",
-                            "title": "Would You Air Fry a Cheesecake?!",
-                            "rich_snippet": "28.4K+ views",
-                            "thumbnail": "https://img.youtube.com/vi/zJUJh1BScls/hqdefault.jpg",
-                            "date": "1 day ago",
-                            "author": "Preppy Kitchen"
-                        }
-                    },
-                    {
-                        "type": "twitter",
-                        "twitter": {
-                            "type": "normal",
-                            "link": "https://twitter.com/crumbl/status/1897391845250097207?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-                            "title": "you know what crumbl...heck yeah.\\n\\nturtle cheesecake is HERE! 🤎 who's excited to try it?",
-                            "rich_snippet": "260+ likes",
-                            "date": "1 day ago",
-                            "author": "crumbl",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8zz36AQW1iwSf-slQ2-1RIRenxPONcsQRsVR0EXj90GZKQCdc6hDqZypwhry7MaohfTVgg&s=10"
-                        }
-                    },
-                    {
-                        "type": "twitter",
-                        "twitter": {
-                            "type": "normal",
-                            "link": "https://twitter.com/SouthLadyCooks/status/1897753604175598004?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-                            "title": "Recipe➡️ thesouthernladycooks.co…\\nWe love how simple this cheesecake pretzel dessert is, only a few ingredients. You can make this dessert the night before too and it can be made with a different topping. #dessert #cheesecake",
-                            "rich_snippet": "30+ likes",
-                            "date": "16 hours ago",
-                            "author": "SouthLadyCooks",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Kjf7CphVljwmfsbgeTr5XyjXV6WTRasaDycs2N2zIGi1kuWw9ieAD5s0X6MnPtPpthUPDUH3&s=10"
-                        }
-                    },
-                    {
-                        "type": "normal",
-                        "normal": {
-                            "link": "https://www.facebook.com/tasteofhome/videos/this-isnt-your-average-cheesecake-full-recipe-httpsbitly3xvzrwwcheesecake-basque/1852372078931538/",
-                            "title": "This isn't your average cheesecake. Full recipe: https://bit.ly/3XvzrWW #cheesecake #basquecheesecake ...",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocFw5aCoLAPDQmcQSPj-o-3iBbnFgoA03INmVGE6IfYTI2wuAHU7EVw1v&usqp=CAI&s",
-                            "author": "tasteofhome",
-                            "date": "1 day ago",
-                            "organization": "Facebook"
-                        }
-                    },
-                    {
-                        "type": "instagram",
-                        "instagram": {
-                            "type": "video",
-                            "link": "https://www.instagram.com/moribyan/reel/DGwHEQdxzNL/",
-                            "title": "Dubai Chocolate Cheesecake Bars inspired by @fixdessertchocolatier 🤎 full recipe up on the blog as always - link in bio!\\n\\n#pistachio #chocolate #dubai #ramadan #dessert #foodblog #food #foodie #instafood #foodstagram #cooking #baking #recipe #eeeeeats #yummy",
-                            "rich_snippet": "39.1K+ likes",
-                            "date": "3 days ago",
-                            "author": "moribyan",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0UftkTz0zCtnygHUMRgE4BN6pAlUqWCPyDDwC0xYQ1hN6M17jyXZkn-90Ag&usqp=CAI&s",
-                            "duration": "0:54"
-                        }
-                    },
-                    {
-                        "type": "normal",
-                        "normal": {
-                            "link": "https://www.tiktok.com/@moribyan/video/7477674822311398702",
-                            "title": "Delicious Dubai Chocolate Cheesecake Bars Recipe",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUZEDfJN8XYQjJmb_kiAIiobS9xOIWIxmWUi9OYBTeV771V36JsvP4zdFpxA&usqp=CAI&s",
-                            "author": "moribyan",
-                            "date": "3 days ago",
-                            "organization": "TikTok"
-                        }
-                    },
-                    {
-                        "type": "twitter",
-                        "twitter": {
-                            "type": "normal",
-                            "link": "https://twitter.com/longjohnsilvers/status/1896289506577326102?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-                            "title": "Normalize getting TWO pieces of Cheesecake for dessert. 💁 😋 #CheesecakeFactory",
-                            "rich_snippet": "30+ likes",
-                            "date": "4 days ago",
-                            "author": "longjohnsilvers",
-                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj4LzVtJnShaZdOmRBmqhF3-IhEsh6-e-bwmtJLaGMfjCxfR8pgkCqeojjfkJwdSAp93mVcw&s=10"
-                        }
-                    }
-                ]
-            },
-            {
-                "type": "video",
-                "position": 20,
-                "title": "Dubai Chocolate Cheesecake Bars inspired by ...",
-                "snippet": "It's basically a classic cheesecake topped with the crispy pistachio canaa layer and then chocolate ganache on top.",
-                "duration": "0:54",
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTODN6qm7Z2rPFd3osuUX16LK5_ebyGgt1dopWJhV5EzE_-&s",
-                "source": {
-                    "title": "Dubai Chocolate Cheesecake Bars inspired by ...",
-                    "name": "Instagram · moribyan",
-                    "display_link": "39.1K+ likes  ·  3 days ago",
-                    "link": "https://www.instagram.com/moribyan/reel/DGwHEQdxzNL/"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 21,
                 "title": "Classic Cheesecake",
                 "snippet": "Find out how to make _cheesecake_ with a sweet and crisp graham cracker crust and an incredibly silky, creamy, and rich cream cheese filling!",
                 "source": {
@@ -1034,71 +788,36 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 22,
-                "title": "Costco Has a Tiramisu Cheesecake, and People Are All ...",
-                "snippet": "The _Costco tiramisu cheesecake_ has officially captured the internet's attention. This dessert has 4.8 lbs. of goodness for a mere $23.99.",
-                "source": {
-                    "title": "Costco Has a Tiramisu Cheesecake, and People Are All ...",
-                    "name": "Taste of Home",
-                    "display_link": "https://www.tasteofhome.com › News › Grocery Stores",
-                    "link": "https://www.tasteofhome.com/article/costco-tiramisu-cheesecake/?srsltid=AfmBOoqKVoNvFXbVPfe4XL17yEL6pujrfAfA4MKE312tZCbCDyePo4Qj"
-                },
-                "snippet_highlighted_words": [
-                    "Costco tiramisu cheesecake"
-                ],
-                "rich_snippet": {
-                    "extensions": "$23.99 · Free delivery · 90-day returns"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 23,
+                "position": 20,
                 "title": "The Cheesecake Shop: Cake Delivery and 1 Hour Click ...",
                 "snippet": "Visit your local The Cheesecake Shop to enjoy delicious _Cheesecakes, Mudcakes, Tortes, Celebration Cakes, Gluten Free Cakes, Desserts, Custom Cakes_ and ...",
                 "source": {
                     "title": "The Cheesecake Shop: Cake Delivery and 1 Hour Click ...",
-                    "name": "The Cheesecake Shop",
-                    "display_link": "https://www.cheesecake.com.au",
-                    "link": "https://www.cheesecake.com.au/"
+                    "name": "The Cheesecake Shop NZ",
+                    "display_link": "https://www.thecheesecakeshop.co.nz",
+                    "link": "https://www.thecheesecakeshop.co.nz/"
                 },
                 "snippet_highlighted_words": [
                     "Cheesecakes, Mudcakes, Tortes, Celebration Cakes, Gluten Free Cakes, Desserts, Custom Cakes"
                 ],
                 "rich_snippet": {
-                    "extensions": "$6 to $58"
+                    "extensions": "$6 to $80"
                 }
             },
             {
                 "type": "normal",
-                "position": 24,
-                "title": "Ricotta Cheesecake Recipe",
-                "snippet": "This creamy cheesecake is _made with both ricotta and cream cheese_ for a rich, luxurious texture.",
-                "source": {
-                    "title": "Ricotta Cheesecake Recipe",
-                    "name": "The Kitchn",
-                    "display_link": "https://www.thekitchn.com › ... › Cakes › Cheesecake",
-                    "link": "https://www.thekitchn.com/ricotta-cheesecake-recipe-23711673"
-                },
-                "snippet_highlighted_words": [
-                    "made with both ricotta and cream cheese"
-                ],
-                "rich_snippet": {
-                    "extensions": "3 hr 10 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 25,
+                "position": 21,
                 "title": "Easy Cheesecake Recipe",
-                "snippet": "This recipe is it! It's rich, creamy, slightly tart and has the most irresistible biscuit base. I'd go so far as to say it's the BEST _cheesecake_ recipe I've ...",
+                "snippet": "If you're looking for a _super creamy baked cheesecake recipe_ that is easy to make (with no water bath required), then this recipe is it!",
                 "source": {
                     "title": "Easy Cheesecake Recipe",
                     "name": "Cakes by MK",
                     "display_link": "https://cakesbymk.com › recipe › easy-cheesecake-recipe",
                     "link": "https://cakesbymk.com/recipe/easy-cheesecake-recipe/"
                 },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeBZTgVFrO_LtdrZ499VTtHB0TVvthh5GDRn5J7VxiGO6Bl_AuOVjR&usqp=CAE&s",
                 "snippet_highlighted_words": [
-                    "cheesecake"
+                    "super creamy baked cheesecake recipe"
                 ],
                 "rich_snippet": {
                     "rated": {
@@ -1112,32 +831,20 @@ export const desktopCheesecake = {
                 }
             },
             {
-                "type": "video",
-                "position": 26,
-                "title": "Delicious Dubai Chocolate Cheesecake Bars Recipe",
-                "snippet": "It's basically a classic cheesecake topped with the crispy pistachio canafa layer and then chocolate ganache on top.",
-                "duration": "0:54",
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg3xs12Lk35QsjnKJjALm7wzZ-jwbMWHI7_BtefdQzF3Bf&s",
-                "source": {
-                    "title": "Delicious Dubai Chocolate Cheesecake Bars Recipe",
-                    "name": "TikTok · moribyan",
-                    "display_link": "525.1K+ views  ·  3 days ago",
-                    "link": "https://www.tiktok.com/@moribyan/video/7477674822311398702"
-                }
-            },
-            {
                 "type": "normal",
-                "position": 27,
+                "position": 22,
                 "title": "No bake cheesecake",
-                "snippet": "Blitz crumb ingredients. Press into 20cm/8\" inverted base lined springform. Bloom gelatine in the water, re-melt. Whip cream. In separate bowl ...",
+                "snippet": "This is a _No Bake Cheesecake_ that tastes very similar to a classic Baked Cheesecake, made without the fuss of baking!",
                 "source": {
                     "title": "No bake cheesecake",
                     "name": "RecipeTin Eats",
                     "display_link": "https://www.recipetineats.com › Cheesecakes",
                     "link": "https://www.recipetineats.com/no-bake-cheesecake/"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS69f26D5br8dOMFs0CsLIrYVaERWUkwLm1wLdlw2zp_rgoEhmiCCYOQ7o&usqp=CAE&s",
-                "snippet_highlighted_words": [],
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj0101QfUyZXHHOZebfvCc18RWx6o2t-xNNiBfi15elYh0qHTQwcVl&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "No Bake Cheesecake"
+                ],
                 "rich_snippet": {
                     "rated": {
                         "type": "normal",
@@ -1151,160 +858,18 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 28,
-                "title": "Best Cheesecake Bake Off",
-                "snippet": "We tested 9 popular _cheesecake_ recipes in search of the creamiest, smooth and rich _cheesecake_. 9 squares of _cheesecake_ on a grey background.",
-                "source": {
-                    "title": "Best Cheesecake Bake Off",
-                    "name": "The Pancake Princess",
-                    "display_link": "https://www.thepancakeprincess.com › best-cheesecake-...",
-                    "link": "https://www.thepancakeprincess.com/best-cheesecake-bake-off/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRJdg2YkQ8PnKA0YaOwMyS7ks381yq_rXtiG5--whGXg&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "cheesecake",
-                    "cheesecake",
-                    "cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 29,
-                "title": "I Need a Foolproof Cheesecake Recipe",
-                "snippet": "This month the duo tells us how to make a _textbook Basque cheesecake_ imbued with the bittersweet flavors of tiramisu. March 6, 2025. Image may ...",
-                "source": {
-                    "title": "I Need a Foolproof Cheesecake Recipe",
-                    "name": "Bon Appétit: Recipes, Cooking, Entertaining, Restaurants | Bon Appétit",
-                    "display_link": "https://www.bonappetit.com › cooking › cooking",
-                    "link": "https://www.bonappetit.com/story/i-need-a-foolproof-cheesecake-recipe?srsltid=AfmBOoorwzp5Dyxqax91Hlw5zBB_S0ZR0gaRbTH1SW3l421f0htxqdTY"
-                },
-                "snippet_highlighted_words": [
-                    "textbook Basque cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 30,
-                "title": "Cheesecakes Archives",
-                "snippet": "_Cheesecakes_ · The BEST _Cheesecake_ Recipe (New York style) · Baked Tiramisu _Cheesecake_ · Crème Brûlée _Cheesecake_ · BEST No Bake Chocolate _Cheesecake_ · Lemon ...",
-                "source": {
-                    "title": "Cheesecakes Archives",
-                    "name": "Bake With Zoha",
-                    "display_link": "https://bakewithzoha.com › category › cheesecakes",
-                    "link": "https://bakewithzoha.com/category/cheesecakes/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPf4YOvbvmFtiJBhkkt4hcw7ktQPTHBJ8SWwX9G9Uf8VDJcj_Y_rpSyGk&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "Cheesecakes",
-                    "Cheesecake",
-                    "Cheesecake",
-                    "Cheesecake",
-                    "Cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 31,
-                "title": "Best Cheesecake Recipe (Copycat Cheesecake Factory ...",
-                "snippet": "This creamy _cheesecake_ recipe is one of my post popular dessert recipes! Rich and creamy, with a classic graham cracker crust, it's even better than the ...",
-                "source": {
-                    "title": "Best Cheesecake Recipe (Copycat Cheesecake Factory ...",
-                    "name": "Baker by Nature",
-                    "display_link": "https://bakerbynature.com › Cakes › Cheesecake",
-                    "link": "https://bakerbynature.com/extra-rich-and-creamy-cheesecake/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt-DdMtL099WqtXiyMXBuSzHEAngcPEt-_EZF_HeIjbPEiZX8PsrdcpQE&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 184,
-                        "reviews_origin": "(184)"
-                    },
-                    "extensions": "5.0(184) · 9 hr 38 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 32,
-                "title": "No-Bake Chocolate Cheesecake Bars Recipe",
-                "snippet": "Ingredients · two 8-ounce packages (453g) cream cheese, softened · 3/4 cup (86g) confectioners' sugar, sifted if lumpy · 1 tablespoon King Arthur Pure Vanilla ...",
-                "source": {
-                    "title": "No-Bake Chocolate Cheesecake Bars Recipe",
-                    "name": "King Arthur Baking",
-                    "display_link": "https://www.kingarthurbaking.com › recipes › no-bake-c...",
-                    "link": "https://www.kingarthurbaking.com/recipes/no-bake-chocolate-cheesecake-bars-recipe"
-                },
-                "snippet_highlighted_words": [],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4,
-                        "label": "Rated 4.0 out of 5,",
-                        "reviews": 3,
-                        "reviews_origin": "(3)"
-                    },
-                    "extensions": "4.0(3) · 9 hr 20 min"
-                }
-            },
-            {
-                "type": "video",
-                "position": 33,
-                "title": "Would You Air Fry a Cheesecake?!",
-                "snippet": "This incredible air fryer cheesecake comes together so quickly and air fries in a snap.",
-                "duration": "0:32",
-                "thumbnail": "https://i.ytimg.com/vi/zJUJh1BScls/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lQpYpB4CPhPI_pYoikQPDJMd8e5Q",
-                "source": {
-                    "title": "Would You Air Fry a Cheesecake?!",
-                    "name": "YouTube · Preppy Kitchen",
-                    "display_link": "28.4K+ views  ·  1 day ago",
-                    "link": "https://www.youtube.com/watch?v=zJUJh1BScls"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 34,
-                "title": "Easy No-Bake Cheesecake Recipe",
-                "snippet": "no-bake _cheesecake_ is eggless, which gives it a super clean flavor profile—freed from the custardy yolks, the creamy dairy notes really stand out.",
-                "source": {
-                    "title": "Easy No-Bake Cheesecake Recipe",
-                    "name": "Serious Eats",
-                    "display_link": "https://www.seriouseats.com › ... › Cakes › Cheesecakes",
-                    "link": "https://www.seriouseats.com/no-bake-cheesecake-recipe"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5GHaW6qC5MBleXJ5ReqDqSNZ7KOMNGkEUHRLBUjMs2nxeYRIiEK73XQ4&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 12,
-                        "reviews_origin": "(12)"
-                    },
-                    "extensions": "5.0(12) · 6 hr 20 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 35,
+                "position": 23,
                 "title": "Tall and Creamy Cheesecake Recipe - NYT Cooking",
-                "snippet": "This is an all-American _cheesecake_ of the big, beautiful, lush and creamy variety, the kind that causes gasps of delight when you bring it to the table.",
+                "snippet": "This is an _all-American cheesecake_ of the big, beautiful, lush and creamy variety, the kind that causes gasps of delight when you bring it to the table.",
                 "source": {
                     "title": "Tall and Creamy Cheesecake Recipe - NYT Cooking",
                     "name": "NYT Cooking",
                     "display_link": "https://cooking.nytimes.com › recipes › 1015672-tall-a...",
                     "link": "https://cooking.nytimes.com/recipes/1015672-tall-and-creamy-cheesecake"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0a30tRHf_nTvcxghcS3XUHoljknepx5v7YibWwGlRVZrUxoDt9H17yz0&usqp=CAE&s",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvRTzYd5zkSlRJR-_L9ckCnMTbxMdeamJlkNW3QDvxsYQ9mAwK_6Uh&usqp=CAE&s",
                 "snippet_highlighted_words": [
-                    "cheesecake"
+                    "all-American cheesecake"
                 ],
                 "rich_snippet": {
                     "rated": {
@@ -1319,57 +884,318 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 36,
+                "position": 24,
+                "title": "Best Cheesecake Recipe (Copycat Cheesecake Factory ...",
+                "snippet": "You can bake the _BEST cheesecake ever_ with this tested-and-perfected recipe! Creamy filling + graham cracker crust = a classic dessert that's always a hit.",
+                "source": {
+                    "title": "Best Cheesecake Recipe (Copycat Cheesecake Factory ...",
+                    "name": "Baker by Nature",
+                    "display_link": "https://bakerbynature.com › Cakes › Cheesecake",
+                    "link": "https://bakerbynature.com/extra-rich-and-creamy-cheesecake/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcfvcO1NiZvx69ibXwgm7oZS2syIwBA_maXeSHc_LhM881SD_-uNgX&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "BEST cheesecake ever"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 184,
+                        "reviews_origin": "(184)"
+                    },
+                    "extensions": "5.0(184) · 9 hr 38 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 25,
+                "title": "Best Cheesecake Bake Off",
+                "snippet": "_We tested 9 popular cheesecake recipes_ in search of the creamiest, smooth and rich cheesecake. 9 squares of cheesecake on a grey background.",
+                "source": {
+                    "title": "Best Cheesecake Bake Off",
+                    "name": "The Pancake Princess",
+                    "display_link": "https://www.thepancakeprincess.com › best-cheesecake-...",
+                    "link": "https://www.thepancakeprincess.com/best-cheesecake-bake-off/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpMXY8UI5J3JOkQXHrcsi50u5mknqJMqsw7qxaPo&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "We tested 9 popular cheesecake recipes"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 26,
+                "title": "Cheesecakes Archives",
+                "snippet": "The most incredible, luscious and creamy _cheesecakes_ you will ever have, including both baked and no bake options.",
+                "source": {
+                    "title": "Cheesecakes Archives",
+                    "name": "Bake With Zoha",
+                    "display_link": "https://bakewithzoha.com › category › cheesecakes",
+                    "link": "https://bakewithzoha.com/category/cheesecakes/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDGkprlwpoN76CmJu7EWfeZaQ0vDxt7Sz-HnkNjenjip9NiCamTkrX&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "cheesecakes"
+                ]
+            },
+            {
+                "type": "what_people_are_saying",
+                "what_people_are_saying": [
+                    {
+                        "type": "reddit",
+                        "position": 1,
+                        "reddit": {
+                            "link": "https://www.reddit.com/r/unpopularopinion/comments/1j5juz4/cheesecake_is_disgusting/",
+                            "title": "cheesecake is disgusting.",
+                            "snippet": "Top comment · Cheesecake is a top tier dessert. Cheese makes every foodstuff better, aside from breakfast cereal. Carrot cake is also top tier.",
+                            "rich_snippet": "30+ comments",
+                            "date": "4 hours ago",
+                            "author": "r/unpopularopinion"
+                        }
+                    },
+                    {
+                        "type": "instagram",
+                        "position": 2,
+                        "instagram": {
+                            "type": "video",
+                            "link": "https://www.instagram.com/fitfoodieliving/reel/DG4HzM3RjQl/",
+                            "title": "Turtley (cheesecake) obsessed with this one 🐢🧁 [~274 cals 21g protein]\n\n-\n\nFind my cookbooks in my bio 👀💖\n\nSometimes recipes are in the works for a WHILE cause I don’t like posting mid recipes. I hope you love this one as much as I do 🤗\n\n-\n\n(Chocolate crust)\n✰ 1 cup (30g) chocolate rice kripsy cereal \n✰ 2-3 tbsp (30-45g) sf maple syrup \n(Cheesecake)\n✰ 1/2 cup (124g) low fat cream cheese \n✰ 2/3 cup (160g) 0% Greek yogurt\n✰ 1/4 cup (50g) monkfruit\n✰ 1 egg\n✰ dash vanilla and lemon juice\n✰ 1 scoop (37g) protein powder (I like @1upnutrition Protein in Birthday Cake - code fitfoodie)\n(Chocolate Ganache)\n✰ 2 tbsp (20g) cocoa powder \n✰ 2 tbsp (18g) protein powder\n✰ 2 tbsp powdered monkfruit/sweetener\n✰  2-3 tbsp milk (slowly add it in until you get the right consistency)\n(Crushed pecans (10g) and sf caramel for topping)\n1  Preheat oven to 350 F\n2. Crush cereal and combine with syrup.\n3. Spray 3, 4 inch spring pans (I got mine on Amazon) and pack cereal",
+                            "rich_snippet": "14.7K+ likes",
+                            "date": "14 hours ago",
+                            "author": "fitfoodieliving",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlOzPX6aS5Zc4rqg40RdNzekG9xZlOhVJPb4BUVJv-BOK_wV8RiWysjloq8A&usqp=CAI&s",
+                            "duration": "0:24"
+                        }
+                    },
+                    {
+                        "type": "normal",
+                        "position": 3,
+                        "normal": {
+                            "link": "https://www.tiktok.com/@livcarbonero/video/7478848124266777902",
+                            "title": "Turtley (cheesecake) obsessed with this one 🐢🧁 [~274 cals 21g protei... | cheese cake",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT38v2JyBd_8ei9hQiv1TNiMU-gd4M8AU8S6HjWf-9sZMEcLdO5NDAyiQBcg&usqp=CAI&s",
+                            "author": "livcarbonero",
+                            "date": "14 hours ago",
+                            "organization": "TikTok"
+                        }
+                    },
+                    {
+                        "type": "twitter",
+                        "position": 4,
+                        "twitter": {
+                            "type": "normal",
+                            "link": "https://twitter.com/FoodPornPhotos/status/1897355716706673113?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+                            "title": "Cinnamon Roll Cheesecake",
+                            "rich_snippet": "27.3K+ likes",
+                            "date": "1 day ago",
+                            "author": "FoodPornPhotos",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReVBgyRlVSmJ6YrpN1sWfHytCh3QHvYgjg_odR8l7yiJBgw2WGyNGmHgCHOac1lLW0x6R8pA&s=10"
+                        }
+                    },
+                    {
+                        "type": "twitter",
+                        "position": 5,
+                        "twitter": {
+                            "type": "normal",
+                            "link": "https://twitter.com/DessertPassion/status/1897376606663909494?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+                            "title": "Chocolate Peanut Butter Cheesecake 🥜",
+                            "rich_snippet": "2.4K+ likes",
+                            "date": "1 day ago",
+                            "author": "DessertPassion",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjM7XqUDvhQlFvNWIGZ5V2VPibhCoUEonI_KdpeOEJ3kHafswbmHPw6pnrZWkY4P9We60ptw&s=10"
+                        }
+                    },
+                    {
+                        "type": "youtube",
+                        "position": 6,
+                        "youtube": {
+                            "link": "https://www.youtube.com/watch?v=zJUJh1BScls",
+                            "title": "Would You Air Fry a Cheesecake?!",
+                            "rich_snippet": "28.4K+ views",
+                            "thumbnail": "https://img.youtube.com/vi/zJUJh1BScls/hqdefault.jpg",
+                            "date": "1 day ago",
+                            "author": "Preppy Kitchen"
+                        }
+                    },
+                    {
+                        "type": "twitter",
+                        "position": 7,
+                        "twitter": {
+                            "type": "normal",
+                            "link": "https://twitter.com/crumbl/status/1897391845250097207?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+                            "title": "you know what crumbl...heck yeah.\\n\\nturtle cheesecake is HERE! 🤎 who's excited to try it?",
+                            "rich_snippet": "260+ likes",
+                            "date": "1 day ago",
+                            "author": "crumbl",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW8zz36AQW1iwSf-slQ2-1RIRenxPONcsQRsVR0EXj90GZKQCdc6hDqZypwhry7MaohfTVgg&s=10"
+                        }
+                    },
+                    {
+                        "type": "twitter",
+                        "position": 8,
+                        "twitter": {
+                            "type": "normal",
+                            "link": "https://twitter.com/SouthLadyCooks/status/1897753604175598004?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+                            "title": "Recipe➡️ thesouthernladycooks.co…\\nWe love how simple this cheesecake pretzel dessert is, only a few ingredients. You can make this dessert the night before too and it can be made with a different topping. #dessert #cheesecake",
+                            "rich_snippet": "30+ likes",
+                            "date": "17 hours ago",
+                            "author": "SouthLadyCooks",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6Kjf7CphVljwmfsbgeTr5XyjXV6WTRasaDycs2N2zIGi1kuWw9ieAD5s0X6MnPtPpthUPDUH3&s=10"
+                        }
+                    },
+                    {
+                        "type": "normal",
+                        "position": 9,
+                        "normal": {
+                            "link": "https://www.facebook.com/tasteofhome/videos/this-isnt-your-average-cheesecake-full-recipe-httpsbitly3xvzrwwcheesecake-basque/1852372078931538/",
+                            "title": "This isn't your average cheesecake. Full recipe: https://bit.ly/3XvzrWW #cheesecake #basquecheesecake ...",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocFw5aCoLAPDQmcQSPj-o-3iBbnFgoA03INmVGE6IfYTI2wuAHU7EVw1v&usqp=CAI&s",
+                            "author": "tasteofhome",
+                            "date": "1 day ago",
+                            "organization": "Facebook"
+                        }
+                    },
+                    {
+                        "type": "instagram",
+                        "position": 10,
+                        "instagram": {
+                            "type": "video",
+                            "link": "https://www.instagram.com/moribyan/reel/DGwHEQdxzNL/",
+                            "title": "Dubai Chocolate Cheesecake Bars inspired by @fixdessertchocolatier 🤎 full recipe up on the blog as always - link in bio!\\n\\n#pistachio #chocolate #dubai #ramadan #dessert #foodblog #food #foodie #instafood #foodstagram #cooking #baking #recipe #eeeeeats #yummy",
+                            "rich_snippet": "39.1K+ likes",
+                            "date": "3 days ago",
+                            "author": "moribyan",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0UftkTz0zCtnygHUMRgE4BN6pAlUqWCPyDDwC0xYQ1hN6M17jyXZkn-90Ag&usqp=CAI&s",
+                            "duration": "0:54"
+                        }
+                    },
+                    {
+                        "type": "twitter",
+                        "position": 11,
+                        "twitter": {
+                            "type": "normal",
+                            "link": "https://twitter.com/longjohnsilvers/status/1896289506577326102?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+                            "title": "Normalize getting TWO pieces of Cheesecake for dessert. 💁 😋 #CheesecakeFactory",
+                            "rich_snippet": "30+ likes",
+                            "date": "4 days ago",
+                            "author": "longjohnsilvers",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj4LzVtJnShaZdOmRBmqhF3-IhEsh6-e-bwmtJLaGMfjCxfR8pgkCqeojjfkJwdSAp93mVcw&s=10"
+                        }
+                    },
+                    {
+                        "type": "instagram",
+                        "position": 12,
+                        "instagram": {
+                            "type": "video",
+                            "link": "https://www.instagram.com/nm_meiyee/reel/DG0XRDaTMr7/",
+                            "title": "No-Bake Biscoff Cheesecake \\n\\nComment RECIPE to get the recipe sent to your inbox ♥️\\n\\n⁣#homemade #biscoff #cheesecake  #cake #chocolate  #foodie #FoodPorn #InstaFood #Foodstagram #Yummy #Delicious #foodlover #Foodgasm #Tasty #Eats\\n#NomNom #FoodieLife #FoodPhotography #FoodAddict\\n#Gourmet #SweetTooth\\n#baking #reels #reelsinstagram",
+                            "rich_snippet": "8.6K+ likes",
+                            "date": "2 days ago",
+                            "author": "nm_meiyee",
+                            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFvlLXiqh-Kt2W7n4vyNf6MZHK4XJYNFBxdrZyvBQGJih4ndotfuLjO_mnow&usqp=CAI&s",
+                            "duration": "0:10"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 27,
+                "title": "Easy No-Bake Cheesecake Recipe",
+                "snippet": "_How to make a no-cook and no-bake cheesecake_ with a creamy, thick, sliceable filling, perfect for beating the summer heat.",
+                "source": {
+                    "title": "Easy No-Bake Cheesecake Recipe",
+                    "name": "Serious Eats",
+                    "display_link": "https://www.seriouseats.com › ... › Cakes › Cheesecakes",
+                    "link": "https://www.seriouseats.com/no-bake-cheesecake-recipe"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZI6oPo32ugW8vzpzSeCCJeTqeZ0zfpvrSZwB7qCFly9OslZ89Qwz3&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "How to make a no-cook and no-bake cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 12,
+                        "reviews_origin": "(12)"
+                    },
+                    "extensions": "5.0(12) · 6 hr 20 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 28,
                 "title": "Cheesecake!",
-                "snippet": "This one is topped with raspberry, whipped cream, and white chocolate. It's also the first real grown-up _cheesecake_ I think I've ever made.",
+                "snippet": "_Filling_ · 4 (8oz.) packages cream cheese · 1-1/2 cups sugar · 3 Tbsp flour · 5 eggs · 1 cup sour cream · 1 Tbsp vanilla · 1 Tbsp lemon juice ...",
                 "source": {
                     "title": "Cheesecake!",
                     "name": "Bakerella",
                     "display_link": "https://www.bakerella.com › cheesecake",
                     "link": "https://www.bakerella.com/cheesecake/"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVFzt_9C4MNKw27DvSa6G77wFj4v_getM5JlZW9HpqUnSoETzq8sdg0YE&usqp=CAE&s",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw6aTNB8oy6AycJ1FQusu4QE1DveP6qhhw_VL_6rrOU89WwPwF7b_2&usqp=CAE&s",
                 "snippet_highlighted_words": [
-                    "cheesecake"
+                    "Filling"
                 ],
                 "rich_snippet": {
                     "extensions": "4 hr 55 min"
                 }
             },
             {
-                "type": "video",
-                "position": 37,
-                "title": "New York style cheesecake",
-                "snippet": "New York style cheesecake is browned on the outside and kind of puffy on the inside which is what makes it very kind of cake-like.",
-                "duration": "7:16",
-                "thumbnail": "https://i.ytimg.com/vi/M0PXNRm5nYQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mf4BL847uhSiUCkIuAHKLPIOsbmw",
-                "source": {
-                    "title": "New York style cheesecake",
-                    "name": "YouTube · Adam Ragusea",
-                    "display_link": "220.2K+ views  ·  1 week ago",
-                    "link": "https://www.youtube.com/watch?v=M0PXNRm5nYQ"
-                }
-            },
-            {
                 "type": "normal",
-                "position": 38,
+                "position": 29,
                 "title": "The Easiest New York Cheesecake Recipe | No Water Bath",
-                "snippet": "Why do baked _cheesecakes_ crack? Rapid increases or decreases in temperature can both make proteins in the eggs coagulate and shrink, and also cause air in the ...",
+                "snippet": "For me, a _classic New York cheesecake_ is the platonic ideal of what cheesecake should be. It's dense, rich and creamy with a delicious crunchy base.",
                 "source": {
                     "title": "The Easiest New York Cheesecake Recipe | No Water Bath",
                     "name": "Emma's Goodies",
                     "display_link": "https://www.emmafontanella.com › new-york-cheesecake",
                     "link": "https://www.emmafontanella.com/new-york-cheesecake"
                 },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6KB34OTjbl-vWVDpHqJAaabLKghXwqU2ULaaTd0TzhTajVlXe0ygZ&usqp=CAE&s",
                 "snippet_highlighted_words": [
-                    "cheesecakes"
+                    "classic New York cheesecake"
                 ]
             },
             {
                 "type": "normal",
-                "position": 39,
+                "position": 30,
+                "title": "Eli's Cheesecake: Eli's Chicago-style Cheesecake and ...",
+                "snippet": "Eli's Cheesecake, a third-generation family-owned business, _delivers Chicago-style cheesecake_ and other delicious desserts nationwide.",
+                "source": {
+                    "title": "Eli's Cheesecake: Eli's Chicago-style Cheesecake and ...",
+                    "name": "Eli's Cheesecake",
+                    "display_link": "https://elicheesecake.com",
+                    "link": "https://elicheesecake.com/?srsltid=AfmBOooqMuU-bTY4PfWCUHLiffWRsUHUsqDx69PRDr_dJBtQ1YkrqHY4"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoQ_iw9Hx6w3Oiw5nH8M4o3Y_kA_RfLU5CAg0IbI_xy72EOESbXHeU&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "delivers Chicago-style cheesecake"
+                ]
+            },
+            {
+                "type": "video",
+                "position": 31,
+                "title": "EASY Cheesecake Recipe",
+                "snippet": "You're going to love this creamy, smooth, and rich classic Cheesecake Recipe. It's is simple but delicious and so very easy to make.",
+                "duration": "9:32",
+                "thumbnail": "https://i.ytimg.com/vi/tpsywnPNDsw/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3muY0seldmmnzsLPayTP9GjfMl_xg",
+                "source": {
+                    "title": "EASY Cheesecake Recipe",
+                    "name": "YouTube · Preppy Kitchen",
+                    "display_link": "771.2K+ views  ·  9 months ago",
+                    "link": "https://www.youtube.com/watch?v=tpsywnPNDsw"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 32,
                 "title": "Recipes - New York cheesecake",
-                "snippet": "For the _cheesecake_ filling · 900g Philadelphia cheese. or other full-fat soft cheese · 250g golden caster sugar · 3 tbsp plain flour · 1 ½ tsp vanilla extract ...",
+                "snippet": "This authentic creamy dessert will add a taste of New York to any dining table. Our _American-style baked cheesecake recipe_ makes an easy family dessert.",
                 "source": {
                     "title": "Recipes - New York cheesecake",
                     "name": "Good Food",
@@ -1377,7 +1203,7 @@ export const desktopCheesecake = {
                     "link": "https://www.bbcgoodfood.com/recipes/new-york-cheesecake"
                 },
                 "snippet_highlighted_words": [
-                    "cheesecake"
+                    "American-style baked cheesecake recipe"
                 ],
                 "rich_snippet": {
                     "rated": {
@@ -1391,22 +1217,58 @@ export const desktopCheesecake = {
                 }
             },
             {
-                "type": "video",
-                "position": 40,
-                "title": "Baklava ricotta cheesecake: Get the recipe!",
-                "snippet": "New York Times bestselling author, entrepreneur and culinary expert, Suzy Karadsheh, joins TODAY to share her recipe for baklava ricotta ...",
-                "duration": "4:50",
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ_AKYjSxNSYfda6K48p6U8HRvBJ8F0kz-pbJHyEP56u5O&s",
+                "type": "normal",
+                "position": 33,
+                "title": "BEST Classic Cheesecake Recipe (Step By Step Photos)",
+                "snippet": "This _classic cheesecake recipe_ is full of baking tips to ensure it comes out soft, creamy, and smooth with a cinnamon spiced crust.",
                 "source": {
-                    "title": "Baklava ricotta cheesecake: Get the recipe!",
-                    "name": "TODAY.com",
-                    "display_link": "23 hours ago",
-                    "link": "https://www.today.com/video/baklava-ricotta-cheesecake-get-the-recipe-233633861796"
+                    "title": "BEST Classic Cheesecake Recipe (Step By Step Photos)",
+                    "name": "Butternut Bakery",
+                    "display_link": "https://butternutbakeryblog.com › Recipes › Cheesecakes",
+                    "link": "https://butternutbakeryblog.com/classic-cheesecake/"
+                },
+                "snippet_highlighted_words": [
+                    "classic cheesecake recipe"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 11,
+                        "reviews_origin": "(11)"
+                    },
+                    "extensions": "5.0(11) · 2 hr 10 min"
                 }
             },
             {
                 "type": "normal",
-                "position": 41,
+                "position": 34,
+                "title": "The Ultimate Cheesecake Recipe | Tyler Florence",
+                "snippet": "_1 pound cream cheese_, two 8-ounce blocks, softened, 3 eggs, 1 cup sugar, 1 pint sour cream, 1 lemon, zested, 1 dash vanilla extract.",
+                "source": {
+                    "title": "The Ultimate Cheesecake Recipe | Tyler Florence",
+                    "name": "Food Network",
+                    "display_link": "https://www.foodnetwork.com › Recipes › Tyler Florence",
+                    "link": "https://www.foodnetwork.com/recipes/tyler-florence/the-ultimate-cheesecake-recipe-1914053"
+                },
+                "snippet_highlighted_words": [
+                    "1 pound cream cheese"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.6,
+                        "label": "Rated 4.6 out of 5,",
+                        "reviews": 1098,
+                        "reviews_origin": "(1,098)"
+                    },
+                    "extensions": "4.6(1,098) · 5 hr 45 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 35,
                 "title": "Cheesecake",
                 "snippet": "Browse recipes for classic _cheesecake_, plus _cheesecake_ bars, mini _cheesecakes_, _cheesecake_ pies, and no-bake _cheesecakes_.",
                 "source": {
@@ -1425,7 +1287,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 42,
+                "position": 36,
                 "title": "The best Japanese Cheesecake Recipe",
                 "snippet": "A fool-proof Japanese souffle _cheesecake_ that has a beautiful top, will not crack while baking and rising, and will not deflate (much at least) after removal ...",
                 "source": {
@@ -1443,123 +1305,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 43,
-                "title": "Eileen's Special Cheesecake",
-                "snippet": "Cheesecakes · _“Best Cheesecakes in America, 2019”_ · Made by hand, made with love. · Get on The List. Be the first to hear about new flavors + ...",
-                "source": {
-                    "title": "Eileen's Special Cheesecake",
-                    "name": "Eileen's Special Cheesecake",
-                    "display_link": "https://www.eileenscheesecake.com",
-                    "link": "https://www.eileenscheesecake.com/"
-                },
-                "snippet_highlighted_words": [
-                    "“Best Cheesecakes in America, 2019”"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 44,
-                "title": "Anthony's Cheesecake — Homemade Cheesecakes Made ...",
-                "snippet": "For breakfast, lunch, and of course, cheesecake, come visit us at: _71 Washington Street Bloomfield, NJ 07003_ 973-415-8885",
-                "source": {
-                    "title": "Anthony's Cheesecake — Homemade Cheesecakes Made ...",
-                    "name": "anthonyscheesecake.com",
-                    "display_link": "https://anthonyscheesecake.com",
-                    "link": "https://anthonyscheesecake.com/"
-                },
-                "snippet_highlighted_words": [
-                    "71 Washington Street Bloomfield, NJ 07003"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 45,
-                "title": "BEST Classic Cheesecake Recipe (Step By Step Photos)",
-                "snippet": "This Classic _Cheesecake_ is super creamy and smooth with a delicious cinnamon spiced graham cracker crust.",
-                "source": {
-                    "title": "BEST Classic Cheesecake Recipe (Step By Step Photos)",
-                    "name": "Butternut Bakery",
-                    "display_link": "https://butternutbakeryblog.com › Recipes › Cheesecakes",
-                    "link": "https://butternutbakeryblog.com/classic-cheesecake/"
-                },
-                "snippet_highlighted_words": [
-                    "Cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 11,
-                        "reviews_origin": "(11)"
-                    },
-                    "extensions": "5.0(11) · 2 hr 10 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 46,
-                "title": "The Ultimate Cheesecake Recipe | Tyler Florence",
-                "snippet": "1 pound cream cheese, two 8-ounce blocks, softened, 3 eggs, 1 cup sugar, 1 pint sour cream, 1 lemon, zested, 1 dash vanilla extract.",
-                "source": {
-                    "title": "The Ultimate Cheesecake Recipe | Tyler Florence",
-                    "name": "Food Network",
-                    "display_link": "https://www.foodnetwork.com › Recipes › Tyler Florence",
-                    "link": "https://www.foodnetwork.com/recipes/tyler-florence/the-ultimate-cheesecake-recipe-1914053"
-                },
-                "snippet_highlighted_words": [],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4.6,
-                        "label": "Rated 4.6 out of 5,",
-                        "reviews": 1098,
-                        "reviews_origin": "(1,098)"
-                    },
-                    "extensions": "4.6(1,098) · 5 hr 45 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 47,
-                "title": "Easy Sour Cream Cheesecake Recipe",
-                "snippet": "Ingredients · 1 (9 inch) prepared shortbread pie crust · 2 (8 ounce) packages cream cheese · 1 cup white sugar · 2 large eggs · 1 cup sour cream.",
-                "source": {
-                    "title": "Easy Sour Cream Cheesecake Recipe",
-                    "name": "Allrecipes",
-                    "display_link": "https://www.allrecipes.com › ... › Cheesecake Recipes",
-                    "link": "https://www.allrecipes.com/recipe/8419/easy-sour-cream-cheesecake/"
-                },
-                "snippet_highlighted_words": [],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4.7,
-                        "label": "Rated 4.7 out of 5,",
-                        "reviews": 305,
-                        "reviews_origin": "(305)"
-                    },
-                    "extensions": "4.7(305) · 1 hr 20 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 48,
-                "title": "CHEESECAKE Definition & Meaning",
-                "snippet": "The meaning of _CHEESECAKE_ is a dessert consisting of a creamy filling usually containing cheese baked in a pastry or pressed-crumb shell.",
-                "source": {
-                    "title": "CHEESECAKE Definition & Meaning",
-                    "name": "Merriam-Webster",
-                    "display_link": "https://www.merriam-webster.com › dictionary › cheese...",
-                    "link": "https://www.merriam-webster.com/dictionary/cheesecake"
-                },
-                "snippet_highlighted_words": [
-                    "CHEESECAKE"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 49,
+                "position": 37,
                 "title": "Cheesecake Recipes",
                 "snippet": "Try these indulgent _cheesecake_ recipes, then check out our collections of baked _cheesecake_ recipes and no-bake _cheesecake_ recipes.",
                 "source": {
@@ -1575,227 +1321,101 @@ export const desktopCheesecake = {
                 ]
             },
             {
-                "type": "video",
-                "position": 50,
-                "title": "APPLE CHEESECAKE PIE – Buttery Crust, Spiced Apples & ...",
-                "snippet": "Apple Cheesecake Pie is a decadent fusion of creamy cheesecake, spiced apple pie filling, and a buttery crust. The base can be a classic pie ...",
-                "duration": "14:02",
-                "thumbnail": "https://i.ytimg.com/vi/QreqcI5pyUE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kSnz7rXBiYyitfLNL5tEQeWmp9Jg",
-                "source": {
-                    "title": "APPLE CHEESECAKE PIE – Buttery Crust, Spiced Apples & ...",
-                    "name": "YouTube · Backyard Chef",
-                    "display_link": "11.4K+ views  ·  4 days ago",
-                    "link": "https://www.youtube.com/watch?v=QreqcI5pyUE"
-                }
-            },
-            {
                 "type": "normal",
-                "position": 51,
-                "title": "The Furlough Cheesecake",
-                "snippet": "Visit our Atlanta site now for _online ordering to anywhere in the US_! Our physical store will be opening this Spring which will offer in person purchases as ...",
+                "position": 38,
+                "title": "Baklava Ricotta Cheesecake",
+                "snippet": "This recipe combines my two favorite desserts of all time: baklava and Italian _cheesecake_. Baklava vibes are evident in the show-stopping ...",
                 "source": {
-                    "title": "The Furlough Cheesecake",
-                    "name": "The Furlough Cheesecake",
-                    "display_link": "https://thefurloughcheesecake.com",
-                    "link": "https://thefurloughcheesecake.com/"
+                    "title": "Baklava Ricotta Cheesecake",
+                    "name": "TODAY.com",
+                    "display_link": "https://www.today.com › recipes › baklava-cheesecake-...",
+                    "link": "https://www.today.com/recipes/baklava-cheesecake-t299100"
                 },
                 "snippet_highlighted_words": [
-                    "online ordering to anywhere in the US"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 52,
-                "title": "Eli's Cheesecake: Eli's Chicago-style Cheesecake and ...",
-                "snippet": "Intensely flavored, it is creamy without being too heavy...a local product making a national reputation because it is one of the best.",
-                "source": {
-                    "title": "Eli's Cheesecake: Eli's Chicago-style Cheesecake and ...",
-                    "name": "Eli's Cheesecake",
-                    "display_link": "https://elicheesecake.com",
-                    "link": "https://elicheesecake.com/?srsltid=AfmBOorXaR8K51x391pVOEjB7Pqirkzr2D2PCAljqFhrLyi-cLG4q21F"
-                },
-                "snippet_highlighted_words": []
-            },
-            {
-                "type": "normal",
-                "position": 53,
-                "title": "Keto Chocolate Chip Cookie Cheesecake Bars",
-                "snippet": "Two delectable keto desserts in one! These _easy Keto Chocolate Chip Cookie Cheesecake Bars_ will quickly become your favorite sugar-free ...",
-                "source": {
-                    "title": "Keto Chocolate Chip Cookie Cheesecake Bars",
-                    "name": "All Day I Dream About Food",
-                    "display_link": "https://alldayidreamaboutfood.com › ... › Brownies & Bars",
-                    "link": "https://alldayidreamaboutfood.com/keto-cheesecake-bars/"
-                },
-                "snippet_highlighted_words": [
-                    "easy Keto Chocolate Chip Cookie Cheesecake Bars"
+                    "cheesecake"
                 ],
                 "rich_snippet": {
                     "rated": {
                         "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 4.9 out of 5,",
-                        "reviews": 57,
-                        "reviews_origin": "(57)"
+                        "rating": 3.8,
+                        "label": "Rated 3.8 out of 5,",
+                        "reviews": 246,
+                        "reviews_origin": "(246)"
                     },
-                    "extensions": "5.0(57) · 1 hr"
+                    "extensions": "3.8(246) · 2 hr 10 min"
                 }
             },
             {
                 "type": "normal",
-                "position": 54,
-                "title": "Cheesecake Brownies",
-                "snippet": "_A rich, fudgy brownie base topped with smooth, creamy cheesecake_, creating an irresistible and indulgent dessert fusion for any occasion.",
+                "position": 39,
+                "title": "Basque Cheesecake Recipe | Bon Appétit",
+                "snippet": "Beat 2 lb. cream cheese, room temperature, and 1½ cups (300 g) sugar in the bowl of a stand mixer fitted with the paddle attachment on medium- ...",
                 "source": {
-                    "title": "Cheesecake Brownies",
-                    "name": "Clap Recipes",
-                    "display_link": "https://www.claprecipes.com › cheesecake-brownies",
-                    "link": "https://www.claprecipes.com/cheesecake-brownies/"
+                    "title": "Basque Cheesecake Recipe | Bon Appétit",
+                    "name": "Bon Appétit: Recipes, Cooking, Entertaining, Restaurants | Bon Appétit",
+                    "display_link": "https://www.bonappetit.com › recipe › basque-burnt-ch...",
+                    "link": "https://www.bonappetit.com/recipe/basque-burnt-cheesecake?srsltid=AfmBOorNzAZBfeIMteHyQjyMHNEAVItIrs0uHQ4Zfvsfhc9mNKoORul2"
                 },
-                "snippet_highlighted_words": [
-                    "A rich, fudgy brownie base topped with smooth, creamy cheesecake"
-                ],
+                "snippet_highlighted_words": [],
                 "rich_snippet": {
-                    "extensions": "50 min"
-                }
-            },
-            {
-                "type": "video",
-                "position": 55,
-                "title": "Turtley (cheesecake) obsessed with this one [~274 cals 21g ...",
-                "snippet": "15K likes, 63 comments - fitfoodieliving on March 6, 2025: \"Turtley (cheesecake) obsessed with this one [~274 cals 21g protein] - Find my ...",
-                "duration": "0:24",
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtsrMuHj78v0t5Ipt7L38JXbvIXDB_ZyEa0YNETMwOMElj&s",
-                "source": {
-                    "title": "Turtley (cheesecake) obsessed with this one [~274 cals 21g ...",
-                    "name": "Instagram · fitfoodieliving",
-                    "display_link": "14.5K+ likes  ·  13 hours ago",
-                    "link": "https://www.instagram.com/fitfoodieliving/reel/DG4HzM3RjQl/"
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.7,
+                        "label": "Rated 4.7 out of 5,",
+                        "reviews": 560,
+                        "reviews_origin": "(560)"
+                    },
+                    "extensions": "4.7(560)"
                 }
             },
             {
                 "type": "normal",
-                "position": 56,
-                "title": "Juniors restaurant - 45th Street NYC",
-                "snippet": "Home of the World's Most Fabulous _Cheesecake_. Whether you are seeing a Broadway show, touring the sights or just in need of a great stop in the heart of the ...",
+                "position": 40,
+                "title": "Costco Has a Tiramisu Cheesecake, and People Are All ...",
+                "snippet": "The _cheesecake_ begins with a classic graham cracker crust that has been given a chocolaty twist with cocoa powder. Then, there's a thick and ...",
                 "source": {
-                    "title": "Juniors restaurant - 45th Street NYC",
-                    "name": "Junior's Cheesecake",
-                    "display_link": "https://www.juniorscheesecake.com › blog › times-square",
-                    "link": "https://www.juniorscheesecake.com/blog/restaurants/times-square/?srsltid=AfmBOopTXyCLKdIHqiSvFPcoKRXWAQlIQAJLWczb2kO1URsVVS2NGXuV"
+                    "title": "Costco Has a Tiramisu Cheesecake, and People Are All ...",
+                    "name": "Taste of Home",
+                    "display_link": "https://www.tasteofhome.com › News › Grocery Stores",
+                    "link": "https://www.tasteofhome.com/article/costco-tiramisu-cheesecake/?srsltid=AfmBOoojOZgbHrXSUDJccy_ubGUWnGtQ05tTcqq0jptcMvlKlP7VJOF1"
                 },
                 "snippet_highlighted_words": [
-                    "Cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 57,
-                "title": "Cheesecake (ingredients, cake recipe, sugar, cinnamon)",
-                "snippet": "Welcome to City-Data.com Forum! Reply Quote: That's the way I like my _cheesecake_ too! The chocolate chip _cheesecake_ looks yummy!",
-                "source": {
-                    "title": "Cheesecake (ingredients, cake recipe, sugar, cinnamon)",
-                    "name": "City-Data.com",
-                    "display_link": "https://www.city-data.com › forum › recipes › 1443255-...",
-                    "link": "https://www.city-data.com/forum/recipes/1443255-cheesecake-ingredients-cake-recipe-sugar-cinnamon.html"
-                },
-                "snippet_highlighted_words": [
-                    "cheesecake",
-                    "cheesecake"
-                ]
-            },
-            {
-                "type": "video",
-                "position": 58,
-                "title": "Tiramisu cheesecake- no gelatin",
-                "snippet": "Tiramisu cheesecake Recipe: https://archersfood.com/tiramisu-cheesecake-recipe/ Music credits Music: Mornings Musician: Jeff Kaale.",
-                "duration": "6:21",
-                "thumbnail": "https://i.ytimg.com/vi/S86NGbPqc0A/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lIPzoYiLF5lWGBio-SLKgWmf0vsA",
-                "source": {
-                    "title": "Tiramisu cheesecake- no gelatin",
-                    "name": "YouTube · Archer’s food",
-                    "display_link": "70+ views  ·  1 day ago",
-                    "link": "https://www.youtube.com/watch?v=S86NGbPqc0A"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 59,
-                "title": "Muddy Paws Cheesecake",
-                "snippet": "Welcome to Muddy Paws Cheesecake, _handmade cheesecakes from scratch_! We ship nationwide, deliver in the Twin Cities and have a retail bakery in St Louis Park, ...",
-                "source": {
-                    "title": "Muddy Paws Cheesecake",
-                    "name": "muddypawscheesecake.com",
-                    "display_link": "https://muddypawscheesecake.com",
-                    "link": "https://muddypawscheesecake.com/?srsltid=AfmBOooM9iLr_CW49aRMEZiteJfL3n_Vwt2he7yUBGJD1YohAS0DZx1A"
-                },
-                "snippet_highlighted_words": [
-                    "handmade cheesecakes from scratch"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 60,
-                "title": "Cheesecake Recipes",
-                "snippet": "Satisfy your sweet tooth with our favorite _cheesecake_ recipes. Find these delicious _cheesecake_ recipes and more at Nestlé goodNes™.",
-                "source": {
-                    "title": "Cheesecake Recipes",
-                    "name": "goodNes.com",
-                    "display_link": "https://www.goodnes.com › ... › Dessert Recipes",
-                    "link": "https://www.goodnes.com/recipes/dessert/cheesecake/"
-                },
-                "snippet_highlighted_words": [
-                    "cheesecake",
-                    "cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 61,
-                "title": "Perfect Cheesecake Recipe - Crunchy Creamy Sweet",
-                "snippet": "Learn how to make a simple but perfect _cheesecake_ every time! I am sharing my 10 secrets for the best creamy _cheesecake_ and how to keep it ...",
-                "source": {
-                    "title": "Perfect Cheesecake Recipe - Crunchy Creamy Sweet",
-                    "name": "Pinterest",
-                    "display_link": "https://www.pinterest.com › Explore › Food And Drink",
-                    "link": "https://www.pinterest.com/pin/234820568065365655/"
-                },
-                "snippet_highlighted_words": [
-                    "cheesecake",
-                    "cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 62,
-                "title": "Millionaire Cheesecake",
-                "snippet": "This Millionaire _Cheesecake_ is next level! It's a tangy _cheesecake_ doused in caramel and chocolate ganache atop a buttery shortbread crust.",
-                "source": {
-                    "title": "Millionaire Cheesecake",
-                    "name": "Life Love and Sugar",
-                    "display_link": "https://www.lifeloveandsugar.com › ... › Cheesecakes",
-                    "link": "https://www.lifeloveandsugar.com/millionaire-cheesecake/"
-                },
-                "snippet_highlighted_words": [
-                    "Cheesecake",
                     "cheesecake"
                 ],
                 "rich_snippet": {
-                    "extensions": "8 hr 55 min"
+                    "extensions": "$23.99 · Free delivery · 90-day returns"
                 }
             },
             {
                 "type": "normal",
-                "position": 63,
+                "position": 41,
+                "title": "Eileen's Special Cheesecake",
+                "snippet": "Handmade ... _Cheesecakes_ ... Made fresh daily ... Best _Cheesecakes_ in America, 2019 ... Food & Wine ... Nationwide Delivery ... Classic Plain ... $99.00 ... Strawberry.",
+                "source": {
+                    "title": "Eileen's Special Cheesecake",
+                    "name": "Eileen's Special Cheesecake",
+                    "display_link": "https://www.eileenscheesecake.com",
+                    "link": "https://www.eileenscheesecake.com/"
+                },
+                "snippet_highlighted_words": [
+                    "Cheesecakes",
+                    "Cheesecakes"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 42,
                 "title": "Ultimate Classic Cheesecake Recipe",
-                "snippet": "Place the springform pan in a larger roasting pan or deep sauté pan. Place on oven rack then carefully pour boiling water into the roasting pan ...",
+                "snippet": "_BEST Cheesecake recipe_ has a buttery graham cracker crust and a smooth, creamy, tangy cheesecake with NO CRACKS thanks to the water bath!",
                 "source": {
                     "title": "Ultimate Classic Cheesecake Recipe",
                     "name": "Handle the Heat",
                     "display_link": "https://handletheheat.com › ... › Cheesecake Recipes",
                     "link": "https://handletheheat.com/ultimate-cheesecake/"
                 },
-                "snippet_highlighted_words": [],
+                "snippet_highlighted_words": [
+                    "BEST Cheesecake recipe"
+                ],
                 "rich_snippet": {
                     "rated": {
                         "type": "normal",
@@ -1809,39 +1429,39 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 64,
-                "title": "Costco Tiramisu Cheesecake Review",
-                "snippet": "A whole Tiramisu _Cheesecake_ from the Costco Bakery, with one slice removed. Author's Note: Not a paid review, as usual. These are my own grumpy ...",
+                "position": 43,
+                "title": "Ricotta Cheesecake Recipe",
+                "snippet": "This creamy _cheesecake_ is made with both ricotta and cream cheese for a rich, luxurious texture.",
                 "source": {
-                    "title": "Costco Tiramisu Cheesecake Review",
-                    "name": "Snarkle-Sauce on Wry",
-                    "display_link": "https://snarklesauce.com › blog › 2025/03/01 › costco-t...",
-                    "link": "https://snarklesauce.com/blog/2025/03/01/costco-tiramisu-cheesecake-review/"
+                    "title": "Ricotta Cheesecake Recipe",
+                    "name": "The Kitchn",
+                    "display_link": "https://www.thekitchn.com › ... › Cakes › Cheesecake",
+                    "link": "https://www.thekitchn.com/ricotta-cheesecake-recipe-23711673"
                 },
                 "snippet_highlighted_words": [
-                    "Cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 65,
-                "title": "55 Cheesecake Recipes For Every Occasion",
-                "snippet": "Whip up one of these easy, homemade recipes, like Nutter Butter _cheesecake_, chocolate peppermint _cheesecake_, and apple crisp _cheesecake_, and everyone will be ...",
-                "source": {
-                    "title": "55 Cheesecake Recipes For Every Occasion",
-                    "name": "Delish",
-                    "display_link": "https://www.delish.com › ... › Recipe Headquarters",
-                    "link": "https://www.delish.com/cooking/recipe-ideas/g2837/cheesecake-recipes/"
-                },
-                "snippet_highlighted_words": [
-                    "cheesecake",
-                    "cheesecake",
                     "cheesecake"
-                ]
+                ],
+                "rich_snippet": {
+                    "extensions": "3 hr 10 min"
+                }
+            },
+            {
+                "type": "video",
+                "position": 44,
+                "title": "Easy Air Fryer Cheesecake Recipe",
+                "snippet": "The best technique for classic cheesecake | Tips for a light and creamy recipe | Kitchen Conundrums",
+                "duration": "8:34",
+                "thumbnail": "https://i.ytimg.com/vi/dsu_IJjlTzk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n_bSnKK2zjvkAVlrNTu0NSo-fm1Q",
+                "source": {
+                    "title": "Easy Air Fryer Cheesecake Recipe",
+                    "name": "YouTube · Preppy Kitchen",
+                    "display_link": "127.5K+ views  ·  1 month ago",
+                    "link": "https://www.youtube.com/watch?v=dsu_IJjlTzk"
+                }
             },
             {
                 "type": "normal",
-                "position": 66,
+                "position": 45,
                 "title": "Deliciously Rich & Creamy Cheesecake Recipes",
                 "snippet": "_Cheesecake_ · Caramel Apple _Cheesecake_ Bars · Nutella _Cheesecake_ · Peach Cobbler _Cheesecake_ · Oreo _Cheesecake_ Bars · Air Fryer Cherry _Cheesecake_ Chimichangas.",
                 "source": {
@@ -1850,6 +1470,7 @@ export const desktopCheesecake = {
                     "display_link": "https://houseofnasheats.com › Recipes › Dessert",
                     "link": "https://houseofnasheats.com/category/recipes/dessert/cheesecake/"
                 },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3jWVqht03-NGeYIabCKFyAxdFDJjGuyIMr_F88eKouNTL9HsvtBdX&usqp=CAE&s",
                 "snippet_highlighted_words": [
                     "Cheesecake",
                     "Cheesecake",
@@ -1861,20 +1482,177 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 67,
+                "position": 46,
+                "title": "Fail Proof Classic Cheesecake",
+                "snippet": "Filling: · 2 packages (8-ounces each) (454 g) room temperature cream cheese · 1 cup (212 g) sugar · 3 large eggs · 1 teaspoon vanilla extract ...",
+                "source": {
+                    "title": "Fail Proof Classic Cheesecake",
+                    "name": "Mel's Kitchen Cafe",
+                    "display_link": "https://www.melskitchencafe.com › ... › Cheesecakes",
+                    "link": "https://www.melskitchencafe.com/my-favorite-cheesecake-ever/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStYowdBVV5RnX7Tt1as4asaQGCnM-56TFdSEj2ilHTLTOVdiunikw0&usqp=CAE&s",
+                "snippet_highlighted_words": [],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.7,
+                        "label": "Rated 4.7 out of 5,",
+                        "reviews": 38,
+                        "reviews_origin": "(38)"
+                    },
+                    "extensions": "4.7(38) · 5 hr 10 min"
+                }
+            },
+            {
+                "type": "video",
+                "position": 47,
+                "title": "Baklava ricotta cheesecake: Get the recipe!",
+                "snippet": "... , joins TODAY to share her recipe for baklava ricotta cheesecake from her latest cookbook, “The Mediterranean Dish.” Get the recipe!",
+                "duration": "4:50",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ_AKYjSxNSYfda6K48p6U8HRvBJ8F0kz-pbJHyEP56u5O&s",
+                "source": {
+                    "title": "Baklava ricotta cheesecake: Get the recipe!",
+                    "name": "TODAY.com",
+                    "display_link": "23 hours ago",
+                    "link": "https://www.today.com/video/baklava-ricotta-cheesecake-get-the-recipe-233633861796"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 48,
                 "title": "What is The best cheesecake recipe that you know?",
                 "snippet": "Has a lovely salty-nutty-sweet crust and the filling is amazingly light and creamy all at once. It's also really simple--yogurt, eggs, a little ...",
                 "source": {
                     "title": "What is The best cheesecake recipe that you know?",
                     "name": "Food52",
                     "display_link": "https://food52.com › hotline › 15611-what-is-the-best-c...",
-                    "link": "https://food52.com/hotline/15611-what-is-the-best-cheesecake-recipe-that-you-know?srsltid=AfmBOoqSrq47E-Livtv-EFPqeaE7mjVQhZ1aVsdweyWue7K-KumenHof"
+                    "link": "https://food52.com/hotline/15611-what-is-the-best-cheesecake-recipe-that-you-know?srsltid=AfmBOooriqtvJb6jtyHDchcDzTtRGamUsRWuT-yPAJAgetguQsLZakeD"
                 },
                 "snippet_highlighted_words": []
             },
             {
+                "type": "video",
+                "position": 49,
+                "title": "New York style cheesecake",
+                "snippet": "New York style cheesecake is browned on the outside and kind of puffy on the inside which is what makes it very kind of cake-like.",
+                "duration": "7:16",
+                "thumbnail": "https://i.ytimg.com/vi/M0PXNRm5nYQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mf4BL847uhSiUCkIuAHKLPIOsbmw",
+                "source": {
+                    "title": "New York style cheesecake",
+                    "name": "YouTube · Adam Ragusea",
+                    "display_link": "220.2K+ views  ·  1 week ago",
+                    "link": "https://www.youtube.com/watch?v=M0PXNRm5nYQ"
+                }
+            },
+            {
                 "type": "normal",
-                "position": 68,
+                "position": 50,
+                "title": "Easy Sour Cream Cheesecake Recipe",
+                "snippet": "_Ingredients_ · 1 (9 inch) prepared shortbread pie crust · 2 (8 ounce) packages cream cheese · 1 cup white sugar · 2 large eggs · 1 cup sour cream.",
+                "source": {
+                    "title": "Easy Sour Cream Cheesecake Recipe",
+                    "name": "Allrecipes",
+                    "display_link": "https://www.allrecipes.com › ... › Cheesecake Recipes",
+                    "link": "https://www.allrecipes.com/recipe/8419/easy-sour-cream-cheesecake/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfE1LW_BR3WSTHdTSiIQaZT7aOiL02KKU1AiyhU5q2jPj4yBWhZC6w&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "Ingredients"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.7,
+                        "label": "Rated 4.7 out of 5,",
+                        "reviews": 305,
+                        "reviews_origin": "(305)"
+                    },
+                    "extensions": "4.7(305) · 1 hr 20 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 51,
+                "title": "Classic Cheesecake Recipe",
+                "snippet": "this classic _cheesecake_ recipe with a buttery graham cracker crust is simply decadent. My no-fuss recipe is a must-try— plus, there's no water ...",
+                "source": {
+                    "title": "Classic Cheesecake Recipe",
+                    "name": "Preppy Kitchen",
+                    "display_link": "https://preppykitchen.com › Recipes › Cakes",
+                    "link": "https://preppykitchen.com/cheesecake-recipe/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZ903S2eJMKo_tp-PgTSnHNBYV9OdgDYcNIrWYT3aQDmuAJYAMmfd&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 596,
+                        "reviews_origin": "(596)"
+                    },
+                    "extensions": "5.0(596) · 7 hr 10 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 52,
+                "title": "Perfect Cheesecake Recipe - Crunchy Creamy Sweet",
+                "snippet": "_Learn how to make a simple but perfect cheesecake_ every time! I am sharing my 10 secrets for the best creamy cheesecake and how to keep it ...",
+                "source": {
+                    "title": "Perfect Cheesecake Recipe - Crunchy Creamy Sweet",
+                    "name": "Pinterest",
+                    "display_link": "https://www.pinterest.com › Explore › Food And Drink",
+                    "link": "https://www.pinterest.com/pin/234820568065365655/"
+                },
+                "snippet_highlighted_words": [
+                    "Learn how to make a simple but perfect cheesecake"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 53,
+                "title": "Basque Cheesecake",
+                "snippet": "Ingredients · ▢ 750 g / 1.5 lb cream cheese blocks , room temperature (I use Philadelphia, Note 1) · ▢ 1 cup caster / superfine sugar (regular ...",
+                "source": {
+                    "title": "Basque Cheesecake",
+                    "name": "RecipeTin Eats",
+                    "display_link": "https://www.recipetineats.com › Cheesecakes",
+                    "link": "https://www.recipetineats.com/basque-cheesecake/"
+                },
+                "snippet_highlighted_words": [],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 110,
+                        "reviews_origin": "(110)"
+                    },
+                    "extensions": "5.0(110) · 1 hr"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 54,
+                "title": "Anthony's Cheesecake — Homemade Cheesecakes Made ...",
+                "snippet": "For breakfast, lunch, and of course, _cheesecake_, come visit us at: 71 Washington Street Bloomfield, NJ 07003 973-415-8885",
+                "source": {
+                    "title": "Anthony's Cheesecake — Homemade Cheesecakes Made ...",
+                    "name": "anthonyscheesecake.com",
+                    "display_link": "https://anthonyscheesecake.com",
+                    "link": "https://anthonyscheesecake.com/"
+                },
+                "snippet_highlighted_words": [
+                    "cheesecake"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 55,
                 "title": "Butter-free cheesecake: you will love it! - Olio Farchioni",
                 "snippet": "The _cheesecake_ we will prepare today is different: it is butter-free! You will find out that it is just as good but also lighter and healthier than the ...",
                 "source": {
@@ -1883,7 +1661,7 @@ export const desktopCheesecake = {
                     "display_link": "https://oliofarchioni.com › recipes › butter-free-cheeseca...",
                     "link": "https://oliofarchioni.com/en/recipes/butter-free-cheesecake-recipe/"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuhdKCbHWM_r0pgUB9XGXUOMrL38w-gx2QvUXddGP-XS1sPJTMJlnZqfU&usqp=CAE&s",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsrHbCc3Cm5Rr5bfWKUlio1te-li_yc5JUrxZX9bt-PKayA1swOSBq&usqp=CAE&s",
                 "snippet_highlighted_words": [
                     "cheesecake"
                 ],
@@ -1900,31 +1678,47 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 69,
-                "title": "Fail Proof Classic Cheesecake",
-                "snippet": "Filling: · 2 packages (8-ounces each) (454 g) room temperature cream cheese · 1 cup (212 g) sugar · 3 large eggs · 1 teaspoon vanilla extract ...",
+                "position": 56,
+                "title": "Our Best Cheesecake Recipe Ever (So Perfect!)",
+                "snippet": "For the _cheesecake_: · Butter, for coating the pan · 2 pounds. full-fat cream cheese, at room temperature · 1 cup. granulated sugar · 1 ...",
                 "source": {
-                    "title": "Fail Proof Classic Cheesecake",
-                    "name": "Mel's Kitchen Cafe",
-                    "display_link": "https://www.melskitchencafe.com › ... › Cheesecakes",
-                    "link": "https://www.melskitchencafe.com/my-favorite-cheesecake-ever/"
+                    "title": "Our Best Cheesecake Recipe Ever (So Perfect!)",
+                    "name": "The Kitchn",
+                    "display_link": "https://www.thekitchn.com › ... › Cakes › Cheesecake",
+                    "link": "https://www.thekitchn.com/how-to-make-perfect-cheesecake-recipe-cooking-lessons-from-the-kitchen-110760"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgT9jbC5HRM7rRHEVJazGmf-c3Q_zyL5HWg7zfM3oUnfTrpO9pZDaacho&usqp=CAE&s",
-                "snippet_highlighted_words": [],
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdwK27fOTYs67mtDMbOM_FdvkYDocl8lNAZ0S3-fl13UthQby66JzR&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "cheesecake"
+                ],
                 "rich_snippet": {
                     "rated": {
                         "type": "normal",
-                        "rating": 4.7,
-                        "label": "Rated 4.7 out of 5,",
-                        "reviews": 38,
-                        "reviews_origin": "(38)"
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 6,
+                        "reviews_origin": "(6)"
                     },
-                    "extensions": "4.7(38) · 5 hr 10 min"
+                    "extensions": "5.0(6)"
+                }
+            },
+            {
+                "type": "video",
+                "position": 57,
+                "title": "The best No Bake Cheesecake is...",
+                "snippet": "made with gelatine. Without, it's much denser or sloppy and melty. No! I want my no-bake cheesecake to be as good as my classic baked on, ...",
+                "duration": "3:42",
+                "thumbnail": "https://i.ytimg.com/vi/9F197RwgHEg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mjkU8nX2iyHA3NJNWsuRCb5cwjiw",
+                "source": {
+                    "title": "The best No Bake Cheesecake is...",
+                    "name": "YouTube · RecipeTin Eats",
+                    "display_link": "145.4K+ views  ·  5 months ago",
+                    "link": "https://www.youtube.com/watch?v=9F197RwgHEg"
                 }
             },
             {
                 "type": "normal",
-                "position": 70,
+                "position": 58,
                 "title": "Dulce de Leche Cheesecake",
                 "snippet": "_Cheesecake_ batter · 907 grams cream cheese softened 4 packages of 8 oz. · 1 cup brown sugar 220 grams · 1/4 cup granulated sugar 50 grams · 1/2 ...",
                 "source": {
@@ -1933,7 +1727,7 @@ export const desktopCheesecake = {
                     "display_link": "https://www.piesandtacos.com › ... › Cheesecake",
                     "link": "https://www.piesandtacos.com/dulce-de-leche-cheesecake/"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtv7HIpOTMM-Ku33X42WYT4s1d6sCgz1fmpgKZW9iX-wtlhAw6SLWGR1E&usqp=CAE&s",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQgEZHPv5-f6brAoq655UeeeVAuAgwvTHsLP1BZETtsXn5Bsuvh71-&usqp=CAE&s",
                 "snippet_highlighted_words": [
                     "Cheesecake"
                 ],
@@ -1950,7 +1744,31 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 71,
+                "position": 59,
+                "title": "Perfect New York Cheesecake Recipe",
+                "snippet": "You'll mix the cream cheese with sugar, vanilla, and lemon juice for about 2 minutes, and then add the eggs (and the egg yolk) one at a time. We mix until ...",
+                "source": {
+                    "title": "Perfect New York Cheesecake Recipe",
+                    "name": "Inspired Taste",
+                    "display_link": "https://www.inspiredtaste.net › new-york-cheesecake-re...",
+                    "link": "https://www.inspiredtaste.net/68906/new-york-cheesecake-recipe/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYwdWHzQirR0JcttcKPlcXpPGIOrEPlpHUVUG3ly9bGJq5HmOVfhVt&usqp=CAE&s",
+                "snippet_highlighted_words": [],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.9,
+                        "label": "Rated 4.9 out of 5,",
+                        "reviews": 14,
+                        "reviews_origin": "(14)"
+                    },
+                    "extensions": "4.9(14) · 2 hr 30 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 60,
                 "title": "Perfect Cheesecake",
                 "snippet": "This classic _cheesecake_ is made with just 7 simple ingredients and produces a rich _cheesecake_ worthy of the _Cheesecake_ Factory!",
                 "source": {
@@ -1977,72 +1795,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 72,
-                "title": "Perfect New York Cheesecake Recipe",
-                "snippet": "You'll mix the cream cheese with sugar, vanilla, and lemon juice for about 2 minutes, and then add the eggs (and the egg yolk) one at a time. We mix until ...",
-                "source": {
-                    "title": "Perfect New York Cheesecake Recipe",
-                    "name": "Inspired Taste",
-                    "display_link": "https://www.inspiredtaste.net › new-york-cheesecake-re...",
-                    "link": "https://www.inspiredtaste.net/68906/new-york-cheesecake-recipe/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXYyDU8scRfdYCp0EUTmEQ4XosHI41VeXi8xNq37-h7HJgQbQSuxsbRU&usqp=CAE&s",
-                "snippet_highlighted_words": [],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4.9,
-                        "label": "Rated 4.9 out of 5,",
-                        "reviews": 14,
-                        "reviews_origin": "(14)"
-                    },
-                    "extensions": "4.9(14) · 2 hr 30 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 73,
-                "title": "Classic Cheesecake Recipe",
-                "snippet": "this classic _cheesecake_ recipe with a buttery graham cracker crust is simply decadent. My no-fuss recipe is a must-try— plus, there's no water ...",
-                "source": {
-                    "title": "Classic Cheesecake Recipe",
-                    "name": "Preppy Kitchen",
-                    "display_link": "https://preppykitchen.com › Recipes › Cakes",
-                    "link": "https://preppykitchen.com/cheesecake-recipe/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIk6Dbo2CYqBFztWFn98c8h8wi0ZupOHAHiV9saJ-HhMMy1S22nflsatg&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 596,
-                        "reviews_origin": "(596)"
-                    },
-                    "extensions": "5.0(596) · 7 hr 10 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 74,
-                "title": "22 Outstanding Cheesecake Recipes",
-                "snippet": "This killer _cheesecake_ has an ethereally light, creamy texture and fantastic crunchy crust made from honey graham crackers and amaretti cookies.",
-                "source": {
-                    "title": "22 Outstanding Cheesecake Recipes",
-                    "name": "Food & Wine",
-                    "display_link": "https://www.foodandwine.com › ... › Cake › Cheesecakes",
-                    "link": "https://www.foodandwine.com/desserts/cheesecakes/cheesecake-recipes"
-                },
-                "snippet_highlighted_words": [
-                    "cheesecake"
-                ]
-            },
-            {
-                "type": "normal",
-                "position": 75,
+                "position": 61,
                 "title": "Tiramisu cheesecake recipe. So easy!",
                 "snippet": "the best no-bake tiramisu _cheesecake_! Creamy mascarpone filling, coffee-soaked ladyfingers, and a buttery biscuit crust.",
                 "source": {
@@ -2066,22 +1819,60 @@ export const desktopCheesecake = {
                 }
             },
             {
-                "type": "video",
-                "position": 76,
-                "title": "EASY Cheesecake Recipe",
-                "snippet": "The best technique for classic cheesecake | Tips for a light and creamy recipe | Kitchen Conundrums",
-                "duration": "9:32",
-                "thumbnail": "https://i.ytimg.com/vi/tpsywnPNDsw/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3muY0seldmmnzsLPayTP9GjfMl_xg",
+                "type": "normal",
+                "position": 62,
+                "title": "Perfect Creamy Vanilla Cheesecake Recipe",
+                "snippet": "My Perfect Vanilla _Cheesecake_ Recipe is so silky smooth with a creamy filling over a classic graham cracker crust.",
                 "source": {
-                    "title": "EASY Cheesecake Recipe",
-                    "name": "YouTube · Preppy Kitchen",
-                    "display_link": "771.2K+ views  ·  9 months ago",
-                    "link": "https://www.youtube.com/watch?v=tpsywnPNDsw"
+                    "title": "Perfect Creamy Vanilla Cheesecake Recipe",
+                    "name": "Scientifically Sweet",
+                    "display_link": "https://scientificallysweet.com › Cheesecake",
+                    "link": "https://scientificallysweet.com/perfect-vanilla-cheesecake-recipe/"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKcsljx-Bza5GBvbJKat6XHKML6jGgxORWPjGkwHVTp0PG0aFFVcbI&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "Cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 18,
+                        "reviews_origin": "(18)"
+                    },
+                    "extensions": "5.0(18) · 50 min"
                 }
             },
             {
                 "type": "normal",
-                "position": 77,
+                "position": 63,
+                "title": "BraveTart's Epic New York Cheesecake",
+                "snippet": "The ultimate _cheesecake_ pan, beautifully constructed from non-reactive aluminum with a seamless design and a whopping four inches of depth.",
+                "source": {
+                    "title": "BraveTart's Epic New York Cheesecake",
+                    "name": "Serious Eats",
+                    "display_link": "https://www.seriouseats.com › ... › Cakes › Cheesecakes",
+                    "link": "https://www.seriouseats.com/epic-new-york-cheesecake-from-bravetart"
+                },
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpmhOArMYcXtRMRhEMfNqQxDR2O3HOSn8dCtUQkFh9c_tbmzBu2NxQ&usqp=CAE&s",
+                "snippet_highlighted_words": [
+                    "cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.7,
+                        "label": "Rated 4.7 out of 5,",
+                        "reviews": 27,
+                        "reviews_origin": "(27)"
+                    },
+                    "extensions": "4.7(27) · 2 hr 50 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 64,
                 "title": "EASY Cheesecake Recipe",
                 "snippet": "This easy _cheesecake_ recipe comes out perfect every time, with a luscious, creamy filling in a graham cracker crust!",
                 "source": {
@@ -2105,86 +1896,60 @@ export const desktopCheesecake = {
                 }
             },
             {
-                "type": "normal",
-                "position": 78,
-                "title": "Our Best Cheesecake Recipe Ever (So Perfect!)",
-                "snippet": "For the _cheesecake_: · Butter, for coating the pan · 2 pounds. full-fat cream cheese, at room temperature · 1 cup. granulated sugar · 1 ...",
+                "type": "video",
+                "position": 65,
+                "title": "Creamy and Decadent New York Cheesecake (No Waterbath)",
+                "snippet": "The best technique for classic cheesecake | Tips for a light and creamy recipe | Kitchen Conundrums",
+                "duration": "11:18",
+                "thumbnail": "https://i.ytimg.com/vi/4BTlI9mW-uU/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mMyPoWRIyiCIWhm7C8FPuZu_F-qg",
                 "source": {
-                    "title": "Our Best Cheesecake Recipe Ever (So Perfect!)",
-                    "name": "The Kitchn",
-                    "display_link": "https://www.thekitchn.com › ... › Cakes › Cheesecake",
-                    "link": "https://www.thekitchn.com/how-to-make-perfect-cheesecake-recipe-cooking-lessons-from-the-kitchen-110760"
+                    "title": "Creamy and Decadent New York Cheesecake (No Waterbath)",
+                    "name": "YouTube · Brian Lagerstrom",
+                    "display_link": "2M+ views  ·  2 years ago",
+                    "link": "https://www.youtube.com/watch?v=4BTlI9mW-uU"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoZ4ySzVqnOlS179f4klhroC44Ut7YA2xH1euebUmhFywN1lI4mm81BLM&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 6,
-                        "reviews_origin": "(6)"
+                "key_moments": [
+                    {
+                        "title": "Walnuts",
+                        "time": "00:35",
+                        "link": "https://www.youtube.com/watch?v=4BTlI9mW-uU&t=35",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmXM4ssaRtehrFGHH_72SXsNzs0gXs6mXcPJy_DU9K8g&s"
                     },
-                    "extensions": "5.0(6)"
-                }
+                    {
+                        "title": "Cream Cheese Custard",
+                        "time": "03:31",
+                        "link": "https://www.youtube.com/watch?v=4BTlI9mW-uU&t=211",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzdyf9X9crvP8WGguZw6sLjlcdnwBXz0U3ZDeARckUHg&s"
+                    },
+                    {
+                        "title": "Egg Yolks",
+                        "time": "05:21",
+                        "link": "https://www.youtube.com/watch?v=4BTlI9mW-uU&t=321",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpkT4dzs3iCivqur_DWQCSExOD4m23opiO0AsNkFBktQ&s"
+                    },
+                    {
+                        "title": "The Fruit Topping",
+                        "time": "08:42",
+                        "link": "https://www.youtube.com/watch?v=4BTlI9mW-uU&t=522",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnf7XaSaG7Scn95qvSQaZH8qLjnbyWUwW-kQdFXuRYgw&s"
+                    },
+                    {
+                        "title": "Frozen Dark Cherries",
+                        "time": "08:57",
+                        "link": "https://www.youtube.com/watch?v=4BTlI9mW-uU&t=537",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNXXAzN-KkhBO3WKgLN2xhxhS5dpUdnumPB_HnYLgjzA&s"
+                    },
+                    {
+                        "title": "Cherry Sauce",
+                        "time": "10:27",
+                        "link": "https://www.youtube.com/watch?v=4BTlI9mW-uU&t=627",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQwYHbcab1vdHLTrf1gG0704jUPFZBKxyl2Pa_GwcJOA&s"
+                    }
+                ]
             },
             {
                 "type": "normal",
-                "position": 79,
-                "title": "Perfect Creamy Vanilla Cheesecake Recipe",
-                "snippet": "My Perfect Vanilla _Cheesecake_ Recipe is so silky smooth with a creamy filling over a classic graham cracker crust.",
-                "source": {
-                    "title": "Perfect Creamy Vanilla Cheesecake Recipe",
-                    "name": "Scientifically Sweet",
-                    "display_link": "https://scientificallysweet.com › Cheesecake",
-                    "link": "https://scientificallysweet.com/perfect-vanilla-cheesecake-recipe/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6UXzzbhWiFZPcU3COwzCF8p1ThOQbV7kGVm38sZnYs8nZ3QeyBohxqSo&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "Cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 18,
-                        "reviews_origin": "(18)"
-                    },
-                    "extensions": "5.0(18) · 50 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 80,
-                "title": "BraveTart's Epic New York Cheesecake",
-                "snippet": "The ultimate _cheesecake_ pan, beautifully constructed from non-reactive aluminum with a seamless design and a whopping four inches of depth.",
-                "source": {
-                    "title": "BraveTart's Epic New York Cheesecake",
-                    "name": "Serious Eats",
-                    "display_link": "https://www.seriouseats.com › ... › Cakes › Cheesecakes",
-                    "link": "https://www.seriouseats.com/epic-new-york-cheesecake-from-bravetart"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-UIhW6Jvsk60w4tF7gHMdTomLEElawxkGJq0WqZbBPwwtgUsEk9EmHGE&usqp=CAE&s",
-                "snippet_highlighted_words": [
-                    "cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4.7,
-                        "label": "Rated 4.7 out of 5,",
-                        "reviews": 27,
-                        "reviews_origin": "(27)"
-                    },
-                    "extensions": "4.7(27) · 2 hr 50 min"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 81,
+                "position": 66,
                 "title": "Cheesecake Recipe",
                 "snippet": "This classic _cheesecake_ recipe is super simple! You can easily make the batter while the 15-minute crust bakes in the oven.",
                 "source": {
@@ -2193,7 +1958,6 @@ export const desktopCheesecake = {
                     "display_link": "https://www.jocooks.com › Recipes",
                     "link": "https://www.jocooks.com/recipes/cheesecake-recipe/"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ460S3G3l2xXK2_Q1EPjiZVHchKA4mLZfjSmMoo3YRe7CxoxETuOF80Js&usqp=CAE&s",
                 "snippet_highlighted_words": [
                     "cheesecake"
                 ],
@@ -2209,8 +1973,22 @@ export const desktopCheesecake = {
                 }
             },
             {
+                "type": "video",
+                "position": 67,
+                "title": "Easy PB&J No Bake Cheesecake Recipe",
+                "snippet": "#nobakedessert #nobakecheesecake #easydessert. Keywords: no bake cheesecake recipe, easy PB&J dessert, no bake dessert recipes, peanut butter ...",
+                "duration": "1:31",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1XHMNMv_LgJWS4joQFNuhT131uMZHj6xKa9RyVsoeG9C&s",
+                "source": {
+                    "title": "Easy PB&J No Bake Cheesecake Recipe",
+                    "name": "TikTok · Matt Ramsey",
+                    "display_link": "1.7M+ views  ·  4 days ago",
+                    "link": "https://www.tiktok.com/@cookerofdeliciousness/video/7477363345218096430"
+                }
+            },
+            {
                 "type": "normal",
-                "position": 82,
+                "position": 68,
                 "title": "Classic New York Cheesecake Recipe",
                 "snippet": "Instructions · Preheat oven to 325 degrees F. · Make the Crust: In a medium bowl, stir together the graham cracker crumbs, brown sugar, and salt ...",
                 "source": {
@@ -2232,45 +2010,22 @@ export const desktopCheesecake = {
                 }
             },
             {
-                "type": "normal",
-                "position": 83,
-                "title": "Basque Cheesecake Recipe | Bon Appétit",
-                "snippet": "Beat 2 lb. cream cheese, room temperature, and 1½ cups (300 g) sugar in the bowl of a stand mixer fitted with the paddle attachment on medium- ...",
-                "source": {
-                    "title": "Basque Cheesecake Recipe | Bon Appétit",
-                    "name": "Bon Appétit: Recipes, Cooking, Entertaining, Restaurants | Bon Appétit",
-                    "display_link": "https://www.bonappetit.com › recipe › basque-burnt-ch...",
-                    "link": "https://www.bonappetit.com/recipe/basque-burnt-cheesecake?srsltid=AfmBOoqF0q52OwmRhqFFCglq1PQdvG8L2G-sRISmrqPSb0FvPlWbogCT"
-                },
-                "snippet_highlighted_words": [],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 4.7,
-                        "label": "Rated 4.7 out of 5,",
-                        "reviews": 560,
-                        "reviews_origin": "(560)"
-                    },
-                    "extensions": "4.7(560)"
-                }
-            },
-            {
                 "type": "video",
-                "position": 84,
-                "title": "Easy Air Fryer Cheesecake Recipe",
-                "snippet": "The best technique for classic cheesecake | Tips for a light and creamy recipe | Kitchen Conundrums",
-                "duration": "8:34",
-                "thumbnail": "https://i.ytimg.com/vi/dsu_IJjlTzk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n_bSnKK2zjvkAVlrNTu0NSo-fm1Q",
+                "position": 69,
+                "title": "The Most Decadent Chocolate Cheesecake (Easy & Foolproof ...",
+                "snippet": "Use room-temperature ingredients for a smooth filling. · Melt the chocolate and let it cool slightly before mixing it in. · Bake in a water bath ...",
+                "duration": "8:03",
+                "thumbnail": "https://i.ytimg.com/vi/vX-xLI1UVEo/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lnwVos-i0kkorhnhLukwRgiF5kEA",
                 "source": {
-                    "title": "Easy Air Fryer Cheesecake Recipe",
-                    "name": "YouTube · Preppy Kitchen",
-                    "display_link": "127.5K+ views  ·  1 month ago",
-                    "link": "https://www.youtube.com/watch?v=dsu_IJjlTzk"
+                    "title": "The Most Decadent Chocolate Cheesecake (Easy & Foolproof ...",
+                    "name": "YouTube · CookingAtHome",
+                    "display_link": "274.8K+ views  ·  3 weeks ago",
+                    "link": "https://www.youtube.com/watch?v=vX-xLI1UVEo"
                 }
             },
             {
                 "type": "normal",
-                "position": 85,
+                "position": 70,
                 "title": "Classic Cheesecake",
                 "snippet": "The smoothest and creamiest _cheesecake_ you will ever have. It's so rich and delicious, and always a crowd pleaser.",
                 "source": {
@@ -2295,7 +2050,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 86,
+                "position": 71,
                 "title": "American Classic Cheesecake Recipe",
                 "snippet": "Makes 16 slices. Calories 190. Prep Time 20 minutes. Total Time 9 hours. Made with Splenda® Original Sweetener.",
                 "source": {
@@ -2311,7 +2066,33 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 87,
+                "position": 72,
+                "title": "Keto Cheesecake (Sugar Free & Low Carb)",
+                "snippet": "An easy keto _cheesecake_ recipe that tastes like the real thing! This low carb sugar-free _cheesecake_ is rich and sweet, but just 5g net carbs.",
+                "source": {
+                    "title": "Keto Cheesecake (Sugar Free & Low Carb)",
+                    "name": "Wholesome Yum",
+                    "display_link": "https://www.wholesomeyum.com › recipes › low-carb-c...",
+                    "link": "https://www.wholesomeyum.com/recipes/low-carb-cheesecake-keto-gluten-free-sugar-free/?srsltid=AfmBOooSEu_d9zEjtDXUUmywcQvOHREtytF6mVkYnyh-VUUbQsa1zaX5"
+                },
+                "snippet_highlighted_words": [
+                    "cheesecake",
+                    "cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.8,
+                        "label": "Rated 4.8 out of 5,",
+                        "reviews": 962,
+                        "reviews_origin": "(962)"
+                    },
+                    "extensions": "4.8(962) · 1 hr 10 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 73,
                 "title": "Japanese Cheesecake (Video) スフレチーズケーキ",
                 "snippet": "Combine the cream cheese, butter, heavy cream, and sugar in a large bowl resting over the simmering water. Mash until melted and blended, then ...",
                 "source": {
@@ -2334,7 +2115,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 88,
+                "position": 74,
                 "title": "Easy Classic Philadelphia Cheesecake",
                 "snippet": "_Cheesecake_ Filling · 32 ounces cream cheese (\\*Note 3) · 1 cup white granulated sugar (caster/granulated sugar) · 1 tablespoon vanilla extract ...",
                 "source": {
@@ -2343,7 +2124,7 @@ export const desktopCheesecake = {
                     "display_link": "https://saltyginger.com › Recipes › Cheesecakes",
                     "link": "https://saltyginger.com/philadelphia-cheesecake/"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlLA0-Q67QOvAuEr5tsu4j7MfyydhkA8KJ9OSdIsFPPowjEaRAPB99eSI&usqp=CAE&s",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPg2sG9bT0f8WBypT-hmTCfwGUNQb3zDTtHQz_fM6gRGkItjkdV5sI&usqp=CAE&s",
                 "snippet_highlighted_words": [
                     "Cheesecake"
                 ],
@@ -2360,7 +2141,7 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 89,
+                "position": 75,
                 "title": "Double Chocolate Cheesecake Recipe",
                 "snippet": "To make this a double chocolate _cheesecake_, I used cocoa powder and chocolate chips in the batter and then covered them with chocolate ganache.",
                 "source": {
@@ -2369,7 +2150,7 @@ export const desktopCheesecake = {
                     "display_link": "https://www.billyparisi.com › Recipes › Dessert › Cakes",
                     "link": "https://www.billyparisi.com/chocolate-cheesecake-recipe/"
                 },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfsxb2Ob5NjzDFUJibD0uPEpvZm6S_-0uR4lFYmuZATOeIvfTf_t9IqtQ&usqp=CAE&s",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5tFgS0Kmamjw7fuSNWUAaVQsGk1Iw9Tdl7d4TQEROtxoIjxr-mgDs&usqp=CAE&s",
                 "snippet_highlighted_words": [
                     "cheesecake"
                 ],
@@ -2385,22 +2166,23 @@ export const desktopCheesecake = {
                 }
             },
             {
-                "type": "video",
-                "position": 90,
-                "title": "The best No Bake Cheesecake is...",
-                "snippet": "made with gelatine. Without, it's much denser or sloppy and melty. No! I want my no-bake cheesecake to be as good as my classic baked on, ...",
-                "duration": "3:42",
-                "thumbnail": "https://i.ytimg.com/vi/9F197RwgHEg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mjkU8nX2iyHA3NJNWsuRCb5cwjiw",
+                "type": "normal",
+                "position": 76,
+                "title": "Menu",
+                "snippet": "_Explore The Cheesecake Factory Menu_. Our made-from-scratch menu items including our signature cheesecakes, dinners, and lunch specials.",
                 "source": {
-                    "title": "The best No Bake Cheesecake is...",
-                    "name": "YouTube · RecipeTin Eats",
-                    "display_link": "145.4K+ views  ·  5 months ago",
-                    "link": "https://www.youtube.com/watch?v=9F197RwgHEg"
-                }
+                    "title": "Menu",
+                    "name": "The Cheesecake Factory",
+                    "display_link": "https://www.thecheesecakefactory.com › menu",
+                    "link": "https://www.thecheesecakefactory.com/menu"
+                },
+                "snippet_highlighted_words": [
+                    "Explore The Cheesecake Factory Menu"
+                ]
             },
             {
                 "type": "normal",
-                "position": 91,
+                "position": 77,
                 "title": "Easy Blueberry Cheesecake",
                 "snippet": "This blueberry _cheesecake_ is incredibly easy to make and requires no water bath or other special equipment. It's perfectly creamy, packed full of lemon zest ...",
                 "source": {
@@ -2425,14 +2207,14 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 92,
-                "title": "Keto Cheesecake (Sugar Free & Low Carb)",
-                "snippet": "An easy keto _cheesecake_ recipe that tastes like the real thing! This low carb sugar-free _cheesecake_ is rich and sweet, but just 5g net carbs.",
+                "position": 78,
+                "title": "Easy Cheesecake Recipe",
+                "snippet": "This easy _cheesecake_ recipe is a New York-style _cheesecake_ that is rich, dense yet creamy, and not overly sweet, just like our amazing mini chocolate ...",
                 "source": {
-                    "title": "Keto Cheesecake (Sugar Free & Low Carb)",
-                    "name": "Wholesome Yum",
-                    "display_link": "https://www.wholesomeyum.com › recipes › low-carb-c...",
-                    "link": "https://www.wholesomeyum.com/recipes/low-carb-cheesecake-keto-gluten-free-sugar-free/?srsltid=AfmBOoqky34v0y9vsxFtYAWbgWgg4_oFL8KsZsQj5Iu9z0NX91RRRWVv"
+                    "title": "Easy Cheesecake Recipe",
+                    "name": "El Mundo Eats",
+                    "display_link": "https://www.elmundoeats.com › ... › Baked Cheesecake",
+                    "link": "https://www.elmundoeats.com/easy-cheesecake-cheesecake-factory-inspired/"
                 },
                 "snippet_highlighted_words": [
                     "cheesecake",
@@ -2441,46 +2223,169 @@ export const desktopCheesecake = {
                 "rich_snippet": {
                     "rated": {
                         "type": "normal",
-                        "rating": 4.8,
-                        "label": "Rated 4.8 out of 5,",
-                        "reviews": 962,
-                        "reviews_origin": "(962)"
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 36,
+                        "reviews_origin": "(36)"
                     },
-                    "extensions": "4.8(962) · 1 hr 10 min"
+                    "extensions": "5.0(36) · 2 hr 15 min"
                 }
             },
             {
                 "type": "normal",
-                "position": 93,
-                "title": "The Cheesecake Factory makes awful cheesecakes.",
-                "snippet": "121 votes, 101 comments. I have _hella experience with making cheesecakes_. I'm not saying I'm the best alive or anything like that, ...",
+                "position": 79,
+                "title": "Ultimate Chocolate Cheesecake",
+                "snippet": "For the Ultimate Chocolate _Cheesecake_: · 2 cups (340g/12 ounces) bittersweet chocolate, coarsely chopped · 1 and 1/2 pounds (680g/24 ounces) full-fat cream ...",
                 "source": {
-                    "title": "The Cheesecake Factory makes awful cheesecakes.",
-                    "name": "Reddit · r/unpopularopinion",
-                    "display_link": "100+ comments  ·  4 days ago",
-                    "link": "https://www.reddit.com/r/unpopularopinion/comments/1j2chqn/the_cheesecake_factory_makes_awful_cheesecakes/"
+                    "title": "Ultimate Chocolate Cheesecake",
+                    "name": "Baker by Nature",
+                    "display_link": "https://bakerbynature.com › Cakes",
+                    "link": "https://bakerbynature.com/ultimate-chocolate-cheesecake/"
                 },
                 "snippet_highlighted_words": [
-                    "hella experience with making cheesecakes"
+                    "Cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.9,
+                        "label": "Rated 4.9 out of 5,",
+                        "reviews": 100,
+                        "reviews_origin": "(100)"
+                    },
+                    "extensions": "4.9(100) · 7 hr 40 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 80,
+                "title": "Muddy Paws Cheesecake",
+                "snippet": "Welcome to Muddy Paws _Cheesecake_, handmade _cheesecakes_ from scratch! We ship nationwide, deliver in the Twin Cities and have a retail bakery in St Louis Park, ...",
+                "source": {
+                    "title": "Muddy Paws Cheesecake",
+                    "name": "muddypawscheesecake.com",
+                    "display_link": "https://muddypawscheesecake.com",
+                    "link": "https://muddypawscheesecake.com/?srsltid=AfmBOoqZd6YoLgkb-HNKVGwTMJiEwuW64JJiRjFI031f1BbDLAO_D5eA"
+                },
+                "snippet_highlighted_words": [
+                    "Cheesecake",
+                    "cheesecakes"
                 ]
             },
             {
                 "type": "video",
-                "position": 94,
-                "title": "Easy PB&J No Bake Cheesecake Recipe",
-                "snippet": "#nobakedessert #nobakecheesecake #easydessert. Keywords: no bake cheesecake recipe, easy PB&J dessert, no bake dessert recipes, peanut butter ...",
-                "duration": "1:31",
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQv1XHMNMv_LgJWS4joQFNuhT131uMZHj6xKa9RyVsoeG9C&s",
+                "position": 81,
+                "title": "The Easiest New York CHEESECAKE RECIPE | NO Water Bath",
+                "snippet": "Easy New York Cheesecake Recipe ! How to make cheesecake without a water bath PRE-ORDER MY COOKBOOK ...",
+                "duration": "5:33",
+                "thumbnail": "https://i.ytimg.com/vi/3Am4DfPB2Dk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kNQWEUF_LRHeqTpM7U39cBiAPc5w",
                 "source": {
-                    "title": "Easy PB&J No Bake Cheesecake Recipe",
-                    "name": "TikTok · Matt Ramsey",
-                    "display_link": "1.7M+ views  ·  4 days ago",
-                    "link": "https://www.tiktok.com/@cookerofdeliciousness/video/7477363345218096430"
+                    "title": "The Easiest New York CHEESECAKE RECIPE | NO Water Bath",
+                    "name": "YouTube · Emma's Goodies",
+                    "display_link": "1.3M+ views  ·  1 year ago",
+                    "link": "https://www.youtube.com/watch?v=3Am4DfPB2Dk"
+                },
+                "key_moments": [
+                    {
+                        "title": "Intro",
+                        "time": "00:00",
+                        "link": "https://www.youtube.com/watch?v=3Am4DfPB2Dk&t=0",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWWt3KMD8Ui-Yi1cajTMo_t42_Z57EqsNhhyy4hhc68A&s"
+                    },
+                    {
+                        "title": "How to assemble the Cheesecake pan",
+                        "time": "01:04",
+                        "link": "https://www.youtube.com/watch?v=3Am4DfPB2Dk&t=64",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfrqnvhLlEnEQmEgqMfpYxh8Cm_qtwhAD1TIsS47djA&s"
+                    },
+                    {
+                        "title": "Make the Cheesecake filling",
+                        "time": "01:34",
+                        "link": "https://www.youtube.com/watch?v=3Am4DfPB2Dk&t=94",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_Dd9OcYlv8De-EXrswij4OtwIA8jKDcqoK1uEwqxaYg&s"
+                    },
+                    {
+                        "title": "Bake the Cheesecake",
+                        "time": "03:24",
+                        "link": "https://www.youtube.com/watch?v=3Am4DfPB2Dk&t=204",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9SKkmkejR1jvLq_9QLLtGBoPaUHf6OWPgLdG_RvXVfg&s"
+                    },
+                    {
+                        "title": "Cool and Refrigerate the Cheesecake",
+                        "time": "04:16",
+                        "link": "https://www.youtube.com/watch?v=3Am4DfPB2Dk&t=256",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ28gvhafIGCw7Xm1i-EmXR5-b5iC-ZWM0ShsDva_h2zw&s"
+                    },
+                    {
+                        "title": "Serve the Cheesecake",
+                        "time": "04:34",
+                        "link": "https://www.youtube.com/watch?v=3Am4DfPB2Dk&t=274",
+                        "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiXT7YxTsElboiz88DQPicRDuj9bUjS3QnbtpMTWrqiA&s"
+                    }
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 82,
+                "title": "Classic Cheesecake Recipe (With Video and Step by Step)",
+                "snippet": "Ingredients · 2 ½ pounds bar cream cheese, room temperature · 1 ½ cups sugar · 1 teaspoon finely grated lemon zest, plus 1 tablespoon fresh lemon juice · ½ ...",
+                "source": {
+                    "title": "Classic Cheesecake Recipe (With Video and Step by Step)",
+                    "name": "marthastewart.com",
+                    "display_link": "https://www.marthastewart.com › ... › Cake Recipes",
+                    "link": "https://www.marthastewart.com/313705/classic-cheesecake"
+                },
+                "snippet_highlighted_words": [],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.1,
+                        "label": "Rated 4.1 out of 5,",
+                        "reviews": 1339,
+                        "reviews_origin": "(1,339)"
+                    },
+                    "extensions": "4.1(1,339) · 2 hr"
                 }
             },
             {
                 "type": "normal",
-                "position": 95,
+                "position": 83,
+                "title": "CHEESECAKE Definition & Meaning",
+                "snippet": "1\\. a dessert consisting of a creamy filling usually containing cheese baked in a pastry or pressed-crumb shell",
+                "source": {
+                    "title": "CHEESECAKE Definition & Meaning",
+                    "name": "Merriam-Webster",
+                    "display_link": "https://www.merriam-webster.com › dictionary › cheese...",
+                    "link": "https://www.merriam-webster.com/dictionary/cheesecake"
+                },
+                "snippet_highlighted_words": []
+            },
+            {
+                "type": "normal",
+                "position": 84,
+                "title": "Strawberry Cheesecake Recipe - NYT Cooking",
+                "snippet": "For the Filling · 24ounces/678 grams cream cheese, at room temperature · ¾cup/150 grams granulated sugar · 3large eggs, at room temperature · ¾ ...",
+                "source": {
+                    "title": "Strawberry Cheesecake Recipe - NYT Cooking",
+                    "name": "NYT Cooking",
+                    "display_link": "https://cooking.nytimes.com › recipes › 1025540-straw...",
+                    "link": "https://cooking.nytimes.com/recipes/1025540-strawberry-cheesecake"
+                },
+                "snippet_highlighted_words": [],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 5.0 out of 5,",
+                        "reviews": 73,
+                        "reviews_origin": "(73)"
+                    },
+                    "extensions": "5.0(73) · 6 hr"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 85,
                 "title": "Cheesecakes & Specialty Desserts",
                 "snippet": "_Explore The Cheesecake Factory Menu_. Our made-from-scratch menu items including our signature cheesecakes, dinners, and lunch specials.",
                 "source": {
@@ -2495,9 +2400,133 @@ export const desktopCheesecake = {
             },
             {
                 "type": "normal",
-                "position": 96,
+                "position": 86,
+                "title": "7-Ingredient Vegan Cheesecakes",
+                "snippet": "7-ingredient vegan, gluten-free _cheesecakes_ that are creamy, slightly tart, perfectly sweet, and 100% irresistible. Better than real _cheesecake_.",
+                "source": {
+                    "title": "7-Ingredient Vegan Cheesecakes",
+                    "name": "Minimalist Baker",
+                    "display_link": "https://minimalistbaker.com › 7-ingredient-vegan-chees...",
+                    "link": "https://minimalistbaker.com/7-ingredient-vegan-cheesecakes/"
+                },
+                "snippet_highlighted_words": [
+                    "cheesecakes",
+                    "cheesecake"
+                ],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 4.8,
+                        "label": "Rated 4.8 out of 5,",
+                        "reviews": 356,
+                        "reviews_origin": "(356)"
+                    },
+                    "extensions": "4.8(356) · 1 hr 30 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 87,
+                "title": "Keto Chocolate Chip Cookie Cheesecake Bars",
+                "snippet": "Cookies Crust: · 2 1/2 cups (280 g) almond flour · 1/2 cup (100 g) brown sugar replacement · 1 tsp baking powder · 1/4 tsp salt · 1 large egg, ...",
+                "source": {
+                    "title": "Keto Chocolate Chip Cookie Cheesecake Bars",
+                    "name": "All Day I Dream About Food",
+                    "display_link": "https://alldayidreamaboutfood.com › ... › Brownies & Bars",
+                    "link": "https://alldayidreamaboutfood.com/keto-cheesecake-bars/"
+                },
+                "snippet_highlighted_words": [],
+                "rich_snippet": {
+                    "rated": {
+                        "type": "normal",
+                        "rating": 5,
+                        "label": "Rated 4.9 out of 5,",
+                        "reviews": 57,
+                        "reviews_origin": "(57)"
+                    },
+                    "extensions": "5.0(57) · 1 hr"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 88,
+                "title": "The Furlough Cheesecake",
+                "snippet": "WASHINGTON DC METRO · On February 9, 2024, we opened the doors to our new location at Tanger Outlets National Harbor! Visit at: · 6800 Oxon Hill Rd., Suite 852.",
+                "source": {
+                    "title": "The Furlough Cheesecake",
+                    "name": "The Furlough Cheesecake",
+                    "display_link": "https://thefurloughcheesecake.com",
+                    "link": "https://thefurloughcheesecake.com/"
+                },
+                "snippet_highlighted_words": []
+            },
+            {
+                "type": "video",
+                "position": 89,
+                "title": "Turtley (cheesecake) obsessed with this one [~274 cals 21g ...",
+                "snippet": "15K likes, 63 comments - fitfoodieliving on March 6, 2025: \"Turtley (cheesecake) obsessed with this one [~274 cals 21g protein] - Find my ...",
+                "duration": "0:24",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtsrMuHj78v0t5Ipt7L38JXbvIXDB_ZyEa0YNETMwOMElj&s",
+                "source": {
+                    "title": "Turtley (cheesecake) obsessed with this one [~274 cals 21g ...",
+                    "name": "Instagram · fitfoodieliving",
+                    "display_link": "14.7K+ likes  ·  13 hours ago",
+                    "link": "https://www.instagram.com/fitfoodieliving/reel/DG4HzM3RjQl/"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 90,
+                "title": "Cheesecake Brownies",
+                "snippet": "A rich, fudgy brownie base topped with smooth, creamy _cheesecake_, creating an irresistible and indulgent dessert fusion for any occasion.",
+                "source": {
+                    "title": "Cheesecake Brownies",
+                    "name": "Clap Recipes",
+                    "display_link": "https://www.claprecipes.com › cheesecake-brownies",
+                    "link": "https://www.claprecipes.com/cheesecake-brownies/"
+                },
+                "snippet_highlighted_words": [
+                    "cheesecake"
+                ],
+                "rich_snippet": {
+                    "extensions": "50 min"
+                }
+            },
+            {
+                "type": "normal",
+                "position": 91,
+                "title": "I Need a Foolproof Cheesecake Recipe",
+                "snippet": "Jesse and Shilpa are back with BA Bake Club. This month the duo tells us how to make a textbook Basque _cheesecake_ imbued with the ...",
+                "source": {
+                    "title": "I Need a Foolproof Cheesecake Recipe",
+                    "name": "Bon Appétit: Recipes, Cooking, Entertaining, Restaurants | Bon Appétit",
+                    "display_link": "https://www.bonappetit.com › cooking › cooking",
+                    "link": "https://www.bonappetit.com/story/i-need-a-foolproof-cheesecake-recipe?srsltid=AfmBOop5az3EdkYXMqSQiiEltekB-6CF33oRHWwmTXPo-7Dr3miVG_Yp"
+                },
+                "snippet_highlighted_words": [
+                    "cheesecake"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 92,
+                "title": "THE Cheesecake | Lunch & Dinner Menu",
+                "snippet": "10 oz. of rich, creamy _cheesecake_ on a honey-graham crust, topped with whipped cream, candied pecans, and caramel.",
+                "source": {
+                    "title": "THE Cheesecake | Lunch & Dinner Menu",
+                    "name": "LongHorn Steakhouse",
+                    "display_link": "https://www.longhornsteakhouse.com › prod10010018",
+                    "link": "https://www.longhornsteakhouse.com/menu/the-cheesecake/prod10010018"
+                },
+                "snippet_highlighted_words": [
+                    "cheesecake"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 93,
                 "title": "Cheesecake Funk: Order 15+ Different Cheesecake Flavors",
-                "snippet": "Making Cheesecake with Soul! _Cheesecake Funk is home of Prince's favorite Turtle Cheesecake_ located in Minneapolis, MN. Order your slice of heaven today!",
+                "snippet": "The Best _Cheesecake_ in the Twin Cities ... Come along for the funky ride and savor our array of flavors, from our classics to the one that made even the legendary ...",
                 "source": {
                     "title": "Cheesecake Funk: Order 15+ Different Cheesecake Flavors",
                     "name": "Cheesecake Funk",
@@ -2505,70 +2534,80 @@ export const desktopCheesecake = {
                     "link": "https://www.cheesecakefunk.com/"
                 },
                 "snippet_highlighted_words": [
-                    "Cheesecake Funk is home of Prince's favorite Turtle Cheesecake"
+                    "Cheesecake"
                 ]
             },
             {
                 "type": "video",
-                "position": 97,
-                "title": "Classic Cheesecake Recipe | This classic cheesecake recipe ...",
-                "snippet": "Classic Cheesecake Recipe · This classic cheesecake recipe has over a million views! With foolproof, step-by-step instructions— including how to ...",
-                "duration": "0:31",
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlTTWjfFgGvzsu3TMjah9lTZwboxoWeRHEYX31lLGHRrON&s",
+                "position": 94,
+                "title": "The Best Maple Cheesecake You’ll Ever Make (No Cracks, No ...",
+                "snippet": "Love cheesecake but worried it's too hard to make? Join us in the kitchen as we whip up a decadent Maple Cheesecake with a graham cracker ...",
+                "duration": "9:57",
+                "thumbnail": "https://i.ytimg.com/vi/uCGVPGcSSKc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k0U3X0yciq7L5uqnqy0Jr-_8dtbg",
                 "source": {
-                    "title": "Classic Cheesecake Recipe | This classic cheesecake recipe ...",
-                    "name": "Facebook · The First Year",
-                    "display_link": "10+ reactions  ·  1 month ago",
-                    "link": "https://www.facebook.com/TheFirstYearBlog/videos/classic-cheesecake-recipe/1785675705560726/"
+                    "title": "The Best Maple Cheesecake You’ll Ever Make (No Cracks, No ...",
+                    "name": "YouTube · Glen And Friends Cooking",
+                    "display_link": "49.1K+ views  ·  1 month ago",
+                    "link": "https://www.youtube.com/watch?v=uCGVPGcSSKc"
+                }
+            },
+            {
+                "type": "video",
+                "position": 95,
+                "title": "Strawberry cheesecake this full recipe can be found at www ...",
+                "snippet": "Check out my strawberry cheesecake. It's rich, it's creamy, and the topping was made with some beautiful fresh strawberries.",
+                "duration": "2:49",
+                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9I3RCpv8W1qmxuLy7k29e83w0uT8O6r-9EjP1yGsRxNvj&s",
+                "source": {
+                    "title": "Strawberry cheesecake this full recipe can be found at www ...",
+                    "name": "Instagram · cookupki",
+                    "display_link": "7.6K+ likes  ·  3 days ago",
+                    "link": "https://www.instagram.com/cookupki/reel/DGwGAuwSrA1/"
                 }
             },
             {
                 "type": "normal",
-                "position": 98,
-                "title": "Basque Cheesecake",
-                "snippet": "Ingredients · ▢ 750 g / 1.5 lb cream cheese blocks , room temperature (I use Philadelphia, Note 1) · ▢ 1 cup caster / superfine sugar (regular ...",
+                "position": 96,
+                "title": "Juniors restaurant - 45th Street NYC",
+                "snippet": "Home of the World's Most Fabulous _Cheesecake_. Whether you are seeing a Broadway show, touring the sights or just in need of a great stop in the heart of the ...",
                 "source": {
-                    "title": "Basque Cheesecake",
-                    "name": "RecipeTin Eats",
-                    "display_link": "https://www.recipetineats.com › Cheesecakes",
-                    "link": "https://www.recipetineats.com/basque-cheesecake/"
+                    "title": "Juniors restaurant - 45th Street NYC",
+                    "name": "Junior's Cheesecake",
+                    "display_link": "https://www.juniorscheesecake.com › blog › times-square",
+                    "link": "https://www.juniorscheesecake.com/blog/restaurants/times-square/?srsltid=AfmBOooC-R7k7w8zSk0GRzHR2FfbrRSCjlxaUjUw2V07-xCHfRdUQiQ4"
                 },
-                "snippet_highlighted_words": [],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 110,
-                        "reviews_origin": "(110)"
-                    },
-                    "extensions": "5.0(110) · 1 hr"
-                }
-            },
-            {
-                "type": "normal",
-                "position": 99,
-                "title": "Cheesecake with Chocolate Crust (berry topping)",
-                "snippet": "The creamiest best baked _cheesecake_ ever! With a chocolate crust and berry topping, it's a crowd-pleaser and freezes beautifully.",
-                "source": {
-                    "title": "Cheesecake with Chocolate Crust (berry topping)",
-                    "name": "Vintage Kitchen Notes",
-                    "display_link": "https://vintagekitchennotes.com › Recipes › Cheesecakes",
-                    "link": "https://vintagekitchennotes.com/raspberry-cheesecake-with-chocolate/"
-                },
-                "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ5bTQhM7NEDNae5-2HQehjtJcVeMvQ64MKSugr7_th5cohEzfwpvNwvA&usqp=CAE&s",
                 "snippet_highlighted_words": [
+                    "Cheesecake"
+                ]
+            },
+            {
+                "type": "normal",
+                "position": 97,
+                "title": "Cheesecake (ingredients, cake recipe, sugar, cinnamon)",
+                "snippet": "Welcome to City-Data.com Forum! Reply Quote: That's the way I like my _cheesecake_ too! The chocolate chip _cheesecake_ looks yummy!",
+                "source": {
+                    "title": "Cheesecake (ingredients, cake recipe, sugar, cinnamon)",
+                    "name": "City-Data.com",
+                    "display_link": "https://www.city-data.com › forum › recipes › 1443255-...",
+                    "link": "https://www.city-data.com/forum/recipes/1443255-cheesecake-ingredients-cake-recipe-sugar-cinnamon.html"
+                },
+                "snippet_highlighted_words": [
+                    "cheesecake",
                     "cheesecake"
-                ],
-                "rich_snippet": {
-                    "rated": {
-                        "type": "normal",
-                        "rating": 5,
-                        "label": "Rated 5.0 out of 5,",
-                        "reviews": 1,
-                        "reviews_origin": "(1)"
-                    },
-                    "extensions": "5.0(1) · 1 hr 35 min"
+                ]
+            },
+            {
+                "type": "video",
+                "position": 98,
+                "title": "The Best Basque Cheesecake Recipe",
+                "snippet": "This Basque cheesecake recipe is an absolute show-stopper. With its “burnt” or caramelized exterior and airy, mousse-like filling, ...",
+                "duration": "8:21",
+                "thumbnail": "https://i.ytimg.com/vi/4J58_t22PJo/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nH-97S4NSx6g0auQsv_FM_5NbEsg",
+                "source": {
+                    "title": "The Best Basque Cheesecake Recipe",
+                    "name": "YouTube · Preppy Kitchen",
+                    "display_link": "104.8K+ views  ·  1 week ago",
+                    "link": "https://www.youtube.com/watch?v=4J58_t22PJo"
                 }
             }
         ]

@@ -413,14 +413,14 @@ export const SerpThingsToKnowNormalSchema = z.object({
   }),
   answer: z.string().optional(), // same as title; when heading.secondary is a question, the answer field will appear
   title: z.string().optional(),
-  snippet: z.string(),
+  snippet: z.string().optional(),
   date: z.string().optional(),
   source: z.object({
     title: z.string(),
     name: z.string(),
     link: z.string(),
     display_link: z.string(),
-  })
+  }).optional()
 })
 export type SerpThingsToKnowNormal = z.infer<typeof SerpThingsToKnowNormalSchema>; 
 

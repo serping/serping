@@ -1,1872 +1,1921 @@
 export const desktopOpenai = 
 {
 	"meta": {
-		"url": "https://www.google.com/search?q=openai&oq=openai&num=100&gl=us&hl=en&ie=UTF-8",
-		"search_params": {
-			"q": "openai",
-			"oq": "openai",
-			"num": "100",
-			"gl": "us",
-			"hl": "en",
-			"ie": "UTF-8"
-		},
-		"snapshot": "https://us-east-1.serp.ing/api/v1/google/fbbf8c66-a476-47bb-a239-2d90ce34be81/serp.html",
-		"serpjson": "https://us-east-1.serp.ing/api/v1/google/fbbf8c66-a476-47bb-a239-2d90ce34be81/serp.json" 
+			"url": "https://www.google.com/search?q=openai&oq=openai&num=100&ie=UTF-8&gl=us&hl=en",
+			"search_params": {
+					"q": "openai",
+					"oq": "openai",
+					"num": "100",
+					"ie": "UTF-8",
+					"gl": "us",
+					"hl": "en"
+			},
+			"query_displayed": "openai",
+			"result_stats": {
+					"total_results": "0",
+					"time_taken_displayed": "0.15"
+			},
+			"parse_duration": "569 ms",
+			"render_duration": "2371 ms"
 	},
 	"topads": [],
 	"origin_search": {
-		"type": "normal",
-		"results": [
-			{
-				"type": "site_links",
-				"position": 1,
-				"title": "OpenAI",
-				"snippet": "An abstract painting with flowing shapes in shades of gray, peach, and blue, · ChatGPT Enterprise.",
-				"source": {
-					"title": "OpenAI",
-					"name": "OpenAI",
-					"display_link": "https://openai.com",
-					"link": "https://openai.com/"
-				},
-				"links": [
+			"type": "normal",
+			"results": [
 					{
-						"title": "ChatGPT",
-						"snippet": "ChatGPT helps you get answers, find inspiration and be more ...",
-						"link": "https://openai.com/chatgpt/"
-					},
-					{
-						"title": "Login",
-						"snippet": "OpenAI Logo. Welcome back. Email address*. Email is not ...",
-						"link": "https://platform.openai.com/login?launch"
-					},
-					{
-						"title": "Careers",
-						"snippet": "Featured roles · GPU Kernels Engineer · HW/SW Co-Design ...",
-						"link": "https://openai.com/careers/"
-					},
-					{
-						"title": "OpenAI API",
-						"snippet": "Explore resources, tutorials, API docs, and dynamic examples to ...",
-						"link": "https://platform.openai.com/"
-					},
-					{
-						"title": "About",
-						"snippet": "OpenAI is an AI research and deployment company. Our ...",
-						"link": "https://openai.com/about/"
-					}
-				]
-			},
-			{
-				"type": "top_stories",
-				"top_stories": {
-					"heading": "Top stories",
-					"stories": [
-						{
-							"type": "with_header",
-							"heading": "OpenAI's AI scale",
-							"posts": [
-								{
-									"position": 1,
-									"thumbnail": "data:image/jpeg;base64,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",
-									"date": "21 hours ago",
-									"source": {
-										"name": "Bloomberg.com",
-										"link": "https://www.bloomberg.com/news/articles/2024-07-11/openai-sets-levels-to-track-progress-toward-superintelligent-ai"
+							"type": "site_links",
+							"position": 1,
+							"title": "OpenAI",
+							"snippet": "Latest news · Stories · Latest research · OpenAI for business · Get started with ChatGPT. Download. Our Research. Research Index · Research Overview · Research ...",
+							"source": {
+									"title": "OpenAI",
+									"name": "OpenAI",
+									"display_link": "https://openai.com",
+									"link": "https://openai.com/"
+							},
+							"links": [
+									{
+											"title": "ChatGPT",
+											"snippet": "Type, talk, and use it your way. With ChatGPT, you can type or ...",
+											"link": "https://openai.com/chatgpt/overview/"
+									},
+									{
+											"title": "Careers",
+											"snippet": "OpenAI Residency is a six-month program which offers a pathway ...",
+											"link": "https://openai.com/careers/"
+									},
+									{
+											"title": "API",
+											"snippet": "Explore resources, tutorials, API docs, and dynamic examples to ...",
+											"link": "https://platform.openai.com/"
+									},
+									{
+											"title": "Login",
+											"snippet": "Explore resources, tutorials, API docs, and dynamic examples to ...",
+											"link": "https://platform.openai.com/login"
+									},
+									{
+											"title": "Introducing ChatGPT",
+											"snippet": "Introducing ChatGPT ... We've trained a model called ChatGPT ...",
+											"link": "https://openai.com/index/chatgpt/"
 									}
-								},
-								{
-									"position": 2,
-									"title": "OpenAI says there are 5 'levels' for AI to reach human intelligence — it's \nalready almost at level 2",
-									"thumbnail": "data:image/jpeg;base64,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",
-									"date": "20 hours ago",
-									"source": {
-										"name": "Quartz",
-										"link": "https://qz.com/openai-five-level-system-human-intelligence-ai-1851588122"
-									}
-								},
-								{
-									"position": 3,
-									"title": "OpenAI reportedly nears AI systems that can reason, why that's a worry",
-									"thumbnail": "data:image/jpeg;base64,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",
-									"date": "2 hours ago",
-									"source": {
-										"name": "Business Insider",
-										"link": "https://www.businessinsider.com/openai-nears-ai-systems-reason-cause-concern-sam-altman-chatgpt-2024-7"
-									}
-								}
 							]
-						},
-						{
-							"type": "with_header",
-							"heading": "News about Artificial intelligence",
-							"posts": [
-								{
-									"position": 1,
-									"title": "OpenAI promised to make its AI safe. Employees say it ‘failed’ its first \ntest.",
-									"thumbnail": "data:image/jpeg;base64,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",
-									"date": "45 minutes ago",
-									"source": {
-										"name": "The Washington Post",
-										"link": "https://www.washingtonpost.com/technology/2024/07/12/openai-ai-safety-regulation-gpt4/"
+					},
+					{
+							"type": "latest_from",
+							"latest_from": [
+									{
+											"position": 1,
+											"source": {
+													"name": "OpenAI",
+													"link": "https://openai.com/index/introducing-nextgenai/",
+													"title": "Introducing NextGenAI: A consortium to advance research and education with AI"
+											},
+											"thumbnail": "data:image/jpeg;base64,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",
+											"date": "2 days ago"
+									},
+									{
+											"position": 2,
+											"source": {
+													"name": "OpenAI",
+													"link": "https://openai.com/index/factory/",
+													"title": "Factory builds the Command Center for software development with OpenAI’s reasoning models"
+											},
+											"thumbnail": "data:image/jpeg;base64,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",
+											"date": "20 hours ago"
+									},
+									{
+											"position": 3,
+											"source": {
+													"name": "OpenAI",
+													"link": "https://openai.com/index/launchdarkly-claire-vo/",
+													"title": "LaunchDarkly's approach to AI-powered product management"
+											},
+											"thumbnail": "data:image/jpeg;base64,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",
+											"date": "2 days ago"
+									},
+									{
+											"position": 4,
+											"source": {
+													"name": "OpenAI",
+													"link": "https://openai.com/safety/how-we-think-about-safety-alignment/",
+													"title": "How we think about safety and alignment"
+											},
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8nbAgDX9gUD5r9KxpXKNBr-Uo3thLPvnp5-HHhRapppKHJkI7X8KTF-Tf&usqp=CAI&s",
+											"date": "2 days ago"
+									},
+									{
+											"position": 5,
+											"source": {
+													"name": "OpenAI",
+													"link": "https://openai.com/index/deep-research-system-card/",
+													"title": "Deep research System Card"
+											},
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnXekG4RMAk2GPexotR7LsfSWKuH7YxdtHPNMvS7Gf8a0pomJq0y08eqSH&usqp=CAI&s",
+											"date": "1 week ago"
+									},
+									{
+											"position": 6,
+											"source": {
+													"name": "OpenAI",
+													"link": "https://openai.com/index/introducing-deep-research/",
+													"title": "Introducing deep research"
+											},
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDQJUhBHmd4S5EAJzl-YvOVww_ue2IQK1kGyI50kHYtQ1-rhz1xEFaGHlc&usqp=CAI&s",
+											"date": "1 month ago"
 									}
-								},
-								{
-									"position": 2,
-									"title": "Former OpenAI employee quit to avoid ‘working for the Titanic of AI’",
-									"thumbnail": "data:image/jpeg;base64,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",
-									"date": "20 hours ago",
-									"source": {
-										"name": "Cointelegraph",
-										"link": "https://cointelegraph.com/news/open-ai-artificial-intelligence-safety-employee-quit-titanic"
-									}
-								}
 							]
-						},
-						{
-							"type": "with_header",
-							"heading": "Also in the news",
-							"posts": [
-								{
-									"position": 1,
-									"title": "There’s always something happening to OpenAI’s board",
-									"thumbnail": "data:image/jpeg;base64,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",
-									"date": "3 hours ago",
-									"source": {
-										"name": "TechCrunch",
-										"link": "https://techcrunch.com/podcast/theres-always-something-happening-to-openais-board/"
-									}
-								},
-								{
-									"position": 2,
-									"title": "OpenAI is ‘going to build a search product’",
-									"thumbnail": "data:image/jpeg;base64,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",
-									"date": "4 hours ago",
-									"source": {
-										"name": "Search Engine Land",
-										"link": "https://searchengineland.com/openai-search-product-atlantic-444089"
-									}
-								}
+					},
+					{
+							"type": "normal",
+							"position": 2,
+							"title": "OpenAI",
+							"snippet": "OpenAI, Inc. is _an American artificial intelligence (AI) research organization_ founded in December 2015 and headquartered in San Francisco, California.",
+							"source": {
+									"title": "OpenAI",
+									"name": "Wikipedia",
+									"display_link": "https://en.wikipedia.org › wiki › OpenAI",
+									"link": "https://en.wikipedia.org/wiki/OpenAI"
+							},
+							"snippet_highlighted_words": [
+									"an American artificial intelligence (AI) research organization"
 							]
-						}
-					]
-				}
-			},
-			{
-				"type": "perspectives",
-				"perspectives": [
-					{
-						"type": "normal",
-						"position": 1,
-						"author": "Douglas Yeung",
-						"title": "AI companies say safety is a priority. It’s not",
-						"snippet": "Leadership at AI companies claim they have a laser focus on ensuring that \ntheir products are safe but insiders claim a culture of...",
-						"date": "3 days ago",
-						"thumbnail": "data:image/jpeg;base64,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",
-						"source": {
-							"name": "San Francisco Chronicle",
-							"creator": "Douglas Yeung",
-							"link": "https://www.sfchronicle.com/opinion/openforum/article/ai-safety-transparency-19552123.php"
-						}
 					},
 					{
-						"type": "normal",
-						"position": 2,
-						"author": "Sector 6 | The Newsletter of AIM",
-						"title": "Hush Hush, OpenAI",
-						"snippet": "OpenAI has been suspiciously quiet lately, barring the news about Apple and \nMicrosoft dropping their board observer roles at OpenAI,...",
-						"date": "9 hours ago",
-						"thumbnail": "data:image/jpeg;base64,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",
-						"source": {
-							"name": "Substack",
-							"creator": "Sector 6 | The Newsletter of AIM",
-							"link": "https://analyticsindiamagazine.substack.com/p/hush-hush-openai"
-						}
+							"type": "top_stories",
+							"top_stories": {
+									"heading": "Top stories",
+									"stories": [
+											{
+													"type": "with_header",
+													"heading": "OpenAI and Oracle to build Texas data center with Nvidia chips",
+													"posts": [
+															{
+																	"position": 1,
+																	"title": "OpenAI, Oracle to equip Texas data centre with Nvidia AI chips",
+																	"thumbnail": "data:image/jpeg;base64,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",
+																	"date": "49 minutes ago",
+																	"source": {
+																			"name": "Yahoo Finance",
+																			"link": "https://finance.yahoo.com/news/openai-oracle-equip-texas-data-125037856.html"
+																	}
+															},
+															{
+																	"position": 2,
+																	"title": "Nvidia Powers OpenAI And Oracle's $100 Billion Stargate Infrastructure, First AI Data Center Set To Launch in Texas",
+																	"thumbnail": "data:image/jpeg;base64,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",
+																	"date": "51 minutes ago",
+																	"source": {
+																			"name": "Benzinga",
+																			"link": "https://www.benzinga.com/25/03/44188361/nvidia-powers-openai-and-oracles-100-billion-stargate-first-ai-data-center-set-to-launch-in-texas"
+																	}
+															},
+															{
+																	"position": 3,
+																	"title": "OpenAI and Oracle to deploy 64,000 GB200 GPUs at Stargate Abilene data center by 2026 – report",
+																	"thumbnail": "data:image/jpeg;base64,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",
+																	"date": "1 hour ago",
+																	"source": {
+																			"name": "Data Center Dynamics",
+																			"link": "https://www.datacenterdynamics.com/en/news/openai-and-oracle-to-deploy-64000-gb200-gpus-at-stargate-abilene-data-center-by-2026-report/"
+																	}
+															}
+													]
+											},
+											{
+													"type": "with_header",
+													"heading": "OpenAI reportedly considering AI agents for $20,000 per month",
+													"posts": [
+															{
+																	"position": 1,
+																	"title": "OpenAI reportedly plans to charge up to $20,000 a month for specialized AI ‘agents’",
+																	"thumbnail": "data:image/jpeg;base64,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",
+																	"date": "1 day ago",
+																	"source": {
+																			"name": "TechCrunch",
+																			"link": "https://techcrunch.com/2025/03/05/openai-reportedly-plans-to-charge-up-to-20000-a-month-for-specialized-ai-agents/"
+																	}
+															},
+															{
+																	"position": 2,
+																	"title": "OpenAI Plans Premium AI ‘Agents’ Amid Financial Losses: Pricing to Hit $20,000 Per Month",
+																	"thumbnail": "data:image/jpeg;base64,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",
+																	"date": "9 hours ago",
+																	"source": {
+																			"name": "Tekedia",
+																			"link": "https://www.tekedia.com/openai-plans-premium-ai-agents-amid-financial-losses-pricing-to-hit-20000-per-month/"
+																	}
+															}
+													]
+											},
+											{
+													"type": "with_header",
+													"heading": "Also in the news",
+													"posts": [
+															{
+																	"position": 1,
+																	"title": "OpenAI and DeepSeek will cheat at chess to avoid losing",
+																	"thumbnail": "data:image/jpeg;base64,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",
+																	"date": "2 hours ago",
+																	"source": {
+																			"name": "Boing Boing",
+																			"link": "https://boingboing.net/2025/03/07/openai-and-deepseek-will-cheat-at-chess-to-avoid-losing.html"
+																	}
+															},
+															{
+																	"position": 2,
+																	"title": "ChatGPT on macOS can now directly edit code",
+																	"thumbnail": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFwAXAMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAQQFBgcIAgP/xAA0EAABBAIAAwYEBAYDAAAAAAABAAIDBAURBhIhBxMxQVFhFCJxgSMykaEVQkNiwdFScrH/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAMAwEAAhEDEQA/ANHIiICIiAiKpq0LdwONSrPOG/mMUTna/RBTIvT2OjeWSNLXA6LXDRC8oChSiCEREEoiICu3D/DeX4is9ziKUk+jp8mtRs/7OPQf+rJeybhGtxTlrMmR5nUqTWufE067xzieUE+nQ7W/XNq4XEymrWZFXqwue2GFoaNNBOgB9FqQa84U7HqFHkscQS/HWB17iPYhaffzd+w9lsOF2Ox4ZSgfVrAdGQMc1mvo1YNerW8pjsZ3uQuS5zNASRdxZfHDSi0HOcGsIBDQQNu2S4he2sxTop6+KxPDtqk17o32MleDZp3t6Oc75HE9QepPXXppaRcO0TgirxPjZJK8UceVibuGYDXP/Y72P7LnGeGSvPJBOxzJY3Fr2OGi0joQV0Vg8jkeHaTnZmKGbDGb8G3Utmy2ow9OV5IBLQf5uut9eg2sX7aODO8jdxLjI9uaB8axo/MPKT/fto+qlhGmURFhUIpKhBKIiDOOyTimPhviExXHBlG+GxSvPhG4H5XH26kH678lujtBdrAM7wuFF1uBt5zDrVcvHPsj+Xw37bXL63v2O8YMzONPD+VcH268eojJ17+L/ifUt8PcfdalFwtYi3Sqz4uq25JTjaZ8RdqgvdCHb5oHEdeXR0D6EebQqu/JFfr43GY/Evx+T02aD4mtplRrAOZxPmADyaB6831VNlOFDjMp8Vjq2QnxEkYa+hQvyQOrvB/PG0PDXAjxb01rovhaoZC1RtUeGsNkaxttay1dy1pzXmIHrGwuL3AnZ660Nkqopb888mMNjCQROo8T81OWu52o4LTts71p11YQHb146afNbHr1mR0Iqcn4rGQiJ3ON84A0d/VY5RwmRtW8dNl46dKhi/mqY6m8yAPDeUPe8gflBOgB77Vs4v7UMLgmyV8e9uRvjoGQu/DYf7n/AOB1+iaNKcd4iHA8W5LG1iTBDIDHs701zQ4D7b19lYVe4a2Y4zzs80TO/uWJOeV5IaxuzobJ6AeAA+wVrvVjTuTVnSMkdE8sL2AgEjodbAP6hYV8FClQglERAVTjr1jG3oLtKV0ViB4fG9p8CP8ACpkQdD8M9qGDytJn8RtR4+4AO8jmPKwn1a49Nfupz/apw9i43CpOcjY18sdf8v3f4fptc7rI62CpQTw18pec2zPG13cwxOcYg9u2vJ1p2gQSPTfXaupis4l484g4rm+EfP8AD1ZXBrald3K12+mnHxd4+Z17LzX4Yr0qrDnhZhsyWX1y0PaxlZzWBw7wkO2XA9APEA62q+l/BeHbM/e6Ba8xyQWo2yybHhoj+m5p5gW6+YD5teNku8V3u/c7HyyVjrk+Ia8iaWMb5BIQdOLR0Dtb90Vf+O8jBDj24+NsIstsAOhi5WtoPiGj3QADuV+w7ZPlojYKw7N5R+Yui7PFGyw6NrZns/rPA0XkeRPTevPr5qike6R7nvcXPcducTsk+q8qAoUqEEoiICIiArzDxLfhqMga2u6SOMww2XxAzRRkEcjX+miR6jfTSsyIJc4uOySTrXUqERAREQCoUlQglFClAREQEREBERAREQCoUlQg/9k=",
+																	"date": "19 hours ago",
+																	"source": {
+																			"name": "TechCrunch",
+																			"link": "https://techcrunch.com/2025/03/06/chatgpt-on-macos-can-now-directly-edit-code/"
+																	}
+															}
+													]
+											}
+									]
+							}
 					},
 					{
-						"type": "normal",
-						"position": 3,
-						"author": "Wes Roth",
-						"title": "BREAKING: OpenAI \"model shows human-like reasoning\"",
-						"snippet": "Bloomberg releases an article \"OpenAI Develops System to Track Progress \\nToward Human-Level AI. The company believes its technology is...",
-						"date": "17 hours ago",
-						"thumbnail": "https://img.youtube.com/vi/u4Yk7gIMd3U/hqdefault.jpg",
-						"source": {
-							"name": "YouTube",
-							"creator": "Wes Roth",
-							"link": "https://www.youtube.com/watch?v=u4Yk7gIMd3U"
-						}
+							"type": "normal",
+							"position": 3,
+							"title": "OpenAI",
+							"snippet": "OpenAI is _an AI research and deployment company_ dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity.",
+							"source": {
+									"title": "OpenAI",
+									"name": "LinkedIn · OpenAI",
+									"display_link": "6.6M+ followers",
+									"link": "https://www.linkedin.com/company/openai"
+							},
+							"snippet_highlighted_words": [
+									"an AI research and deployment company"
+							]
 					},
 					{
-						"type": "normal",
-						"position": 4,
-						"author": "David Shapiro",
-						"title": "Microsoft and Apple exit OpenAI Board of Directors — Sam Altman joins \\nMilitary Industrial Complex",
-						"snippet": "Sources: \\nhttps://www.perplexity.ai/search/is-microsoft-stepping-off-open-.6KNEBJ.RTid3EhIPXSuxw.",
-						"date": "13 hours ago",
-						"thumbnail": "https://img.youtube.com/vi/1XkZCM3023g/hqdefault.jpg",
-						"source": {
-							"name": "YouTube",
-							"creator": "David Shapiro",
-							"link": "https://www.youtube.com/watch?v=1XkZCM3023g"
-						}
+							"type": "normal",
+							"position": 4,
+							"title": "OpenAI",
+							"snippet": "Say hello to _GPT-4o_, our new flagship model which can reason across audio, vision, and text in real time.",
+							"source": {
+									"title": "OpenAI",
+									"name": "YouTube · OpenAI",
+									"display_link": "1.4M+ followers",
+									"link": "https://www.youtube.com/OpenAI"
+							},
+							"snippet_highlighted_words": [
+									"GPT-4o"
+							]
 					},
 					{
-						"type": "normal",
-						"position": 5,
-						"author": "The Indian Express",
-						"title": "OpenAI’s departure from China has lessons for India’s tech ecosystem",
-						"snippet": "On June 25, OpenAI, the company behind ChatGPT, notified developers in \\nChina that it would block access to its tools and software in the...",
-						"date": "5 hours ago",
-						"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXHayMPJQsK2QpMv29w6I0-RetaUPYolPKEmkhyBqQii6d957dJh3Y1_tp&usqp=CAI&s",
-						"source": {
-							"creator": "The Indian Express",
-							"link": "https://indianexpress.com/article/opinion/columns/open-ai-china-departure-india-tech-ecosystem-lessons-9449266/"
-						}
+							"type": "twitter",
+							"position": 5,
+							"source": {
+									"name": "X (Twitter)",
+									"display_link": "https://twitter.com/OpenAI",
+									"link": "https://twitter.com/OpenAI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+									"title": "OpenAI (@OpenAI) · X"
+							},
+							"posts": [
+									{
+											"link": "https://twitter.com/OpenAI/status/1897386487068680236?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+											"snippet": "We’re sharing how we think about safety and alignment. We see AGI development as a continuous path rather than a sudden leap. Instead of preparing for a single pivotal moment, we're iteratively deploying and learning from today's models to make future AI safer and more…",
+											"posted_on": "2 days ago"
+									},
+									{
+											"link": "https://twitter.com/OpenAI/status/1897346510821711959?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+											"snippet": "Great day to be a Plus user.",
+											"posted_on": "2 days ago",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgEfA1RhnGGRMJzIFuMUglkqXRZtSCyhNJgoQZQ8JCNHO3X8Rh_X93vlS6a0ExxY_sxowucw&s=10"
+									},
+									{
+											"link": "https://twitter.com/OpenAI/status/1895353525817008447?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+											"snippet": "Sora has arrived in the EU and the UK.",
+											"posted_on": "Feb 28, 2025",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMpiEVraMFxx5oWSol4AVO5T-N4y3YaJW8GYLadh-k4i_6aEBOi1Q-gsi6JI44N07csaGGkw&s=10"
+									},
+									{
+											"link": "https://twitter.com/OpenAI/status/1895219591070261266?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+											"snippet": "Today we’re releasing a research preview of GPT-4.5—our largest and best model for chat yet.\\\\n\\\\nRolling out now to all ChatGPT Pro users, followed by Plus and Team users next week, then Enterprise and Edu users the following week.",
+											"posted_on": "Feb 27, 2025",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSESFAGRgA_Z9CqgHl0XNpbmXh3nYy2U7BtMqY1KS2HL5gXKFXA19Goj8Rxa6cVKjZc3bsgaQ&s=10"
+									},
+									{
+											"link": "https://twitter.com/OpenAI/status/1895201009871528282?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
+											"snippet": "GPT-4.5 has entered the Chat.\\\\n\\\\n[openai.com/live/](http://openai.com/live/)",
+											"posted_on": "Feb 27, 2025"
+									}
+							]
 					},
 					{
-						"type": "normal",
-						"position": 6,
-						"author": "Moor Insights & Strategy",
-						"title": "Apple & Microsoft Leave OpenAI Board - Episode 223 - Six Five Podcast",
-						"snippet": "Apple & Microsoft Leave OpenAI Board \\nhttps://www.washingtonpost.com/technology/2024/07/10/openai-board-microsoft-apple-withdraw/...",
-						"date": "19 hours ago",
-						"thumbnail": "https://img.youtube.com/vi/vFtTgwDb9-I/hqdefault.jpg",
-						"source": {
-							"name": "YouTube",
-							"creator": "Moor Insights & Strategy",
-							"link": "https://www.youtube.com/watch?v=vFtTgwDb9-I"
-						}
+							"type": "normal",
+							"position": 6,
+							"title": "Azure OpenAI Service",
+							"snippet": "_Azure OpenAI Service_ offers industry-leading coding and language AI models that you can fine-tune to your specific needs for a variety of use cases.",
+							"source": {
+									"title": "Azure OpenAI Service",
+									"name": "Microsoft Azure",
+									"display_link": "https://azure.microsoft.com › en-us › products › ai-services",
+									"link": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"
+							},
+							"snippet_highlighted_words": [
+									"Azure OpenAI Service"
+							]
 					},
 					{
-						"type": "normal",
-						"position": 7,
-						"author": "TWiT Tech Podcast Network",
-						"title": "Microsoft Ditches OpenAI Board Observer Role",
-						"snippet": "On Windows Weekly, Paul Thurrott talks with Richard Campbell about \\nMicrosoft leaving their observer seat on the OpenAI board.",
-						"date": "1 day ago",
-						"thumbnail": "https://img.youtube.com/vi/JS9bd91rSn8/hqdefault.jpg",
-						"source": {
-							"name": "YouTube",
-							"creator": "TWiT Tech Podcast Network",
-							"link": "https://www.youtube.com/watch?v=JS9bd91rSn8"
-						}
+							"type": "normal",
+							"position": 7,
+							"title": "OpenAI (@openai) • Instagram photos and videos",
+							"snippet": "OpenAI's mission is _to ensure artificial intelligence benefits all of humanity_. openai.com Follow Message",
+							"source": {
+									"title": "OpenAI (@openai) • Instagram photos and videos",
+									"name": "Instagram · openai",
+									"display_link": "2.1M+ followers",
+									"link": "https://www.instagram.com/openai/?hl=en"
+							},
+							"snippet_highlighted_words": [
+									"to ensure artificial intelligence benefits all of humanity"
+							]
 					},
 					{
-						"type": "normal",
-						"position": 8,
-						"author": "David Meyer",
-						"title": "It’s for the best that Microsoft and Apple won’t be observing OpenAI’s \\nboard meetings",
-						"snippet": "With antitrust regulators circling, it's best for OpenAI and its partners \\nnot to appear too cozy.",
-						"date": "2 days ago",
-						"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9027PQX-gSnUrskxFEB_vJStJ3qhe3PNGLWgHi32qH26VFWhPfKOGCVgT&usqp=CAI&s",
-						"source": {
-							"name": "Yahoo Finance",
-							"creator": "David Meyer",
-							"link": "https://finance.yahoo.com/news/best-microsoft-apple-won-t-152425875.html"
-						}
+							"type": "video",
+							"position": 8,
+							"title": "OpenAI Might Be In Big Trouble...",
+							"snippet": "... OpenAI's AGI Levels Explained 08:02 CEO Predictions on AGI Timeline 09:17 Andrew Ng's View on AGI Timelines 10:13 AGI Complexity Explained ...",
+							"duration": "18:35",
+							"thumbnail": "https://i.ytimg.com/vi/2YPa9ocXcNg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lmrhLoyGK8mnDebAQ9xvVXDcyRXg",
+							"source": {
+									"title": "OpenAI Might Be In Big Trouble...",
+									"name": "YouTube · TheAIGRID",
+									"display_link": "36.7K+ views  ·  19 hours ago",
+									"link": "https://www.youtube.com/watch?v=2YPa9ocXcNg"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 9,
+							"title": "What is OpenAI? Definition and History from TechTarget",
+							"snippet": "OpenAI is _a private research laboratory_ that aims to develop and direct artificial intelligence (AI) in ways that benefit humanity as a whole.",
+							"source": {
+									"title": "What is OpenAI? Definition and History from TechTarget",
+									"name": "TechTarget",
+									"display_link": "https://www.techtarget.com › searchenterpriseai › OpenAI",
+									"link": "https://www.techtarget.com/searchenterpriseai/definition/OpenAI"
+							},
+							"snippet_highlighted_words": [
+									"a private research laboratory"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 10,
+							"title": "OpenAI preparing to launch Software Developer agent ...",
+							"snippet": "_OpenAI_ preparing to launch Software Developer agent for $10.000/month · Comments Section.",
+							"source": {
+									"title": "OpenAI preparing to launch Software Developer agent ...",
+									"name": "Reddit · r/singularity",
+									"display_link": "510+ comments  ·  17 hours ago",
+									"link": "https://www.reddit.com/r/singularity/comments/1j55brk/openai_preparing_to_launch_software_developer/"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 11,
+							"title": "UK competition watchdog drops Microsoft-OpenAI probe",
+							"snippet": "The UK competition watchdog has ended its investigation into the partnership between Microsoft and the maker of ChatGPT, _OpenAI_.",
+							"source": {
+									"title": "UK competition watchdog drops Microsoft-OpenAI probe",
+									"name": "BBC",
+									"display_link": "https://www.bbc.com › news › articles",
+									"link": "https://www.bbc.com/news/articles/clyd87dxezvo"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 12,
+							"title": "Judge denies Elon Musk's request to block OpenAI for- ...",
+							"snippet": "_Elon Musk-led group proposes buying OpenAI for $97.4 billion_. OpenAI CEO says 'no thank you'. OpenAI said it welcomed the court's decision.",
+							"source": {
+									"title": "Judge denies Elon Musk's request to block OpenAI for- ...",
+									"name": "AP News",
+									"display_link": "https://apnews.com › article › elon-musk-openai-lawsuit...",
+									"link": "https://apnews.com/article/elon-musk-openai-lawsuit-f5724e7ab07b5bed8292a1e8aa2ef695"
+							},
+							"snippet_highlighted_words": [
+									"Elon Musk-led group proposes buying OpenAI for $97.4 billion"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 13,
+							"title": "Judge denies Musk's attempt to block OpenAI from ...",
+							"snippet": "A federal judge in California denied Elon Musk's effort to halt _OpenAI's_ transformation into a for-profit entity, according to a filing on ...",
+							"source": {
+									"title": "Judge denies Musk's attempt to block OpenAI from ...",
+									"name": "CNBC",
+									"display_link": "https://www.cnbc.com › 2025/03/04 › judge-denies-mu...",
+									"link": "https://www.cnbc.com/2025/03/04/judge-denies-musk-attempt-to-block-openai-from-becoming-for-profit-.html"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI's"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 14,
+							"title": "OpenAI on X: \"Rollout complete (Faster than expected)\" / X",
+							"snippet": "_Rollout complete_ ✓ (Faster than expected). Quote. Square profile picture · OpenAI · @OpenAI. ·. Mar 5. Great day to be a Plus user.",
+							"source": {
+									"title": "OpenAI on X: \"Rollout complete (Faster than expected)\" / X",
+									"name": "x.com",
+									"display_link": "https://x.com › OpenAI › status",
+									"link": "https://x.com/OpenAI/status/1897362939340083385"
+							},
+							"snippet_highlighted_words": [
+									"Rollout complete"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 15,
+							"title": "Judge Denies Musk's Request to Block OpenAI's For-Profit ...",
+							"snippet": "In November, Elon Musk asked a federal court to block _OpenAI's_ plan to transform itself from a nonprofit into a purely for-profit company.",
+							"source": {
+									"title": "Judge Denies Musk's Request to Block OpenAI's For-Profit ...",
+									"name": "The New York Times",
+									"display_link": "https://www.nytimes.com › 2025/03/05 › technology",
+									"link": "https://www.nytimes.com/2025/03/05/technology/elon-musk-openai-profit-lawsuit.html"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI's"
+							]
+					},
+					{
+							"type": "video",
+							"position": 16,
+							"title": "Introduction to GPT-4.5",
+							"snippet": "GPT 4.5 is our next step in scaling up unsupervised learning increasing word knowledge intuition and reducing hallucinations.",
+							"duration": "13:19",
+							"thumbnail": "https://i.ytimg.com/vi/cfRYp0nItZ8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lEDbOv59xJz41rHQ1yjjuKxe6wWg",
+							"source": {
+									"title": "Introduction to GPT-4.5",
+									"name": "YouTube · OpenAI",
+									"display_link": "488.6K+ views  ·  1 week ago",
+									"link": "https://www.youtube.com/watch?v=cfRYp0nItZ8"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 17,
+							"title": "Elon Musk loses immediate battle to halt OpenAI's for-profit ...",
+							"snippet": "Elon Musk lost a court bid asking a judge to _temporarily block OpenAI from turning into a for-profit business_, but he also scored a win: the ...",
+							"source": {
+									"title": "Elon Musk loses immediate battle to halt OpenAI's for-profit ...",
+									"name": "Yahoo Finance",
+									"display_link": "https://finance.yahoo.com › news › elon-musk-loses-im...",
+									"link": "https://finance.yahoo.com/news/elon-musk-loses-immediate-battle-to-halt-openais-for-profit-transformation-but-gets-ok-for-fast-trial-145745627.html"
+							},
+							"snippet_highlighted_words": [
+									"temporarily block OpenAI from turning into a for-profit business"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 18,
+							"title": "Judge denies Elon Musk's bid to stop OpenAI from ...",
+							"snippet": "A U.S. judge on Tuesday denied billionaire Elon Musk's request for a preliminary injunction to pause _OpenAI's_ transition to a for-profit ...",
+							"source": {
+									"title": "Judge denies Elon Musk's bid to stop OpenAI from ...",
+									"name": "CNN",
+									"display_link": "https://www.cnn.com › tech › elon-musk-open-ai-case",
+									"link": "https://www.cnn.com/2025/03/05/tech/elon-musk-open-ai-case/index.html"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI's"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 19,
+							"title": "OpenAI, Oracle to equip Texas data centre with Nvidia AI chips",
+							"snippet": "OpenAI and Oracle are _to equip their data centre in Abilene, Texas_, with Nvidia AI chips as part of their $100bn Stargate venture.",
+							"source": {
+									"title": "OpenAI, Oracle to equip Texas data centre with Nvidia AI chips",
+									"name": "verdict.co.uk",
+									"display_link": "https://www.verdict.co.uk › news › openai-oracle-to-eq...",
+									"link": "https://www.verdict.co.uk/news/openai-oracle-to-equip-texas-data-centre-with-nvidia-ai-chips-report/"
+							},
+							"snippet_highlighted_words": [
+									"to equip their data centre in Abilene, Texas"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 20,
+							"title": "Azure OpenAI Service documentation",
+							"snippet": "Azure _OpenAI_ Service provides access to _OpenAI's_ models including the GPT-4o, GPT-4o mini, GPT-4, GPT-4 Turbo with Vision, GPT-3.5-Turbo, DALLE-3 and Embeddings ...",
+							"source": {
+									"title": "Azure OpenAI Service documentation",
+									"name": "Learn Microsoft",
+									"display_link": "https://learn.microsoft.com › Learn › Azure › AI Services",
+									"link": "https://learn.microsoft.com/en-us/azure/ai-services/openai/"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI",
+									"OpenAI's"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 21,
+							"title": "Huh? Is OpenAI using a smaller model to describe images?",
+							"snippet": "Before 4o, _OpenAI_ had a dedicated vision language model for understanding/interpreting image inputs. It was much smaller than GPT-4.",
+							"source": {
+									"title": "Huh? Is OpenAI using a smaller model to describe images?",
+									"name": "Reddit · r/OpenAI",
+									"display_link": "20+ comments  ·  4 hours ago",
+									"link": "https://www.reddit.com/r/OpenAI/comments/1j5jeh2/huh_is_openai_using_a_smaller_model_to_describe/"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 22,
+							"title": "OpenAI Plots Charging $20000 a Month For PhD-Level ...",
+							"snippet": "_OpenAI_ executives have told some investors it planned to sell low-end agents at a cost of $2,000 per month to “high-income knowledge workers”; ...",
+							"source": {
+									"title": "OpenAI Plots Charging $20000 a Month For PhD-Level ...",
+									"name": "The Information",
+									"display_link": "https://www.theinformation.com › articles › openai-plot...",
+									"link": "https://www.theinformation.com/articles/openai-plots-charging-20-000-a-month-for-phd-level-agents"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 23,
+							"title": "ChatGPT on the App Store - Apple",
+							"snippet": "This official app is _free, syncs your history across devices_, and brings you the newest model improvements from OpenAI.",
+							"source": {
+									"title": "ChatGPT on the App Store - Apple",
+									"name": "Apple",
+									"display_link": "https://apps.apple.com › app › chatgpt",
+									"link": "https://apps.apple.com/us/app/chatgpt/id6448311069"
+							},
+							"snippet_highlighted_words": [
+									"free, syncs your history across devices"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 24,
+							"title": "OpenAI set to finalize first custom chip design this year",
+							"snippet": "After the initial chip, _OpenAI's_ engineers plan to develop increasingly advanced processors with broader capabilities with each new iteration.",
+							"source": {
+									"title": "OpenAI set to finalize first custom chip design this year",
+									"name": "Reuters",
+									"display_link": "https://www.reuters.com › technology › openai-set-final...",
+									"link": "https://www.reuters.com/technology/openai-set-finalize-first-custom-chip-design-this-year-2025-02-10/"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI's"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 25,
+							"title": "Oxford university announces OpenAI partnership",
+							"snippet": "The collaboration will see students and staff gain access to funding and \"cutting-edge\" AI tools.",
+							"source": {
+									"title": "Oxford university announces OpenAI partnership",
+									"name": "BBC",
+									"display_link": "https://www.bbc.com › news › articles",
+									"link": "https://www.bbc.com/news/articles/cx2eqk46dkeo"
+							},
+							"snippet_highlighted_words": []
+					},
+					{
+							"type": "normal",
+							"position": 26,
+							"title": "OpenAI preps $20K AI agents",
+							"snippet": "_OpenAI_ is readying new artificial intelligence agents that will be priced between $2,000 and $20,000 a month, accelerating its application ...",
+							"source": {
+									"title": "OpenAI preps $20K AI agents",
+									"name": "LinkedIn",
+									"display_link": "https://www.linkedin.com › news › story › openai-preps-...",
+									"link": "https://www.linkedin.com/news/story/openai-preps-20k-ai-agents-6346356/"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 27,
+							"title": "OpenAI and Oracle to deploy 64000 GB200 GPUs at ...",
+							"snippet": "OpenAI and Oracle are _expected to deploy 64,000 Nvidia GB200s_ at the Stargate data center in Abilene, Texas by the end of 2026.",
+							"source": {
+									"title": "OpenAI and Oracle to deploy 64000 GB200 GPUs at ...",
+									"name": "Data Center Dynamics",
+									"display_link": "https://www.datacenterdynamics.com › news › openai-a...",
+									"link": "https://www.datacenterdynamics.com/en/news/openai-and-oracle-to-deploy-64000-gb200-gpus-at-stargate-abilene-data-center-by-2026-report/"
+							},
+							"snippet_highlighted_words": [
+									"expected to deploy 64,000 Nvidia GB200s"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 28,
+							"title": "ChatGPT - Apps on Google Play",
+							"snippet": "With the official ChatGPT app, get _instant answers and inspiration wherever you are_. This app is free and brings you the newest model improvements from OpenAI.",
+							"source": {
+									"title": "ChatGPT - Apps on Google Play",
+									"name": "Google Play",
+									"display_link": "https://play.google.com › store › apps › details › id=com...",
+									"link": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en_US"
+							},
+							"snippet_highlighted_words": [
+									"instant answers and inspiration wherever you are"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 29,
+							"title": "OpenAI & University of Oxford",
+							"snippet": "The core mission of libraries to acquire preserve and share knowledge that hasn't changed in Millennia.",
+							"source": {
+									"title": "OpenAI & University of Oxford",
+									"name": "YouTube · OpenAI",
+									"display_link": "36.5K+ views  ·  2 days ago",
+									"link": "https://www.youtube.com/watch?v=HTRsy8ZcqoE"
+							},
+							"snippet_highlighted_words": []
+					},
+					{
+							"type": "normal",
+							"position": 30,
+							"title": "OpenAI in Talks for Huge Investment Round Valuing It at ...",
+							"snippet": "OpenAI is in early talks to _raise up to $40 billion in a funding round_ that would value the ChatGPT maker at as high as $300 billion, ...",
+							"source": {
+									"title": "OpenAI in Talks for Huge Investment Round Valuing It at ...",
+									"name": "WSJ",
+									"display_link": "https://www.wsj.com › ... › Artificial Intelligence",
+									"link": "https://www.wsj.com/tech/ai/openaiin-talks-for-huge-investment-round-valuing-it-up-to-300-billion-2a2d4327"
+							},
+							"snippet_highlighted_words": [
+									"raise up to $40 billion in a funding round"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 31,
+							"title": "OpenAI o3 and o3-mini—12 Days of OpenAI: Day 12",
+							"snippet": "Sam Altman, Mark Chen, Hongyu Ren, and special guest Greg Kamradt, President of ARC Prize Foundation, _introduce and discuss OpenAI o3_, ...",
+							"source": {
+									"title": "OpenAI o3 and o3-mini—12 Days of OpenAI: Day 12",
+									"name": "YouTube · OpenAI",
+									"display_link": "563.5K+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=SKBG1sqdyIU"
+							},
+							"snippet_highlighted_words": [
+									"introduce and discuss OpenAI o3"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 32,
+							"title": "Elon Musk Leads $97.4 Billion Bid to Control OpenAI",
+							"snippet": "A group of investors led by Elon Musk has _made a $97.4 billion bid to buy the assets of the nonprofit that controls OpenAI_, according to two ...",
+							"source": {
+									"title": "Elon Musk Leads $97.4 Billion Bid to Control OpenAI",
+									"name": "The New York Times",
+									"display_link": "https://www.nytimes.com › 2025/02/10 › technology",
+									"link": "https://www.nytimes.com/2025/02/10/technology/elon-musk-openai-bid.html"
+							},
+							"snippet_highlighted_words": [
+									"made a $97.4 billion bid to buy the assets of the nonprofit that controls OpenAI"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 33,
+							"title": "Elon Musk-led group makes $97 billion bid for control of ...",
+							"snippet": "Feb 10 (Reuters) - A consortium led by Elon Musk said on Monday it has offered $97.4 billion to buy the nonprofit that controls _OpenAI_, ...",
+							"source": {
+									"title": "Elon Musk-led group makes $97 billion bid for control of ...",
+									"name": "Reuters",
+									"display_link": "https://www.reuters.com › markets › deals › elon-musk-...",
+									"link": "https://www.reuters.com/markets/deals/elon-musk-led-group-makes-974-billion-bid-control-openai-wsj-reports-2025-02-10/"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 34,
+							"title": "OpenAI’s New AI Agents Will Cost $20000?!",
+							"snippet": "OpenAI's PhD-level AI agents might cost 20000 dollars, GPT-4.5 is here and it's all about vibes, Sesame's real-time AI voice model is insane ...",
+							"duration": "58:21",
+							"thumbnail": "https://i.ytimg.com/vi/M2h2ZuWFzls/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n351aPCupZqEpfk4XBBZcE_Jrtaw",
+							"source": {
+									"title": "OpenAI’s New AI Agents Will Cost $20000?!",
+									"name": "YouTube · AI For Humans",
+									"display_link": "5K+ views  ·  22 hours ago",
+									"link": "https://www.youtube.com/watch?v=M2h2ZuWFzls"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 35,
+							"title": "OpenAI",
+							"snippet": "OpenAI _kicked off an AI revolution with DALL-E and ChatGPT_, making the organization the epicenter of the artificial intelligence boom.",
+							"source": {
+									"title": "OpenAI",
+									"name": "The Verge",
+									"display_link": "https://www.theverge.com › openai",
+									"link": "https://www.theverge.com/openai"
+							},
+							"snippet_highlighted_words": [
+									"kicked off an AI revolution with DALL-E and ChatGPT"
+							]
+					},
+					{
+							"type": "normal",
+							"position": 36,
+							"title": "OpenAI launches Operator, an AI agent that performs tasks ...",
+							"snippet": "Operator promises to _automate tasks_ such as booking travel accommodations, making restaurant reservations, and shopping online, according to ...",
+							"source": {
+									"title": "OpenAI launches Operator, an AI agent that performs tasks ...",
+									"name": "TechCrunch",
+									"display_link": "https://techcrunch.com › 2025/01/23 › openai-launches...",
+									"link": "https://techcrunch.com/2025/01/23/openai-launches-operator-an-ai-agent-that-performs-tasks-autonomously/"
+							},
+							"snippet_highlighted_words": [
+									"automate tasks"
+							]
+					},
+					{
+							"type": "video",
+							"position": 37,
+							"title": "OpenAI's $20,000 AI Agents are INSANE 🤯",
+							"snippet": "OpenAI's $20,000 AI Agents are INSANE. 2.3K views · 19 hours ago ... OpenAI Might Be In Big Trouble... TheAIGRID New 33K views · 7:00 · Go ...",
+							"duration": "0:35",
+							"thumbnail": "https://i.ytimg.com/vi/22i3qFbafw8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nEFv3WZO-Bv3Ng5wL35jyEMVmTaw",
+							"source": {
+									"title": "OpenAI's $20,000 AI Agents are INSANE 🤯",
+									"name": "YouTube · Julian Goldie SEO",
+									"display_link": "2.4K+ views  ·  1 day ago",
+									"link": "https://www.youtube.com/watch?v=22i3qFbafw8"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 38,
+							"title": "OpenAI's \"Plot\" to REPLACE Coders, PHDs etc for $20000 ...",
+							"snippet": "... Information Story: https://www.theinformation.com/articles/_openai_\\-plots-charging-20-000-a-month-for-phd-level-agents #ai #_openai_ #llm.",
+							"source": {
+									"title": "OpenAI's \"Plot\" to REPLACE Coders, PHDs etc for $20000 ...",
+									"name": "YouTube · Wes Roth",
+									"display_link": "64.2K+ views  ·  1 day ago",
+									"link": "https://www.youtube.com/watch?v=HDEpjTvO5PQ&vl=en"
+							},
+							"snippet_highlighted_words": [
+									"openai",
+									"openai"
+							]
+					},
+					{
+							"type": "video",
+							"position": 39,
+							"title": "10 Signs You’ll Work At OpenAI One Day",
+							"snippet": "LLM Liftoff: https://bit.ly/4bsCLI9 0:00 The Interview 1:03 You see the gaps in AI, not just the hype 1:33 You pay attention to data 2:03 ...",
+							"duration": "5:48",
+							"thumbnail": "https://i.ytimg.com/vi/1FtNuFdeocc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3me8mzIPjcAnNAUA6IRa5tpe9Xxrw",
+							"source": {
+									"title": "10 Signs You’ll Work At OpenAI One Day",
+									"name": "YouTube · Dev G",
+									"display_link": "1.7K+ views  ·  1 day ago",
+									"link": "https://www.youtube.com/watch?v=1FtNuFdeocc"
+							}
+					},
+					{
+							"type": "video",
+							"position": 40,
+							"title": "$20,000 Ai Agents - OpenAI Just Exposed The Biggest Ai Side ...",
+							"snippet": "plan to replace tons of jobs Coders, phd's etc and more with super expensive ai agents... but this EXPOSES the biggest side hustle ever. get ...",
+							"duration": "22:56",
+							"thumbnail": "https://i.ytimg.com/vi/yCQx5SO9yDk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kqqSatqAmKzMtUAJWmBXTr0QOEJw",
+							"source": {
+									"title": "$20,000 Ai Agents - OpenAI Just Exposed The Biggest Ai Side ...",
+									"name": "YouTube · affiliatemarketingmc",
+									"display_link": "4.9K+ views  ·  20 hours ago",
+									"link": "https://www.youtube.com/watch?v=yCQx5SO9yDk"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 41,
+							"title": "'OpenAI is not for sale' says CEO",
+							"snippet": "_OpenAI_ Ceo Sam Altman has said the company is 'not for sale' and they are 'open to work with China' after a group led by Elon Musk made a ...",
+							"source": {
+									"title": "'OpenAI is not for sale' says CEO",
+									"name": "YouTube · Sky News",
+									"display_link": "9.2K+ views  ·  3 weeks ago",
+									"link": "https://www.youtube.com/watch?v=4mwglWPvVgE"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 42,
+							"title": "OpenAI’s Deep Research Updates: What’s new and how to ...",
+							"snippet": "... OpenAI's Deep Research. (Including some of the new bells and ... OpenAI's Deep Research Updates: What's new and how to make it work for ...",
+							"duration": "1:08:57",
+							"thumbnail": "https://i.ytimg.com/vi/4AZYcIiR0cM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mEnEFVuSwDh_ao4ur15h8Txp_5tw",
+							"source": {
+									"title": "OpenAI’s Deep Research Updates: What’s new and how to ...",
+									"name": "YouTube · Everyday AI",
+									"display_link": "840+ views  ·  1 week ago",
+									"link": "https://www.youtube.com/watch?v=4AZYcIiR0cM"
+							}
+					},
+					{
+							"type": "video",
+							"position": 43,
+							"title": "Decoded | OpenAI's Secret Strategy to Rule The World",
+							"snippet": "... OpenAI's behind-the-scenes tactics, exploring how their technologies ... OpenAI at the center of tomorrow's world. Don't miss out on ...",
+							"duration": "10:28",
+							"thumbnail": "https://i.ytimg.com/vi/FkHuhyJM8K8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kVr5lv69olFFeFoO5LWNikEwK_ww",
+							"source": {
+									"title": "Decoded | OpenAI's Secret Strategy to Rule The World",
+									"name": "YouTube · Exhibit Magazine",
+									"display_link": "30+ views  ·  1 week ago",
+									"link": "https://www.youtube.com/watch?v=FkHuhyJM8K8"
+							}
+					},
+					{
+							"type": "video",
+							"position": 44,
+							"title": "OpenAI Just Went FREE – Here’s What You Need to Know! 🚀",
+							"snippet": "BREAKING: OpenAI had NO choice but to make its AI free! Here's why: ✓ DeepSeek just dropped an open-source AI model with insane reasoning ...",
+							"duration": "0:36",
+							"thumbnail": "https://i.ytimg.com/vi/tvbH9VsXqXs/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nbdhsLTnDAHPauGKmmiqtSunesPA",
+							"source": {
+									"title": "OpenAI Just Went FREE – Here’s What You Need to Know! 🚀",
+									"name": "YouTube · Adam Gillespie - AI & CRM Training for Realtors",
+									"display_link": "1 week ago",
+									"link": "https://www.youtube.com/watch?v=tvbH9VsXqXs"
+							}
+					},
+					{
+							"type": "video",
+							"position": 45,
+							"title": "OpenAI Just Told Us All About GPT-5",
+							"snippet": "OpenAI has laid out its roadmap for GPT-5, confirming the release of GPT-4.5 (Orion) as the final model before a shift to reasoning-based AI ...",
+							"duration": "9:19",
+							"thumbnail": "https://i.ytimg.com/vi/37NCP9arYeE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3ncJ_r0LrWggQCIAmvEJkFP0k1kLQ",
+							"source": {
+									"title": "OpenAI Just Told Us All About GPT-5",
+									"name": "YouTube · The AI Daily Brief: Artificial Intelligence News",
+									"display_link": "4.6K+ views  ·  3 weeks ago",
+									"link": "https://www.youtube.com/watch?v=37NCP9arYeE"
+							}
+					},
+					{
+							"type": "video",
+							"position": 46,
+							"title": "OpenAI just did something impossible... by breaking all the rules",
+							"snippet": "How OpenAI broke every rule in AI and achieved the impossible. Understanding this breakthrough changes everything we know about artificial ...",
+							"duration": "1:59",
+							"thumbnail": "https://i.ytimg.com/vi/O3iULbZc8Is/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lwDFVdEmoghEF_gYo7aGY5E2xo-Q",
+							"source": {
+									"title": "OpenAI just did something impossible... by breaking all the rules",
+									"name": "YouTube · The Singularity Labs",
+									"display_link": "40+ views  ·  1 month ago",
+									"link": "https://www.youtube.com/watch?v=O3iULbZc8Is"
+							}
+					},
+					{
+							"type": "video",
+							"position": 47,
+							"title": "AI Weekly: OpenAI's revamp and a pivotal year ahead ...",
+							"snippet": "From OpenAI's high-profile restructuring to students in Germany getting a lesson on artificial intelligence from an AI-operated humanoid ...",
+							"duration": "2:17",
+							"thumbnail": "https://i.ytimg.com/vi/0CGumaQK9pw/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lTnWGA-Gs_BkJDfuLoKlEUnOYWVg",
+							"source": {
+									"title": "AI Weekly: OpenAI's revamp and a pivotal year ahead ...",
+									"name": "YouTube · Reuters",
+									"display_link": "720+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=0CGumaQK9pw"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 48,
+							"title": "OpenAI Shares Its Latest Advancements in Artificial ...",
+							"snippet": "Learn how the cutting-edge technology is enhancing creativity, productivity and expanding the possibilities of innovation.",
+							"source": {
+									"title": "OpenAI Shares Its Latest Advancements in Artificial ...",
+									"name": "YouTube · Fortune Magazine",
+									"display_link": "510+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=8AN5w-W7AnM"
+							},
+							"snippet_highlighted_words": []
+					},
+					{
+							"type": "video",
+							"position": 49,
+							"title": "Catching Up With AI News + Trying Out New OpenAI Features",
+							"snippet": "I also look into the newest releases from OpenAI such as file uploading becoming available on the Desktop app ... Catching Up With AI News + ...",
+							"duration": "2:11:09",
+							"thumbnail": "https://i.ytimg.com/vi/s0OMRm3obY8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kR6a3HMr8a5d4DcxeP3WALF9UDJA",
+							"source": {
+									"title": "Catching Up With AI News + Trying Out New OpenAI Features",
+									"name": "YouTube · Kyle Kabasares",
+									"display_link": "1.8K+ views  ·  3 weeks ago",
+									"link": "https://www.youtube.com/watch?v=s0OMRm3obY8"
+							}
+					},
+					{
+							"type": "video",
+							"position": 50,
+							"title": "OpenAI's latest ChatGPT is a BOMB!",
+							"snippet": "... OpenAI is burning through cash faster than a Silicon Valley ... OpenAI just dropped their biggest model ever - GPT-4.5 Orion - and ...",
+							"duration": "13:25",
+							"thumbnail": "https://i.ytimg.com/vi/nZwh9hl3IPg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kc1nsVngVqLXodgQcPzLCQ-BUh1w",
+							"source": {
+									"title": "OpenAI's latest ChatGPT is a BOMB!",
+									"name": "YouTube · STARTUP HAKK",
+									"display_link": "2 days ago",
+									"link": "https://www.youtube.com/watch?v=nZwh9hl3IPg"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 51,
+							"title": "What Is OpenAI? - Talking Tech Trends",
+							"snippet": "In this informative video, we'll take a closer look at _OpenAI_ and its significant role in the field of artificial intelligence. _OpenAI_ is a ...",
+							"source": {
+									"title": "What Is OpenAI? - Talking Tech Trends",
+									"name": "YouTube · TalkingTechTrends",
+									"display_link": "9 views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=TdP7QrF3cas"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI",
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 52,
+							"title": "Today At 12PM PST: OpenAI's Financials, AI Chatbots Go ...",
+							"snippet": "For today's Bonus episode, we will talk about OpenAI's Financials, AI Chatbots Go Mainstream, China's AI industry, and more!",
+							"duration": "2:41",
+							"thumbnail": "https://i.ytimg.com/vi/EI4Cs_f_FRo/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3l0W2JGgFDwI6BtQtAWqjKR7e_6Qw",
+							"source": {
+									"title": "Today At 12PM PST: OpenAI's Financials, AI Chatbots Go ...",
+									"name": "YouTube · SVIC Podcast",
+									"display_link": "170+ views  ·  7 months ago",
+									"link": "https://www.youtube.com/watch?v=EI4Cs_f_FRo"
+							}
+					},
+					{
+							"type": "video",
+							"position": 53,
+							"title": "OpenAI's new Model and 200$ Subscription!",
+							"snippet": "MattVidPro AI New 24K views · 14:56. Go to channel · OpenAI o1 and o1 pro mode in ChatGPT — 12 Days of OpenAI: Day 1. OpenAI New 266K views · 14 ...",
+							"duration": "0:31",
+							"thumbnail": "https://i.ytimg.com/vi/KpHxw-hYKQk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3m8IYeyOn3K_i4XSSpKdHqd0Wzy8w",
+							"source": {
+									"title": "OpenAI's new Model and 200$ Subscription!",
+									"name": "YouTube · 100x Engineers",
+									"display_link": "10.6K+ views  ·  3 months ago",
+									"link": "https://www.youtube.com/watch?v=KpHxw-hYKQk"
+							}
+					},
+					{
+							"type": "video",
+							"position": 54,
+							"title": "OpenAI Hits 400 Million Weekly Active Users – What It Means ...",
+							"snippet": "Discover the groundbreaking moment in the tech industry as OpenAI's weekly active users soar past 400 million. In this video, we'll explore ...",
+							"duration": "9:10",
+							"thumbnail": "https://i.ytimg.com/vi/VkvwpTop08Q/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n0Tznm7nNNbUCZYCTN6Yev0kUtOw",
+							"source": {
+									"title": "OpenAI Hits 400 Million Weekly Active Users – What It Means ...",
+									"name": "YouTube · The Singularity Labs",
+									"display_link": "1 week ago",
+									"link": "https://www.youtube.com/watch?v=VkvwpTop08Q"
+							}
+					},
+					{
+							"type": "video",
+							"position": 55,
+							"title": "Introduction to OpenAI | Basic to Advance | Generative AI Series",
+							"snippet": "... OpenAI's diverse model offerings. This well-structured and easy ... OpenAI API key to experimenting with powerful models like GPT ...",
+							"duration": "9:08",
+							"thumbnail": "https://i.ytimg.com/vi/CDKe0SbFS4o/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n3WjHGOa7ZCUmQXOYhNI61X3YOKA",
+							"source": {
+									"title": "Introduction to OpenAI | Basic to Advance | Generative AI Series",
+									"name": "YouTube · Code Commander",
+									"display_link": "210+ views  ·  5 months ago",
+									"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o"
+							},
+							"key_moments": [
+									{
+											"title": "Overview",
+											"time": "00:00",
+											"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o&t=0",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRapvnPv3eBmoZcs2LAJvTK6eQ1-Rp67iwkuw59U7q2ag&s"
+									},
+									{
+											"title": "OpenAI Platform Features",
+											"time": "01:12",
+											"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o&t=72",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW7eLERQJuIZBGAe5vlMcBNBlS6R0ZCvmKwRX551eQ7g&s"
+									},
+									{
+											"title": "Using OpenAI Playground",
+											"time": "01:55",
+											"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o&t=115",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSXPXMDORHYRdX9nMtsv585MRmY6zBPQPu_XoxfsP_uw&s"
+									},
+									{
+											"title": "Accessing OpenAI API",
+											"time": "05:15",
+											"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o&t=315",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLWBoUMaeMmIKvCIz7_bQxmOwcoCR48oPItMyvZjbkSA&s"
+									},
+									{
+											"title": "OpenAI Documentation Guide",
+											"time": "06:23",
+											"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o&t=383",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlE9ebAsoR75uB-VWmt9agYtO3Mnvg6GM6dhBkrAs9sQ&s"
+									},
+									{
+											"title": "OpenAI API Reference Explained",
+											"time": "08:11",
+											"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o&t=491",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQo5jkzL3rbSuF5pAGPKp3QS4qBJkERQa9Vl-bP6Hj5Vg&s"
+									},
+									{
+											"title": "End",
+											"time": "09:04",
+											"link": "https://www.youtube.com/watch?v=CDKe0SbFS4o&t=544",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhVYmpBtOPv7GgLFGqZv4cu0Rmy93NlZAn0qXUBd4bAQ&s"
+									}
+							]
+					},
+					{
+							"type": "video",
+							"position": 56,
+							"title": "OpenAI Unveils ChatGPT Search, Boosting AI's Role in Real ...",
+							"snippet": "OpenAI's new \"ChatGPT Search\" feature, launched for paid users on mobile and web, allows real-time information access with source ...",
+							"duration": "45:41",
+							"thumbnail": "https://i.ytimg.com/vi/wtfLJEnbTCM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k3qRy2dbqupX1swBRJx18qPqwWmA",
+							"source": {
+									"title": "OpenAI Unveils ChatGPT Search, Boosting AI's Role in Real ...",
+									"name": "YouTube · Geek News Central / New Media Show",
+									"display_link": "50+ views  ·  4 months ago",
+									"link": "https://www.youtube.com/watch?v=wtfLJEnbTCM"
+							}
+					},
+					{
+							"type": "video",
+							"position": 57,
+							"title": "OpenAI’s biggest challenge? 💪",
+							"snippet": "... OpenAI #ChatGPT #SamAltman. ... OpenAI's biggest challenge?. 13K views · 3 months ago #SamAltman #AI #CEO ...more. 20VC with Harry ...",
+							"duration": "0:26",
+							"thumbnail": "https://i.ytimg.com/vi/Kbaynz_LzIM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k49P7NgPnlHi0sZzddQNMTXnfSiw",
+							"source": {
+									"title": "OpenAI’s biggest challenge? 💪",
+									"name": "YouTube · 20VC with Harry Stebbings",
+									"display_link": "13.5K+ views  ·  4 months ago",
+									"link": "https://www.youtube.com/watch?v=Kbaynz_LzIM"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 58,
+							"title": "OpenAI's Insane Updates!",
+							"snippet": "The AI landscape is on fire with exciting updates! From integrations with Apple to the launch of Sora and ChatGPT, Canva, the advancements ...",
+							"source": {
+									"title": "OpenAI's Insane Updates!",
+									"name": "YouTube · Raj Goodman",
+									"display_link": "190+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=5SMu0pf07Cs"
+							},
+							"snippet_highlighted_words": []
+					},
+					{
+							"type": "video",
+							"position": 59,
+							"title": "OpenAI Stunned: Ex-Employee Launches Better ChatGPT",
+							"snippet": "OpenAI's ChatGPT has been undeniably revolutionary, changing the game in natural language processing. This AI wonder can do what chatbots ...",
+							"duration": "9:41",
+							"thumbnail": "https://i.ytimg.com/vi/f6-DtOTnasw/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3meOigBfiL5ykNMNw4M2m1qEbZtMA",
+							"source": {
+									"title": "OpenAI Stunned: Ex-Employee Launches Better ChatGPT",
+									"name": "YouTube · TechtonicShift",
+									"display_link": "2.8K+ views  ·  1 year ago",
+									"link": "https://www.youtube.com/watch?v=f6-DtOTnasw"
+							}
+					},
+					{
+							"type": "video",
+							"position": 60,
+							"title": "HOW OpenAI Quietly Releases a Better ChatGPT Version",
+							"snippet": "OpenAI #chatgpt #openai #aiupdates #artificialintelligence #technews #aienhancements #conversationalai #techupdates OpenAI has just released ...",
+							"duration": "8:56",
+							"thumbnail": "https://i.ytimg.com/vi/eX-8RQsZVwY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n9QlA-JCc6_m1a5JB6XjTSs-okxQ",
+							"source": {
+									"title": "HOW OpenAI Quietly Releases a Better ChatGPT Version",
+									"name": "YouTube · AITech3000",
+									"display_link": "9 views  ·  6 months ago",
+									"link": "https://www.youtube.com/watch?v=eX-8RQsZVwY"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 61,
+							"title": "OpenAI Just Shocked The World With OPERATOR",
+							"snippet": "AI #Operator #_OpenAI_ Discover how _OpenAI's_ latest innovation, OPERATOR, is set to revolutionize our relationship with artificial ...",
+							"source": {
+									"title": "OpenAI Just Shocked The World With OPERATOR",
+									"name": "YouTube · FarmHouse Of IT",
+									"display_link": "100+ views  ·  1 month ago",
+									"link": "https://www.youtube.com/watch?v=o6413cDicDk"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI",
+									"OpenAI's"
+							]
+					},
+					{
+							"type": "video",
+							"position": 62,
+							"title": "OpenAI closes the door on bogus content [EP385] | The AI Guide",
+							"snippet": "Hey AI Team! In today's video, we're diving deep into a groundbreaking NPR story about OpenAI and Meta's latest efforts to tackle the ...",
+							"duration": "7:32",
+							"thumbnail": "https://i.ytimg.com/vi/nqM4RDdg9yc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3n0no2nmSamyy3jp1rxmNbNgukZgQ",
+							"source": {
+									"title": "OpenAI closes the door on bogus content [EP385] | The AI Guide",
+									"name": "YouTube · The AI Guide",
+									"display_link": "50+ views  ·  9 months ago",
+									"link": "https://www.youtube.com/watch?v=nqM4RDdg9yc"
+							}
+					},
+					{
+							"type": "video",
+							"position": 63,
+							"title": "The Power of Open AI: Exploring the Future of Technology",
+							"snippet": "Discover how open AI and AI technology are reshaping the world. From teaching customers to potential risks, dive into the possibilities and ...",
+							"duration": "0:57",
+							"thumbnail": "https://i.ytimg.com/vi/ciXNieA4-MY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mIZqmw6-m0A0PYB3APfi-Vt_5fnw",
+							"source": {
+									"title": "The Power of Open AI: Exploring the Future of Technology",
+									"name": "YouTube · The Daily AI Show",
+									"display_link": "30+ views  ·  11 months ago",
+									"link": "https://www.youtube.com/watch?v=ciXNieA4-MY"
+							}
+					},
+					{
+							"type": "video",
+							"position": 64,
+							"title": "After OpenAI Dev Day: The Real Secret to AI | One Line That ...",
+							"snippet": "After OpenAI Dev Day: The Real Secret to AI | One Line That Beats Any Tool (Part 2). 85 views · 2 weeks ago ...more. Amplify Ai. 305.",
+							"duration": "11:46",
+							"thumbnail": "https://i.ytimg.com/vi/CCXi9GMEgkI/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lpQcxyOTcEmxePtDBY8KC8uFgJTw",
+							"source": {
+									"title": "After OpenAI Dev Day: The Real Secret to AI | One Line That ...",
+									"name": "YouTube · Amplify Ai",
+									"display_link": "80+ views  ·  1 month ago",
+									"link": "https://www.youtube.com/watch?v=CCXi9GMEgkI"
+							},
+							"key_moments": [
+									{
+											"title": "Why most prompts fail (and the simple fix)",
+											"time": "00:00",
+											"link": "https://www.youtube.com/watch?v=CCXi9GMEgkI&t=0",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwrOOlGDhLr8Z9dSl_qB_LEsYw_iN3SCrRNcd2VvXPmQ&s"
+									},
+									{
+											"title": "The game-changing line that transforms any prompt",
+											"time": "00:51",
+											"link": "https://www.youtube.com/watch?v=CCXi9GMEgkI&t=51",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7x6FYHq8c3wKO6h5bvkVwX-ZZvf5QE59vfDZsqBb64w&s"
+									},
+									{
+											"title": "Watch generic prompts become powerful in real-time",
+											"time": "02:32",
+											"link": "https://www.youtube.com/watch?v=CCXi9GMEgkI&t=152",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzX_MoGFoZwrlGOtmDX8qLrlargQpEMNe_WZOTeYN5qg&s"
+									},
+									{
+											"title": "From vague goals to detailed action plans",
+											"time": "04:49",
+											"link": "https://www.youtube.com/watch?v=CCXi9GMEgkI&t=289",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR30UW6g7lONuyrwq1LAoi5uPHnjjlSHvuINNvgb50QNA&s"
+									},
+									{
+											"title": "Making AI understand YOUR specific needs",
+											"time": "07:05",
+											"link": "https://www.youtube.com/watch?v=CCXi9GMEgkI&t=425",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXQDMvBFdWSVXt9wsSY-hr8xMzIm_SHNFJhzdBgXeFpg&s"
+									}
+							]
+					},
+					{
+							"type": "video",
+							"position": 65,
+							"title": "How open is OpenAI? + AI Secrets to Boost Your Business ...",
+							"snippet": "Hey! This is Ep#87 of Amplify Ai - Integrating Intelligence, Preserving Identity Hey everyone! Ronsley here, and I'm excited to bring you ...",
+							"duration": "17:14",
+							"thumbnail": "https://i.ytimg.com/vi/_gHtobjkh28/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kIWnGJSWein_xLUjfiIY3O9uR73g",
+							"source": {
+									"title": "How open is OpenAI? + AI Secrets to Boost Your Business ...",
+									"name": "YouTube · Amplify Ai",
+									"display_link": "30+ views  ·  9 months ago",
+									"link": "https://www.youtube.com/watch?v=_gHtobjkh28"
+							}
+					},
+					{
+							"type": "video",
+							"position": 66,
+							"title": "When OpenAI's ChatGPT o1 Started THINKING For Itself 😱",
+							"snippet": "ai #chatgpt #ainews #openai #chatgpto1 #artificialintelligence #aitakeover In this explosive video, we dive deep into the recent OpenAI ...",
+							"duration": "6:50",
+							"thumbnail": "https://i.ytimg.com/vi/6ERY28NVxfA/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nTxiffb5Nd-bGHCkoVLwQo5l1CYA",
+							"source": {
+									"title": "When OpenAI's ChatGPT o1 Started THINKING For Itself 😱",
+									"name": "YouTube · DexNotDexter",
+									"display_link": "1.2K+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=6ERY28NVxfA"
+							}
+					},
+					{
+							"type": "video",
+							"position": 67,
+							"title": "OpenAI Reveals Shocking News on GPT-5 | Walk Of Wisdom",
+							"snippet": "OpenAI has just dropped an exciting new statement on GPT-5, and it's leaving everyone in the tech world talking! In this video, we dive deep ...",
+							"duration": "6:32",
+							"thumbnail": "https://i.ytimg.com/vi/dot7ju6gFhs/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nVlT7YWKYZyjeo12enOAnXvazW6g",
+							"source": {
+									"title": "OpenAI Reveals Shocking News on GPT-5 | Walk Of Wisdom",
+									"name": "YouTube · Cosmic Den",
+									"display_link": "10.4K+ views  ·  4 months ago",
+									"link": "https://www.youtube.com/watch?v=dot7ju6gFhs"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 68,
+							"title": "OpenAI CEO Sparks Open Source AI Debate",
+							"snippet": "_OpenAI_ CEO Sam Altman sparks a major debate in the tech world, questioning the company's next open source AI project.",
+							"source": {
+									"title": "OpenAI CEO Sparks Open Source AI Debate",
+									"name": "YouTube · Tech Newsday",
+									"display_link": "2 weeks ago",
+									"link": "https://www.youtube.com/watch?v=3MBMJcGyL_M"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 69,
+							"title": "Unveiling OpenAI's AI Benchmark Secrets: The Truth Revealed",
+							"snippet": "We dive deep into OpenAI's benchmark data and explore how their models achieve high scores. With insights from Sam Altman, ...",
+							"duration": "0:39",
+							"thumbnail": "https://i.ytimg.com/vi/e42veSqCV9c/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nlbEjhkzvZRlDm1YJIF26W0GpZxg",
+							"source": {
+									"title": "Unveiling OpenAI's AI Benchmark Secrets: The Truth Revealed",
+									"name": "YouTube · STARTUP HAKK",
+									"display_link": "400+ views  ·  3 weeks ago",
+									"link": "https://www.youtube.com/watch?v=e42veSqCV9c"
+							}
+					},
+					{
+							"type": "video",
+							"position": 70,
+							"title": "OpenAI Surpasses $1 Billion in Annual Revenue, Exceeding ...",
+							"snippet": "For more information go to https://www.youtube.com/watch?v=THMYJ5oAdzQ OpenAI's meteoric rise in revenue, reaching over $1 billion annually, ...",
+							"duration": "0:21",
+							"thumbnail": "https://i.ytimg.com/vi/LUcelF_0ZA8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nIk6_Q12RXsZva5IgzBwOxrDiS_g",
+							"source": {
+									"title": "OpenAI Surpasses $1 Billion in Annual Revenue, Exceeding ...",
+									"name": "YouTube · MetaNews",
+									"display_link": "30+ views  ·  1 year ago",
+									"link": "https://www.youtube.com/watch?v=LUcelF_0ZA8"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 71,
+							"title": "We Unveil What's Behind OpenAI's Incredible Mission!",
+							"snippet": "In this video, we unveil what's behind _OpenAI's_ incredible mission: to build AI that can achieve human-like intelligence.",
+							"source": {
+									"title": "We Unveil What's Behind OpenAI's Incredible Mission!",
+									"name": "YouTube · GPT5",
+									"display_link": "20+ views  ·  1 year ago",
+									"link": "https://www.youtube.com/watch?v=G1GCjRor96I"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI's"
+							]
+					},
+					{
+							"type": "video",
+							"position": 72,
+							"title": "Open AI on SALE? A $97.4 Billion Move | The Education ...",
+							"snippet": "Elon Musk has made a $97.4 billion bid to buy OpenAI, claiming it has strayed from its original mission. But why is Musk so determined to ...",
+							"duration": "6:38",
+							"thumbnail": "https://i.ytimg.com/vi/0xmU9u9x2TY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k-UEiBhu3fsAZTvivpoZ_HkNhJ_A",
+							"source": {
+									"title": "Open AI on SALE? A $97.4 Billion Move | The Education ...",
+									"name": "YouTube · The Education Magazine",
+									"display_link": "90+ views  ·  3 weeks ago",
+									"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY"
+							},
+							"key_moments": [
+									{
+											"title": "Introduction",
+											"time": "00:01",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=1",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4vIXb6p659lHp0xawdbRX09eSrGz0g-7myTTXhVT_Zg&s"
+									},
+									{
+											"title": "ORIGIN– The Dream Team That Fell Apart",
+											"time": "01:06",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=66",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmNMWaBzlktpNX-UY9HPMTbuqr1MrKUKOoIb5IyGDMtA&s"
+									},
+									{
+											"title": "BETRAYAL – How OpenAI Went Corporate?",
+											"time": "02:29",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=149",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlBqGP3QMpUcP06PlcgSM_QmGXsIU9xXb91G_NUpNcZg&s"
+									},
+									{
+											"title": "RISE – The AI Arms Race Begins",
+											"time": "03:03",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=183",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5KDqFwwCcnwwUXfXzHRprkuGQKcv-AskJg93st-duqw&s"
+									},
+									{
+											"title": "CONTROL – Musk’s $97.4 Billion Move",
+											"time": "04:14",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=254",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSveXupWT7_jH5tY6xFU7qIkoJQf2kZAOXA5NJIkN31qg&s"
+									},
+									{
+											"title": "WAR – OpenAI vs. Musk",
+											"time": "04:44",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=284",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4EsQiui91pirLpSX2coXmaXsg4tFHaRrRLKzEcAyFwg&s"
+									},
+									{
+											"title": "Power, AI, and the Future of Business",
+											"time": "05:36",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=336",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjhHOJxTOdgz9ayiC2hSnjtUMdiqs9jjibxFMYiUTpVA&s"
+									},
+									{
+											"title": "Final Thoughts – Your Take?",
+											"time": "05:59",
+											"link": "https://www.youtube.com/watch?v=0xmU9u9x2TY&t=359",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAEvMGN6eP-C9FRm_0AYm_aTECB4EqcIScokLZxitxBQ&s"
+									}
+							]
+					},
+					{
+							"type": "video",
+							"position": 73,
+							"title": "OpenAI's New Feature Prevents AI Misuse",
+							"snippet": "OpenAI Introduces Advanced Safety Feature to Protect AI Models OpenAI has unveiled a groundbreaking safety feature called \"instruction ...",
+							"duration": "0:51",
+							"thumbnail": "https://i.ytimg.com/vi/CWgoTuGpxhU/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3m2j0v2ifHSteimmtCVUhRfI3Ay0A",
+							"source": {
+									"title": "OpenAI's New Feature Prevents AI Misuse",
+									"name": "YouTube · The Best AI",
+									"display_link": "70+ views  ·  7 months ago",
+									"link": "https://www.youtube.com/watch?v=CWgoTuGpxhU"
+							}
+					},
+					{
+							"type": "video",
+							"position": 74,
+							"title": "Everything OPENAI just Released (game changing)",
+							"snippet": "Everything OPENAI just Released this video is exactly what you are looking for. by the end of the video you will know everything you were ...",
+							"duration": "6:22",
+							"thumbnail": "https://i.ytimg.com/vi/suShajqTepg/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nQXUqVRStw9t-EdxHcMMc-KVpZXw",
+							"source": {
+									"title": "Everything OPENAI just Released (game changing)",
+									"name": "YouTube · Moon Dev",
+									"display_link": "630+ views  ·  1 year ago",
+									"link": "https://www.youtube.com/watch?v=suShajqTepg"
+							}
+					},
+					{
+							"type": "video",
+							"position": 75,
+							"title": "Open AI's Surprising New Announcements at Dev Day!!",
+							"snippet": "In this conversation, Conor and Jaeden discuss the recent OpenAI Dev Day, highlighting the advancements in AI technology, ...",
+							"duration": "16:27",
+							"thumbnail": "https://i.ytimg.com/vi/GlkqxyK-9eM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kpCYdqGoeAHQcQYqscvB7_w5CkAw",
+							"source": {
+									"title": "Open AI's Surprising New Announcements at Dev Day!!",
+									"name": "YouTube · AI Applied (Audio)",
+									"display_link": "30+ views  ·  4 months ago",
+									"link": "https://www.youtube.com/watch?v=GlkqxyK-9eM"
+							}
+					},
+					{
+							"type": "video",
+							"position": 76,
+							"title": "OpenAI Quietly Released a Better ChatGPT Version ...",
+							"snippet": "OpenAI's Finally Give GPT 5 A Body Figure 02 Breakthrough My Buy Me a Coffee ☕ ▶️https://www.buymeacoffee.com/AIGRIDLOCK ...",
+							"duration": "5:04",
+							"thumbnail": "https://i.ytimg.com/vi/TgqpXDZKwn4/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kxGqmWM6oNW4ZKz9OWkCTn_JpNHw",
+							"source": {
+									"title": "OpenAI Quietly Released a Better ChatGPT Version ...",
+									"name": "YouTube · AI GridLock",
+									"display_link": "10+ views  ·  6 months ago",
+									"link": "https://www.youtube.com/watch?v=TgqpXDZKwn4"
+							}
+					},
+					{
+							"type": "video",
+							"position": 77,
+							"title": "OpenAI's AI-Powered Search Engine: A Revolution in the ...",
+							"snippet": "\"Could OpenAI outsmart Google? Rumors hint at AI-powered search engine\" Technology is advancing at an incredible pace and with these ...",
+							"duration": "0:51",
+							"thumbnail": "https://i.ytimg.com/vi/OVetXYc9J9A/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lJP-TZtdomvfB94VuWQuqvGCIr8w",
+							"source": {
+									"title": "OpenAI's AI-Powered Search Engine: A Revolution in the ...",
+									"name": "YouTube · The Best AI",
+									"display_link": "20+ views  ·  10 months ago",
+									"link": "https://www.youtube.com/watch?v=OVetXYc9J9A"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 78,
+							"title": "BREAKING UPDATES! HOW OpenAI's ChatGPT Is Now ...",
+							"snippet": "Discover the groundbreaking advancements in AI as _OpenAI_ introduces its newest large language model, _OpenAI_ 01. This state-of-the-art AI is ...",
+							"source": {
+									"title": "BREAKING UPDATES! HOW OpenAI's ChatGPT Is Now ...",
+									"name": "YouTube · Future Frame",
+									"display_link": "9 views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=UuFDamkyDWE"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI",
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 79,
+							"title": "I Watched 12 Days of OpenAI So You Don't Have To",
+							"snippet": "Top 12 Must-Try OpenAI Updates: From Fun to Groundbreaking! Let's talk: https://www.everyman.ai/contact OpenAI just unveiled 12 exciting ...",
+							"duration": "13:29",
+							"thumbnail": "https://i.ytimg.com/vi/Ck0TM86475I/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kadICgokOcSs5kbYV_Sm9dQm-gAg",
+							"source": {
+									"title": "I Watched 12 Days of OpenAI So You Don't Have To",
+									"name": "YouTube · Luuk Alleman",
+									"display_link": "190+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=Ck0TM86475I"
+							},
+							"key_moments": [
+									{
+											"title": "Introduction to OpenAI's 12 Days of Updates",
+											"time": "00:00",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=0",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsk8fGHLLMkJTrVR2PKxXvKWhmMluW-efzaOVMIFYb_w&s"
+									},
+									{
+											"title": "Santa Mode and New Video Features",
+											"time": "00:24",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=24",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRYtjNj0Aka9_Xqhp3dGUq6r35zaRfwD17MeuSoyAh3w&s"
+									},
+									{
+											"title": "1-800-ChatGPT and WhatsApp Integration",
+											"time": "01:26",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=86",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5iEHrR9wo_lrLrGnJhBNM3O99Hv5yXr2F3U3dyvWJxg&s"
+									},
+									{
+											"title": "Apple Intelligence Integration",
+											"time": "02:08",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=128",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStNMn3BL6yqv0nPXVvpUaiVFxUsN5iz_k1QVnx_460cg&s"
+									},
+									{
+											"title": "Sora: The Text-to-Video Tool",
+											"time": "02:56",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=176",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLp9g0Y6UddwGBSKN5BVEiiEeYQ05NlQITMvOI41MiuQ&s"
+									},
+									{
+											"title": "Canvas: A Digital Whiteboard and IDE",
+											"time": "03:43",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=223",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQiyYojK-YI2JcNhr62OATMYBHvIUelYdJfdqsppsl-A&s"
+									},
+									{
+											"title": "ChatGPT Search",
+											"time": "04:43",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=283",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI-OU-H4Vr0JGd-VZQ0B6rls5bmUsJLR-0o180IGwThg&s"
+									},
+									{
+											"title": "Projects: Intelligent Grouping",
+											"time": "05:48",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=348",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXJYek1l1shy2FFRs0NzmrQZa8SeQ1IF1G6FlNeCLT1A&s"
+									},
+									{
+											"title": "ChatGPT Integration for MacOS",
+											"time": "06:49",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=409",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_cuUqpsFOc6OEuF8S0p3kgtJhwWLdD7fJSpCAeMpa_Q&s"
+									},
+									{
+											"title": "Reinforcement Fine-Tuning",
+											"time": "08:19",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=499",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1A2Vdq5SsRUwSFjEvm4p-9BT42x2iYjY3EyUTdqrPuw&s"
+									},
+									{
+											"title": "OpenAI API Updates",
+											"time": "08:43",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=523",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHESpwmnF5PGVyEBLRwcsE9OIfD9ViFZHrsu3LeXndLQ&s"
+									},
+									{
+											"title": "ChatGPT Pro: Is It Worth It?",
+											"time": "09:38",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=578",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ZhyWpBGgQ3K60S65Q6gK-6tmcWAB1qwa8yE1PR1gMA&s"
+									},
+									{
+											"title": "OpenAI's O3 Model",
+											"time": "11:13",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=673",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTg4ML0btknZ2eOLosssF6Xo56d3e6ZfFgiy6MioZJTQ&s"
+									},
+									{
+											"title": "Conclusion and Final Thoughts",
+											"time": "13:07",
+											"link": "https://www.youtube.com/watch?v=Ck0TM86475I&t=787",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcw-87Qb_ekqvQi3Vo_zRveOMwNOWXeL_gs356hXVINw&s"
+									}
+							]
+					},
+					{
+							"type": "video",
+							"position": 80,
+							"title": "This AI is absolutely WILD! Open AI announcement explained",
+							"snippet": "This is a set of cherry picked tests and results that were specifically chosen to make the AI look as good as possible.",
+							"duration": "13:15",
+							"thumbnail": "https://i.ytimg.com/vi/kHEo3c-MLSw/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3li4e_FOOSSrhHTjq5A2Hd-rp8zAw",
+							"source": {
+									"title": "This AI is absolutely WILD! Open AI announcement explained",
+									"name": "YouTube · Callum Upton",
+									"display_link": "9.2K+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=kHEo3c-MLSw"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 81,
+							"title": "Open AI Day 7 Recap - Projects, Folders, Organization!",
+							"snippet": "Today was Day 7 of 12 Days of _OpenAI_ and we got another announcement: ChatGPT Projects, organize your conversations into folders, ...",
+							"source": {
+									"title": "Open AI Day 7 Recap - Projects, Folders, Organization!",
+									"name": "YouTube · The Daily AI Show",
+									"display_link": "190+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=ddOrjKcXMm8"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 82,
+							"title": "What I Learned from OpenAI's O1 That Will Change AI Forever",
+							"snippet": "Don't Miss Out! OpenAI's O1 Surpasses GPT-4—Here's How In this video, we dive into the groundbreaking advancements of OpenAI's newest ...",
+							"duration": "5:13",
+							"thumbnail": "https://i.ytimg.com/vi/fyDIyoAqfpY/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kuuFEw7eNZh5KYp6JZQkeJ-ZjUfQ",
+							"source": {
+									"title": "What I Learned from OpenAI's O1 That Will Change AI Forever",
+									"name": "YouTube · Tech Me Out Now",
+									"display_link": "1.1K+ views  ·  4 months ago",
+									"link": "https://www.youtube.com/watch?v=fyDIyoAqfpY"
+							}
+					},
+					{
+							"type": "video",
+							"position": 83,
+							"title": "HUGE news: OpenAI’s TOP SECRET new model",
+							"snippet": "OpenAI is betting big on their secretive Orion AI, but with key safety experts leaving and a history of broken promises, could this be a ...",
+							"duration": "5:13",
+							"thumbnail": "https://i.ytimg.com/vi/4Lu9SnPZzWs/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lh0F6boAlk038RqYZj8aiuAaFTKw",
+							"source": {
+									"title": "HUGE news: OpenAI’s TOP SECRET new model",
+									"name": "YouTube · Tom Edwards - AI",
+									"display_link": "240+ views  ·  6 months ago",
+									"link": "https://www.youtube.com/watch?v=4Lu9SnPZzWs"
+							}
+					},
+					{
+							"type": "video",
+							"position": 84,
+							"title": "OpenAI's Year-End Review: Innovations and Insights",
+							"snippet": "In this conversation, Jaeden and Conor review OpenAI's significant advancements and releases throughout the year, particularly focusing on ...",
+							"duration": "13:55",
+							"thumbnail": "https://i.ytimg.com/vi/UoLIYv0bV-w/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nmgRsv7R_bteZBMIHf7XfsZdLNqQ",
+							"source": {
+									"title": "OpenAI's Year-End Review: Innovations and Insights",
+									"name": "YouTube · AI Applied (Audio)",
+									"display_link": "20+ views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=UoLIYv0bV-w"
+							},
+							"key_moments": [
+									{
+											"title": "OpenAI's Year in Review",
+											"time": "00:00",
+											"link": "https://www.youtube.com/watch?v=UoLIYv0bV-w&t=0",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGwqUvALd0I7zgHRJGXFwWBRuGzSrwgwO6YbwjafzsXw&s"
+									},
+									{
+											"title": "Innovations and New Features",
+											"time": "10:03",
+											"link": "https://www.youtube.com/watch?v=UoLIYv0bV-w&t=603",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVX3xFdg1YeWPlNfhup6lYi3Lg4oDDVVkwwIYUXOxvow&s"
+									},
+									{
+											"title": "Competitive Landscape and Future Outlook",
+											"time": "13:50",
+											"link": "https://www.youtube.com/watch?v=UoLIYv0bV-w&t=830",
+											"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNx6htK6ffZP2RsiglF_T7knWPNT8EBQNtSmjfFPPQPQ&s"
+									}
+							]
+					},
+					{
+							"type": "video",
+							"position": 85,
+							"title": "OpenAI's Game-Changing Acquisition!",
+							"snippet": "Breaking News: OpenAI Makes Major Acquisition in Database Analytics! In an unprecedented move, the tech giant OpenAI, best known for its ...",
+							"duration": "0:35",
+							"thumbnail": "https://i.ytimg.com/vi/59YkxwvAgvM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kbE4Sc3X-hbeGhAOcnIN9CLPc3sQ",
+							"source": {
+									"title": "OpenAI's Game-Changing Acquisition!",
+									"name": "YouTube · The Best AI",
+									"display_link": "10+ views  ·  8 months ago",
+									"link": "https://www.youtube.com/watch?v=59YkxwvAgvM"
+							}
+					},
+					{
+							"type": "video",
+							"position": 86,
+							"title": "Here's Why OpenAI's NEW AI Model Could Make ChatGPT 4 ...",
+							"snippet": "Here's why OpenAI's NEW AI Model Could Make ChatGPT 4 Unstoppable! 8.7K views 7 months ago #chatgpt4 #ainews #openai",
+							"duration": "10:28",
+							"thumbnail": "https://i.ytimg.com/vi/bsfGyFEo24I/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mX8PFScVKx8y4QsaOjdR727ZS_6Q",
+							"source": {
+									"title": "Here's Why OpenAI's NEW AI Model Could Make ChatGPT 4 ...",
+									"name": "YouTube · Unveiling AI News",
+									"display_link": "8.8K+ views  ·  8 months ago",
+									"link": "https://www.youtube.com/watch?v=bsfGyFEo24I"
+							}
+					},
+					{
+							"type": "video",
+							"position": 87,
+							"title": "OPENAI LAUNCHES ROBOT THAT NAVIGATES THE ...",
+							"snippet": "OpenAI revolutionizes the artificial intelligence market with the launch of Operator, its first agentic AI tool capable of navigating the ...",
+							"duration": "11:00",
+							"thumbnail": "https://i.ytimg.com/vi/F0kNVFt4oXQ/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3ltDn7GZCFplZYuXsnNXi3qyFXgtw",
+							"source": {
+									"title": "OPENAI LAUNCHES ROBOT THAT NAVIGATES THE ...",
+									"name": "YouTube · Artificial Universe",
+									"display_link": "5 views  ·  1 month ago",
+									"link": "https://www.youtube.com/watch?v=F0kNVFt4oXQ"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 88,
+							"title": "Unlocking AI: Insights on OpenAI's Latest Models",
+							"snippet": "... _OpenAI_ #ArtificialIntelligence #AIModels #TechInnovation #MachineLearning #FutureOfAI #AIResearch #TechnologyTrends #AIInsight #DeepLearning.",
+							"source": {
+									"title": "Unlocking AI: Insights on OpenAI's Latest Models",
+									"name": "YouTube · STARTUP HAKK",
+									"display_link": "320+ views  ·  1 month ago",
+									"link": "https://www.youtube.com/watch?v=Wnad3RlpHW4"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 89,
+							"title": "OpenAI Secures a Huge Valuation. Now What? | Bytes: Week ...",
+							"snippet": "On this week's Marketplace Tech Bytes: OpenAI, maker of the generative AI chatbot ChatGPT, concluded its funding round this week, ...",
+							"duration": "12:55",
+							"thumbnail": "https://i.ytimg.com/vi/geJNbtWG4iU/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3msx3jr8iakn1oSjut4CXGZwaXvWw",
+							"source": {
+									"title": "OpenAI Secures a Huge Valuation. Now What? | Bytes: Week ...",
+									"name": "YouTube · Marketplace APM",
+									"display_link": "300+ views  ·  5 months ago",
+									"link": "https://www.youtube.com/watch?v=geJNbtWG4iU"
+							}
+					},
+					{
+							"type": "video",
+							"position": 90,
+							"title": "How OpenAI is Reshaping Our Future (and Why You Should ...",
+							"snippet": "From groundbreaking AI models like GPT-4 to industry-transforming innovations, OpenAI is revolutionizing the tech world!",
+							"duration": "6:03",
+							"thumbnail": "https://i.ytimg.com/vi/fx2aLclWcww/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mtWnfaYoKPElNEr5Q0euaT5oATSg",
+							"source": {
+									"title": "How OpenAI is Reshaping Our Future (and Why You Should ...",
+									"name": "YouTube · Trail of Ideas",
+									"display_link": "2 views  ·  2 months ago",
+									"link": "https://www.youtube.com/watch?v=fx2aLclWcww"
+							}
+					},
+					{
+							"type": "normal",
+							"position": 91,
+							"title": "Open AI's Profit Transition-What's The Hold Up?",
+							"snippet": "Comments · _OpenAI_ o3 Might Just Break the Internet · Full Speech: JD Vance Shames Europe Leaders To Their Faces, Leaves Room Stunned| Munich| USA| ...",
+							"source": {
+									"title": "Open AI's Profit Transition-What's The Hold Up?",
+									"name": "YouTube · Primary Technology",
+									"display_link": "120+ views  ·  1 month ago",
+									"link": "https://www.youtube.com/watch?v=oIEK-RcPcQ4"
+							},
+							"snippet_highlighted_words": [
+									"OpenAI"
+							]
+					},
+					{
+							"type": "video",
+							"position": 92,
+							"title": "Did you know Open AI is contemplating becoming a for-profit ...",
+							"snippet": "Did you know Open AI is contemplating becoming a for-profit company? OpenAI is navigating potential changes to its corporate structure as ...",
+							"duration": "1:59",
+							"thumbnail": "https://i.ytimg.com/vi/eUY3Pr_A1gM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3k2DgR34251msQfiYy9NEqUpFwRDQ",
+							"source": {
+									"title": "Did you know Open AI is contemplating becoming a for-profit ...",
+									"name": "YouTube · The JMOR Connection",
+									"display_link": "50+ views  ·  4 months ago",
+									"link": "https://www.youtube.com/watch?v=eUY3Pr_A1gM"
+							}
+					},
+					{
+							"type": "video",
+							"position": 93,
+							"title": "OpenAI: Pioneering Artificial Intelligence and the Birth of ...",
+							"snippet": "... OpenAI's mission, the evolution of its most famous innovations like ... OpenAI's commitment to ethical AI development, its partnerships ...",
+							"duration": "8:12",
+							"thumbnail": "https://i.ytimg.com/vi/X_kmpjJXXNk/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3lslDQvYNmq2HeZRLYjBL1oTccYyw",
+							"source": {
+									"title": "OpenAI: Pioneering Artificial Intelligence and the Birth of ...",
+									"name": "YouTube · TellmeAbout",
+									"display_link": "2 months ago",
+									"link": "https://www.youtube.com/watch?v=X_kmpjJXXNk"
+							}
+					},
+					{
+							"type": "video",
+							"position": 94,
+							"title": "OpenAI Unleashes Deep Research Feature for ChatGPT ...",
+							"snippet": "In a significant move that promises to enhance the capabilities of its popular AI chatbot, OpenAI has officially announced the rollout of ...",
+							"duration": "3:49",
+							"thumbnail": "https://i.ytimg.com/vi/rtR9m775tQo/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kHreI7XJp9WrewH0P0wEz1XD0MlA",
+							"source": {
+									"title": "OpenAI Unleashes Deep Research Feature for ChatGPT ...",
+									"name": "YouTube · NewsBOT Technology",
+									"display_link": "1 week ago",
+									"link": "https://www.youtube.com/watch?v=rtR9m775tQo"
+							}
+					},
+					{
+							"type": "video",
+							"position": 95,
+							"title": "OpenAI's new model may NOT be a big improvement",
+							"snippet": "Comments · OpenAI CEO Sam Altman: \"If this technology goes wrong, it can go quite wrong.\" · OpenAI CEO: When will AGI arrive? · Two GPT-4os ...",
+							"duration": "0:59",
+							"thumbnail": "https://i.ytimg.com/vi/v0RFT917tEE/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3ksQEfG4HWvbxXoC1X3mJaRTn2XJg",
+							"source": {
+									"title": "OpenAI's new model may NOT be a big improvement",
+									"name": "YouTube · Michael Houck",
+									"display_link": "3K+ views  ·  3 months ago",
+									"link": "https://www.youtube.com/watch?v=v0RFT917tEE"
+							}
 					}
-				]
-			},
-			{
-				"type": "twitter",
-				"position": 2,
-				"source": {
-					"name": "X (Twitter)",
-					"display_link": "https://twitter.com/OpenAI",
-					"link": "https://twitter.com/OpenAI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-					"title": "OpenAI (@OpenAI) · X"
-				},
-				"posts": [
-					{
-						"link": "https://twitter.com/OpenAI/status/1811048047704690859?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-						"snippet": "OpenAI and Los Alamos National Laboratory announce partnership to study AI for bioscience research [openai.com/index/openai…](https://openai.com/index/openai-and-los-alamos-national-laboratory-work-together/)",
-						"posted_on": "2 days ago"
-					},
-					{
-						"link": "https://twitter.com/OpenAI/status/1806372369151426673?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-						"snippet": "We’ve trained a model, CriticGPT, to catch bugs in GPT-4’s code. We’re starting to integrate such models into our RLHF alignment pipeline to help humans supervise AI on difficult tasks: [openai.com/index/findin…](https://openai.com/index/finding-gpt4s-mistakes-with-gpt-4/)",
-						"posted_on": "Jun 27, 2024"
-					},
-					{
-						"link": "https://twitter.com/OpenAI/status/1806335381283189220?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-						"snippet": "We’re partnering with TIME and its 101 years of archival content to enhance responses and provide links to stories on [Time.com](http://time.com/): [openai.com/index/strate…](https://openai.com/index/strategic-content-partnership-with-time/)",
-						"posted_on": "Jun 27, 2024"
-					},
-					{
-						"link": "https://twitter.com/OpenAI/status/1805716393524183136?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-						"snippet": "We're sharing an update on the advanced Voice Mode we demoed during our Spring Update, which we remain very excited about:\\\\n\\\\nWe had planned to start rolling this out in alpha to a small group of ChatGPT Plus users in late June, but need one more month to reach our bar to launch.…",
-						"posted_on": "Jun 25, 2024"
-					},
-					{
-						"link": "https://twitter.com/OpenAI/status/1805679342439284831?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Etweet",
-						"snippet": "The ChatGPT desktop app for macOS is now available for all users.\\\\n\\\\nGet faster access to ChatGPT to chat about email, screenshots, and anything on your screen with the Option + Space shortcut: [openai.com/chatgpt/mac/](https://openai.com/chatgpt/mac/)",
-						"posted_on": "Jun 25, 2024",
-						"thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxwC3qmOvwZwjXBNEX44x6lX2pT9Llq_gHsUeCCSb-rTBxb7Mg9uWxEyMXdHCFpLAHyY-IbQ&s=10"
-					}
-				]
-			},
-			{
-				"type": "normal",
-				"position": 3,
-				"title": "OpenAI",
-				"snippet": "Videos · Learning a new language with ChatGPT Advanced Voice Mode · Interview roleplay with GPT-4o voice and vision · Character voices with GPT-4o voice.",
-				"source": {
-					"title": "OpenAI",
-					"name": "YouTube · OpenAI",
-					"display_link": "1.2M+ followers",
-					"link": "https://www.youtube.com/openai"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 4,
-				"title": "r/OpenAI",
-				"snippet": "r/_OpenAI_: _OpenAI_ is an AI research and deployment company. _OpenAI's_ mission is to ensure that artificial general intelligence benefits all of…",
-				"source": {
-					"title": "r/OpenAI",
-					"name": "Reddit · r/OpenAI",
-					"display_link": "1.6M+ followers",
-					"link": "https://www.reddit.com/r/OpenAI/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI",
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 5,
-				"title": "Azure OpenAI Service – Advanced Language Models",
-				"snippet": "Azure _OpenAI_ Service offers industry-leading coding and language AI models that you can fine-tune to your specific needs for a variety of use cases.",
-				"source": {
-					"title": "Azure OpenAI Service – Advanced Language Models",
-					"name": "Microsoft Azure",
-					"display_link": "https://azure.microsoft.com › en-us › products › ai-services",
-					"link": "https://azure.microsoft.com/en-us/products/ai-services/openai-service"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 6,
-				"title": "OpenAI",
-				"snippet": "_OpenAI_ and Los Alamos National Laboratory announce partnership to study AI for bioscience research https://t.co/WV4XMZsHBA.",
-				"source": {
-					"title": "OpenAI",
-					"name": "X",
-					"display_link": "https://x.com › OpenAI › status",
-					"link": "https://x.com/OpenAI/status/1811048047704690859"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 7,
-				"title": "The official Python library for the OpenAI API",
-				"snippet": "The official Python library for the _OpenAI_ API. Contribute to _openai_/_openai_\\-python development by creating an account on GitHub.",
-				"source": {
-					"title": "The official Python library for the OpenAI API",
-					"name": "GitHub",
-					"display_link": "https://github.com › openai › openai-python",
-					"link": "https://github.com/openai/openai-python"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"openai",
-					"openai"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 8,
-				"title": "OpenAI (@openai) • Instagram photos and videos",
-				"snippet": "2M Followers, 2 Following, 1225 Posts - _OpenAI_ (@_openai_) on Instagram: \"Extending creativity through AI. Invite us to collab on your favorite DALL·E ...",
-				"source": {
-					"title": "OpenAI (@openai) • Instagram photos and videos",
-					"name": "Instagram · openai",
-					"display_link": "1.7M+ followers",
-					"link": "https://www.instagram.com/openai/?hl=en"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"openai"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 9,
-				"title": "ChatGPT on the App Store",
-				"snippet": "... Store for iPhone and iPad. ChatGPT 12+. The official app by _OpenAI_. _OpenAI_ · #1 in Productivity. 4.9 • 948.9K Ratings. Free; Offers In-App Purchases. iPhone ...",
-				"source": {
-					"title": "ChatGPT on the App Store",
-					"name": "Apple",
-					"display_link": "https://apps.apple.com › app › chatgpt",
-					"link": "https://apps.apple.com/us/app/chatgpt/id6448311069"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				],
-				"rich_snippet": {
-					"rated": {
-						"type": "normal",
-						"rating": 4.9,
-						"label": "Rated 5.0 out of 5,",
-						"reviews": 948943,
-						"reviews_origin": "948,943 reviews"
-					},
-					"extensions": "Rating: 4.9 · ‎948,943 reviews · ‎Free · ‎iOS · ‎Business/Productivity"
-				}
-			},
-			{
-				"type": "video",
-				"position": 10,
-				"title": "Elon's Monster GPU Farm, Apple/MSFT Ditch OpenAI ...",
-				"snippet": "... OpenAI/status/1811048047704690859 https://www.bloomberg.com/news/articles/2024-07-10/microsoft-quits-openai-board-after-antitrust-scrutiny ...",
-				"duration": "15:33",
-				"thumbnail": "https://i.ytimg.com/vi/mFUApj3pzaM/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nJRyzZKKkilxxAvL9HKvp1T6XmYg",
-				"source": {
-					"title": "Elon's Monster GPU Farm, Apple/MSFT Ditch OpenAI ...",
-					"name": "YouTube · Matthew Berman",
-					"display_link": "1.7K+ views  ·  1 hour ago",
-					"link": "https://www.youtube.com/watch?v=mFUApj3pzaM"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 11,
-				"title": "OpenAI",
-				"snippet": "The site introduces a new visual identity that reflects a bold and fast-evolving organization, driving forward the visual language of AI. The system leverages a ...",
-				"source": {
-					"title": "OpenAI",
-					"name": "AREA 17",
-					"display_link": "https://area17.com › work › openai-brand-and-website",
-					"link": "https://area17.com/work/openai-brand-and-website"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 12,
-				"title": "OpenAI Node API Library",
-				"snippet": "The official TypeScript library for the _OpenAI_ API. Latest version: 4.52.7, last published: 19 hours ago. Start using _openai_ in your project by running \\`npm ...",
-				"source": {
-					"title": "OpenAI Node API Library",
-					"name": "NPM",
-					"display_link": "https://www.npmjs.com › package › openai",
-					"link": "https://www.npmjs.com/package/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"openai"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 13,
-				"title": "Android Apps by OpenAI on Google Play",
-				"snippet": "_OpenAI_ is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.",
-				"source": {
-					"title": "Android Apps by OpenAI on Google Play",
-					"name": "Google Play",
-					"display_link": "https://play.google.com › store › apps › dev",
-					"link": "https://play.google.com/store/apps/dev?id=7577165439232992817&hl=en_US"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 14,
-				"title": "Bug Bounty: OpenAI",
-				"snippet": "_OpenAI_ will not threaten or bring any legal action against anyone who makes a good faith effort to comply with this bug bounty policy. This includes any claim ...",
-				"source": {
-					"title": "Bug Bounty: OpenAI",
-					"name": "Bugcrowd",
-					"display_link": "https://bugcrowd.com › openai",
-					"link": "https://bugcrowd.com/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 15,
-				"title": "OpenAI | Latest News, Photos & Videos",
-				"snippet": "Find the latest _Openai_ news from WIRED. See related science and technology articles, photos, slideshows and videos.",
-				"source": {
-					"title": "OpenAI | Latest News, Photos & Videos",
-					"name": "WIRED",
-					"display_link": "https://www.wired.com › tag › openai",
-					"link": "https://www.wired.com/tag/openai/"
-				},
-				"snippet_highlighted_words": [
-					"Openai"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 16,
-				"title": "OpenAI",
-				"snippet": "_OpenAI_ | 5418250 followers on LinkedIn. Creating safe AGI that benefits all of humanity. | _OpenAI_ is an AI research and deployment company ...",
-				"source": {
-					"title": "OpenAI",
-					"name": "LinkedIn · OpenAI",
-					"display_link": "5.4M+ followers",
-					"link": "https://www.linkedin.com/company/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 17,
-				"title": "Why The Atlantic signed a deal with OpenAI",
-				"snippet": "Why The Atlantic signed a deal with _OpenAI_. CEO Nicholas Thompson discusses the deal: 'AI is coming. It is coming quickly. We want to be part of ...",
-				"source": {
-					"title": "Why The Atlantic signed a deal with OpenAI",
-					"name": "The Verge",
-					"display_link": "https://www.theverge.com › the-atlantic-openai-licensin...",
-					"link": "https://www.theverge.com/2024/7/11/24196396/the-atlantic-openai-licensing-deal-ai-news-journalism-web-future-decoder-podcasts"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 18,
-				"title": "OpenAI",
-				"snippet": "_OpenAI_. _OpenAI's_ mission is to ensure that artificial general intelligence (AGI) benefits all of humanity. In service of that mission, we sometimes provide ...",
-				"source": {
-					"title": "OpenAI",
-					"name": "smapply.org",
-					"display_link": "https://openai.smapply.org",
-					"link": "https://openai.smapply.org/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 19,
-				"title": "Microsoft and Apple drop OpenAI seats amid antitrust scrutiny",
-				"snippet": "The _OpenAI_ logo _OpenAI_ says it looks forward to continuing its ... Microsoft, which has invested $13bn in the maker of the generative AI chatbot ...",
-				"source": {
-					"title": "Microsoft and Apple drop OpenAI seats amid antitrust scrutiny",
-					"name": "Financial Times",
-					"display_link": "https://www.ft.com › ... › Technology › Apple Inc",
-					"link": "https://www.ft.com/content/ecfa69df-5d1c-4177-9b14-a3a73072db12"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 20,
-				"title": "Microsoft giving up OpenAI board observer seat doesn't ...",
-				"snippet": "... _OpenAI_, many of the same regulatory and safety concerns persist. The tight Microsoft-_OpenAI_ relationship will continue to be scrutinized by ...",
-				"source": {
-					"title": "Microsoft giving up OpenAI board observer seat doesn't ...",
-					"name": "CNBC",
-					"display_link": "https://www.cnbc.com › 2024/07/11 › microsoft-giving...",
-					"link": "https://www.cnbc.com/2024/07/11/microsoft-giving-up-openai-board-observer-seat-doesnt-settle-concerns.html"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 21,
-				"title": "OpenAI",
-				"snippet": "_OpenAI_ has 169 repositories available. Follow their code on GitHub.",
-				"source": {
-					"title": "OpenAI",
-					"name": "GitHub",
-					"display_link": "https://github.com › openai",
-					"link": "https://github.com/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 22,
-				"title": "OpenAI",
-				"snippet": "Play _OpenAI_ on SoundCloud and discover followers on SoundCloud | Stream tracks, albums, playlists on desktop and mobile.",
-				"source": {
-					"title": "OpenAI",
-					"name": "SoundCloud · OpenAI",
-					"display_link": "12.1K+ followers",
-					"link": "https://soundcloud.com/openai_audio"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 23,
-				"title": "OpenAI (GPT-4, DALL-E, Whisper) Integrations",
-				"snippet": "Instantly connect _OpenAI_ (GPT-4, DALL-E, Whisper) with the apps you use everyday. _OpenAI_ (GPT-4, DALL-E, Whisper) integrates with 6000 other apps on Zapier ...",
-				"source": {
-					"title": "OpenAI (GPT-4, DALL-E, Whisper) Integrations",
-					"name": "Zapier",
-					"display_link": "https://zapier.com › apps › openai › integrations",
-					"link": "https://zapier.com/apps/openai/integrations"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 24,
-				"title": "Microsoft Quits OpenAI's Board Amid Antitrust Scrutiny",
-				"snippet": "_OpenAI_ started gaining traction in late 2022 after the release of ChatGPT. Microsoft entered the picture as a major partner, agreeing to invest ...",
-				"source": {
-					"title": "Microsoft Quits OpenAI's Board Amid Antitrust Scrutiny",
-					"name": "WSJ",
-					"display_link": "https://www.wsj.com › ... › Artificial Intelligence",
-					"link": "https://www.wsj.com/tech/ai/microsoft-withdraws-from-openais-board-amid-antitrust-scrutiny-aab6ff1e"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 25,
-				"title": "Before the United States Patent and Trademark Office",
-				"snippet": "This is a submission from _OpenAI_, LP (“_OpenAI_”) in response to Question 3 of the Request for. Comments on Intellectual Property Protection for Artificial ...",
-				"source": {
-					"title": "Before the United States Patent and Trademark Office",
-					"name": "United States Patent and Trademark Office (.gov)",
-					"display_link": "https://www.uspto.gov › default › files › documents",
-					"link": "https://www.uspto.gov/sites/default/files/documents/OpenAI_RFC-84-FR-58141.pdf"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 26,
-				"title": "What is Azure OpenAI Service?",
-				"snippet": "Azure _OpenAI_ Service gives customers advanced language AI with _OpenAI_ GPT-4, GPT-3, Codex, DALL-E, Whisper, and text to speech models with the ...",
-				"source": {
-					"title": "What is Azure OpenAI Service?",
-					"name": "Learn Microsoft",
-					"display_link": "https://learn.microsoft.com › azure › openai › overview",
-					"link": "https://learn.microsoft.com/en-us/azure/ai-services/openai/overview"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 27,
-				"title": "OpenAI",
-				"snippet": "We've heard questions about how we chose the voices in ChatGPT, especially Sky. We are working to pause the use of Sky while we address them ...",
-				"source": {
-					"title": "OpenAI",
-					"name": "X",
-					"display_link": "https://x.com › OpenAI › status",
-					"link": "https://x.com/OpenAI/status/1792443575839678909"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 28,
-				"title": "Microsoft Surrenders OpenAI Board Position",
-				"snippet": "As regulatory scrutiny picks up, the tech giant says it is pleased with the progress _OpenAI_ has made with governance and considers its ...",
-				"source": {
-					"title": "Microsoft Surrenders OpenAI Board Position",
-					"name": "The New York Times",
-					"display_link": "https://www.nytimes.com › 2024/07/10 › technology",
-					"link": "https://www.nytimes.com/2024/07/10/technology/microsoft-openai-board.html"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 29,
-				"title": "Microsoft quits OpenAI board seat as antitrust scrutiny of ...",
-				"snippet": "Microsoft has relinquished its seat on the board of _OpenAI_, saying its participation is no longer needed because the ChatGPT maker has ...",
-				"source": {
-					"title": "Microsoft quits OpenAI board seat as antitrust scrutiny of ...",
-					"name": "AP News",
-					"display_link": "https://apnews.com › article › microsoft-openai-artificia...",
-					"link": "https://apnews.com/article/microsoft-openai-artificial-intelligence-b5b91accc60ada508278fc1152ced186"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 30,
-				"title": "New York Times Experiments With a New Headline Writer",
-				"snippet": "In the courtroom, the New York Times has taken a hard line against _OpenAI_. The newspaper sued the artificial intelligence startup alongside ...",
-				"source": {
-					"title": "New York Times Experiments With a New Headline Writer",
-					"name": "The Intercept",
-					"display_link": "https://theintercept.com › 2024/07/08 › new-york-times...",
-					"link": "https://theintercept.com/2024/07/08/new-york-times-openai-headlines-chatgpt/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 31,
-				"title": "Microsoft gives up observer seat on OpenAI board",
-				"snippet": "Microsoft says it's now \"confident\" in _OpenAI_ and the firm's \"significant progress\" makes the seat unnecessary.",
-				"source": {
-					"title": "Microsoft gives up observer seat on OpenAI board",
-					"name": "Axios",
-					"display_link": "https://www.axios.com › Technology",
-					"link": "https://www.axios.com/2024/07/10/microsoft-openai-board-seat-observer"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 32,
-				"title": "Former OpenAI employee quit to avoid 'working for the ...",
-				"snippet": "Former _OpenAI_ superalignment team employee William Saunders says he quit the company over fears it was treating the development of ...",
-				"source": {
-					"title": "Former OpenAI employee quit to avoid 'working for the ...",
-					"name": "Cointelegraph",
-					"display_link": "https://cointelegraph.com › news › open-ai-artificial-int...",
-					"link": "https://cointelegraph.com/news/open-ai-artificial-intelligence-safety-employee-quit-titanic"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 33,
-				"title": "Microsoft ditches OpenAI board observer seat to stave off ...",
-				"snippet": "Microsoft has given up its board observer seat at _OpenAI_ in a move aimed at easing U.S. and UK antitrust regulators' concerns about the ...",
-				"source": {
-					"title": "Microsoft ditches OpenAI board observer seat to stave off ...",
-					"name": "Reuters",
-					"display_link": "https://www.reuters.com › technology › microsoft-ditch...",
-					"link": "https://www.reuters.com/technology/microsoft-ditches-openai-board-observer-seat-amid-regulatory-scrutiny-2024-07-10/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 34,
-				"title": "Chinese developers scramble as OpenAI blocks access in ...",
-				"snippet": "The _OpenAI_ move has “caused significant concern within China's AI community” said Xiaohu Zhu, the founder of the Shanghai-based Centre for Safe ...",
-				"source": {
-					"title": "Chinese developers scramble as OpenAI blocks access in ...",
-					"name": "The Guardian",
-					"display_link": "https://www.theguardian.com › world › article › jul › c...",
-					"link": "https://www.theguardian.com/world/article/2024/jul/09/chinese-developers-openai-blocks-access-in-china-artificial-intelligence"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 35,
-				"title": "OpenAI",
-				"snippet": "_OpenAI_. 61053 likes · 120 talking about this. Creating safe AGI that benefits all of humanity.",
-				"source": {
-					"title": "OpenAI",
-					"name": "Facebook · OpenAI",
-					"display_link": "87.7K+ followers",
-					"link": "https://www.facebook.com/openai/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 36,
-				"title": "Microsoft relinquishes OpenAI board seat as regulators ...",
-				"snippet": "Microsoft exits _OpenAI's_ board amid move by regulators in the U.S. and overseas to review the companies' relationship.",
-				"source": {
-					"title": "Microsoft relinquishes OpenAI board seat as regulators ...",
-					"name": "CBS News",
-					"display_link": "https://www.cbsnews.com › MoneyWatch",
-					"link": "https://www.cbsnews.com/news/microsoft-openai-antitrust/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 37,
-				"title": "LANL and OpenAI Partner to Advance AI Safety in ...",
-				"snippet": "This work with _OpenAI_ is an important step towards establishing a framework for evaluating current and future models, ensuring the responsible ...",
-				"source": {
-					"title": "LANL and OpenAI Partner to Advance AI Safety in ...",
-					"name": "HPCwire",
-					"display_link": "https://www.hpcwire.com › off-the-wire › lanl-and-ope...",
-					"link": "https://www.hpcwire.com/off-the-wire/lanl-and-openai-partner-to-advance-ai-safety-in-biological-threat-assessments/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 38,
-				"title": "Microsoft and Apple ditch OpenAI board seats amid ...",
-				"snippet": "Microsoft has invested more than $10 billion into _OpenAI_, in a deal that made Microsoft the exclusive cloud partner for _OpenAI_. Microsoft's ...",
-				"source": {
-					"title": "Microsoft and Apple ditch OpenAI board seats amid ...",
-					"name": "The Verge",
-					"display_link": "https://www.theverge.com › microsoft-apple-openai-bo...",
-					"link": "https://www.theverge.com/2024/7/10/24195528/microsoft-apple-openai-board-observer-seat-drop-regulator-scrutiny"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 39,
-				"title": "OpenAI Is Testing Its Powers of Persuasion",
-				"snippet": "His company is also wrestling with the risks. A photo illustration of Sam Altman CEO of _OpenAI_ juxtaposed next to a collage of texturized.",
-				"source": {
-					"title": "OpenAI Is Testing Its Powers of Persuasion",
-					"name": "WIRED",
-					"display_link": "https://www.wired.com › Business › Fast Forward",
-					"link": "https://www.wired.com/story/thrive-ai-openai-artificial-intelligence-persuasion/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 40,
-				"title": "OpenAI (@openai) Official",
-				"snippet": "TikTok video from LabExplorer (@labexplorer2): 1.6M. Революционную нейросеть ...",
-				"source": {
-					"title": "OpenAI (@openai) Official",
-					"name": "TikTok · OpenAI",
-					"display_link": "450.8K+ followers",
-					"link": "https://www.tiktok.com/@openai?lang=en"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 41,
-				"title": "OpenAI",
-				"snippet": "_OpenAI_ CEO Sam Altman and Airbnb CEO Brian Chesky said tech companies should be transparent with people as they develop artificial intelligence.",
-				"source": {
-					"title": "OpenAI",
-					"name": "Business Insider",
-					"display_link": "https://www.businessinsider.com › category › openai",
-					"link": "https://www.businessinsider.com/category/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 42,
-				"title": "OpenAI is reportedly nearing AI systems that can reason. ...",
-				"snippet": "_OpenAI_ recently shared a new five-level classification system for AI systems with employees, according to a new Bloomberg report.",
-				"source": {
-					"title": "OpenAI is reportedly nearing AI systems that can reason. ...",
-					"name": "Yahoo",
-					"display_link": "https://www.yahoo.com › tech › openai-reportedly-near...",
-					"link": "https://www.yahoo.com/tech/openai-reportedly-nearing-ai-systems-150538453.html"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 43,
-				"title": "Per Bloomberg, OpenAI at an employee meeting on ...",
-				"snippet": "349 votes, 157 comments. From article _OpenAI_ Develops System to Track Progress Toward Human-Level AI (paywall): _OpenAI_ executives told ...",
-				"source": {
-					"title": "Per Bloomberg, OpenAI at an employee meeting on ...",
-					"name": "Reddit · r/singularity",
-					"display_link": "20 hours ago",
-					"link": "https://www.reddit.com/r/singularity/comments/1e0ywvj/per_bloomberg_openai_at_an_employee_meeting_on/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 44,
-				"title": "OpenAI - Crunchbase Company Profile & Funding",
-				"snippet": "_OpenAI_ is an AI research and deployment company that conducts research and implements machine learning.",
-				"source": {
-					"title": "OpenAI - Crunchbase Company Profile & Funding",
-					"name": "Crunchbase",
-					"display_link": "https://www.crunchbase.com › organization › openai",
-					"link": "https://www.crunchbase.com/organization/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 45,
-				"title": "OpenAI",
-				"snippet": "_OpenAI's_ mission is to ensure that artificial general intelligence benefits all of humanity.",
-				"source": {
-					"title": "OpenAI",
-					"name": "Vimeo",
-					"display_link": "https://vimeo.com › openai",
-					"link": "https://vimeo.com/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 46,
-				"title": "TIME and OpenAI Announce Strategic Content Partnership",
-				"snippet": "_OpenAI_ is an AI research and deployment company. Its mission is to ensure that artificial general intelligence benefits all of humanity. More ...",
-				"source": {
-					"title": "TIME and OpenAI Announce Strategic Content Partnership",
-					"name": "Time Magazine",
-					"display_link": "https://time.com › Press Room › Press Room",
-					"link": "https://time.com/6992955/time-and-openai-announce-strategic-content-partnership/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "video",
-				"position": 47,
-				"title": "OpenAI Launching the Ultimate AI Health Coach, Backed by ...",
-				"snippet": "OpenAI and Thrive Global have partnered to create Thrive AI Health, an AI-powered health coach designed to provide personalized advice on ...",
-				"duration": "8:25",
-				"thumbnail": "https://i.ytimg.com/vi/z6L5H1S6Ir8/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3ke3nHNp0QfAAhAurutRNST4OoBwA",
-				"source": {
-					"title": "OpenAI Launching the Ultimate AI Health Coach, Backed by ...",
-					"name": "YouTube · AI Revolution",
-					"display_link": "5.6K+ views  ·  1 day ago",
-					"link": "https://www.youtube.com/watch?v=z6L5H1S6Ir8"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 48,
-				"title": "OpenAI | Company Overview & News",
-				"snippet": "CEO Sam Altman's ouster by the _OpenAI_ board of directors in November 2023 threatened to shake up the artificial intelligence landscape. But within days,",
-				"source": {
-					"title": "OpenAI | Company Overview & News",
-					"name": "Forbes",
-					"display_link": "https://www.forbes.com › companies › openai",
-					"link": "https://www.forbes.com/companies/openai/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 49,
-				"title": "Microsoft quits OpenAI board seat as antitrust scrutiny of AI ...",
-				"snippet": "Microsoft has relinquished its seat on the board of _OpenAI_, saying its participation is no longer needed because the ChatGPT maker has ...",
-				"source": {
-					"title": "Microsoft quits OpenAI board seat as antitrust scrutiny of AI ...",
-					"name": "ABC News - Breaking News, Latest News and Videos",
-					"display_link": "https://abcnews.go.com › wireStory › microsoft-quits-op...",
-					"link": "https://abcnews.go.com/US/wireStory/microsoft-quits-openai-board-seat-antitrust-scrutiny-ai-111803838"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 50,
-				"title": "OpenAI board shake-up: Microsoft out, Apple backs away ...",
-				"snippet": "_OpenAI_ board shake-up: Microsoft out, Apple backs away amid AI partnership scrutiny · Microsoft gives up non-voting observer board role; Apple ...",
-				"source": {
-					"title": "OpenAI board shake-up: Microsoft out, Apple backs away ...",
-					"name": "Ars Technica",
-					"display_link": "https://arstechnica.com › 2024/07 › openai-board-shake...",
-					"link": "https://arstechnica.com/information-technology/2024/07/openai-board-shakeup-microsoft-out-apple-backs-away-amid-ai-partnership-scrutiny/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 51,
-				"title": "OpenAI",
-				"snippet": "A space for developers and enthusiasts to collaborate and share creations built with _OpenAI's_ powerful models. | 109171 members.",
-				"source": {
-					"title": "OpenAI",
-					"name": "Discord",
-					"display_link": "https://discord.com › invite › openai",
-					"link": "https://discord.com/invite/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 52,
-				"title": "OpenAI compatibility",
-				"snippet": "_OpenAI_ compatibility. Together's API is compatible with _OpenAI's_ client libraries, making it easy to try out our open-source models on existing applications.",
-				"source": {
-					"title": "OpenAI compatibility",
-					"name": "Together AI",
-					"display_link": "https://docs.together.ai › docs › openai-api-compatibility",
-					"link": "https://docs.together.ai/docs/openai-api-compatibility"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 53,
-				"title": "As Microsoft leaves its observer seat, OpenAI says it won't ...",
-				"snippet": "Months after Microsoft gained an observer seat on _OpenAI's_ board, the company is leaving the position of the non-voting seat.",
-				"source": {
-					"title": "As Microsoft leaves its observer seat, OpenAI says it won't ...",
-					"name": "TechCrunch",
-					"display_link": "https://techcrunch.com › 2024/07/10 › as-microsoft-lea...",
-					"link": "https://techcrunch.com/2024/07/10/as-microsoft-leaves-its-observer-seat-openai-says-it-wont-have-any-more-observers/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 54,
-				"title": "OpenAI Text To Speech | Advanced Voice Engine Technology",
-				"snippet": "Discover the future of digital communication with our cutting-edge Text To Speech _OpenAI_ technology. Our advanced Voice Engine transforms text into ...",
-				"source": {
-					"title": "OpenAI Text To Speech | Advanced Voice Engine Technology",
-					"name": "TTS OpenAI",
-					"display_link": "https://ttsopenai.com",
-					"link": "https://ttsopenai.com/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 55,
-				"title": "OpenAI: Jobs",
-				"snippet": "_OpenAI_ | 5418907 followers on LinkedIn. Creating safe AGI that benefits all of humanity. | _OpenAI_ is an AI research and deployment company dedicated to ...",
-				"source": {
-					"title": "OpenAI: Jobs",
-					"name": "LinkedIn",
-					"display_link": "https://www.linkedin.com › company › openai › jobs",
-					"link": "https://www.linkedin.com/company/openai/jobs"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 56,
-				"title": "Microsoft, Apple Drop OpenAI Board Plans as Scrutiny Grows",
-				"snippet": "Microsoft Corp. and Apple Inc. dropped plans to take board roles at _OpenAI_ in a surprise decision that underscores growing regulatory ...",
-				"source": {
-					"title": "Microsoft, Apple Drop OpenAI Board Plans as Scrutiny Grows",
-					"name": "Bloomberg.com",
-					"display_link": "https://www.bloomberg.com › news › articles › microsof...",
-					"link": "https://www.bloomberg.com/news/articles/2024-07-10/microsoft-quits-openai-board-after-antitrust-scrutiny-grows"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 57,
-				"title": "OpenAI Says It Has Begun Training a New Flagship A.I. ...",
-				"snippet": "_OpenAI_ Says It Has Begun Training a New Flagship A.I. Model. The advanced A.I. system would succeed GPT-4, which powers ChatGPT. The company has ...",
-				"source": {
-					"title": "OpenAI Says It Has Begun Training a New Flagship A.I. ...",
-					"name": "The New York Times",
-					"display_link": "https://www.nytimes.com › 2024/05/28 › technology",
-					"link": "https://www.nytimes.com/2024/05/28/technology/openai-gpt4-new-model.html"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 58,
-				"title": "Microsoft drops observer seat on OpenAI board amid ...",
-				"snippet": "Microsoft has withdrawn its observer seat on the _OpenAI_ board and Apple will no longer be able to appoint an executive to a similar role, ...",
-				"source": {
-					"title": "Microsoft drops observer seat on OpenAI board amid ...",
-					"name": "The Guardian",
-					"display_link": "https://www.theguardian.com › technology › article › jul",
-					"link": "https://www.theguardian.com/technology/article/2024/jul/10/microsoft-drops-observer-seat-on-openai-board-amid-regulator-scrutiny"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 59,
-				"title": "OpenAI is reportedly nearing AI systems that can reason. ...",
-				"snippet": "_OpenAI_ recently shared a new five-level classification system for AI systems with employees, according to a new Bloomberg report.",
-				"source": {
-					"title": "OpenAI is reportedly nearing AI systems that can reason. ...",
-					"name": "Business Insider",
-					"display_link": "https://www.businessinsider.com › AI",
-					"link": "https://www.businessinsider.com/openai-nears-ai-systems-reason-cause-concern-sam-altman-chatgpt-2024-7"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 60,
-				"title": "Microsoft drops its observer seat on OpenAI board",
-				"snippet": "_OpenAI_ emerged as one of the hottest startups globally after releasing its ChatGPT chatbot in late 2022. The tech allows users to input simple ...",
-				"source": {
-					"title": "Microsoft drops its observer seat on OpenAI board",
-					"name": "CNBC",
-					"display_link": "https://www.cnbc.com › 2024/07/10 › microsoft-report...",
-					"link": "https://www.cnbc.com/2024/07/10/microsoft-reportedly-drops-its-observer-seat-on-openai-board.html"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 61,
-				"title": "OpenAI partners with Los Alamos to study AI in lab",
-				"snippet": "_OpenAI_ and Los Alamos National Laboratory are collaborating to study the benefits and risks of using generative AI in an active laboratory, ...",
-				"source": {
-					"title": "OpenAI partners with Los Alamos to study AI in lab",
-					"name": "Axios",
-					"display_link": "https://www.axios.com › Technology",
-					"link": "https://www.axios.com/2024/07/10/openai-los-alamos-laboratory-ai-test"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 62,
-				"title": "OpenAI plans to announce Google search competitor on ...",
-				"snippet": "_OpenAI_ plans to announce its artificial intelligence-powered search product on Monday, according to two sources familiar with the matter, ...",
-				"source": {
-					"title": "OpenAI plans to announce Google search competitor on ...",
-					"name": "Reuters",
-					"display_link": "https://www.reuters.com › technology › openai-plans-a...",
-					"link": "https://www.reuters.com/technology/openai-plans-announce-google-search-competitor-monday-sources-say-2024-05-09/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 63,
-				"title": "OpenAI",
-				"snippet": "Stay up-to-date with breaking news and top stories on _OpenAI_. In-depth analysis, industry insights and expert opinion.",
-				"source": {
-					"title": "OpenAI",
-					"name": "Financial Times",
-					"display_link": "https://www.ft.com › stream",
-					"link": "https://www.ft.com/stream/e3402603-d253-4aa1-ac4d-fc9bdbf4ccb8"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 64,
-				"title": "ChatGPT Prompt Engineering for Developers",
-				"snippet": "This short course taught by Isa Fulford (_OpenAI_) and Andrew Ng (DeepLearning.AI) will describe how LLMs work, provide best practices for prompt engineering, and ...",
-				"source": {
-					"title": "ChatGPT Prompt Engineering for Developers",
-					"name": "DeepLearning.AI",
-					"display_link": "https://www.deeplearning.ai › Courses",
-					"link": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 65,
-				"title": "Microsoft, Apple will not join OpenAI's board as regulatory ...",
-				"snippet": "Microsoft and Apple will no longer sit as observers on _OpenAI's_ board, as regulators ask whether tech giants hold too much sway over AI ...",
-				"source": {
-					"title": "Microsoft, Apple will not join OpenAI's board as regulatory ...",
-					"name": "The Washington Post",
-					"display_link": "https://www.washingtonpost.com › 2024/07/10 › opena...",
-					"link": "https://www.washingtonpost.com/technology/2024/07/10/openai-board-microsoft-apple-withdraw/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 66,
-				"title": "Microsoft Quits OpenAI Board Amid AI Partnerships Scrutiny",
-				"snippet": "Microsoft has relinquished its seat on the board of _OpenAI_, saying its participation is no longer needed.",
-				"source": {
-					"title": "Microsoft Quits OpenAI Board Amid AI Partnerships Scrutiny",
-					"name": "Time Magazine",
-					"display_link": "https://time.com › Tech › Artificial Intelligence",
-					"link": "https://time.com/6996842/microsoft-quits-openai-board-seat-antitrust-scrutiny-ai-partnerships/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "video",
-				"position": 67,
-				"title": "BREAKING: OpenAI \"model shows human-like reasoning\"",
-				"snippet": "Bloomberg releases an article \"OpenAI Develops System to Track Progress Toward Human-Level AI. The company believes its technology is ...",
-				"duration": "8:45",
-				"thumbnail": "https://i.ytimg.com/vi/u4Yk7gIMd3U/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3kWTdSXUI9cdPk-ICJqYC_6cDftvA",
-				"source": {
-					"title": "BREAKING: OpenAI \"model shows human-like reasoning\"",
-					"name": "YouTube · Wes Roth",
-					"display_link": "24.5K+ views  ·  16 hours ago",
-					"link": "https://www.youtube.com/watch?v=u4Yk7gIMd3U"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 68,
-				"title": "OpenAI is restarting its robotics research group",
-				"snippet": "_OpenAI_ is creating a new internal robotics research group after pulling back from robotics research in 2021.",
-				"source": {
-					"title": "OpenAI is restarting its robotics research group",
-					"name": "The Robot Report",
-					"display_link": "https://www.therobotreport.com › openai-is-restarting-it...",
-					"link": "https://www.therobotreport.com/openai-is-restarting-its-robotics-research-group/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 69,
-				"title": "Azure OpenAI Studio - Microsoft Azure",
-				"source": {
-					"title": "Azure OpenAI Studio - Microsoft Azure",
-					"name": "Azure OpenAI Studio",
-					"display_link": "http://oai.azure.com",
-					"link": "http://oai.azure.com/"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 70,
-				"title": "ChatGPT - Apps on Google Play",
-				"snippet": "With the official ChatGPT app, get instant answers and inspiration wherever you are. This app is free and brings you the newest model improvements from ...",
-				"source": {
-					"title": "ChatGPT - Apps on Google Play",
-					"name": "Google Play",
-					"display_link": "https://play.google.com › store › apps › details › id=com...",
-					"link": "https://play.google.com/store/apps/details?id=com.openai.chatgpt&hl=en_US"
-				},
-				"snippet_highlighted_words": [],
-				"rich_snippet": {
-					"rated": {
-						"type": "normal",
-						"rating": 4.8,
-						"label": "Rated 5.0 out of 5,",
-						"reviews": 2389362,
-						"reviews_origin": "2,389,362 votes"
-					},
-					"extensions": "Rating: 4.8 · ‎2,389,362 votes · ‎Free · ‎Android · ‎Business/Productivity"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 71,
-				"title": "How to automate OpenAI",
-				"snippet": "How to automate _OpenAI_ · Create images with DALL. · Generate _OpenAI_ (DALL. · Generate images with _OpenAI's_ DALL. · Generate images based on Google Form ...",
-				"source": {
-					"title": "How to automate OpenAI",
-					"name": "Zapier",
-					"display_link": "https://zapier.com › ... › Automation inspiration",
-					"link": "https://zapier.com/blog/automate-openai/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI",
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 72,
-				"title": "News and features about OpenAI",
-				"snippet": "The latest _OpenAI_ breaking news, comment and features from Tom's Guide.",
-				"source": {
-					"title": "News and features about OpenAI",
-					"name": "Tom's Guide",
-					"display_link": "https://www.tomsguide.com › tag › openai",
-					"link": "https://www.tomsguide.com/tag/openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 73,
-				"title": "What Is OpenAI? Everything You Need to Know",
-				"snippet": "_OpenAI_ was founded in 2015 with a focus on developing AI and machine learning tools for various activities. Its first offering was an open- ...",
-				"source": {
-					"title": "What Is OpenAI? Everything You Need to Know",
-					"name": "Coursera",
-					"display_link": "https://www.coursera.org › articles › what-is-openai",
-					"link": "https://www.coursera.org/articles/what-is-openai"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 74,
-				"title": "Open AI (@openaidalle) • Instagram photos and videos",
-				"snippet": "0 Followers, 1 Following, 0 Posts - _Open AI_ (@openaidalle) on Instagram: \"Follow our account @_openai_ for updates!\"",
-				"source": {
-					"title": "Open AI (@openaidalle) • Instagram photos and videos",
-					"name": "Instagram",
-					"display_link": "https://www.instagram.com › openaidalle",
-					"link": "https://www.instagram.com/openaidalle/?hl=en"
-				},
-				"snippet_highlighted_words": [
-					"Open AI",
-					"openai"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 75,
-				"title": "The OpenAI board was right - Marcus on AI - Substack",
-				"snippet": "The _OpenAI_ board was right ... A week ago, _OpenAI_ released an exciting new demo, featuring a voice character with a sexy breathy voice that was ...",
-				"source": {
-					"title": "The OpenAI board was right - Marcus on AI - Substack",
-					"name": "Substack · Marcus on AI",
-					"display_link": "160+ likes  ·  1 month ago",
-					"link": "https://garymarcus.substack.com/p/the-openai-board-was-right"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 76,
-				"title": "OpenAI No Longer Takes Safety Seriously",
-				"snippet": "The best explanation, it would seem, is that _OpenAI_ is no longer taking catastrophic AI risk seriously. Leike has said as much. In a Twitter ...",
-				"source": {
-					"title": "OpenAI No Longer Takes Safety Seriously",
-					"name": "Hard National Security Choices",
-					"display_link": "https://www.lawfaremedia.org › article › openai-no-lon...",
-					"link": "https://www.lawfaremedia.org/article/openai-no-longer-takes-safety-seriously"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 77,
-				"title": "This article is OpenAI training data",
-				"snippet": "I've been thinking about the paperclip maximizer thought experiment ever since I found out on Thursday morning that Vox Media, the company to ...",
-				"source": {
-					"title": "This article is OpenAI training data",
-					"name": "Vox",
-					"display_link": "https://www.vox.com › technology › openai-chatgpt-go...",
-					"link": "https://www.vox.com/technology/352849/openai-chatgpt-google-meta-artificial-intelligence-vox-media-chatbots"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 78,
-				"title": "In a first, OpenAI removes influence operations tied to ...",
-				"snippet": "In a first, _OpenAI_ removes influence operations tied to Russia, China and Israel.",
-				"source": {
-					"title": "In a first, OpenAI removes influence operations tied to ...",
-					"name": "NPR",
-					"display_link": "https://www.npr.org › 2024/05/30 › openai-influence-o...",
-					"link": "https://www.npr.org/2024/05/30/g-s1-1670/openai-influence-operations-china-russia-israel"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "video",
-				"position": 79,
-				"title": "Microsoft and Apple exit OpenAI Board of Directors — Sam ...",
-				"snippet": "Microsoft and Apple exit OpenAI Board of Directors — Sam Altman joins Military Industrial Complex. 19K views · 12 hours ago ...more ...",
-				"duration": "15:00",
-				"thumbnail": "https://i.ytimg.com/vi/1XkZCM3023g/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3nanGtDTe9u_NMuvyg9apdoFnle0g",
-				"source": {
-					"title": "Microsoft and Apple exit OpenAI Board of Directors — Sam ...",
-					"name": "YouTube · David Shapiro",
-					"display_link": "19.6K+ views  ·  12 hours ago",
-					"link": "https://www.youtube.com/watch?v=1XkZCM3023g"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 80,
-				"title": "News Corp and OpenAI Sign Landmark Multi-Year Global ...",
-				"snippet": "New York, NY & San Francisco, CA (May 22, 2024) — News Corp and _OpenAI_ today announced a historic, multi-year agreement to bring News Corp news ...",
-				"source": {
-					"title": "News Corp and OpenAI Sign Landmark Multi-Year Global ...",
-					"name": "News Corp -",
-					"display_link": "https://newscorp.com › 2024/05/22 › news-corp-and-o...",
-					"link": "https://newscorp.com/2024/05/22/news-corp-and-openai-sign-landmark-multi-year-global-partnership/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 81,
-				"title": "OpenAI",
-				"snippet": "_OpenAI_ is an American artificial intelligence (AI) research organization founded in December 2015 and headquartered in San Francisco. Its mission is to ...",
-				"source": {
-					"title": "OpenAI",
-					"name": "Wikipedia",
-					"display_link": "https://en.wikipedia.org › wiki › OpenAI",
-					"link": "https://en.wikipedia.org/wiki/OpenAI"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				],
-				"links": [
-					{
-						"title": "OpenAI Five",
-						"link": "https://en.wikipedia.org/wiki/OpenAI_Five"
-					},
-					{
-						"title": "OpenAI Codex",
-						"link": "https://en.wikipedia.org/wiki/OpenAI_Codex"
-					},
-					{
-						"title": "Sam Altman",
-						"link": "https://en.wikipedia.org/wiki/Sam_Altman"
-					},
-					{
-						"title": "Greg Brockman",
-						"link": "https://en.wikipedia.org/wiki/Greg_Brockman"
-					}
-				]
-			},
-			{
-				"type": "normal",
-				"position": 82,
-				"title": "A Devil's Bargain With OpenAI",
-				"snippet": "A Devil's Bargain With _OpenAI_. Publishers including The Atlantic are signing deals with the AI giant. Where does this lead? ... Produced by ...",
-				"source": {
-					"title": "A Devil's Bargain With OpenAI",
-					"name": "The Atlantic",
-					"display_link": "https://www.theatlantic.com › archive › 2024/05 › a-de...",
-					"link": "https://www.theatlantic.com/technology/archive/2024/05/a-devils-bargain-with-openai/678537/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				],
-				"rich_snippet": {
-					"extensions": "30-day returns"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 83,
-				"title": "OpenAI unveils newest AI model, GPT-4o",
-				"snippet": "The new model, called GPT-4o, is an update from the company's previous GPT-4 model, which launched just over a year ago. The model will be ...",
-				"source": {
-					"title": "OpenAI unveils newest AI model, GPT-4o",
-					"name": "CNN",
-					"display_link": "https://www.cnn.com › 2024/05/13 › tech › openai-alt...",
-					"link": "https://www.cnn.com/2024/05/13/tech/openai-altman-new-ai-model-gpt-4o/index.html"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 84,
-				"title": "OpenAI board members respond to a warning by former ...",
-				"snippet": "_OpenAI_ board members respond to a warning by former members · The firm is a leader in safety as well as capability, insist Bret Taylor and Larry ...",
-				"source": {
-					"title": "OpenAI board members respond to a warning by former ...",
-					"name": "The Economist",
-					"display_link": "https://www.economist.com › ... › June 1st 2024 edition",
-					"link": "https://www.economist.com/by-invitation/2024/05/30/openai-board-members-respond-to-a-warning-by-former-members"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				],
-				"rich_snippet": {
-					"extensions": "Free delivery"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 85,
-				"title": "Stack Overflow and OpenAI Partner to Strengthen ...",
-				"snippet": "_OpenAI's_ partnership with Stack Overflow will help further drive its mission to empower the world to develop technology through collective ...",
-				"source": {
-					"title": "Stack Overflow and OpenAI Partner to Strengthen ...",
-					"name": "Stackoverflow.co",
-					"display_link": "https://stackoverflow.co › company › press › archive",
-					"link": "https://stackoverflow.co/company/press/archive/openai-partnership/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI's"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 86,
-				"title": "OpenAI CEO Cements Control as He Secures Apple Deal",
-				"snippet": "_OpenAI_ CEO Cements Control as He Secures Apple Deal · Seven months after a short-lived ouster of Sam Altman as _OpenAI_ CEO, Altman is more ...",
-				"source": {
-					"title": "OpenAI CEO Cements Control as He Secures Apple Deal",
-					"name": "The Information",
-					"display_link": "https://www.theinformation.com › articles › openai-ceo...",
-					"link": "https://www.theinformation.com/articles/openai-ceo-cements-control-as-he-secures-apple-deal"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 87,
-				"title": "Leaked Deck Reveals OpenAI's Pitch on Publisher ...",
-				"snippet": "_OpenAI_ has been courting premium publishers dating back to July 2023, when it struck a licensing agreement with the Associated Press. It has ...",
-				"source": {
-					"title": "Leaked Deck Reveals OpenAI's Pitch on Publisher ...",
-					"name": "Adweek",
-					"display_link": "https://www.adweek.com › media › openai-preferred-pu...",
-					"link": "https://www.adweek.com/media/openai-preferred-publisher-program-deck/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 88,
-				"title": "OpenAI, WSJ Owner News Corp Strike Content Deal ...",
-				"snippet": "The deal that News Corp reached with _OpenAI_ guarantees that content won't become available on ChatGPT immediately after publication, according ...",
-				"source": {
-					"title": "OpenAI, WSJ Owner News Corp Strike Content Deal ...",
-					"name": "WSJ",
-					"display_link": "https://www.wsj.com › Business › Media",
-					"link": "https://www.wsj.com/business/media/openai-news-corp-strike-deal-23f186ba"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 89,
-				"title": "OpenAI promised 20% of its computing power to combat ...",
-				"snippet": "Exclusive: _OpenAI_ promised 20% of its computing power to combat the most dangerous kind of AI—but never delivered, sources say ... _OpenAI_ ...",
-				"source": {
-					"title": "OpenAI promised 20% of its computing power to combat ...",
-					"name": "Fortune",
-					"display_link": "https://fortune.com › 2024/05/21 › openai-superalignme...",
-					"link": "https://fortune.com/2024/05/21/openai-superalignment-20-compute-commitment-never-fulfilled-sutskever-leike-altman-brockman-murati/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI",
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 90,
-				"title": "OpenAI on the steps for AI to reach human intelligence - Quartz",
-				"snippet": "_OpenAI_ is undoubtedly one of the leaders in the race to reach human-level artificial intelligence — and it's reportedly four steps away from ...",
-				"source": {
-					"title": "OpenAI on the steps for AI to reach human intelligence - Quartz",
-					"name": "qz.com",
-					"display_link": "https://qz.com › openai-five-level-system-human-intelli...",
-					"link": "https://qz.com/openai-five-level-system-human-intelligence-ai-1851588122"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 91,
-				"title": "#define CTO OpenAI",
-				"snippet": "It's been two years since I wrote #define CTO, in which I documented my quest for a role where I could have scalable impact by writing code.",
-				"source": {
-					"title": "#define CTO OpenAI",
-					"name": "gregbrockman.com",
-					"display_link": "https://blog.gregbrockman.com › define-cto-openai",
-					"link": "https://blog.gregbrockman.com/define-cto-openai"
-				},
-				"snippet_highlighted_words": []
-			},
-			{
-				"type": "normal",
-				"position": 92,
-				"title": "“I lost trust”: Why the OpenAI team in charge of ...",
-				"snippet": "Ilya Sutskever and Jan Leike announced their departures from _OpenAI_, the maker of ChatGPT, on Tuesday. They were the leaders of the company's ...",
-				"source": {
-					"title": "“I lost trust”: Why the OpenAI team in charge of ...",
-					"name": "Vox",
-					"display_link": "https://www.vox.com › future-perfect › openai-resignat...",
-					"link": "https://www.vox.com/future-perfect/2024/5/17/24158403/openai-resignations-ai-safety-ilya-sutskever-jan-leike-artificial-intelligence"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "normal",
-				"position": 93,
-				"title": "GPT-3",
-				"snippet": "Generative Pre-trained Transformer 3 (GPT-3) is a large language model released by _OpenAI_ in 2020. Generative Pre-trained Transformer 3 (GPT-3) ...",
-				"source": {
-					"title": "GPT-3",
-					"name": "Wikipedia",
-					"display_link": "https://en.wikipedia.org › wiki › GPT-3",
-					"link": "https://en.wikipedia.org/wiki/GPT-3"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			},
-			{
-				"type": "video",
-				"position": 94,
-				"title": "Microsoft, Apple Drop OpenAI Board Plans as Scrutiny Grows",
-				"snippet": "Mandeep Singh, Bloomberg Intelligence Senior Tech Industry Analyst, on Microsoft and Apple dropping plans to take board roles at OpenAI, ...",
-				"duration": "6:51",
-				"thumbnail": "https://i.ytimg.com/vi/9Z48BKTCPrc/mqdefault.jpg?sqp=-oaymwEFCJQBEFM&rs=AMzJL3mw1mzVzpG3LKrO_GVEJUnWbjFfEw",
-				"source": {
-					"title": "Microsoft, Apple Drop OpenAI Board Plans as Scrutiny Grows",
-					"name": "YouTube · Bloomberg Television",
-					"display_link": "28.7K+ views  ·  2 days ago",
-					"link": "https://www.youtube.com/watch?v=9Z48BKTCPrc"
-				}
-			},
-			{
-				"type": "normal",
-				"position": 95,
-				"title": "OpenAI Defines Five Steps From AI to AGI",
-				"snippet": "_OpenAI_ has developed a way to track its progress toward building artificial general intelligence, or AI that can outperform humans.",
-				"source": {
-					"title": "OpenAI Defines Five Steps From AI to AGI",
-					"name": "PYMNTS.com",
-					"display_link": "https://www.pymnts.com › artificial-intelligence-2 › op...",
-					"link": "https://www.pymnts.com/artificial-intelligence-2/2024/openai-defines-five-steps-from-ai-to-agi/"
-				},
-				"snippet_highlighted_words": [
-					"OpenAI"
-				]
-			}
-		]
+			]
 	},
 	"knowledge_panel": [
-		{
-			"type": "knowledge",
-			"site": "openai.com",
-			"organization_type": "Artificial intelligence company",
-			"title": "OpenAI",
-			"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA4CAMAAABuU5ChAAAAZlBMVEX///8AAAD8/Pzw8PCXl5e1tbXr6+uwsLD5+fmtra0tLS1tbW2bm5tycnJiYmKnp6fQ0NAcHBx+fn6KiorX19fExMRPT08nJycRERG9vb1GRkaQkJBbW1vh4eFoaGihoaE/Pz81NTUWcZOKAAADJ0lEQVRIiZVW2aKrIAyEWpdq9dS1pYu1//+TlyxgQM9y81KhDCSTSUCpHRv751W3U2eKvX+/saLXq9XZX2GpDu34N1hHq29NNZf0Of0FVuHSM3mXnFoY3cdz35/NTx4fMSYx8RYel1/fwQb4+y1nzC0INt3HLREPwxKRpJs92AWCWYcJBau7MSuKbKxxsOzgGjv/8qMzoXqf+6Lbo9c8tTxuRCr1M2BxhKlH4OKVdmfKXhOOruNOJFps5aV1gdGhCzaR9mWn5yAwrVu314focIEd3mID+C/hb2Tq/jJuioZuJQi29Q6b1Y+Uo01XXGvcOpfCyUXlk1g4kQhczoswhUxZf8ApS/vNc1KrEHci2Jm2TBqhMuDMHazVHg5TWOPMhWpqGZR68PLRSznEUQqdw+pER9aHnnG9z2QQH6dQZINnPhyfjbNVMQ4DehTHIPssIis+GJVeAAIHZIMTyWy/yotDsmgx+psvcIm7urUXEEjjFEINAcVvs1NtcJ1aDbXrqxlbQm8/rNOfDS4XOG6MRgIzymPhFxQif2y5Lea7UCxkpKLV1G6M5qLc4Lhi2fsP7g/yLGmiY382OFDmwxGJ+6fUal2ZL+jPLq7w7Bzo6AxOGXiR0WuGVl4Al6ysLtSdHhJIGYryEOFsnV/hdwoyhFXT+rxDJUS4jiWao29rL8C1T6+zDa5iJrks9eR7ClZNT7puNriSpW3VWn5TNTbSDS8JK03h3lXEZOo8yGMc9NDR4XznoqpJoDfejMjfioOrTTGu80dg1bwFwzGud3KE+OiWOXC/h85XuZqL4ksdwcQnfansSciP14FpAxwE567dkygvupn8fUw9xeHetK1TE0x9lLf8zYfzTUmiyrTr3JVfCaoIngPKE26txqQOnFB5b2JJXCIUX6XLEGyyDHINCiq4XB1BPm4MdI43nwKV+YSsPr30/iOExFLTk4PF2YibfNqJBG3WkZVy2TmkXFr0gAyeVFhXwz7OUlYKnHxMdBH/G8sMPBnHO2Y7JZoSehPOP8C88Y21VPXMt3v9OwjsGJGU/w5hjyuB6v/rXZ9291Zfn338SEP7BxinI4htx7OLAAAAAElFTkSuQmCC",
-			"thumbnail_lpage": "https://iconduck.com/icons/1213/openai",
-			"description": "OpenAI is an American artificial intelligence research organization founded in December 2015 and headquartered in San Francisco. Its mission is to develop \"safe and beneficial\" artificial general intelligence, which it defines as \"highly autonomous systems that outperform humans at most economically valuable work\".",
-			"source": {
-				"link": "http://openai.com/",
-				"name": "openai.com"
-			},
-			"attributes": [
-				{
-					"name": "Founders:",
-					"value": "Sam Altman, Elon Musk, Ilya Sutskever, Greg Brockman, MORE"
-				},
-				{
-					"name": "CEO:",
-					"value": "Sam Altman (Nov 29, 2023–)"
-				},
-				{
-					"name": "President:",
-					"value": "Greg Brockman"
-				},
-				{
-					"name": "Founded:",
-					"value": "December 11, 2015"
-				}
-			],
-			"profiles": [
-				{
-					"title": "X (Twitter)",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAABhUlEQVR4AczOA6xcARCF4X/us23btuLUQR3WZlhbQW3bto2gtm3b2J3GN4tY74uHh3okOi42Nj4AAUDwTvDEhisABCOAEAzYTBh0bN+lc5d0QgAhHPqX4Y4pkd367Zc+xMcXCPDg8TPwxeQH724Uj9N95GJ4pnHxby1xgCmV3v+GsFb7k0Iee7UjaQgmIYe9v9O4+wUKWaATyMPAViwvr1NnOQWDdTV5CHYSaKWLmaGDyvU4mTgQcllracaFr+9uk+yLM8k8fAJff0IUTghRVFu3M1ynkYk4nchiqqU3Ry05RDibMMhjtj6Ht3dJxVk/l1G64cspOusychBsCWm01WNM0jFs0sbEYUtIIuTXNco588OLh09JxE6wweuXEAvfL9PQus3+iU80N34KCaQyUOcxTTuSjEmMRI5rS9JwIZfD1t7ceo34YIpnuQ4nGwP8XXlq/fJZd9jE8KBHC5IwAELJ7dWrZ6fOuNhkgFgAEEIAwA1MQkw0AgDC/wnKycrKSQ2iPAkAVyNzq8rxicIAAAAASUVORK5CYII=",
-					"link": "https://twitter.com/openai"
-				},
-				{
-					"title": "YouTube",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAP1BMVEX/////z8//n5//kJD/gID/cHD/YGD/v7//39//ICD/AAD/r6//EBD/7+//oKD/MDD/QED/UFD/X1//j4//f396G04EAAAAhklEQVR4AeXQRQLDQAwDQC3bajj5/1dLYb63czYKf8VY50OcBO9swkyUB/SBkfJQlqOXeKJAz/FEQM9zVCqXInqRIy+RC9W+AJDypgCwyoGiV68LkLJFwX6CVJcr8nBwZJgLXMaDAs9RxsMcLE949IQnEnpoeKjEpC25o12OpVwkTURy/JQX1r4RC2S7kZYAAAAASUVORK5CYII=",
-					"link": "https://www.youtube.com/openai"
-				},
-				{
-					"title": "Instagram",
-					"thumbnail": "data:image/png;base64,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",
-					"link": "https://www.instagram.com/openai"
-				},
-				{
-					"title": "LinkedIn",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACtklEQVR4AeyVA5AkQRREZ862bTMcZ9u2wzrbtm3bWNvmaW3b3rzKRa+NOWVEDoqvqv//LZPtUpoubC2cLIxKMveyku1UmkYAG2EoyFYESFEgQIos346dX7K7YiFyN8iFB17Sxx4NRxzVdcbYO6aotke5cgB42sFXDGDjF4FM+UbGY+5TK9FXKQBKOKTtjNz68CMAdQ+oVjyAXPicoRtyS8M5GA0PqRGwgm9gxxdMf2SBkNhEZCoxORXbVH9CXllBWHOvCla9sQNPbegRit3qDmhyWL1SYkCKA7kIxvoH1MBrr5KZllJ/IWnK3zskZ/SXEIDB1vm0trAO6K5ndNCYN5DRz9tgWxdhfnc8pQ2madXdSmDb7CeWWPfOHite22LoDWMegiDFj4GJ983hFBLD9IOPcEB0AjZ8+S6daIeaAwJFG/v8ouJh4ROB3uf1sFHpB34GRSMmMRlJKalISE5hLEHJIRCjbptAXlyAmY8tEZ2QjOzaK4qSbHs6AItTdhHwvpU3N0ZB+hYQhcGXDTi//AFSUtNPW5SY3lX3KJc7gKSwuESYeIXByDMM4XFJyC1bv0i0PKbJoCx/ALewWMwSwccApZe9skFwTAKyiXEjPYZyBziq48zUlVK09j4VvLL3Q3ZFxCdh/D0z7lG+AHFJKVj03DrHwhxHqOzimjMeWZQ/QKQ42ZQH5jkW5u896o7IJmYJa0T5A/BqJ+S6Wv7eqebwH+A/QOUBTMwHYFdpAaY9tACrVqyYECPMOr9d1UF6Gx7QcgLb2McxfCOOu2uaB2CLyk/EJ6WPo4PEmtOLqgOsZK2Pa4IDSUvPeWKFXud1pRre94Ie5jy1kvqnC+AWxzTYn2Odnud0MSdjDM0i1ObXOvDVBQjNEFciMJrhKHJwH5FmDgIPfNds4DuniO75P3r6HNY9BwATNI1Cu+uNpgAAAABJRU5ErkJggg==",
-					"link": "https://www.linkedin.com/company/openai"
-				},
-				{
-					"title": "SoundCloud",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADg0lEQVR4AWLMs+PUDbAA9F4PMNN0ZxzGf/eZ2d3HrG3bts2gCIuwtm1HtRvXbfxFteKUUe2+5s45d91NnuzU315jz/znmjnnTN64sV7WMjUrIEI5e66d/8zX58/vH3L9rTfe80aTB7qQhNWQmIXh2AX9Vjm26VeDdkGLEFZApiwzZSv6zT7bQBJEEBJhQSKOzI9P8W/uk2QOeg0V1WpfQUWjVxcLK6Wi0ks0q0+gQ9KrGFD9bwTSv8+ASq/9rwkEgmxA6ciG/NcJNHrNv+9ABJlABplE4bI3Z++QWvn9L/jD9ynogkxLWCJhHY9VBC2pSYcSzJOr30pe7Q7iQS9lfY+snPwVP7iEz7yYC7+jBJK0IFEWElJRjdOSrufgyhz7CRdS3v6J8nLXkZe9vm7rspSgJYdX585P4Qo35m33xsXl6daFhOP/gcRkxuWvp93ggazvcvGMOHtM27uKmG0TUyJQKAnkwLXvLB/+OvGxZ7Pb0epIAsscSCSiY//q6q2eINrAZFOWnrV9MdugX6d0jiI6EPd5Op96MSfP02ESlLT4EVE0VAxIDOi3MZPXuIN27buKmLC+z2xLzPbkdJPJOpMZpR8RrVE6Hvs2Hv82/nwzQ88cNZZIqHCsabe5L9MN+gmXuQ6zTda2mG7RT2mD0OjXZDRiSua4wfd8MlGA2zyaV96NWRJHJZw3edXrcLXbEIHg4CrIvxo+WafrgWx0U1GKzJAII0QgaQPXv6u891P54ns4KGRbJOAieccncngVBFHYPmSY/zWByYwIopAhI0V0DOeNgyhA6YHr3In5e6jJ4k9INIaf/0iZbgGlUKZcOM38IpM1SkcE/HlZSmoT2dDItJREG+g77YffURI1aLn4CrIruks+Ie/T0U3oJ5w9zTCw9gem6/SzhfVbe2Qy+asbICwnUDrz731D98V3sYGhHfkV11QmqX7rc2zsybUduXUgJN1Ulp6+o/REsLkv5xfpp2qdE2U8gQjte182+fRblBnZUJGLG2BIgu7kMf48NKQFR+YzCUD73AckwjglsBPUIBOoxmtEinGECADKLP+9gqwmkPBflIbL4/gvj4llpWFYDWnkFfy3NZ34L4NpVl4rHnGgoVktMZbAaMNkZN3YMsTo8iKBaKhklVZEkkFEoz9ZzaFQrIhIAScH8/4Dv/KGHFx2uyhJWgFBnKraB3/nDX8E8k6pd1Jwi2IAAAAASUVORK5CYII=",
-					"link": "https://soundcloud.com/openai_audio"
-				}
-			],
-			"people_also_search_for": [
-				{
-					"query": "Anthropic",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAAJCAMAAACrKer7AAAAYFBMVEX///8AAAD5+fl9fX01NTRISEeDg4Ozs7O/v788PDtiYmLd3d3Z2dlSUlLx8fHIyMiWlpYPDw2srKxaWlmioqFnZ2YfHx5sbGzT09NDQ0MFBQEtLSwkJCNzc3OJiYnm5uaCjRQ2AAABT0lEQVQokV2S2aKDIAxEZyiouIJLq7W2//+XTbDt1ZsHDBFOwiQAcHGFrFhcDRgfMDRqbkQzSbiViFkkMAQ91Q3RqlM4CU0FZp9rGMHGslKn5X3RL+OqmwzN4uLD+RF3m35fYPhwbqUDenKy9EBO7xyZg6tetrQlqbyRDV+KezAknPpaF6L/4TbxJraGVwNk7AXXyVtYIrBWxhOoNB+ua6sb8HbT8zuuTDjbFUWecOWrmi1RcEwZyh1XSdqX/EdDoxdkmSWVY0IYNjjhIsWi4pI3yluTzPLanMk6RQEr8bGNWRj0lCBG9ufq6nnuUnVN3qsA3+oGwQ3b9qy1KSLgrzqzZxl2hI3xiDtpt4lI/7TbTST7aLdIWMsX1aDIisfqDp29qbOcOlt8cZl08tvZTbsh09PDX3R8XJoun6B/c+e1V8HPh7nzv+oqmanP3L0B7uQQTtHWRdoAAAAASUVORK5CYII="
-				},
-				{
-					"query": "Google",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABOCAMAAAC9gQASAAABGlBMVEX////pQjU0qFNChfT6uwXo7/4oevQ2f/SsxvrS3/wwffMspk7pPC76uAD/vADoOCkdo0XoMSDoNzf7wQC33L/udm/2vbr++Pjve3ToLBn1tbLsYVj7yFT//fn8zms7gvT936D94qxru37S6df97u34zszymJLvgXvwjIfzpaD73tzqTEDoJg/4xsP85uXtamHrWU/7zpztYC795bfxfyb1nBr/+Ov5sQ3qUDLubivzjB/3pxX+9N/3t5wKcfO80PufvPmBqvj81oltnPb7wjlbk/WPsvm906DZtyKvsjR/rkRKr2PruRZMqk/JtSnq9e2dsTtnq0rp26SDxZIxpGU+j9Oe0KlatXEzq0A6mKo2oIJAiuA9k8I7nZw9h8C+AAADH0lEQVRYhe2VeXfSQBTFYRrWhGSmrGGRNtDSAq3Vulu744aKmlpw+/5fw0lYOksyMzEez/HY+xckj9+59703QyJxq/9I3a36dq9cLtd2div9agxQtdIbDG3LMjxZFhqixnb/91B75SEykrQMy05udyOj6kmbJS1kDWv7kVAVAwWT5v6GO+rd6zZsAcp3hyqqCcMCkrJrSqyezNbC3EA+iGrDUmLhziHZmlQHqqykdVcyhepAoV1LlizkwR9k9YIyGhayEZZlRGLV+TkayCjv7vX7fXzeDxBSZ+0POZRd2yIKuvXBHGc1ZKxEg23YsMetUh1ZSiw2pGUE7lHZVmBVGV8orC27B1JW4h59T6Ce/Cfh0rT760TGWKzDglZ8sKIZ8raI1NQ0rfhwSUPRr2ZCjwqaR3v8xMeheixjmz4M6ymmGQrzEqm5YGnFZ+tJe0v+A4Fa2krF58lBPGNHBYJWeMEXpISiaw8JmFY44li547RAxydU8QYJ03hjufyaQJlTqvgOCWtGhbXPqOImmfI8MuyCKr4kYRuRYaNw2GZU2NrfgkWOycBiDoCGxVwNeprnsZaWgUmPUzrDiIK9pIrJg25qrzhYKstqRMAyWaqYuILM1/qYz8mJhOVz9LvVOM03AMCOlJUim5hn7qDFtW2abwEACtZOyaaNmJfzPxTz3XvgCZZkMKr/Z+xbL6f5ASwEJ2JWlkp5wr7Gy2F+XLKAPhWyUtRm5PkCTfsEbqQ7ItioLUyZSHyGgBR0w1lnlLF0LqBEBzRt2gphXdDrz87SV4m2BnQ9cN0mbYoV0H5fU8YbgA431Ik7u1prS43hQsYaNgcdyl3HgTp++IXwFtixoKA+TneuSx2s0vUUf/Efzr6uaEGjXMjlaV7voC/9pguzb8uo7VBWQNtCpI+/Z4QhfY1VafAHpqWzIlaipUoDs5+Z9KmQ5SUN6luQ4JWUFTKFINi1nOVtiELUkPPBayKPCp2wk8urA4Q4CBRtLbOOw8LqcCy91Xl3DuR43mlworlaqlVyx/45mgt/HLsl9V7xmuAT7rqO47r4vMcB3eof0y8XkVbttBmaQQAAAABJRU5ErkJggg=="
-				},
-				{
-					"query": "DeepMind",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAAsCAMAAAD8SH5+AAAAmVBMVEX/5vD////74+3/5/D/6fD/6/H/5O/u0vP74vHw1PPrzvT//P0ASdX64PH/7PT/+fv02fL/7/L/9PiXm+HczuvIvuiPluDmx/Xhv/b23fK5teZrfdyDj9/t2e0AQtRietxUctqmpeOxqeTy7vittuv09fxzgt2treV+it5RatmdrOiToeXU2vVCZdjUyOqLnOUyX9gHUdbEzPCLEA1yAAACKUlEQVRIia3WbZOaMBAA4MBuInDRIwZpURRpVVrteXf9/z+uAXUgSMJLb53xAyPPbHazicRtRjibg/s/QbQAVCACmRpu+8EN/DLuBnoTwQ5uMshMHOD823dvTAmZ+gjTYn1/jhiGA72SWixfHGfZ0Qrw1UJLCP1B3J2qYtHmVGbkrkA/x9hi+eo0QudwHtQtsHOq7qhTZSw1zQ8b/cSZiVPFgmeqivpH4AWkAYBvTEx0UxqnqqZtNTAmR4xYzeEs0TTLUhf9HAb6roUkMSa37OeC1kwx3zxk5srdONWE1svYftCMFzsH3uxJUytFSrtNi+aUWnthGDCCuN6kEe3QbJ1QHHvKbeYBbNMd57s1JZTWpkqXgrBy8FQ3pRG6yXi659ylaS6RYhUijkT842f52uFo4J67oDRw+akQ+Gu3ErG4rqXcyiK/5DKG3/nhfPlzyUycp2sQVN8u30di+/ZWcVlRbFZ5+lqcrvtV/H48vztnE6djjy1DM/4Rf3xmXrnYrZSRzNM8liK6yvPx8PdyGsJh8mgybD855/uVqn1VOQCRCtUJRNtM6FxzbtGTWazdP/ejcSiHrQNK7ZCOsWW2mag50M9Oc1g154ElWmrmsM7E/QhQd0Qy7Jpm1pkopwIgVC0YekfbO+EQ3/e94f+ZejrhELWlhlpl2DWnH9ACv5Tr68TY7KwXxQSO2b2xXE9+47nei3FsWPbeFM6yl6dwFm8SZ17vRM7k/QNI1B2ezXR6TwAAAABJRU5ErkJggg=="
-				},
-				{
-					"query": "Hugging Face",
-					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE4AAAAVCAMAAADfPSgbAAAAzFBMVEX///8AAAD8////0x7/1R/n5+f/1xz4+PgAABPc3Nz/qADu7u/h4eH/uhT/owD/pQD/ygCwsLL/wwBLTVI/QUZyc3YwMjh5en3MzM3/nwD/wRf/thK+vsD4+/799vH/xZH/qTr/s2X/3MH/07D/qUP/sAD/ohz98ej/uHT/vX7VsigAAEDivCU4OTyNeTRjZWjfsyOskTDvxiLGpiuQkZMPEx6lpad1aDagjTAcJj4dICgnKjI/BUCUGT+JfTRXWV3/gzH/myz/y57/5tKGI9rAAAAB8ElEQVQ4jdWTfW/aMBDG72LHjuMEnJDEJuGtZaHdVpp1BbaRdWzw/b/TbLYyVgmpEvyxnZQoPp1/ee7xGeD/CG8fl4KNxpNu9+r6Mjxv2lGUUlK9GV0A6E1rSvahZufT4KZLKbNAxoi6PS2Pv1LcW0Xfvb+jbH7PaDhyKTMAk7woa4LjlUmSlwXPuA6rPzx8JPTxIS7TqZO36cECQXIuAYSUwAXnkQAJAlzC6swxa0G6pYxs6kg5DymhbB/WvbHDNZnJl4DJCqFtEX0sUOtCYosa7HcGoO0zQHS/RbmxJUc4Rtj9p8fPXxihv3GIuAYcJMgxWpok8NECJBpdCJuyezViA0mDEldgcNUu/jQ768T13denp29pHPb3s9dsYBH8UtfLNHDsJXucWBSw7LmtOuN80a6s8MThEnGgbftlWNbl9x80rFW3c3PwrsAlAjZ5IjDXfm6bFXrNMc+N9a4AW7JGayKKeYDRAXeVxmVVp4yFaVWp0MnzfecwNxDJwGgc9EzRcN86Ln3Rms3aHoAzy3B3DFaYiY56TStFaIfEMSFlHG//mjw+x/XAYJA9ex0tg0LA6fD6aUoIjVXo7kVcbc+7Z8PdrE5V2p9MQqXK8PaVw3+a5+2m4y33vN14fD3yzsVZg4bDoW3Rvofnw/7Z+AkjXiay3KdoXAAAAABJRU5ErkJggg=="
-				}
-			]
-		}
+			{
+					"type": "knowledge",
+					"site": "openai.com",
+					"organization_type": "Artificial intelligence company",
+					"title": "OpenAI",
+					"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAAPCAMAAACGJ/w5AAAAY1BMVEX///8AAADk5OTf39/u7u739/fU1NTo6OjZ2dm+vr5XV1dGRkaPj4+7u7s8PDyMjIxiYmKrq6srKysiIiJOTk7Ozs7Hx8eFhYV9fX20tLRsbGxxcXFcXFycnJwSEhIwMDAZGRknOwp5AAABWElEQVQokZWS3a6jMAyEZyAhIfw3UCgUyvs/5U5Ae3Euzq5qCYTG/ux4CKDIA1nj+/CcgMBHn3/HmVjAjJ/JlHx+w80kdjbwBoaXspMh+628HfXKokPTghhh14UdxkJqz+H55i9kSaomV7rKBfZ1FdLsqC2LlEEbsL3WoLPbZZRxy2t7e+njHLYbjFZg8DBHDXOW6aCp80CQQy3buD7bDQf3SgnDvOQNriUeZZ9O6E/rJNYX2AgcJG4Tm0YSd5lvsEeArwt09HjpMQ9UXsOFWIHLCWr8HErWc9elLrnAkzGyvUDw7C3mdhnvdSVo/qRCapmzcyrP9hu0hcaXA90Nap9F9leo3DIjLaDQB4+Dmt6x4l+wT/8CnLMEfuTcU16uGBluz6fSpHzjrwuRNQ7pL9sCRdLhvC20juPg/Dt6WP68csmcf4ZZPvFQY7n1I+72/4lBXn11UfEHnO8POUFSGR0AAAAASUVORK5CYII=",
+					"thumbnail_lpage": "https://en.m.wikipedia.org/wiki/File:OpenAI_Logo.svg",
+					"source": {
+							"link": "https://www.openai.com/",
+							"name": "openai.com"
+					},
+					"attributes": [
+							{
+									"name": "Founders:",
+									"value": "Elon Musk, Sam Altman, Ilya Sutskever, Greg Brockman ·  See more"
+							},
+							{
+									"name": "CEO:",
+									"value": "Sam Altman (Nov 29, 2023–)"
+							},
+							{
+									"name": "President:",
+									"value": "Greg Brockman"
+							},
+							{
+									"name": "Founded:",
+									"value": "December 11, 2015, San Francisco, CA"
+							}
+					],
+					"profiles": [
+							{
+									"title": "X (Twitter)",
+									"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAABhUlEQVR4AczOA6xcARCF4X/us23btuLUQR3WZlhbQW3bto2gtm3b2J3GN4tY74uHh3okOi42Nj4AAUDwTvDEhisABCOAEAzYTBh0bN+lc5d0QgAhHPqX4Y4pkd367Zc+xMcXCPDg8TPwxeQH724Uj9N95GJ4pnHxby1xgCmV3v+GsFb7k0Iee7UjaQgmIYe9v9O4+wUKWaATyMPAViwvr1NnOQWDdTV5CHYSaKWLmaGDyvU4mTgQcllracaFr+9uk+yLM8k8fAJff0IUTghRVFu3M1ynkYk4nchiqqU3Ry05RDibMMhjtj6Ht3dJxVk/l1G64cspOusychBsCWm01WNM0jFs0sbEYUtIIuTXNco588OLh09JxE6wweuXEAvfL9PQus3+iU80N34KCaQyUOcxTTuSjEmMRI5rS9JwIZfD1t7ceo34YIpnuQ4nGwP8XXlq/fJZd9jE8KBHC5IwAELJ7dWrZ6fOuNhkgFgAEEIAwA1MQkw0AgDC/wnKycrKSQ2iPAkAVyNzq8rxicIAAAAASUVORK5CYII=",
+									"link": "https://x.com/OpenAI"
+							},
+							{
+									"title": "LinkedIn",
+									"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACtklEQVR4AeyVA5AkQRREZ862bTMcZ9u2wzrbtm3bWNvmaW3b3rzKRa+NOWVEDoqvqv//LZPtUpoubC2cLIxKMveyku1UmkYAG2EoyFYESFEgQIos346dX7K7YiFyN8iFB17Sxx4NRxzVdcbYO6aotke5cgB42sFXDGDjF4FM+UbGY+5TK9FXKQBKOKTtjNz68CMAdQ+oVjyAXPicoRtyS8M5GA0PqRGwgm9gxxdMf2SBkNhEZCoxORXbVH9CXllBWHOvCla9sQNPbegRit3qDmhyWL1SYkCKA7kIxvoH1MBrr5KZllJ/IWnK3zskZ/SXEIDB1vm0trAO6K5ndNCYN5DRz9tgWxdhfnc8pQ2madXdSmDb7CeWWPfOHite22LoDWMegiDFj4GJ983hFBLD9IOPcEB0AjZ8+S6daIeaAwJFG/v8ouJh4ROB3uf1sFHpB34GRSMmMRlJKalISE5hLEHJIRCjbptAXlyAmY8tEZ2QjOzaK4qSbHs6AItTdhHwvpU3N0ZB+hYQhcGXDTi//AFSUtNPW5SY3lX3KJc7gKSwuESYeIXByDMM4XFJyC1bv0i0PKbJoCx/ALewWMwSwccApZe9skFwTAKyiXEjPYZyBziq48zUlVK09j4VvLL3Q3ZFxCdh/D0z7lG+AHFJKVj03DrHwhxHqOzimjMeWZQ/QKQ42ZQH5jkW5u896o7IJmYJa0T5A/BqJ+S6Wv7eqebwH+A/QOUBTMwHYFdpAaY9tACrVqyYECPMOr9d1UF6Gx7QcgLb2McxfCOOu2uaB2CLyk/EJ6WPo4PEmtOLqgOsZK2Pa4IDSUvPeWKFXud1pRre94Ie5jy1kvqnC+AWxzTYn2Odnud0MSdjDM0i1ObXOvDVBQjNEFciMJrhKHJwH5FmDgIPfNds4DuniO75P3r6HNY9BwATNI1Cu+uNpgAAAABJRU5ErkJggg==",
+									"link": "https://www.linkedin.com/company/openai"
+							},
+							{
+									"title": "YouTube",
+									"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAP1BMVEX/////z8//n5//kJD/gID/cHD/YGD/v7//39//ICD/AAD/r6//EBD/7+//oKD/MDD/QED/UFD/X1//j4//f396G04EAAAAhklEQVR4AeXQRQLDQAwDQC3bajj5/1dLYb63czYKf8VY50OcBO9swkyUB/SBkfJQlqOXeKJAz/FEQM9zVCqXInqRIy+RC9W+AJDypgCwyoGiV68LkLJFwX6CVJcr8nBwZJgLXMaDAs9RxsMcLE949IQnEnpoeKjEpC25o12OpVwkTURy/JQX1r4RC2S7kZYAAAAASUVORK5CYII=",
+									"link": "https://www.youtube.com/OpenAI"
+							},
+							{
+									"title": "Instagram",
+									"thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAKS0lEQVR4AZ2UA5RkS7ZA94mIq8ys6mrb7v7PGNu2bdu2bdvssZ9trme03V1VWZWZFxFxfv5a41n6s8/al2EJ/Ccve8P566a78YSF6+Ys745PLW2bbA42LSQQbFQVNWJjUKIniRZRkOiNiSImqiRirdZ+YLNkl4HbxvdOTnSS7CbgGv4N+ehTLuFvjK+IW6/faT/nPfeAlEG3ouUcje9jYsAhmCgkUTExIgquAadgQ8QEcDFim4ioINFgsbRahlgGMPGizfdY9Lx/boh892XXAXCl7HzktVeNbUvzhCJTUtNgQwQFh5JKQNQgPpLEgFOQCDYG0iCYAAaP/duIeMBHiIpEwUQIA5jqKusfMu/RwDYA5yf7zH90cuyN781/PtI2jJg+Ogg4DSQGRJXqkKc3WSJ1iYlg1cw0wkbFhIBvFIvBxohDEAxZO6G9IEfEEGsQY7GFkAw8+3974OcP/uwxJwOXyWl/uCn/9Zf3f/32K6onLVlt0SZgRUmc4eitk8TxktX/M8qCFW06bcElCUbMTMUOj0TFqMEOVQ/BN9TdQG97j0PXjlNkKWOrRmh8RFWwScLE7QNGThz95aanLHqm23fN3gf0dvQetXA0IeuVGCAxhv0X72PtsW0e99W7svm+K/hvuO203Zz72gvoXrmPuWvm4xUolblzDH7X4CGDm/v3czecOXVHM9C8VUSSKpJnjn0X7+Buj1rGc37yYAAgcPC6w/T2l2it4BUNEdUIgBGLNYKkik0c2dI28zbOZc19lrHmisfxu8f9il0/3c2c1YsI2oATTO2d3xmOcWHCLO/EmrSJpAambhxn6yljw8ofBMBl37mCC999KdWeAdIEbIyYqFgEiFgiZiaY0TrLtJ+goMOdv/FQNjxzCw/6yUP55ak/oHfJEVorRolRQRWO9DuOXjdr2QTnA84Gku44937ZKYBw3U+v4cdP/wlLs7nMX9TG/q1Ca3ABpO8BJckcKgbjoTrSZ+2jTqTf7/OHZ30Vlz+fNU/cxJZXHsuFT/kTrilQI2hUqJrcdZw2sazIBOrD0yxb3+aYJ20C4OJPnMuqZJQFK1uEqiRxFlMr5a79VLEkT9uICr2mpDAZTTQseuQW7vTzRwIgD6y47IU/Hzbgzax98mZufsNF6KEedl5OJGLKsnCZjbVvarJUaCammbd+HohhfPshwnVHmTs/w1Q9cmvx3S6DQ/tYfq8trHzBnRk5dhFGDUev2c/Or1zIntPOJx5dxN9ouZSJyUl6uyZoLx+jWJHT232IRHMQkEHpXBJrmTlMiORNn86oAFDvmyQru2QjYzgnMDVNPHSAO33pCax8/j35Z0a2LGDlE47llq8ew1XP+wbnn/ppGG3TO2M3Hdei2tWdaUA6x9GnxEpFULBk0RUmaDQlmUSiluS5AEAIZFRktsGqoXdwByd+7okzlQcN3Pbh3zLx6+sRNcx+2DGsfsP9WffcO2Gk4prnfolRVtGZPUZvfAppIgBpKlgaTPQYFYxRnKNBhuYEIn0y6wGQGEkZvict/I7DrHjAZla++AEAXPGgD3DkjxdTsAgQDp5/PhNnXMdJf3w1a55zTw7/+EqqP+1EbENCjcQAgBWPxWOQmXuiDSbVmlRKclvTTnokpgRAYiA3FWk6IKkPsfRxJwBw2yd/SvePp7FwzQY6a0fprB5l6bL1HP3TWWz/2O8BWPKYU/B0MRpQPBoDAKIRS42RCoOCCqZIBhRuQD40G5raGgBBaaU9cp2imG/pnLwGgMGZFzO7NYrJexgzjWOAcQ2jtOmddiUA7TsuJ0lybF1hqCAoAFbAILgQMTSoqXFJUmKykiz12KJPkg0AcK4mb0+RFQWmPQAbAXC2gqzEpCUIIA3ESGoHWAYAiAacGb7TwhEQUQCiRoSAAVwMmOjFZEmlrbSkyIe2+qRZBYDYSNoevo9WuGYf1XXXATB6r+PR8ZvJWgFXeGyrweUVMewY/tsKQP+i25CqiysEQwPmbyPQYKhBAkbBKZhWVtFKB2T50GKKNK0BkBTSTp+kKMnnw9QffwnAwpc+i/aT701z8R/h4PVDb6Z/7WmM3e8uLHndEwA4+tMzyQC1FZaAEQHAEf/6HlCJKKjLskpdMY0rFNupsGkJgE2EZNSTtAZkmxZRXX4a4z/6NrOf8HRWfPuLTNzlJMozLiB6YezOz2H+K54NwK7PbyP8+RyKNZvwZYUxATEAEBUEjxARiagEXDLTgAFpITDaYG2Xv41AMlLjWh4c5BsWM/WZN2ELx+jDn8zcF78Ihv4zB765jalXfIjOyqWEVDF1RG2DJgaAWFUIAVGPiGBiFDcccrGFx+UR02mwOgmAzJ6NG1Nc0UddgnRaJK0l9D/xcspzfkv7QU8lXb0OwVLefBPj3/0p1a/OZmTLWnxeoN0S1JAUgls0C4A4MY3BAQGDRQji0lk+Gh1giwQ3p4XWB1AgW7iWZPkCzMHtyLx10NRI0cHO20q98zy6H/oLks9Fa0PYNwlmhNadNxBLh+kNkJEO5d49ZGtX0Fq7kAaIu46QpCmqEQmKyRNvJPdl0VayvCFZ1Eamb2Fw2S8xQPG41+D9Lky5AzOimKLBtAPpptWkJ2wkWTmbdPkYxYnrybYsQ/IKSRvIa8LeG6m6tzL/DU8BGJ6OZw0bvp1kLEeiMhNOS2dmtyuJ+3GZhdyQaoG/4MvoSY9g5PhHYF7xU8JZn0F7ByAGCAGpA6YUtInERpCBQB/ilCP2UqgK7JIlLHv/25j7hHvRAAc+8UtyCsSB8QExlqTtKhfNYMJkBjsimBTMnA1w8Bp6215K61GfpX38Y4j/5+GboXeI2FSY4JGgRB/RoBANUQVCgpJgZi8gXb8BEYjAbY9/J3rh1aRrjiNUHoxDiUQ1U7L3L194ZHbVth+mWmbMakPqsNYQjt4AS48hvdNrSRbfAeH/hwLTZ1/A/jd/gfqC20g3HUPVd0Sf4AcJTXRh7DEnPEV2XXNOkl79na+OHLny6TpvBSYJqLOYNIPpXcRQI3M3Q3sRalsIDhOE6APa+KEKZYAKfKnEbo0emqJ/2z4GF92OjbOIi9fgJxJ8PwEpmN4xgTlu/e9XvOCBz5D9X7ySsOHCjbMObLsycXmunTHUKeIcuASLEMtx1E+hIYKfkVh7pFRi3xMHDaHXQFfxk4HQBa1nEdwCwnRCM2Hw/QzftAlHIoPJmlXvecEdgYscwxd7yYk3Du42/Zjk6AW/NXlAkwKxBdFCNALFUmQmgBARHyB4qCK2CpiywfRqdNpjpiN+WglHFR0XmiqimUOqiJ0c0J/wdJ5x78cfvvm6iwDsM1fdhf7RQ/SuaN3cvv/yHzrbbCLL1pgsw1mBNAFrcFYxBowoGMVqRPCICUio/2oDTY0MamK/JDQRug1EhzYpfZ9dyF23PNT3B6cPZShy6SM/xr+z9eNz15h49BjaYwu08R2QZUI6V4lNDF5M8GgIaipvY+2T0NRo6SX2gml6lQ3TTWbLfNztnTw0befvqa+fODDIxq4Cruff+F/YMSYOvVvlzAAAAABJRU5ErkJggg==",
+									"link": "https://www.instagram.com/openai"
+							}
+					]
+			}
 	],
-	"bottomads": [],
+	"bottomads": [
+			{
+					"title": "Official ChatGPT from OpenAI",
+					"snippet": "Official ChatGPT website — ChatGPT can recommend a book, write you a poem, or help plan your trip. See for yourself! Learn your own way. Try ChatGPT to become an expert on any topic. Sign up for free today.",
+					"source": {
+							"name": "ChatGPT",
+							"display_link": "https://www.chatgpt.com › signup",
+							"link": "https://chatgpt.com/auth/login"
+					}
+			}
+	],
 	"related_searches": [
-		{
-			"type": "people_also_search_for",
-			"people_also_search_for": [
-				{
-					"query": "Perplexity.ai",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnOYDbiVboWcBjmbgdnnxVo8NBbk73AdvsXeQL&s=0"
-				},
-				{
-					"query": "Google AI",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTk0fPaLa85OLA7ESGaDAlEhziyi6avErANtAmP&s=0"
-				},
-				{
-					"query": "xAI",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnhKVgDIKXusd-X8eu-UPqccBznzqZCXM1s42e&s=0"
-				},
-				{
-					"query": "Microsoft",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFLk2t2HQsw4NDcAFIBpmD5FWp1N56-BN035JU&s=0"
-				},
-				{
-					"query": "Anthropic",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTotLiFsPpfg-mp3d4sQNkoIZurZq55V_WVfSqs&s=0"
-				},
-				{
-					"query": "Nvidia",
-					"thumbnail": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4ZlaWFuCbHaJl3CRw_Z8c4fARWuTLaWDnM7AQ&s=0"
-				}
-			]
-		},
-		{
-			"type": "normal",
-			"searches": [
-				"OpenAI login",
-				"OpenAI chat",
-				"OpenAI ChatGPT",
-				"OpenAI stock",
-				"chat.openai.com login",
-				"OpenAI Soma",
-				"OpenAI valuation",
-				"OpenAI shareholders"
-			]
-		}
+			{
+					"type": "normal",
+					"searches": [
+							"Chatgpt",
+							"OpenAI login",
+							"ChatGPT OpenAI",
+							"OpenAI chat",
+							"OpenAI stock",
+							"OpenAI Playground",
+							"OpenAI API",
+							"OpenAI image generator"
+					]
+			}
 	]
 }
