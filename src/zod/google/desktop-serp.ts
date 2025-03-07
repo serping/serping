@@ -161,6 +161,7 @@ export const  WhatPeopleAreSayingBaseSchema = z.object({
 export const SerpWhatPeopleAreSayingSchema =z.object({
   type: z.literal("what_people_are_saying"),
   what_people_are_saying: z.array(z.object({
+    position: z.number(),
     type: z.enum(['normal', 'reddit', 'twitter', 'youtube', 'instagram']),
     instagram: WhatPeopleAreSayingBaseSchema.optional(),
     youtube: WhatPeopleAreSayingBaseSchema.optional(),
@@ -201,7 +202,8 @@ export type SerpPeopleAlsoAsk = z.infer<typeof SerpPeopleAlsoAskSchema>;
 
 export const SerpLatestFromSchema = z.object({
   type: z.literal("latest_from"),
-  latest_from: z.array(z.object({  
+  latest_from: z.array(z.object({ 
+    position: z.number(),
     date: z.string(),
     thumbnail: z.string(),
     source: z.object({
