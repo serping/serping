@@ -148,18 +148,29 @@ export type SerpRecipes = z.infer<typeof SerpRecipesSchema>;
 // SerpWhatPeopleAreSayingSchema
 /////////////////////////////////////////
 
+export const  WhatPeopleAreSayingBaseSchema = z.object({
+  type: z.enum(['normal', 'video']),
+  position: z.number(),
+  title: z.string(),
+  link: z.string(), 
+  date: z.string(),
+  author: z.string(), 
+  duration: z.string().optional(),
+  thumbnail: z.string().optional(), 
+  rich_snippet: z.string().optional(),
+})
 export const SerpWhatPeopleAreSayingSchema = z.object({
   type: z.literal("what_people_are_saying"),
   what_people_are_saying:  z.object({
     type: z.enum(['normal', 'reddit', 'twitter', 'youtube', 'instagram']),
     position: z.number(),
-    title: z.string(),
-    thumbnail: z.string().optional(),
-    snippet: z.string().optional(), 
-    rich_snippet: z.string().optional(), 
-    link: z.string(),
-    date: z.string(),
-    author: z.string(),
+    instagram: WhatPeopleAreSayingBaseSchema.optional(),
+    youtube: WhatPeopleAreSayingBaseSchema.optional(),
+    twitter: WhatPeopleAreSayingBaseSchema.optional(),
+    reddit: WhatPeopleAreSayingBaseSchema.optional(),
+    normal: WhatPeopleAreSayingBaseSchema.extend({
+      organization: z.string().optional()
+    }).optional(), 
   }) 
 });
 
